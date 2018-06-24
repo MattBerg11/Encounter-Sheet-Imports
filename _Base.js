@@ -186,11 +186,11 @@ function compileInfo(monster) {
 
 function compileFeatures(monster) {
 	var Traits = "",
-	Actions = "",
-	Reactions = "",
-	Legendary = "",
-	Skills = "",
-	Spells = "";
+	    Actions = "",
+	    Reactions = "",
+	    Legendary = "",
+	    Skills = "",
+	    Spells = "";
 
 	if (monster.spells) {
 		for (var i = 0; i < monster.spells.length; i++) {
@@ -245,7 +245,7 @@ function compileFeatures(monster) {
 	}
 
 	if (monster.reactions) {
-		var Reactions = "\u2756Reactions\u2756" + monster.reactions[0].name + ": " + monster.reactions[0].description + "\n";
+		var Reactions = "\u2756Reactions\u2756\n" + monster.reactions[0].name + ": " + monster.reactions[0].description + "\n";
 	}
 
 	if (monster.legendary_actions) {
@@ -306,48 +306,61 @@ function featureCompiler(Resistances, Immunities, Traits, Actions, Reactions, Le
 }
 
 function toHit(monster, attackNum) {
-	var modifiedHit = 0,
-	hitMod = 0,
-	proficiency = 0;
+    if (monster.attacks[attackNum].ability == 0) {
+        return "";
+    }
+    else {
+        var modifiedHit = 0,
+            hitMod = 0,
+            proficiency = 0;
 
-	// scores: [21, 9, 15, 18, 15, 18],
-	var proficiency = challengeArray[monster.challengeRating][1]; // 4
-	var attackSkill = monster.attacks[attackNum].ability - 1; // 1
-	var skillScore = monster.scores[attackSkill]; // 21
-	var hitMod = modArray[skillScore]; // Score 21 => 5 bonus
-	if (monster.attacks[attackNum].modifiers) {
-		var modifiedHit = monster.attacks[attackNum].modifiers[0];
-	}
-	var plusHit = +hitMod + +proficiency + +modifiedHit;
-	return posNeg(plusHit);
+        // scores: [21, 9, 15, 18, 15, 18],
+        var proficiency = challengeArray[monster.challengeRating][1]; // 4
+        var attackSkill = monster.attacks[attackNum].ability - 1; // 1
+        var skillScore = monster.scores[attackSkill]; // 21
+        var hitMod = modArray[skillScore]; // Score 21 => 5 bonus
+        if (monster.attacks[attackNum].modifiers) {
+            var modifiedHit = monster.attacks[attackNum].modifiers[0];
+        }
+        var plusHit = +hitMod + +proficiency + +modifiedHit;
+        return posNeg(plusHit);
+    }
 }
 
 function attackDamage(monster, attackNum) {
 	var ability = 0,
-	modifiedDamage = 0,
-	abilityPosNeg = "",
-	diceDamage = 0;
+	    modifiedDamage = 0,
+	    abilityPosNeg = "",
+	    diceDamage = 0;
 
-	if (!monster.attacks[attackNum].damage || monster.attacks[attackNum].damage[0] == 0) {
-		if (monster.attacks[attackNum].damage[1] != 0) {
-			return monster.attacks[attackNum].damage[1] + monster.attacks[attackNum].damage[2];
-		} else {
-			return "";
-		}
+    if (!monster.attacks[attackNum].damage || monster.attacks[attackNum].damage[0] == 0) {
+        if (monster.attacks[attackNum].damage[1] != 0) {
+            return monster.attacks[attackNum].damage[1] + " " + monster.attacks[attackNum].damage[2] + " damage";
+        }
+        else { return ""; }
+    }
+        
 		else {
 			var ability = getStat(monster, attackNum);
 			var abilityPosNeg = posNeg(ability);
 
 			// Easy way to remove +damage on spell attacks
-			if (monster.attacks[attackNum].ability > 3) {
+			if (monster.attacks[attackNum].ability > 3 && monster.attacks[attackNum].modifiers[2] != true) {
 				var abilityPosNeg = "",
 				ability = 0;
 			}
 
-			if (monster.attacks[attackNum].modifiers) {
-
+            if (monster.attacks[attackNum].modifiers) {
+                /*
+                if (monster.attacks[attackNum].modifiers[2]) {
+                    var damageTrueFalse = monster.attacks[attackNum].modifiers[2];
+                }
+                else {
+                    var damageTrueFalse = true;
+                }
+                */
 				//Do not add ability modifier to the attack damage
-				if (monster.attacks[attackNum].modifiers[2] == false) {
+				if (monster.attacks[attackNum].modifiers[2] != true) {
 					var abilityPosNeg = "",
 					ability = 0;
 				}
