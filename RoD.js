@@ -151,9 +151,9 @@ var RoD = {
 			},
 		],
 		traits: [{
-			name: "Fungus Stride",
-			description: "Once on its turn, the bridesmaid can use 10 feet of its movement to step magically into one living mushroom or fungus patch within 5 feet and emerge from another within 60 feet of the first one, appearing in an unoccupied space within 5 feet of the second mushroom or fungus patch. The mushrooms and patches must be large or bigger."
-		},
+				name: "Fungus Stride",
+				description: "Once on its turn, the bridesmaid can use 10 feet of its movement to step magically into one living mushroom or fungus patch within 5 feet and emerge from another within 60 feet of the first one, appearing in an unoccupied space within 5 feet of the second mushroom or fungus patch. The mushrooms and patches must be large or bigger."
+			},
 		],
 		actions: [{
 				name: "Hallucination Spores",
@@ -474,9 +474,9 @@ var RoD = {
 			}
 		],
 		reactions: [{
-			name: "Parry",
-			description: "Droki adds 3 to his AC against one melee attack that would hit him. To do so, Droki must see the attacker and be wielding a melee weapon."
-		},
+				name: "Parry",
+				description: "Droki adds 3 to his AC against one melee attack that would hit him. To do so, Droki must see the attacker and be wielding a melee weapon."
+			},
 		],
 	},
 	"Drow Spore Servant": {
@@ -1139,9 +1139,9 @@ var RoD = {
 			},
 		],
 		reactions: [{
-			name: "Barbed Tail",
-			description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 7 (1d8 +3) piercing damage.",
-		},
+				name: "Barbed Tail",
+				description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 7 (1d8 +3) piercing damage.",
+			},
 		],
 	},
 	"Ixitxachitl Cleric": {
@@ -1170,9 +1170,9 @@ var RoD = {
 			},
 		],
 		reactions: [{
-			name: "Barbed Tail",
-			description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 7 (1d8 +3) piercing damage.",
-		},
+				name: "Barbed Tail",
+				description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 7 (1d8 +3) piercing damage.",
+			},
 		],
 		spells: [
 			"The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:",
@@ -1307,9 +1307,9 @@ var RoD = {
 			},
 		],
 		reactions: [{
-			name: "One with Shadows",
-			description: "While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction."
-		},
+				name: "One with Shadows",
+				description: "While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction."
+			},
 		],
 		description: [
 			"Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:",
@@ -1629,9 +1629,9 @@ var RoD = {
 			},
 		],
 		reactions: [{
-			name: "Barbed Tail",
-			description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 9 (1d10 +4) piercing damage.",
-		},
+				name: "Barbed Tail",
+				description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 9 (1d10 +4) piercing damage.",
+			},
 		],
 	},
 	"Vampiric Ixitxachitl Cleric": {
@@ -1660,9 +1660,9 @@ var RoD = {
 			},
 		],
 		reactions: [{
-			name: "Barbed Tail",
-			description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 9 (1d10 +4) piercing damage.",
-		},
+				name: "Barbed Tail",
+				description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite: Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 9 (1d10 +4) piercing damage.",
+			},
 		],
 		spells: [
 			"The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:",
@@ -1700,9 +1700,9 @@ var RoD = {
 			},
 		],
 		traits: [{
-			name: "Legendary Resistance (1/Day)",
-			description: "If Yestabrod fails a saving throw, it can choose to succeed instead."
-		},
+				name: "Legendary Resistance (1/Day)",
+				description: "If Yestabrod fails a saving throw, it can choose to succeed instead."
+			},
 		],
 		actions: [{
 				name: "Caustic Spores (1/Day)",

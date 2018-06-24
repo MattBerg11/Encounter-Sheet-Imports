@@ -17748,7 +17748,7 @@ var MM = {
 				ability: 2,
 				damage: [3, 6, "necrotic"],
 				range: "Melee (5 ft)",
-				modifiers: ["","",false],
+				modifiers: ["", "", false],
 				description: "Target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
 			},
 		],

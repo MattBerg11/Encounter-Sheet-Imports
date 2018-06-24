@@ -1381,7 +1381,7 @@ var MToF = {
 				ability: 1,
 				damage: [2, 6, "necrotic"],
 				range: "Melee (5 ft)",
-				modifiers: [2, 2, ""],
+				modifiers: [2, 2, true],
 				description: "",
 			},
 		],

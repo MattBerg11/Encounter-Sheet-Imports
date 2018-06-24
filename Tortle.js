@@ -30,7 +30,7 @@ var Tortle = {
 			}, {
 				name: "Tentacles",
 				ability: 1,
-				damage: [9,4 , "bludgeoning"],
+				damage: [9, 4, "bludgeoning"],
 				range: "Melee (10 ft)",
 				description: "Or 14 (5d4+2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained.",
 			},
@@ -65,7 +65,7 @@ var Tortle = {
 		attacks: [{
 				name: "Club",
 				ability: 1,
-				damage: [1,4 , "bludgeoning"],
+				damage: [1, 4, "bludgeoning"],
 				range: "Melee (5 ft)",
 				description: "",
 			},
@@ -108,13 +108,13 @@ var Tortle = {
 		attacks: [{
 				name: "Bite",
 				ability: 1,
-				damage: [2,4 , "piercing"],
+				damage: [2, 4, "piercing"],
 				range: "Melee (5 ft)",
 				description: "Creature must be grappled.",
 			}, {
 				name: "Tentacles",
 				ability: 1,
-				damage: [9,4 , "bludgeoning"],
+				damage: [9, 4, "bludgeoning"],
 				range: "Melee (10 ft)",
 				description: "Or 14 (5d4+2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained.",
 			},
@@ -154,7 +154,7 @@ var Tortle = {
 		attacks: [{
 				name: "Venomous Claws",
 				ability: 1,
-				damage: [1,4 , "slashing"],
+				damage: [1, 4, "slashing"],
 				range: "Melee (5 ft)",
 				description: "Plus 2 (1d4) poison damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned until the end of the target's next turn.",
 			},
@@ -192,19 +192,19 @@ var Tortle = {
 		attacks: [{
 				name: "Claws",
 				ability: 1,
-				damage: [1,4 , "slashing"],
+				damage: [1, 4, "slashing"],
 				range: "Melee (5 ft)",
 				description: "",
 			}, {
 				name: "Quarterstaff",
 				ability: 1,
-				damage: [1,6 , "bludgeoning"],
+				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
 				description: "Or 6 (1d8+2) bludgeoning damage when used with two hands.",
 			}, {
 				name: "Light Crossbow",
 				ability: 2,
-				damage: [1,8 , "piercing"],
+				damage: [1, 8, "piercing"],
 				range: "Ranged (80/320 ft)",
 				description: "",
 			},
@@ -250,7 +250,7 @@ var Tortle = {
 			}, {
 				name: "Quarterstaff",
 				ability: 1,
-				damage: [1,8 , "bludgeoning"],
+				damage: [1, 8, "bludgeoning"],
 				range: "Melee (5 ft)",
 				description: "Or 6 (1d8+2) bludgeoning damage when used with two hands.",
 			},
