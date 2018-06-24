@@ -1,4 +1,5 @@
 var CoS = {
+	// 19
 	"Baba Lysaga": {
 		name: "Baba Lysaga",
 		source: ["Curse of Strahd", 228],

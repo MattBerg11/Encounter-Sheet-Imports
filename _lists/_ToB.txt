@@ -7,12 +7,12 @@ Adult Rime Worm
 Adult Sea Dragon
 Adult Void Dragon
 Adult Wind Dragon
-Akyishigal, Demon Lord Of Cockroaches
+Akyishigal, Demon Lord of Cockroaches
 Al-Aeshma Genie
 Ala
 Alehouse Drake
 Algorith
-Alquam, Demon Lord Of Night
+Alquam, Demon Lord of Night
 Alseid
 Alseid Grovekeeper
 Amphiptere
@@ -24,8 +24,8 @@ Ancient Void Dragon
 Ancient Wind Dragon
 Andrenjinyi
 Angatra
-Angel, Chained
-Angel, Fidele
+Angel (Chained)
+Angel (Fidele)
 Angler Worm
 Anubian
 Apau Perape
@@ -36,7 +36,7 @@ Aridni
 Asanbosam
 Ash Drake
 Automata Devil
-Avatar Of Boreas
+Avatar of Boreas
 Azza Gremlin
 Baba Yaga's Horsemen, Black Night
 Baba Yaga's Horsemen, Bright Day
@@ -64,14 +64,14 @@ Bukavac
 Buraq
 Burrowling
 Cactid
-Camazotz, Demon Lord Of Bats And Fire
+Camazotz, Demon Lord of Bats And Fire
 Cambium
 Carrion Beetle
 Cave Dragon Wyrmling
 Cavelight Moss
 Chelicerae
 Chernomoi
-Child Of The Briar
+Child of The Briar
 Chort Devil
 Chronalmental
 Cikavak
@@ -122,7 +122,7 @@ Duskthorn Dryad
 Dust Goblin
 Dwarven Ringmage
 Eala
-Eater Of Dust (Yakat-Shi)
+Eater of Dust (Yakat-Shi)
 Edimmu
 Eel Hound
 Einherjar
@@ -132,7 +132,7 @@ Elemental Locus
 Elvish Veteran Archer
 Emerald Eye
 Emerald Order Cult Leader
-Emperor Of The Ghouls
+Emperor of The Ghouls
 Empty Cloak
 Eonic Drifter
 Erina Defender
@@ -150,7 +150,7 @@ Firegeist
 Flab Giant
 Flame Dragon Wyrmling
 Flutterflesh
-Folk Of Leng
+Folk of Leng
 Forest Marauder
 Fraughashar
 Frostveil
@@ -178,11 +178,11 @@ Grim Jester
 Gug
 Gypsosphinx
 Haugbui
-Herald Of Blood
-Herald Of Darkness
+Herald of Blood
+Herald of Darkness
 Hoard Golem
 Horakh
-Hound Of The Night
+Hound of The Night
 Hraesvelgr The Corpse Swallower
 Hulking Whelp
 Hundun
@@ -203,7 +203,7 @@ Kobold Chieftain
 Kobold Trapsmith
 Kongamato
 Koralk (Harvester Devil)
-Koschei //check drain life
+Koschei
 Kot Bayun
 Krake Spawn
 Lake Troll
@@ -211,13 +211,13 @@ Lantern Dragonette
 Lemurfolk (Kaguani)
 Lemurfolk Greyfur
 Leshy
-Library Automaton //check attack
+Library Automaton
 Lich Hound
 Likho
 Lindwurm
 Liosalfar
 Living Wick
-Lord Of The Hunt
+Lord of The Hunt
 Lorelei
 Loxoda
 Lunar Devil
@@ -232,13 +232,13 @@ Map Mimic
 Mask Wight
 Mavka
 Mbielu
-Mechuiti, Demon Lord Of Apes
+Mechuiti, Demon Lord of Apes
+Mirror Hag
 Mi-Go
 Millitaur
 Mindrot Thrall
 Mirager
 Miremal
-Mirror Hag
 Mngwa
 Monolith Champion
 Monolith Footman
@@ -269,9 +269,9 @@ Possessed Pillar
 Prismatic Beetle Swarm
 Psoglav Demon
 Putrid Haunt
-Qorgeth, Demon Lord Of The Devouring Worm
-Queen Of Night And Magic
-Queen Of Witches
+Qorgeth, Demon Lord of The Devouring Worm
+Queen of Night And Magic
+Queen of Witches
 Qwyllion
 Ramag
 Rat King
@@ -296,6 +296,9 @@ Rubezahl
 Rum Gremlin
 Rusalka
 Rust Drake
+Spawn of Akyishigal
+Skin Bat
+Spawn of Arbeyach
 Salt Devil
 Salt Golem
 Sand Hag
@@ -315,92 +318,89 @@ Serpopard
 Shabti
 Shadhavar
 Shadow Beast
+Spinosaurus
+Star Drake
 Shadow Fey
 Shadow Fey Duelist
 Shadow Fey Enchantress
 Shadow Fey Forest Hunter
 Shadow Fey Guardian
-Sharkjaw Skeleton
+Snow Queen
+Smaragdine Golem
+Steam Golem
+Stygian Fat-Tailed Scorpion
 Shellycoat
 Shoggoth
 Shroud
 Skein Witch
-Skin Bat
+Sharkjaw Skeleton
 Skitterhaunt
 Slow Storm
-Sluagh Swarm
-Smaragdine Golem
-Snow Queen
-Son Of Fenris //check bite range
+Swamp Adder
+Son of Fenris
 Soul Eater
 Spark
-Spawn Of Akyishigal
-Spawn Of Arbeyach
 Spectral Guardian
-Spider Of Leng
+Spider of Leng
 Spider Thief
-Spinosaurus
 Spire Walker
-Star Drake
-Star Spawn Of Cthulhu
-Steam Golem
+Star Spawn of Cthulhu
 Stryx
 Stuhac
-Stygian Fat-Tailed Scorpion //check claw
 Subek
 Suturefly
-Swamp Adder
+Sluagh Swarm
+Totivillus, Scribe of Hell
+Thursir Giant
 Temple Dog
 Thuellai
-Thursir Giant
 Titanoboa
 Tophet
 Tosculi Drone
 Tosculi Elite Bow Raider
 Tosculi Hive-Queen
 Tosculi Warrior
-Totivillus, Scribe Of Hell
 Treacle
 Trollkin Reaver
 Tusked Skyfish
-Umbral Vampire
 Uraeus
 Urochar (Strangling Watcher)
 Ushabti
+Umbral Vampire
+Venomous Mummy
+Vine Troll Skeleton
 Vaettir
 Valkyrie
-Vampire Warlock-Variant
 Vapor Lynx
-Venomous Mummy
 Vesiculosa
 Vila
 Vile Barber
 Vine Lord
 Vine Lord's Tendril Puppet
-Vine Troll Skeleton
-Void Dragon Wyrmling
 Voidling
+Vampire Warlock-Variant
+Wyrmling Wind Dragon
+Wolf Spirit Swarm
+Weeping Treant
 Wampus Cat
 Water Leaper
-Weeping Treant
 Wharfling
 Wharfling Swarm
 White Ape
 Witchlight
-Wolf Reaver Dwarf
-Wolf Spirit Swarm
 Wormhearted Suffragan
-Wyrmling Wind Dragon
+Wolf Reaver Dwarf
 Xanka
 Xhkarsh
-Ychen Bannog
+Young Spinosaurus
 Young Cave Dragon
 Young Flame Dragon
 Young Mithral Dragon
 Young Sea Dragon
-Young Spinosaurus
 Young Void Dragon
+Void Dragon Wyrmling
 Young Wind Dragon
+Ychen Bannog
 Zanskaran Viper
 Zaratan
 Zimwi

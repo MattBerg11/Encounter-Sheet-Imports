@@ -8,11 +8,11 @@ Derro
 Derro Savant
 Droki
 Drow Spore Servant
+Duergar Spore Servant
 Duergar Darkhaft
 Duergar Kavalrachni
 Duergar Keeper of the Flame
 Duergar Soulblade
-Duergar Spore Servant
 Duergar Stone Guard
 Duergar Xarron
 Fraz-Urb'luu
@@ -30,6 +30,6 @@ The Pudding King
 Troglodyte Champion of Laogzed
 Vampiric Ixitxachitl
 Vampiric Ixitxachitl Cleric
-Yeenoghu
 Yestabrod
+Yeenoghu
 Zuggtmoy

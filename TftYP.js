@@ -1,4 +1,5 @@
 var TftYP = {
+	// 26
 	"Animated Table": {
 		name: "Animated Table",
 		source: ["Yawning Portal", 230],

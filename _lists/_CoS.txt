@@ -11,9 +11,9 @@ Phantom Warrior
 Pidlwick II
 Rahadin
 Rictavio
-Strahd Zombie
-Strahd von Zarovich
 Strahd's Animated Armor
+Strahd von Zarovich
+Strahd Zombie
 Tree Blight
 Vladimir Horngaard
 Wereraven

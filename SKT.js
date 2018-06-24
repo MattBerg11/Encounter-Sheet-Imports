@@ -1,4 +1,5 @@
 var SKT = {
+	// 31
 	"Augrek Brighthelm": {
 		name: "Augrek Brighthelm",
 		source: ["Storm Kings Thunder", 247],
