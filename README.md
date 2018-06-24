@@ -6,7 +6,7 @@ File Listing:
 | File Name | Book Title | Sub-Book Titles | Monster Count |
 |-----------|------------|-----------------|---------------|
 | CoS | Curse of Strahd |  |  |
-| EE | Elemental Evil| | Princes of the Apocalypse |
+| EE | Elemental Evil| Princes of the Apocalypse |  |
 | MM | Monster Manual |  |  |
 | MToF | Mordenkainen's Tome of Foes |  |  |
 | RoD | Rage of Dragons | Out of the Abyss |  |
