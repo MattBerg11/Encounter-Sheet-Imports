@@ -309,7 +309,7 @@ var MToF = {
 				damage: [2, 4, "slashing"],
 				range: "Melee (10 ft)",
 				modifiers: [5, 5, true],
-				description: "Melee Weapon Attack: +11 to hit, reach 10 ft, one target. Hit: 10 (2d4 + 5) damage plus 33 (6d10) force damage.",
+				description: "Plus 33 (6d10) force damage.",
 			}, {
 				name: "Disruptive Touch",
 				ability: 6,
@@ -515,7 +515,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 18 (4d8) psychic damage. 6 (1d10 + 1) slashing damage if used with two hands, ",
+				description: "Plus 18 (4d8) psychic damage; Two-Handed: 6 (1d10 + 1) slashing damage. ",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -940,7 +940,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 6 (1d8 + 2) bludgeoning damage if used with two hands.",
+				description: "Two-Handed 6 (1d8 + 2) bludgeoning damage.",
 			}, {
 				name: "Bite",
 				ability: 1,
@@ -1853,24 +1853,24 @@ var MToF = {
 		languages: "Elvish, Undercommon, can speak with spiders",
 		challengeRating: "13",
 		attacks: [{
-				name: "Poisonous Touch (Humanoid Form Only)",
+				name: "Poisonous Touch",
 				ability: 2,
 				damage: [8, 6, "poison"],
 				range: "Melee (5 ft)",
 				modifiers: ["", "", false],
-				description: "",
+				description: "(Humanoid Form Only)",
 			}, {
-				name: "Bite (Giant Spider Form Only)",
+				name: "Bite",
 				ability: 2,
 				damage: [2, 8, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Target must make a DC 15 Constitution saving throw, taking 26 (4d12) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+				description: "(Giant Spider Form Only) Target must make a DC 15 Constitution saving throw, taking 26 (4d12) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
 			}, {
-				name: "Web (Giant Spider Form Only; Recharge 5-6)",
+				name: "Web",
 				ability: 2,
 				damage: [0, 0, ""],
 				range: "Ranged (30/60 ft)",
-				description: "On hit the target is restrained by webbing. As an action, the restrained target can make a DC 15 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
+				description: "(Giant Spider Form Only; Recharge 5-6) On hit the target is restrained by webbing. As an action, the restrained target can make a DC 15 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
 			},
 		],
 		traits: [{
@@ -2406,19 +2406,19 @@ var MToF = {
 				ability: 1,
 				damage: [1, 8, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 11 (2d8+2) piercing damage while enlarged.",
+				description: "While enlarged: 11 (2d8+2) piercing damage.",
 			}, {
 				name: "Javelin (Melee)",
 				ability: 1,
 				damage: [1, 6, ""],
 				range: "Melee (5 ft)",
-				description: "Or 9 (2d6+2) piercing damage while enlarged.",
+				description: "While enlarged: 9 (2d6+2) piercing damage.",
 			}, {
 				name: "Javelin (Ranged)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Ranged (30/120 ft)",
-				description: "Or 9 (2d6+2) piercing damage while enlarged.",
+				description: "While enlarged: 9 (2d6+2) piercing damage.",
 			}, {
 				name: "Heavy Crossbow",
 				ability: 1,
@@ -2570,7 +2570,7 @@ var MToF = {
 				ability: 2,
 				damage: [1, 6, "force"],
 				range: "Melee (5 ft)",
-				description: "Or 10 (2d6+3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.",
+				description: "While enlarged: 10 (2d6+3) force damage. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.",
 			},
 		],
 		traits: [{
@@ -2625,19 +2625,19 @@ var MToF = {
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 11 (2d6+4) piercing damage while enlarged.",
+				description: "While enlarged: 11 (2d6+4) piercing damage.",
 			}, {
 				name: "Javelin (Melee)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 11 (2d6+4) piercing damage while enlarged.",
+				description: "While enlarged: 11 (2d6+4) piercing damage.",
 			}, {
 				name: "Javelin (Ranged)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Ranged (30/120 ft)",
-				description: "Or 11 (2d6+4) piercing damage while enlarged.",
+				description: "While enlarged: 11 (2d6+4) piercing damage.",
 			},
 		],
 		traits: [{
@@ -2685,13 +2685,13 @@ var MToF = {
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 11 (2d6 + 4) piercing damage while enlarged.",
+				description: "While enlarged: 11 (2d6 + 4) piercing damage.",
 			}, {
 				name: "Javelin (Ranged)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Ranged (30/120 ft)",
-				description: "Or 11 (2d6 + 4) piercing damage while enlarged.",
+				description: "While enlarged: 11 (2d6 + 4) piercing damage.",
 			},
 		],
 		traits: [{
@@ -2895,7 +2895,7 @@ var MToF = {
 		challengeRating: "12",
 		attacks: [{
 				name: "",
-				ability: 1,
+				ability: 0,
 				damage: [0, 0, ""],
 				range: "",
 				description: "",
@@ -3356,7 +3356,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 9 (1d10 + 4) slashing damage if used with two hands.",
+				description: "Two-Handed: 9 (1d10 + 4) slashing damage.",
 			}, {
 				name: "Musket",
 				ability: 2,
@@ -3414,7 +3414,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 8 (1d10 + 3) slashing damage if used with two hands, plus 18 (4d8) psychic damage.",
+				description: "Plus 18 (4d8) psychic damage; Two-Handed: 8 (1d10 + 3) slashing damage.",
 			},
 		],
 		traits: [{
@@ -3711,7 +3711,7 @@ var MToF = {
 				ability: 2,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Plus 26 (4d12) necrotic damage. Two-Handed: 8 (1d8 + 4) piercing damage.",
+				description: "Plus 26 (4d12) necrotic damage; Two-Handed: 8 (1d8 + 4) piercing damage.",
 			},
 		],
 		traits: [{
@@ -3813,11 +3813,11 @@ var MToF = {
 		languages: "all, telepathy 120 ft",
 		challengeRating: "24",
 		attacks: [{
-				name: "Wave of Sorrow (Greatsword)",
+				name: "Wave of Sorrow",
 				ability: 1,
 				damage: [4, 6, "slashing"],
 				range: "Melee (10 ft)",
-				description: "Plus 14 (4d6) acid damage.",
+				description: "(Greatsword) Plus 14 (4d6) acid damage.",
 			},
 		],
 		traits: [{
@@ -6423,7 +6423,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 4 (1d8) psychic damage. Two-Handed: 7 (1d10 + 2) slashing damage.",
+				description: "Plus 4 (1d8) psychic damage; Two-Handed: 7 (1d10 + 2) slashing damage.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -6677,7 +6677,7 @@ var MToF = {
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
 				modifiers: [4, 4, true],
-				description: "Plus 18 (4d8) psychic damage. Two-Handed: 10 (1d8 + 6) bludgeoning damage. Target must succeed on a DC 19 Constitution saving throw or be incapacitated until the end of its next turn.",
+				description: "Plus 18 (4d8) psychic damage; Two-Handed: 10 (1d8 + 6) bludgeoning damage. Target must succeed on a DC 19 Constitution saving throw or be incapacitated until the end of its next turn.",
 			}, {
 				name: "Psychic Orb",
 				ability: 4,
@@ -6994,7 +6994,7 @@ var MToF = {
 				ability: 1,
 				damage: [2, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 4 (1d8) fire damage. Two-Handed: 15 (2d10 + 4) slashing damage.",
+				description: "Plus 4 (1d8) fire damage; Two-Handed: 15 (2d10 + 4) slashing damage.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -7365,7 +7365,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 16 (3d10) necrotic damage. Two-Handed: 9 (1d10 + 4) slashing damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage it takes.",
+				description: "Plus 16 (3d10) necrotic damage; Two-Handed: 9 (1d10 + 4) slashing damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage it takes.",
 			},
 		],
 		traits: [{
@@ -7548,7 +7548,7 @@ var MToF = {
 		challengeRating: "3",
 		attacks: [{
 				name: "",
-				ability: 1,
+				ability: 0,
 				damage: [0, 0, ""],
 				range: "",
 				description: "",
@@ -8163,7 +8163,7 @@ var MToF = {
 				ability: 1,
 				damage: [2, 8, "slashing"],
 				range: "Melee (10 ft)",
-				description: "Plus 36 (8d8) fire damage. Two-Handed: 19 (2d10 + 8) slashing damage.",
+				description: "Plus 36 (8d8) fire damage; Two-Handed: 19 (2d10 + 8) slashing damage.",
 			}, {
 				name: "Javelin (Melee)",
 				ability: 1,
@@ -8259,7 +8259,7 @@ var MToF = {
 		challengeRating: "23",
 		attacks: [{
 				name: "",
-				ability: 1,
+				ability: 0,
 				damage: [0, 0, ""],
 				range: "",
 				description: "",

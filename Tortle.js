@@ -20,7 +20,7 @@ var Tortle = {
 		senses: "darkvision 60 ft",
 		passivePerception: "12",
 		languages: "",
-		challenge_rating: "4",
+		challengeRating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -61,7 +61,7 @@ var Tortle = {
 		senses: "darkvision 60 ft, tremorsense 30 ft",
 		passivePerception: "14",
 		languages: "Terran",
-		challenge_rating: "1/4",
+		challengeRating: "1/4",
 		attacks: [{
 				name: "Club",
 				ability: 1,
@@ -104,7 +104,7 @@ var Tortle = {
 		senses: "darkvision 60 ft",
 		passivePerception: "12",
 		languages: "",
-		challenge_rating: "4",
+		challengeRating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -150,7 +150,7 @@ var Tortle = {
 		senses: "darkvision 60 ft",
 		passivePerception: "10",
 		languages: "understands the languages it knew in life but can't speak",
-		challenge_rating: "1/2",
+		challengeRating: "1/2",
 		attacks: [{
 				name: "Venomous Claws",
 				ability: 1,
@@ -188,7 +188,7 @@ var Tortle = {
 		senses: "",
 		passivePerception: "11",
 		languages: "Aquan, Common",
-		challenge_rating: "1/4",
+		challengeRating: "1/4",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -200,7 +200,7 @@ var Tortle = {
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 6 (1d8+2) bludgeoning damage when used with two hands.",
+				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
 			}, {
 				name: "Light Crossbow",
 				ability: 2,
@@ -240,7 +240,7 @@ var Tortle = {
 		senses: "",
 		passivePerception: "12",
 		languages: "Aquan, Common",
-		challenge_rating: "2",
+		challengeRating: "2",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -252,7 +252,7 @@ var Tortle = {
 				ability: 1,
 				damage: [1, 8, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 6 (1d8+2) bludgeoning damage when used with two hands.",
+				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
 			},
 		],
 		traits: [{
