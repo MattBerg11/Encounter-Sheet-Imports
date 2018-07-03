@@ -41,7 +41,7 @@ I have also put all of the monster information up on my Github. You can view all
 * Previous versions of the sheet would disable form highlighting for Adobe globally. This has been fixed to re-enable form highlighting on close.
 * Fixed a lot of errors in Monster Imports
 * 
-Additions
+**Additions**
 
 * Added Tome of Beasts.
 * Added Mordenkainen's Tome of Foes.
@@ -65,14 +65,14 @@ Additions
 * Redid the manual selections at the top, this will allow for a lot more adaptability.
 * Manually changing the ability score now modifies saves and mods.
 * Added a bunch of tooltips!
-* Added Out of the Elemental Evil (Out of the Abyss), Tyranny of Dragons (Hoard of the Dragon Queen, Rise of Tiamat), Curse of Strahd, Storm Kings Thunder, and Yawning Portal.
+* Added Elemental Evil (Out of the Abyss), Tyranny of Dragons (Hoard of the Dragon Queen, Rise of Tiamat), Curse of Strahd, Storm Kings Thunder, and Yawning Portal.
 * Added a lot of missing monsters, thank you to those who have let me know!
 * Added encounter name and location at the top, suggested by users!
 * Underneath the monster's name you can now select a checkbox to manually change the name of the monster without it killing the stats. Suggested by users!
 * Added Type & Subtype if applicable!
-    * You can now search for a monster name! 
+* You can now search for a monster name! 
     * It is case sensitive
-* Adobe DC currently has a bug that makes this feature not 100% reliable. However, being able to search in the dropdown should help a significant amount with the major manuals.
+	* Adobe DC currently has a bug that makes this feature not 100% reliable. However, being able to search in the dropdown should help a significant amount with the major manuals.
 
 
 Going to be working hard to get Tome of Beasts complete before Mordenkainen's Tome of Foes is released in May.
@@ -117,7 +117,7 @@ Going to be working hard to get Tome of Beasts complete before Mordenkainen's To
 
 **v1.22** *(5/13/2017)* 
 
-* Passive Perception is now included in Creature Info. I will move this into its own stat box in a future update.*
+* Passive Perception is now included in Creature Info. I will move this into its own stat box in a future update.
  
 **v1.21** *(5/9/2017)* 
 
