@@ -32,7 +32,7 @@ Per usual I took too long with me recent update. This is a big one so I hope it 
 
 &nbsp;
 
-I would love to have some input from users on what they think needs to be changed or added. After submitting this file, I'm going to begin work in a single page monster sheet. This will be extremely beneficial for boss level monsters that have a large traits/actions section. After that, I would like to work on an initiative order page! That sounds like a fun challange so I hope it turns out well. I appreciate everyones support and thank you for using my sheet! You can contact me at the GitHub link below, or you can message me on Reddit @ /u/Shwaffle. 
+I would love to have some input from users on what they think needs to be changed or added. After submitting this file, I'm going to begin work in a single page monster sheet. This will be extremely beneficial for boss level monsters that have a large traits/actions section. After that, I would like to work on an initiative order page! That sounds like a fun challange so I hope it turns out well. I appreciate everyones support and thank you for using my sheet! You can contact me at the GitHub link below, or you can message me on Reddit @ [Shwaffle](https://www.reddit.com/user/Shwaffle). 
 
 &nbsp;
 
