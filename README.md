@@ -20,6 +20,12 @@ File Listing:
 
 &nbsp;
 
+**v1.51** *(7/2//18)*
+
+* Fixed a typo that caused Tales from the Yawning Portal not to work.
+
+&nbsp;
+
 **v1.5** *(6/24/18)*
 
 Per usual I took too long with me recent update. This is a big one so I hope it makes up for the delay in the new manuals! 
