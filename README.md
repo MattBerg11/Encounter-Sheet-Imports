@@ -20,7 +20,7 @@ File Listing:
 
 &nbsp;
 
-**v1.51** *(7/2//18)*
+**v1.51** *(7/2/18)*
 
 * Fixed a typo that caused Tales from the Yawning Portal not to work.
 
