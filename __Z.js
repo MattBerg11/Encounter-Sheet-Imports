@@ -13,7 +13,7 @@ var bookArray = {
 	RoD: [RoD, RoD_Dialog, "RoD", "Rage of Demons","Rage of Demons"],
 	SKT: [SKT, SKT_Dialog, "SKT", "Storm King's Thunder","Storm King's Thunder"],
 	TftYP: [TftYP, TftYP_Dialog, "TftYP", "Tales from the Yawning Portal","Tales from the Yawning Portal"],
-	Tortle: [Tortle, Tortle_Dialog, "Tortle", "The Tortle Package","Blank"],
+	Tortle: [Tortle, Tortle_Dialog, "Tortle", "The Tortle Package","The Tortle Package"],
 	ToA: [ToA, ToA_Dialog, "ToA", "Tomb of Annihilation","Tomb of Annihilation"],
 	ToB: [ToB, ToB_Dialog, "ToB", "Tome of Beasts","Blank"],
 	ToD: [ToD, ToD_Dialog, "ToD", "Tyranny of Dragons","Tyranny of Dragons"],

@@ -15,7 +15,7 @@ function highlightSelect(value) {
 //Version & Footer
 var sheetVersion = "v1.6";
 this.getField("Version").value = "Encounter Sheet " + sheetVersion;
-this.getField("Note").value = "If you like this sheet, please consider giving it a rating or a review on DMsGuild!";
+this.getField("Note").value = "Have a suggestion? Let me know by hitting the 'Contact Me!' button above!";
 
 function applyMonster(input, fieldNum) {
 	//
@@ -486,7 +486,6 @@ function listForm() {
 function bookDropdown() {
 	//Depreciate bookList and use bookArray
 	var bookList = [];
-
 	for (key in bookArray) {
 		bookList.push(bookArray[key][3]);
 	}
@@ -550,7 +549,7 @@ var monsterListDialog = {
 
 function layerControl(layer, value) {
 	this.getOCGs();
-/* 
+	/*
 	[object OCG = "Monster1.Overflow"],
 	[object OCG = "Monster0.Overflow"],
 	[object OCG = "Templates"],
