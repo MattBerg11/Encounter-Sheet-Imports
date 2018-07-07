@@ -20,6 +20,13 @@ File Listing:
 
 &nbsp;
 
+**v1.6** *(7/7/18)*
+
+This feels like a small update due to the changelog, but I think the way I reworked how you choose a monster is such a big addition that I wanted to push it out as quickly as possible. This has been something I've wanted to add for quite a while so it feels nice that it's finally finished. This is the groundwork I needed to get the different lists into the sheet so let me know what you think!
+	
+*Added an icon for Tortle Package for fun
+*Added info on how to contact me
+
 **v1.51** *(7/2/18)*
 
 * Fixed a typo that caused Tales from the Yawning Portal not to work.
