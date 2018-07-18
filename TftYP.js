@@ -15,9 +15,8 @@ var TftYP = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "blindsight 60 ft (blind beyond this radius)",
-		passivePerception: 6,
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		passive_perception: 6,
+		challenge_rating: "2",
 		traits: [{
 				name: "Constructed Nature",
 				description: "An animated table doesn't require air, food, drink, or sleep."
@@ -54,14 +53,13 @@ var TftYP = {
 		scores: [19, 15, 14, 13, 12, 14],
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +4, Intimidation +4, Perception +5, Stealth +4",
-		damage_resistances: "Cold, Fire, Lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
-		damage_immunities: "Acid, Poison",
-		condition_immunities: "Poisoned",
+		damage_resistances: "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+		damage_immunities: "acid, poison",
+		condition_immunities: "poisoned",
 		senses: "blindsight 60 ft, darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Abyssal, Common, Goblin, Infernal, telepathy 60 ft",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -81,7 +79,7 @@ var TftYP = {
 				description: "The barghest can use its action to polymorph into a Small goblin or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. The barghest reverts to its true form if it dies."
 			}, {
 				name: "Fire Banishment",
-				description: "When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna. Instantaneous bursts of flame (such as a red dragon's breath or a Fireball spell) don't have this effect on the barghest."
+				description: "When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna. Instantaneous bursts of flame (such as a red dragon's breath or a fireball spell) don't have this effect on the barghest."
 			}, {
 				name: "Keen Smell",
 				description: "The barghest has advantage on Wisdom (Perception) checks that rely on smell."
@@ -116,10 +114,9 @@ var TftYP = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		traits: [{
 				name: "Undead Nature",
 				description: "A mummy doesn't require air, food, drink, or sleep."
@@ -165,10 +162,9 @@ var TftYP = {
 		saves: [9, "", 6, "", "", ""],
 		skills: "Athletics +9, Intimidation +5, Perception +6",
 		senses: "",
-		passivePerception: 16,
+		passive_perception: 16,
 		languages: "any one language (usually Common)",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Greatsword",
 				ability: 1,
@@ -215,10 +211,9 @@ var TftYP = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "the languages it knew in life",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		traits: [{
 				name: "Undead Nature",
 				description: "A wight doesn't require air, food, drink, or sleep."
@@ -270,15 +265,15 @@ var TftYP = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "l",
+		challenge_rating: "l",
 		traits: [{
 				name: "Undead Nature",
 				description: "A dread warrior doesn't require air, food, drink, or sleep."
 			}, {
 				name: "Undead Fortitude",
-				description: "If damage reduces the dread warrior to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken , unless the damage is radiant or from a critical hit. On a success, the dread warrior drops to l hit point instead."
+				description: "If damage reduces the dread warrior to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken , unless the damage is radiant or from a critical hit. On a success, the dread warrior drops to l hit point instead."
 			}
 		],
 		attacks: [{
@@ -286,7 +281,7 @@ var TftYP = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 7 (1d10 + 2) slashing damage if wielded with two hands.",
+				description: "Two-Handed: 7 (1d10+2) slashing damage.",
 			}, {
 				name: "Javelin (Melee)",
 				ability: 1,
@@ -322,10 +317,9 @@ var TftYP = {
 		skills: "Deception +5, Insight +2, Investigation +5, Perception +4, Persuasion +3, Sleight of Hand +5, Stealth +7",
 		damage_resistances: "poison",
 		senses: "darkvision 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		traits: [{
 				name: "Cunning Action",
 				description: "On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action."
@@ -345,7 +339,7 @@ var TftYP = {
 				ability: 2,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 10 (2d6 + 3) piercing damage while enlarged.",
+				description: "Or 10 (2d6+3) piercing damage while enlarged.",
 			}, {
 				name: "Hand Crossbow",
 				ability: 2,
@@ -380,9 +374,8 @@ var TftYP = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +3",
 		senses: "blindsight 30 ft",
-		passivePerception: "9",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		passive_perception: "9",
+		challenge_rating: "2",
 		traits: [{
 				name: "Amphibious",
 				description: "The giant crayfish can breathe air and water."
@@ -416,9 +409,8 @@ var TftYP = {
 		saves: ["", "", "", "", "", ""],
 		damage_resistances: "lightning",
 		senses: "blindsight 60 ft",
-		passivePerception: "11",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "3",
 		traits: [{
 				name: "Water Breathing",
 				description: "The eel can breathe only underwater."
@@ -454,9 +446,8 @@ var TftYP = {
 		scores: [21, 9, 17, 2, 10, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +3",
-		passivePerception: "10",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		passive_perception: "10",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -499,10 +490,9 @@ var TftYP = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "understands the languages it knew in life but can't speak",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		traits: [{
 				name: "Undead Nature",
 				description: "A zombie doesn't require air, food, drink, or sleep."
@@ -511,7 +501,7 @@ var TftYP = {
 				description: "The zombie has advantage on saving throws against any effect that turns undead."
 			}, {
 				name: "Undead Fortitude",
-				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
 			}
 		],
 		attacks: [{
@@ -542,10 +532,9 @@ var TftYP = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +3, Insight +5, Stealth +3",
 		senses: "blindsight 30 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Olman",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		traits: [{
 				name: "Amphibious",
 				description: "Kalka-Kylla can breathe air and water."
@@ -587,10 +576,9 @@ var TftYP = {
 		damage_resistances: "bludgeoning, fire, piercing",
 		condition_immunities: "blinded, deafened, exhaustion",
 		senses: "blindsight 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Sylvan",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		traits: [{
 				name: "Amphibious",
 				description: "The kelpie can breathe air and water."
@@ -617,10 +605,8 @@ var TftYP = {
 				name: "Drowning Hypnosis",
 				description: [
 					"The kelpie chooses one humanoid it can see within 150 feet of it. If the target can see the kelpie, the target must succeed on a DC 11 Wisdom saving throw or be magically charmed while the kelpie maintains concentration, up to 10 minutes (as if concentrating on a spell).",
-
 					"The charmed target is incapacitated, and instead of holding its breath underwater, it tries to breathe normally and immediately runs out of breath, unless it can breathe water.", "	If the charmed target is more than 5 feet away from the kelpie, the target must move on its turn toward the kelpie by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks.",
 					"Before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the kelpie or drowning, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.", "	A target that successfully saves is immune to this kelpie's hypnosis for the next 24 hours."
-
 				]
 			}
 		]
@@ -641,10 +627,9 @@ var TftYP = {
 		damage_immunities: "lightning",
 		condition_immunities: "frightened, paralyzed",
 		senses: "truesight 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "understands Common but can't speak; telepathy 60 ft",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		traits: [{
 				name: "Amphibious",
 				description: "The kraken can breathe air and water."
@@ -692,10 +677,9 @@ var TftYP = {
 		scores: [10, 17, 12, 13, 14, 16],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Aquan, Common, Elvish, Sylvan",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		traits: [{
 				name: "Amphibious",
 				description: "The nereid can breathe air and water."
@@ -729,10 +713,10 @@ var TftYP = {
 		],
 		actions: [{
 				name: "Drowning Kiss (Recharge 5-6)",
-				description: "The nereid touches one creature it can see within 5 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 22 (3d12 + 3) acid damage. On a failure, it also runs out of breath and can't speak for 1 minute. At the end of each of its turns, it can repeat the save, ending the effect on itself on a success."
+				description: "The nereid touches one creature it can see within 5 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 22 (3d12+3) acid damage. On a failure, it also runs out of breath and can't speak for 1 minute. At the end of each of its turns, it can repeat the save, ending the effect on itself on a success."
 			}, {
 				name: "Water Lash",
-				description: "The nereid causes a 5-foot cube of water within 60 feet of it to take a shape of its choice and strike one target it can see within 5 feet of that water. The target must make a DC 13 Strength saving throw. On a failed save, it takes 17 (4d6 + 3) bludgeoning damage, and ifit is a Large or smaller creature, it is pushed up to 15 feet in a straight line or is knocked prone (nereid's choice). On a successful save, the target takes half as much damage and isn't pushed or knocked prone."
+				description: "The nereid causes a 5-foot cube of water within 60 feet of it to take a shape of its choice and strike one target it can see within 5 feet of that water. The target must make a DC 13 Strength saving throw. On a failed save, it takes 17 (4d6+3) bludgeoning damage, and ifit is a Large or smaller creature, it is pushed up to 15 feet in a straight line or is knocked prone (nereid's choice). On a successful save, the target takes half as much damage and isn't pushed or knocked prone."
 			}
 		]
 	},
@@ -753,10 +737,9 @@ var TftYP = {
 		damage_immunities: "acid, cold, poison",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, paralyzed, poisoned, prone",
 		senses: "blindsight 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Primordial, Thayan",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		traits: [{
 				name: "Undead Nature",
 				description: "The ooze master doesn't require air, food, drink, or sleep."
@@ -810,9 +793,8 @@ var TftYP = {
 		scores: [17, 15, 15, 3, 12, 8],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +5",
-		passivePerception: "14",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		passive_perception: "14",
+		challenge_rating: "5",
 		traits: [{
 				name: "Amphibious",
 				description: "The sea lion can breathe air and water."
@@ -859,11 +841,10 @@ var TftYP = {
 		speed: "30 ft",
 		scores: [11, 13, 14, 16, 14, 9],
 		saves: ["", "", "", "", "", ""],
-		skills: "Arcana +5, Insight +4, Persuasion + 1",
-		passivePerception: "12",
+		skills: "Arcana +5, Insight +4, Persuasion+1",
+		passive_perception: "12",
 		languages: "Common, Draconic, Goblin",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		traits: [{
 				name: "Barkskin",
 				description: "Sharwyn's AC can't be lower than 16."
@@ -888,7 +869,6 @@ var TftYP = {
 			"Cantrips (at will): light, prestidigitation, ray of frost ",
 			"1st level (2 slots): color spray, magic missile, shield, sleep."
 		]
-
 	},
 	"Sir Braford": {
 		name: "Sir Braford",
@@ -903,16 +883,15 @@ var TftYP = {
 		scores: [16, 9, 14, 10, 13, 14],
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +S, Perception +3",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		traits: [{
 				name: "Barkskin",
 				description: "Sir Braford's AC can't be lower than 16."
 			}, {
 				name: "Special Equipment",
-				description: "Sir Braford wields Shatterspike, a magic longsword that grants a + 1 bonus to attack and damage rolls made with it (included in his attack). See appendix B for the item's other properties."
+				description: "Sir Braford wields Shatterspike, a magic longsword that grants a+1 bonus to attack and damage rolls made with it (included in his attack). See appendix B for the item's other properties."
 			}, {
 				name: "Tree Thrall",
 				description: "If the Gulthias Tree dies, Sir Braford dies 24 hours later."
@@ -923,10 +902,9 @@ var TftYP = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 9 (1dl0 + 4) slashing damage if used with two hands.",
+				description: "Two-Handed: 9 (1dl0+4) slashing damage.",
 			},
 		],
-
 		reactions: [{
 				name: "Protection",
 				description: "When a creature Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll."
@@ -947,10 +925,9 @@ var TftYP = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Medicine +4, Nature +3, Stealth +6, Survival +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		traits: [{
 				name: "Amphibious",
 				description: "Siren can breathe air and water."
@@ -975,7 +952,7 @@ var TftYP = {
 		],
 		actions: [{
 				name: "Stupefying Touch",
-				description: "Siren touches one creature she can see within 5 feet of her. The creature must succeed on a DC 13 Intelligence saving throw or take 13 (3d6 + 3) psychic damage and be stunned until the start of Siren's next turn."
+				description: "Siren touches one creature she can see within 5 feet of her. The creature must succeed on a DC 13 Intelligence saving throw or take 13 (3d6+3) psychic damage and be stunned until the start of Siren's next turn."
 			}
 		],
 	},
@@ -996,10 +973,9 @@ var TftYP = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Abyssal, Common, Infernal, Primordial, Thayan",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		traits: [{
 				name: "Undead Nature",
 				description: "A lich doesn't require air, food, drink, or sleep."
@@ -1013,7 +989,6 @@ var TftYP = {
 				name: "Rejuvenation",
 				description: "If Var is destroyed but his phylactery remains intact, Var gains a new body in ldlO days, regaining all his hit points and becoming active again. The new body appears within 5 feet of the phylactery."
 			}, {
-
 				name: "Turn Resistance",
 				description: "Var has advantage on saving throws against any effect that turns undead ."
 			}
@@ -1056,7 +1031,6 @@ var TftYP = {
 			"6th level (1 slot): circle of death ",
 			"*Conjuration spell of 1st level or higher."
 		]
-
 	},
 	"Thayan Warrior": {
 		name: "Thayan Warrior",
@@ -1071,10 +1045,9 @@ var TftYP = {
 		scores: [16, 13, 14, 10, 11, 11],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Thayan",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		traits: [{
 				name: "Doomvault Devotion",
 				description: "Within the Doomvault, the warrior has advantage on saving throws against being charmed or frightened ."
@@ -1088,7 +1061,7 @@ var TftYP = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 8 (1dl0 + 3) slashing damage if used with two hands.",
+				description: "Two-Handed: 8 (1dl0+3) slashing damage.",
 			}, {
 				name: "Javelin (Melee)",
 				ability: 1,
@@ -1125,9 +1098,8 @@ var TftYP = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "blinded, deafened, frightened",
 		senses: "blindsight 60 ft (blind beyond this radius)",
-		passivePerception: "10",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		passive_perception: "10",
+		challenge_rating: "1/2",
 		traits: [{
 				name: "Adhesive Blossoms",
 				description: "The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage. At the end of each of the thorn slinger's turns, anything grappled by it takes 3 (1d6) acid damage."
@@ -1150,7 +1122,6 @@ var TftYP = {
 				description: "",
 			},
 		],
-
 	},
 	//TRANSMUTER
 	"Vampiric Mist": {
@@ -1169,9 +1140,8 @@ var TftYP = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "3",
 		traits: [{
 				name: "Undead Nature",
 				description: "A vampiric mist doesn't require air or sleep."
@@ -1191,7 +1161,7 @@ var TftYP = {
 		],
 		actions: [{
 				name: "Blood Drain",
-				description: "One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6 + 3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount. This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0."
+				description: "One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6+3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount. This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0."
 			},
 		],
 	},
@@ -1211,10 +1181,9 @@ var TftYP = {
 		damage_immunities: "poison",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, poisoned, prone",
 		senses: "blindsight 60 ft (blind beyond this radius)",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "telepathy 50 ft",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		traits: [{
 				name: "Ooze Nature",
 				description: "White Maw doesn't require sleep."
@@ -1255,10 +1224,9 @@ var TftYP = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +2, Insight +2, Stealth +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Draconic",
-		challengeRating: "1",
-		proficiencyBonus: 1,
+		challenge_rating: "1",
 		traits: [{
 				name: "Sunlight Sensitivity",
 				description: "While in sunlight, Yusdrayl has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
@@ -1281,4 +1249,4 @@ var TftYP = {
 			"1st level (4 slots): burning hands, chromatic orb, mage armor"
 		]
 	}
-}
+};

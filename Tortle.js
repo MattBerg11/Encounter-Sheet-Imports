@@ -18,9 +18,9 @@ var Tortle = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -59,9 +59,9 @@ var Tortle = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft, tremorsense 30 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Terran",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Club",
 				ability: 1,
@@ -102,9 +102,9 @@ var Tortle = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -148,9 +148,9 @@ var Tortle = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands the languages it knew in life but can't speak",
-		challengeRating: "1/2",
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Venomous Claws",
 				ability: 1,
@@ -186,9 +186,9 @@ var Tortle = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Aquan, Common",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -238,9 +238,9 @@ var Tortle = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Aquan, Common",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -272,4 +272,4 @@ var Tortle = {
 			"2nd level (3 slots): darkvision, hold person"
 		]
 	}
-}
+};

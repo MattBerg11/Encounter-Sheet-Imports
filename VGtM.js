@@ -13,16 +13,15 @@ var VGtM = {
 		scores: [9, 14, 14, 18, 12, 11],
 		saves: ["", "", "", 8, 5, ""],
 		skills: "Arcana +8, History +8",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any four languages",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 3 (1d8-l) bludgeoning damage if used with two hands.",
+				description: "Two-Handed: 3 (1d8-l) bludgeoning damage.",
 			},
 		],
 		traits: [{
@@ -35,9 +34,9 @@ var VGtM = {
 			"Cantrips (at will): blade ward, dancing lights, mending, message, ray of frost",
 			"1st level (4 slots): alarm*, mage armor, magic missile, shield*",
 			"2nd level (3 slots): arcane lock*, invisibility",
-			"3rd level (3 slots): counterspell*, dispel magic*, Fireball",
+			"3rd level (3 slots): counterspell*, dispel magic*, fireball",
 			"4th level (3 slots): banishment*, stoneskin*",
-			"5th level (2 slots): cone of Cold, wall of force",
+			"5th level (2 slots): cone of cold, wall of force",
 			"6th level (1 slot): flesh to stone, globe of invulnerability*",
 			"7th level (1 slot): symbol* teleport",
 			"* Abjuration spell of 1st level or higher",
@@ -56,18 +55,17 @@ var VGtM = {
 		scores: [11, 12, 16, 19, 17, 17],
 		saves: ["", "", 7, 8, 7, 7],
 		skills: "Arcana +8, Deception +7, History +8, Insight +7, Perception +7, Stealth +5",
-		damage_resistances: "Cold, Lightning, Necrotic",
-		damage_immunities: "Poison; bludgeoning, piercing, and slashing from nonmagical attacks",
-		condition_immunities: "charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+		damage_resistances: "cold, lightning, necrotic",
+		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: 17,
+		passive_perception: 17,
 		languages: "Deep Speech, Undercommon, telepathy 120 ft",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 				name: "Chilling Grasp",
 				ability: 4,
-				damage: [3, 6, "Cold"],
+				damage: [3, 6, "cold"],
 				range: "Melee (5 ft)",
 				description: "",
 			},
@@ -102,7 +100,6 @@ var VGtM = {
 			"5th level (2 slots): modify memory, wall of force",
 			"6th level (1 slot): disintegrate, globe of invulnerability",
 		]
-
 	},
 	"Annis Hag": {
 		name: "Annis Hag",
@@ -117,12 +114,11 @@ var VGtM = {
 		scores: [21, 12, 14, 13, 14, 15],
 		saves: ["", "", "5", "", "", ""],
 		skills: "Deception +5, Perception +5",
-		damage_resistances: "Cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
 		senses: "darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Common, Giant, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -159,7 +155,7 @@ var VGtM = {
 					"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:",
 					"1st level (4 slots): identify, ray of sickness",
 					"2nd level (3 slots): hold person, locate object",
-					"3rd level (3 slots): bestow curse, counterspell, Lightning bolt",
+					"3rd level (3 slots): bestow curse, counterspell, lightning bolt",
 					"4th level (3 slots): phantasmal killer, polymorph",
 					"5th level (2 slots): contact other plane, scrying",
 					"6th level (1 slot): eyebite",
@@ -192,12 +188,11 @@ var VGtM = {
 		scores: [21, 12, 14, 13, 14, 15],
 		saves: ["", "", "5", "", "", ""],
 		skills: "Deception +5, Perception +5",
-		damage_resistances: "Cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
 		senses: "darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Common, Giant, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -263,12 +258,11 @@ var VGtM = {
 		scores: [21, 12, 14, 13, 14, 15],
 		saves: ["", "", "5", "", "", ""],
 		skills: "Deception +5, Perception +5",
-		damage_resistances: "Cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
 		senses: "darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Common, Giant, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -311,7 +305,7 @@ var VGtM = {
 			"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.",
 			"1st level (4 slots): entangle, speak with animals",
 			"2nd level (3 slots): flaming sphere, moonbeam, spike growth",
-			"3rd level (3 slots): call Lightning, plant growth",
+			"3rd level (3 slots): call lightning, plant growth",
 			"4th level (3 slots): dominate beast, grasping vine",
 			"5th level (2 slots): insect plague, tree stride",
 			"6th level (1 slot): wall of thorns"
@@ -335,12 +329,11 @@ var VGtM = {
 		scores: [21, 12, 14, 13, 14, 15],
 		saves: ["", "", "5", "", "", ""],
 		skills: "Deception +5, Perception +5",
-		damage_resistances: "Cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
 		senses: "darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Common, Giant, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -410,10 +403,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +4, History +4",
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "any one language (usually Common)",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 1,
@@ -430,7 +422,7 @@ var VGtM = {
 		],
 		spells: [
 			"The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
-			"Cantrips (at will): Fire bolt, mending, prestidigitation; 1st level (2 slots): burning hands, disguise self, shield"
+			"Cantrips (at will): fire bolt, mending, prestidigitation; 1st level (2 slots): burning hands, disguise self, shield"
 		]
 	},
 	"Archdruid": {
@@ -447,20 +439,19 @@ var VGtM = {
 		saves: ["", "", "", 5, 9, ""],
 		skills: "Medicine +9, Nature +5, Perception +9",
 		senses: "",
-		passivePerception: 19,
+		passive_perception: 19,
 		languages: "Druidic plus any two languages",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		spells: [
 			"The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:",
-			"Cantrips (at will): druidcraft, mending, Poison spray, produce flame",
-			"1st level (4 slots): cure wounds, entangle, faerie Fire, speak with animals",
+			"Cantrips (at will): druidcraft, mending, poison spray, produce flame",
+			"1st level (4 slots): cure wounds, entangle, faerie fire, speak with animals",
 			"2nd level (3 slots): animal messenger, beast sense, hold person",
 			"3rd level (3 slots): conjure animals, meld into stone, water breathing",
-			"4th level (3 slots): dominate beast, locate creature, stoneskin, wall of Fire",
+			"4th level (3 slots): dominate beast, locate creature, stoneskin, wall of fire",
 			"5th level (3 slots): commune with nature, mass cure wounds, tree stride",
 			"6th level (1 slot): heal, heroes’ feast, sunbeam",
-			"7th level (1 slot): Fire storm",
+			"7th level (1 slot): fire storm",
 			"8th level (1 slot): animal shapes",
 			"9th level (1 slot): foresight",
 		],
@@ -492,10 +483,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +6, Perception +5",
 		senses: "",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "any one language (usually Common)",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -534,10 +524,9 @@ var VGtM = {
 		scores: [20, 10, 19, 2, 12, 5],
 		saves: ["", "", "", "", "", ""],
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Gore",
 				ability: 1,
@@ -565,14 +554,13 @@ var VGtM = {
 		scores: [19, 16, 16, 11, 12, 13],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +5, Stealth +5",
-		damage_resistances: "Cold, Fire, Lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_resistances: "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Abyssal",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -584,13 +572,13 @@ var VGtM = {
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 8 (1d8+4) piercing damage when used with two hands to make a melee attack.",
+				description: "Two-Handed: 8 (1d8+4) piercing damage.",
 			}, {
 				name: "Spear (Ranged)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Ranged (20/60 ft)",
-				description: "Or 8 (1d8+4) piercing damage when used with two hands to make a melee attack.",
+				description: "",
 			},
 		],
 		spells: [
@@ -619,12 +607,11 @@ var VGtM = {
 		scores: [20, 12, 20, 11, 14, 8],
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +8, Stealth +7",
-		condition_immunities: "charmed, Frightened",
+		condition_immunities: "charmed, frightened",
 		senses: "darkvision 120 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Common and the languages of its creator, but can't speak",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -634,7 +621,7 @@ var VGtM = {
 			}, {
 				name: "Tongue",
 				ability: 1,
-				damage: [3, 6, "Necrotic"],
+				damage: [3, 6, "necrotic"],
 				range: "Melee (5 ft)",
 				description: "Target must make a DC 15 Strength savng throw. On a failed save, the target is pulled to a space within 5 feet of the banderhobb, which can use a bonus action to make a bite attack against the target.",
 			},
@@ -650,7 +637,7 @@ var VGtM = {
 		actions: [{
 				name: "Swallow",
 				description: [
-					"The banderhobb makes a bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the banderhobb and it takes 10 (3d6) Necrotic damage at the start of each of the banderhobb's turns. A creature reduced to 0 hit points in this way stops taking Necrotic damage and becomes stable.",
+					"The banderhobb makes a bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the banderhobb and it takes 10 (3d6) necrotic damage at the start of each of the banderhobb's turns. A creature reduced to 0 hit points in this way stops taking necrotic damage and becomes stable.",
 					"The banderhobb can have only one target swallowed at a time. While the banderhobb isn't incapacitated, it can regurgitate the creature at any time (no action required) in a space within 5 feet of it. The creature exits prone. If the banderhobb dies, it likewise regurgitates a swallowed creature."
 				],
 			}, {
@@ -673,10 +660,9 @@ var VGtM = {
 		saves: ["", 4, "", "", 3, ""],
 		skills: "Acrobatics +4, Perception +5, Performance +6",
 		senses: "",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "any two languages",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -719,14 +705,13 @@ var VGtM = {
 		scores: [19, 15, 14, 13, 12, 14],
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +4, Intimidation +4, Perception +5, Stealth +4",
-		damage_resistances: "Cold, Fire, Lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
-		damage_immunities: "Acid, Poison",
-		condition_immunities: "Poisoned",
+		damage_resistances: "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+		damage_immunities: "acid, poison",
+		condition_immunities: "poisoned",
 		senses: "blindsight 60 ft, darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Abyssal, Common, Goblin, Infernal, telepathy 60 ft",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -746,7 +731,7 @@ var VGtM = {
 				description: "The barghest can use its action to polymorph into a Small goblin or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. The barghest reverts to its true form if it dies."
 			}, {
 				name: "Fire Banishment",
-				description: "When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna. Instantaneous bursts of flame (such as a red dragon's breath or a Fireball spell) don't have this effect on the barghest."
+				description: "When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna. Instantaneous bursts of flame (such as a red dragon's breath or a fireball spell) don't have this effect on the barghest."
 			}, {
 				name: "Keen Smell",
 				description: "The barghest has advantage on Wisdom (Perception) checks that rely on smell."
@@ -774,18 +759,17 @@ var VGtM = {
 		scores: [13, 16, 14, 12, 13, 16],
 		saves: ["", "", "", "", 4, ""],
 		skills: "Nature +4, Perception +4, Stealth +6, Survival +4",
-		damage_immunities: "Cold",
+		damage_immunities: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Auran, Common, Giant",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
 				damage: [2, 8, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 3 (1d6) Cold damage.",
+				description: "Plus 3 (1d6) cold damage.",
 			},
 		],
 		traits: [{
@@ -799,7 +783,7 @@ var VGtM = {
 				description: [
 					"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
 					"At will: hold person,* ray of frost",
-					"3/day each: cone of Cold,* ice storm*, wall of ice*",
+					"3/day each: cone of cold,* ice storm*, wall of ice*",
 					"1/day each: control weather"
 				]
 			}, {
@@ -813,7 +797,7 @@ var VGtM = {
 					"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: ",
 					"1st level (4 slots): identify, ray of sickness ",
 					"2nd level (3 slots): hold person, locate object ",
-					"3rd level (3 slots): bestow curse, counterspell, Lightning bolt ",
+					"3rd level (3 slots): bestow curse, counterspell, lightning bolt ",
 					"4th level (3 slots): phantasmal killer, polymorph ",
 					"5th level (2 slots): contact other plane, scrying ",
 					"6th level (1 slot): eyebite",
@@ -828,7 +812,7 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Maddening Feast",
-				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be Frightened of her for 1 minute. While Frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
 			},
 		],
 	},
@@ -845,18 +829,17 @@ var VGtM = {
 		scores: [13, 16, 14, 12, 13, 16],
 		saves: ["", "", "", "", 4, ""],
 		skills: "Nature +4, Perception +4, Stealth +6, Survival +4",
-		damage_immunities: "Cold",
+		damage_immunities: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Auran, Common, Giant",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
 				damage: [2, 8, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 3 (1d6) Cold damage.",
+				description: "Plus 3 (1d6) cold damage.",
 			},
 		],
 		traits: [{
@@ -870,7 +853,7 @@ var VGtM = {
 				description: [
 					"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
 					"At will: hold person,* ray of frost",
-					"3/day each: cone of Cold,* ice storm*, wall of ice*",
+					"3/day each: cone of cold,* ice storm*, wall of ice*",
 					"1/day each: control weather"
 				]
 			}, {
@@ -895,10 +878,9 @@ var VGtM = {
 			"5th level (2 slots): contagion, raise dead",
 			"6th level (1 slot): circle of death"
 		],
-
 		actions: [{
 				name: "Maddening Feast",
-				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be Frightened of her for 1 minute. While Frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
 			},
 		],
 	},
@@ -915,18 +897,17 @@ var VGtM = {
 		scores: [13, 16, 14, 12, 13, 16],
 		saves: ["", "", "", "", 4, ""],
 		skills: "Nature +4, Perception +4, Stealth +6, Survival +4",
-		damage_immunities: "Cold",
+		damage_immunities: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Auran, Common, Giant",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
 				damage: [2, 8, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 3 (1d6) Cold damage.",
+				description: "Plus 3 (1d6) cold damage.",
 			},
 		],
 		traits: [{
@@ -939,7 +920,7 @@ var VGtM = {
 				name: "Innate Spellcasting",
 				description: [
 					"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
-					"At will: hold person,* ray of frost", "", "3/day each: cone of Cold,* ice storm*, wall of ice*",
+					"At will: hold person,* ray of frost", "", "3/day each: cone of cold,* ice storm*, wall of ice*",
 					"1/day each: control weather"
 				]
 			}, {
@@ -949,12 +930,10 @@ var VGtM = {
 					"A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
 				]
 			}, {
-
 				name: "Hag Eye (Coven Only)",
 				description: [
 					"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.",
 					"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."]
-
 			},
 		],
 		spells: [
@@ -968,7 +947,7 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Maddening Feast",
-				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be Frightened of her for 1 minute. While Frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
 			},
 		],
 	},
@@ -985,18 +964,17 @@ var VGtM = {
 		scores: [13, 16, 14, 12, 13, 16],
 		saves: ["", "", "", "", 4, ""],
 		skills: "Nature +4, Perception +4, Stealth +6, Survival +4",
-		damage_immunities: "Cold",
+		damage_immunities: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Auran, Common, Giant",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
 				damage: [2, 8, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 3 (1d6) Cold damage.",
+				description: "Plus 3 (1d6) cold damage.",
 			},
 		],
 		traits: [{
@@ -1010,7 +988,7 @@ var VGtM = {
 				description: [
 					"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
 					"At will: hold person,* ray of frost",
-					"3/day each: cone of Cold,* ice storm*, wall of ice*",
+					"3/day each: cone of cold,* ice storm*, wall of ice*",
 					"1/day each: control weather"
 				]
 			}, {
@@ -1030,15 +1008,14 @@ var VGtM = {
 			"For casting these spells, the hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.",
 			"1st level (4 slots): entangle, speak with animals",
 			"2nd level (3 slots): flaming sphere, moonbeam, spike growth",
-			"3rd level (3 slots): call Lightning, plant growth",
+			"3rd level (3 slots): call lightning, plant growth",
 			"4th level (3 slots): dominate beast, grasping vine",
 			"5th level (2 slots): insect plague, tree stride",
 			"6th level (1 slot): wall of thorns"
 		],
-
 		actions: [{
 				name: "Maddening Feast",
-				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be Frightened of her for 1 minute. While Frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+				description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
 			},
 		],
 	},
@@ -1055,12 +1032,11 @@ var VGtM = {
 		scores: [16, 11, 16, 4, 10, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
-		damage_resistances: "Acid",
+		damage_resistances: "acid",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -1100,10 +1076,9 @@ var VGtM = {
 		saves: ["", "", "", "", 5, 5],
 		skills: "Athletics +7, Deception +5, Intimidation +5",
 		senses: "",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "any one language (usually Common)",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 				name: "Glaive",
 				ability: 1,
@@ -1129,7 +1104,7 @@ var VGtM = {
 				description: "The blackguard makes three attacks with its glaive or its shortbow."
 			}, {
 				name: "Dreadful Aspect (Recharges after a Short or Long Rest)",
-				description: "The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be Frightened for 1 minute. If a Frightened target ends its turn more than 30 feet away from the blackguard, the tar get can repeat the saving throw, ending the effect on itself on a success."
+				description: "The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the tar get can repeat the saving throw, ending the effect on itself on a success."
 			},
 		],
 	},
@@ -1146,12 +1121,11 @@ var VGtM = {
 		scores: [16, 11, 16, 4, 10, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
-		damage_resistances: "Lightning",
+		damage_resistances: "lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -1185,29 +1159,28 @@ var VGtM = {
 		scores: [15, 16, 15, 7, 12, 12],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +6",
-		damage_resistances: "Cold, Fire, Necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
-		damage_immunities: "Lightning, Poison",
-		condition_immunities: "charmed, Frightened, Poisoned",
+		damage_resistances: "cold, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_immunities: "lightning, poison",
+		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Abyssal, the languages it knew in life",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Fist",
 				ability: 1,
 				damage: [1, 4, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 9 (2d8) Necrotic damage.",
+				description: "Plus 9 (2d8) necrotic damage.",
 			},
 		],
 		traits: [{
 				name: "Aura of Annihilation",
-				description: "The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 Necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and fiends ignore this effect."
+				description: "The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and fiends ignore this effect."
 			}, {
 				name: "Death Gaze",
 				description: [
-					"When a creature that can see the bodak’s eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the Frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.",
+					"When a creature that can see the bodak’s eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.",
 					"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so. it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw."
 				]
 			}, {
@@ -1217,7 +1190,7 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Withering Gaze",
-				description: "One creature that the bodak can see within 60 feet of it must make a DC 13 Constitution saving throw, taking 22 (4d10) Necrotic damage on a failed save, or half as much damage on a successful one.",
+				description: "One creature that the bodak can see within 60 feet of it must make a DC 13 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one.",
 			},
 		],
 	},
@@ -1234,12 +1207,11 @@ var VGtM = {
 		scores: [8, 18, 13, 6, 12, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Sleight of Hand +6, Stealth +6",
-		damage_resistances: "Fire",
+		damage_resistances: "fire",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Sylvan",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 				name: "Pummel",
 				ability: 1,
@@ -1286,10 +1258,9 @@ var VGtM = {
 		scores: [21, 9, 17, 2, 10, 7],
 		saves: ["", "", 6, "", "", ""],
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Stomp",
 				ability: 1,
@@ -1319,10 +1290,9 @@ var VGtM = {
 		scores: [19, 12, 21, 3, 14, 8],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Tail",
 				ability: 1,
@@ -1337,12 +1307,12 @@ var VGtM = {
 				description: "The catoblepas has advantage on Wisdom (Perception) checks that rely on smell."
 			}, {
 				name: "Stench",
-				description: "Any creature other than a catoblepas that starts its turn within 10 feet of the catoblepas must succeed on a DC 16 Constitution saving throw or be Poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of any catoblepas for 1 hour."
+				description: "Any creature other than a catoblepas that starts its turn within 10 feet of the catoblepas must succeed on a DC 16 Constitution saving throw or be poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of any catoblepas for 1 hour."
 			},
 		],
 		actions: [{
 				name: "Death Ray (Recharge 5-6)",
-				description: "The catoblepas targets a creature that it can see within 30 feet of it. The target must make a DC 16 Constitution saving throw, taking 36 (8d8) Necrotic damage on a failed save, or half as much damage on a successful one. If the saving throw fails by 5 or more, the target instead takes 64 Necrotic damage. The target dies if reduced to 0 hit points by this ray.",
+				description: "The catoblepas targets a creature that it can see within 30 feet of it. The target must make a DC 16 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one. If the saving throw fails by 5 or more, the target instead takes 64 necrotic damage. The target dies if reduced to 0 hit points by this ray.",
 			},
 		],
 	},
@@ -1360,10 +1330,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2, Stealth +5",
 		senses: "blindsight 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -1374,10 +1343,10 @@ var VGtM = {
 		],
 		traits: [{
 				name: "Adhesive Filament",
-				description: "The cave fisher can use its action to extend a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature adhered to the filament is grappled by the cave fisher (escape DC 13), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to Poison and psychic damage), but a weapon that fails to sever it becomes stuck to it, requiring an action and a successful DC 13 Strength check to pull free. Destroying the filament causes no damage to the cave fisher, which can extrude a replacement filament on its next turn"
+				description: "The cave fisher can use its action to extend a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature adhered to the filament is grappled by the cave fisher (escape DC 13), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage), but a weapon that fails to sever it becomes stuck to it, requiring an action and a successful DC 13 Strength check to pull free. Destroying the filament causes no damage to the cave fisher, which can extrude a replacement filament on its next turn"
 			}, {
 				name: "Flammable Blood",
-				description: "If the cave fisher drops to half its hit points or fewer, it gains vulnerability to Fire damage."
+				description: "If the cave fisher drops to half its hit points or fewer, it gains vulnerability to fire damage."
 			}, {
 				name: "Spider Climb",
 				description: "The cave fisher can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -1406,10 +1375,9 @@ var VGtM = {
 		saves: [9, "", 6, "", "", ""],
 		skills: "Athletics +9, Intimidation +5, Perception +6",
 		senses: "",
-		passivePerception: 16,
+		passive_perception: 16,
 		languages: "any one language (usually Common)",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Greatsword",
 				ability: 1,
@@ -1452,10 +1420,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +4, Stealth +4",
 		senses: "darkvision 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Undercommon",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -1504,28 +1471,27 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +5, Religion +2, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Undercommon",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Plus 10 (3d6) Poison damage.",
+				description: "Plus 10 (3d6) poison damage.",
 			}, {
 				name: "Dagger (Ranged)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Ranged (20/60 ft)",
-				description: "Plus 10 (3d6) Poison damage.",
+				description: "Plus 10 (3d6) poison damage.",
 			}, {
 				name: "Web (Recharge 5-6)",
 				ability: 2,
-				damage: [0,0 , ""],
+				damage: [0, 0, ""],
 				range: "Ranged (30/60 ft)",
-				description: "One Large or smaller creature. On hit he target is restrained by webbing. As an action, the restrained target can make a DC 11 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to Fire damage; immunity to bludgeoning, Poison, and psychic damage).",
+				description: "One Large or smaller creature. On hit he target is restrained by webbing. As an action, the restrained target can make a DC 11 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
 			},
 		],
 		traits: [{
@@ -1566,10 +1532,9 @@ var VGtM = {
 		saves: ["", "", 10, 6, 7, ""],
 		skills: "Deception +11, Insight +7, Perception +7, Sleight of Hand +9",
 		senses: "",
-		passivePerception: 17,
+		passive_perception: 17,
 		languages: "Common, Giant",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 				name: "Morningstar",
 				ability: 1,
@@ -1627,10 +1592,9 @@ var VGtM = {
 		saves: ["", "", "", 6, 4, ""],
 		skills: "Arcana +6, History +6",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any four languages",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -1652,15 +1616,14 @@ var VGtM = {
 		],
 		spells: [
 			"The conjurer is a 9th-level spellcaster. Its spellcasting ability is intelligence (spell save DC 14, +6 to hit with spell attacks). The conjurer has the following wizard spells prepared:",
-			"Cantrips (at will): Acid splash, mage hand, Poison spray, prestidigitation",
+			"Cantrips (at will): acid splash, mage hand, poison spray, prestidigitation",
 			"1st level (4 slots): mage armor, magic missile, unseen servant*",
 			"2nd level (3 slots): cloud of daggers*, misty step*, web*",
-			"3rd level (3 slots): Fireball, stinking cloud*",
+			"3rd level (3 slots): fireball, stinking cloud*",
 			"4th level (3 slots): Evard’s black tentacles*, stoneskin",
 			"5th level (2 slots): cloudkill*, conjure elemental*",
 			"*Conjuration spell of 1st level or higher"
 		],
-
 	},
 	"Cow": {
 		name: "Cow",
@@ -1675,10 +1638,9 @@ var VGtM = {
 		scores: [18, 10, 14, 2, 10, 4],
 		saves: ["", "", "", "", "", ""],
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Gore",
 				ability: 1,
@@ -1706,10 +1668,9 @@ var VGtM = {
 		scores: [2, 14, 10, 4, 11, 8],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 30 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "telepathy 30 ft",
-		challengeRating: "0",
-		proficiencyBonus: 2,
+		challenge_rating: "0",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -1741,10 +1702,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +5, Deception +2, Perception +5, Stealth +7",
 		senses: "blindsight 30 ft, darkvision 120 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Elvish, Sylvan",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -1782,10 +1742,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +5, Deception +3, Perception +6, Stealth +7",
 		senses: "blindsight 30 ft, darkvision 120 ft",
-		passivePerception: 16,
+		passive_perception: 16,
 		languages: "Elvish, Sylvan",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Shortsword",
 				ability: 1,
@@ -1807,7 +1766,6 @@ var VGtM = {
 				description: "The darkling elder casts darkness without any components. Wisdom is its spellcasting ability."
 			},
 		],
-		spells: "darkness"
 	},
 	"Death Kiss": {
 		name: "Death Kiss",
@@ -1822,13 +1780,12 @@ var VGtM = {
 		scores: [18, 14, 18, 10, 12, 10],
 		saves: ["", "", 8, "", 5, ""],
 		skills: "Perception +5",
-		damage_immunities: "Lightning",
+		damage_immunities: "lightning",
 		condition_immunities: "prone",
 		senses: "darkvision 120 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Deep Speech, Undercommon",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 				name: "Tentacle",
 				ability: 1,
@@ -1840,7 +1797,7 @@ var VGtM = {
 		],
 		traits: [{
 				name: "Lightning Blood",
-				description: "A creature within 5 feet of the death kiss takes 5 (1d10) Lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage."
+				description: "A creature within 5 feet of the death kiss takes 5 (1d10) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage."
 			},
 		],
 		actions: [{
@@ -1865,10 +1822,9 @@ var VGtM = {
 		scores: [18, 10, 14, 2, 10, 4],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Gore",
 				ability: 1,
@@ -1885,7 +1841,6 @@ var VGtM = {
 				description: "The deep rothé's spellcasting ability is Charisma. It can innately cast dancing lights at will, requiring no components."
 			},
 		],
-		spells: "dancing lights"
 	},
 	"Deep Scion": {
 		name: "Deep Scion",
@@ -1901,16 +1856,15 @@ var VGtM = {
 		saves: ["", "", "", "", 3, 4],
 		skills: "Deception +6, Insight +3, Sleight of Hand +3, Stealth +3",
 		senses: "darkvision 120 ft",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "Aquan, Common, thieves' cant",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Battleaxe (Humanoid Form Only)",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 9 (1d10+4) slashing damage if used with two hands.",
+				description: "Two-Handed: 9 (1d10+4) slashing damage.",
 			}, {
 				name: "Bite (Hybrid Form Only)",
 				ability: 1,
@@ -1922,7 +1876,7 @@ var VGtM = {
 				ability: 1,
 				damage: [1, 6, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 7 (1d6+4) damage.",
+				description: "",
 			},
 		],
 		traits: [{
@@ -1956,17 +1910,15 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
 				damage: [1, 8, "piercing"],
 				range: "Melee (5 ft)",
 				description: "",
-
 			}, {
 				name: "Claw",
 				ability: 1,
@@ -1998,20 +1950,19 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [20, 12, 20, 13, 10, 16],
 		saves: ["", "", "", "", "", ""],
-		damage_resistances: "Cold, Fire, Lightning",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_resistances: "cold, fire, lightning",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Abyssal, telepathy 120 ft",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
 				damage: [2, 6, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 21 (6d6) Necrotic damage.",
+				description: "Plus 21 (6d6) necrotic damage.",
 			},
 		],
 		actions: [{
@@ -2022,7 +1973,7 @@ var VGtM = {
 				description: "The devourer chooses a living humanoid with 0 hit points that it can see within 30 feet of it. That creature is teleported inside the devourer’s ribcage and imprisoned there. A creature imprisoned in this manner has disadvantage on death saving throws. If it dies while imprisoned, the devourer regains 25 hit points, immediately recharges Soul Rend, and gains an additional action on its next turn. Additionally, at the start of its next turn, the devourer regurgitates the slain creature as a bonus action, and the creature becomes an undead. If the victim had 2 or fewer Hit Dice, it becomes a zombie. if it had 3 to 5 Hit Dice, it becomes a ghoul. Otherwise, it becomes a wight. A devourer can imprison only one creature at a time."
 			}, {
 				name: "Soul Rend (Recharge 6)",
-				description: "The devourer creates a vortex of life-draining energy in a 20-foot radius centered on itself. Each humanoid in that area must make a DC 18 Constitution saving throw, taking 44 (8d10) Necrotic damage on a failed save, or half as much damage on a successful one. Increase the damage by 10 for each living humanoid with 0 hit points in that area.",
+				description: "The devourer creates a vortex of life-draining energy in a 20-foot radius centered on itself. Each humanoid in that area must make a DC 18 Constitution saving throw, taking 44 (8d10) necrotic damage on a failed save, or half as much damage on a successful one. Increase the damage by 10 for each living humanoid with 0 hit points in that area.",
 			},
 		],
 	},
@@ -2040,10 +1991,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
 		senses: "",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2067,16 +2017,15 @@ var VGtM = {
 		saves: ["", "", "", 7, 4, ""],
 		skills: "Arcana +7, History +7",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any four languages",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 3 (1d8-1) bludgeoning damage if used with two hands.",
+				description: "Two-Handed: 3 (1d8-1) bludgeoning damage.",
 			},
 		],
 		traits: [{
@@ -2086,14 +2035,14 @@ var VGtM = {
 		],
 		spells: [
 			"The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:",
-			"Cantrips (at will): Fire bolt, light, mage hand, message, true strike",
+			"Cantrips (at will): fire bolt, light, mage hand, message, true strike",
 			"1st level (4 slots): detect magic*, feather fall, mage armor",
 			"2nd level (3 slots): detect thoughts*, locate object*, scorching ray",
-			"3rd level (3 slots): clairvoyance*, fly, Fireball",
+			"3rd level (3 slots): clairvoyance*, fly, fireball",
 			"4th level (3 slots): arcane eye*, ice storm, stoneskin",
 			"5th level (2 slots): Rary’s telepathic bond*, seeming*",
 			"6th level (1 slot): mass suggestion, true seeing*",
-			"7th level (1 slot): delayed blast Fireball, teleport",
+			"7th level (1 slot): delayed blast fireball, teleport",
 			"8th level (1 slot): maze",
 			"* Divination spell of 1st level or higher"
 		],
@@ -2112,10 +2061,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "blindsight 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -2146,14 +2094,13 @@ var VGtM = {
 		scores: [20, 15, 18, 13, 11, 11],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +5",
-		damage_resistances: "Cold, Fire, Lightning",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_resistances: "cold, fire, Lightning",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Abyssal, Elvish, Undercommon",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2167,7 +2114,6 @@ var VGtM = {
 				range: "Melee (5 ft)",
 				description: "",
 			}
-
 		],
 		traits: [{
 				name: "Fey Ancestry",
@@ -2177,7 +2123,7 @@ var VGtM = {
 				description: [
 					"The draegloth’s innate spellcasting ability is Charisma (spell save DC 11). The draegloth can innately cast the following spells, requiring no material components:",
 					"At will: darkness",
-					"1/day each: confusion, dancing lights, faerie Fire"
+					"1/day each: confusion, dancing lights, faerie fire"
 				]
 			},
 		],
@@ -2186,7 +2132,9 @@ var VGtM = {
 				description: "The draegloth makes three attacks: one with its bite and two with its claws."
 			},
 		],
-		spells: "darkness, confusion, dancing lights, faerie Fire"
+		spells: [
+			"darkness, confusion, dancing lights, faerie fire"
+		]
 	},
 	"Elder Brain": {
 		name: "Elder Brain",
@@ -2202,10 +2150,9 @@ var VGtM = {
 		saves: ["", "", "", 10, 9, 12],
 		skills: "Arcana +10, Deception +12, Insight +14, Intimidation +12, Persuasion +12",
 		senses: "blindsight 120 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "understands Common, Deep Speech, and Undercommon but can't speak, telepathy 5 miles",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 				name: "Tentacle",
 				ability: 1,
@@ -2280,32 +2227,31 @@ var VGtM = {
 		saves: ["", "", "", 6, 4, ""],
 		skills: "Arcana +6, History +6",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any four languages",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 3 (1d8-1) bludgeoning damage if used with two hands.",
+				description: "Two-Handed: 3 (1d8-1) bludgeoning damage.",
 			},
 		],
 		reactions: [{
-			name: "Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)",
-			description: [
-			"The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.",
-			"The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
-			]
-		},
+				name: "Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)",
+				description: [
+					"The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.",
+					"The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
+				]
+			},
 		],
 		spells: [
 			"The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The enchanter has the following wizard spells prepared:",
 			"Cantrips (at will): friends, mage hand, mending, message",
 			"1st level (4 slots): charm person*, mage armor, magic missile",
 			"2nd level (3 slots): hold person*, invisibility, suggestion*",
-			"3rd level (3 slots): Fireball, haste, tongues",
+			"3rd level (3 slots): fireball, haste, tongues",
 			"4th level (3 slots): dominate beast*, stoneskin",
 			"5th level (2 slots): hold monster*",
 			"*Enchantment spell of 1st level or higher"
@@ -2325,32 +2271,30 @@ var VGtM = {
 		saves: ["", "", "", 7, 5, ""],
 		skills: "Arcana +7, History +7",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any four languages",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 3 (1d8-1) bludgeoning damage if used with two hands.",
+				description: "Two-Handed: 3 (1d8-1) bludgeoning damage.",
 			},
 		],
 		traits: [{
-
 				name: "Sculpt Spells",
 				description: "When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell’s level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it."
 			},
 		],
 		spells: ["The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
-			"Cantrips (at will): Fire bolt*, light*, prestidigitation, ray of frost*",
+			"Cantrips (at will): fire bolt*, light*, prestidigitation, ray of frost*",
 			"1st level (4 slots): burning hands*, mage armor, magic missile*",
 			"2nd level (3 slots): mirror image, misty step, shatter*",
-			"3rd level (3 slots): counterspell, Fireball*, Lightning bolt*",
+			"3rd level (3 slots): counterspell, fireball*, lightning bolt*",
 			"4th level (3 slots): ice storm*, stoneskin",
-			"5th level (2 slots): Bigby’s hand*, cone of Cold*",
-			"6th level (1 slot): chain Lightning*, wall of ice*",
+			"5th level (2 slots): Bigby’s hand*, cone of cold*",
+			"6th level (1 slot): chain lightning*, wall of ice*",
 			"*Evocation spell"
 		],
 	},
@@ -2358,7 +2302,7 @@ var VGtM = {
 		name: "Fire Giant Dreadnought",
 		source: ["Volo's Guide", 147],
 		size: "Huge",
-		type: "giant (Fire giant)",
+		type: "giant (fire giant)",
 		alignment: "lawful evil",
 		ac: [21, "Plate", true],
 		hp: 187,
@@ -2367,18 +2311,17 @@ var VGtM = {
 		scores: [27, 9, 23, 8, 10, 11],
 		saves: ["", 4, 11, "", "", 5],
 		skills: "Athletics +13, Perception +5",
-		damage_immunities: "Fire",
+		damage_immunities: "fire",
 		senses: "",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Giant",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 				name: "Fireshield",
 				ability: 1,
 				damage: [4, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 7 (2d6) Fire damage plus 7 (2d6) piercing damage.",
+				description: "Plus 7 (2d6) fire damage; plus 7 (2d6) piercing damage.",
 			}, {
 				name: "Rock",
 				ability: 1,
@@ -2394,10 +2337,10 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Multiattack",
-				description: "The giant makes two Fireshield attacks."
+				description: "The giant makes two fireshield attacks."
 			}, {
 				name: "Shield Charge",
-				description: "The giant moves up to 30 feet in a straight line and can move through the space of any creature smaller than Huge. The first time it enters a creature's space during this move, it makes a Fireshield attack against that creature. If the attack hits, the target must also succeed on a DC 21 Strength saving throw or be pushed ahead of the giant for the rest of this move. If a creature fails the save by 5 or more, it is also knocked prone and takes 18 (3d6+8) bludgeoning damage, or 29 (6d6+8) bludgeoning damage if it was already prone.",
+				description: "The giant moves up to 30 feet in a straight line and can move through the space of any creature smaller than Huge. The first time it enters a creature's space during this move, it makes a fireshield attack against that creature. If the attack hits, the target must also succeed on a DC 21 Strength saving throw or be pushed ahead of the giant for the rest of this move. If a creature fails the save by 5 or more, it is also knocked prone and takes 18 (3d6+8) bludgeoning damage, or 29 (6d6+8) bludgeoning damage if it was already prone.",
 			},
 		],
 	},
@@ -2405,7 +2348,7 @@ var VGtM = {
 		name: "Firenewt Warlock of Imix",
 		source: ["Volo's Guide", 143],
 		size: "Medium",
-		type: "humanoid (Firenewt)",
+		type: "humanoid (firenewt)",
 		alignment: "neutral evil",
 		ac: [10, "", false],
 		hp: 33,
@@ -2413,12 +2356,11 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [13, 11, 12, 9, 11, 14],
 		saves: ["", "", "", "", "", ""],
-		damage_immunities: "Fire",
+		damage_immunities: "fire",
 		senses: "darkvision 120 ft (penetrates magical darkness)",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Draconic, Ignan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Morningstar",
 				ability: 1,
@@ -2429,19 +2371,18 @@ var VGtM = {
 		],
 		traits: [{
 				name: "Amphibious",
-				description: "The Firenewt can breathe air and water."
+				description: "The firenewt can breathe air and water."
 			}, {
 				name: "Innate Spellcasting",
-				description: "The Firenewt’s innate spellcasting ability is Charisma. It can innately cast mage armor (self only) at will, requiring no material components."
+				description: "The firenewt’s innate spellcasting ability is Charisma. It can innately cast mage armor (self only) at will, requiring no material components."
 			}, {
-
 				name: "Imix's Blessing",
-				description: "When the Firenewt reduces an enemy to 0 hit points, the Firenewt gains 5 temporary hit points."
+				description: "When the firenewt reduces an enemy to 0 hit points, the firenewt gains 5 temporary hit points."
 			},
 		],
 		spells: [
-			"The Firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-			"Cantrips (at will): Fire bolt, guidance, light, mage hand, prestidigitation",
+			"The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+			"Cantrips (at will): fire bolt, guidance, light, mage hand, prestidigitation",
 			"1st-2nd level (2 2nd-level slots): burning hands, flaming sphere, hellish rebuke, scorching ray"
 		],
 	},
@@ -2449,7 +2390,7 @@ var VGtM = {
 		name: "Firenewt Warrior",
 		source: ["Volo's Guide", 142],
 		size: "Medium",
-		type: "humanoid (Firenewt)",
+		type: "humanoid (firenewt)",
 		alignment: "neutral evil",
 		ac: [16, "Chain Shirt", true],
 		hp: 22,
@@ -2457,12 +2398,11 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [10, 13, 12, 7, 11, 8],
 		saves: ["", "", "", "", "", ""],
-		damage_immunities: "Fire",
+		damage_immunities: "fire",
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Draconic, Ignan",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Scimitar",
 				ability: 1,
@@ -2473,15 +2413,15 @@ var VGtM = {
 		],
 		traits: [{
 				name: "Amphibious",
-				description: "The Firenewt can breathe air and water."
+				description: "The firenewt can breathe air and water."
 			},
 		],
 		actions: [{
 				name: "Multiattack",
-				description: "The Firenewt makes two attacks with its scimitar."
+				description: "The firenewt makes two attacks with its scimitar."
 			}, {
-				name: "Spit Fire (Recharges after a Short or Long Rest)",
-				description: "The Firenewt spits Fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) Fire damage on a failed save, or half as much damage on a successful one",
+				name: "Spit fire (Recharges after a Short or Long Rest)",
+				description: "The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one",
 			},
 		],
 	},
@@ -2497,13 +2437,12 @@ var VGtM = {
 		speed: "10 ft",
 		scores: [17, 5, 20, 3, 10, 5],
 		saves: ["", "", "", "", "", ""],
-		damage_immunities: "Fire, Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "fire, poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Flail Tentacle",
 				ability: 1,
@@ -2546,10 +2485,9 @@ var VGtM = {
 		saves: ["", "", 8, "", 5, ""],
 		skills: "Intimidation +5, Perception +5",
 		senses: "darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Abyssal, Gnoll",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Flail of Madness",
 				ability: 1,
@@ -2569,7 +2507,7 @@ var VGtM = {
 				damage: [1, 10, "bludgeoning"],
 				range: "Melee (5 ft)",
 				dc: [16, "Con"],
-				description: "Target must succeed on a DC 16 Constitution saving throw or be Paralyzed until the end of its next turn.",
+				description: "Target must succeed on a DC 16 Constitution saving throw or be paralyzed until the end of its next turn.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -2602,12 +2540,11 @@ var VGtM = {
 		scores: [23, 13, 20, 2, 12, 5],
 		saves: ["", "", 9, "", 5, ""],
 		skills: "Perception +9, Stealth +5",
-		damage_resistances: "Fire, Lightning",
+		damage_resistances: "fire, lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: 19,
+		passive_perception: 19,
 		languages: "",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 				name: "Tentacle",
 				ability: 1,
@@ -2620,7 +2557,7 @@ var VGtM = {
 				ability: 1,
 				damage: [3, 10, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) Acid damage at the start of each of the froghemoth’s turns. The froghemoth’s gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone."
+				description: "Target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth’s turns. The froghemoth’s gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone."
 			},
 		],
 		traits: [{
@@ -2628,7 +2565,7 @@ var VGtM = {
 				description: "The froghemoth can breathe air and water."
 			}, {
 				name: "Shock Suscptibility",
-				description: "If the froghemoth takes Lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can’t use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both."
+				description: "If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can’t use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both."
 			},
 		],
 		actions: [{
@@ -2653,12 +2590,11 @@ var VGtM = {
 		scores: [25, 9, 24, 9, 10, 12],
 		saves: [11, "", 11, "", 4, ""],
 		skills: "Athletics +11, Perception +4",
-		damage_immunities: "Cold",
+		damage_immunities: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Giant",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 				name: "Greataxe",
 				ability: 1,
@@ -2678,7 +2614,7 @@ var VGtM = {
 				description: "The giant has a 25 percent chance of having more than one head. If it has more than one, it has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, Frightened, stunned, or knocked unconscious."
 			}, {
 				name: "Regeneration",
-				description: "The giant regains 10 hit points at the start of its turn. If the giant takes Acid or Fire damage, this trait doesn’t function at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+				description: "The giant regains 10 hit points at the start of its turn. If the giant takes acid or fire damage, this trait doesn’t function at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and doesn’t regenerate."
 			}, {
 				name: "Vaprak's Rage (Recharges on a Short or Long Rest)",
 				description: [
@@ -2710,10 +2646,9 @@ var VGtM = {
 		skills: "Perception +5",
 		condition_immunities: "prone",
 		senses: "darkvision 120 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Deep Speech, Undercommon",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2735,10 +2670,10 @@ var VGtM = {
 				description: [
 					"The gauth shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it: ",
 					"Devour Magic Ray: The targeted creature must succeed on a DC 14 Dexterity saving throw or have one of its magic items lose all magical properties until the start of the gauth's next turn. If the object is a charged item, it also loses 1d4 charges. Determine the affected item randomly, ignoring single-use items such as potions and scrolls.",
-					"Enervation Ray: The targeted creature must make a DC 14 Constitution saving throw, taking 18 (4d8) Necrotic damage on a failed save, or half as much damage on a successful one.",
+					"Enervation Ray: The targeted creature must make a DC 14 Constitution saving throw, taking 18 (4d8) necrotic damage on a failed save, or half as much damage on a successful one.",
 					"Pushing Ray: The targeted creature must succeed on a DC 14 Strength saving throw or be pushed up to 15 feet directly away from the gauth and have its speed halved until the start of the gauth's next turn.",
-					"Fire Ray: The targeted creature must succeed on a DC 14 Dexterity saving throw or take 22 (4d10) Fire damage.",
-					"Paralyzing Ray: The targeted creature must succeed on a DC 14 Constitution saving throw or be Paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+					"fire Ray: The targeted creature must succeed on a DC 14 Dexterity saving throw or take 22 (4d10) fire damage.",
+					"Paralyzing Ray: The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 					"Sleep Ray: The targeted creature must succeed on a DC 14 Wisdom saving throw or fall asleep and remain unconscious for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead."
 				]
 			},
@@ -2759,10 +2694,9 @@ var VGtM = {
 		skills: "Perception +4, Stealth +2",
 		condition_immunities: "prone",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2784,8 +2718,8 @@ var VGtM = {
 				description: [
 					"The gazer shoots two of the following magical eye rays at random (reroll duplicates), choosing one or two targets it can see within 60 feet of it: ",
 					"Dazing Ray: The targeted creature must succeed on a DC 12 Wisdom saving throw or be charmed until the start of the gazer's next turn. While the target is charmed in this way, its speed is halved, and it has disadvantage on attack rolls.",
-					"Fear Ray: The targeted creature must succeed on a DC 12 Wisdom saving throw or be Frightened until the start of the gazer's next turn.",
-					"Frost Ray: The targeted creature must succeed on a DC 12 Dexterity saving throw or take 10 (3d6) Cold damage.",
+					"Fear Ray: The targeted creature must succeed on a DC 12 Wisdom saving throw or be frightened until the start of the gazer's next turn.",
+					"Frost Ray: The targeted creature must succeed on a DC 12 Dexterity saving throw or take 10 (3d6) cold damage.",
 					"Telekinetic Ray: If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer.",
 					"If the target is an object weighing 10 pounds or less that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.",
 				]
@@ -2804,12 +2738,11 @@ var VGtM = {
 		speed: "50 ft",
 		scores: [18, 13, 14, 4, 12, 6],
 		saves: ["", "", "", "", "", ""],
-		damage_immunities: "Fire",
+		damage_immunities: "fire",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2819,13 +2752,13 @@ var VGtM = {
 			},
 		],
 		traits: [{
-				name: "Fire Absorption",
-				description: "Whenever the giant strider is subjected to Fire damage, it takes no damage and regains a number of hit points equal to half the Fire damage dealt."
+				name: "fire Absorption",
+				description: "Whenever the giant strider is subjected to fire damage, it takes no damage and regains a number of hit points equal to half the fire damage dealt."
 			},
 		],
 		actions: [{
-				name: "Fire Burst (Recharges 5-6)",
-				description: "The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 12 Dexterity saving throw, taking 14 (4d6) Fire damage on a failed save, or half as much damage on a successful one. The Fire spreads around corners, and it ignites flammable objects in that area that aren’t being worn or carried.",
+				name: "fire Burst (Recharges 5-6)",
+				description: "The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren’t being worn or carried.",
 			},
 		],
 	},
@@ -2843,10 +2776,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2885,10 +2817,9 @@ var VGtM = {
 		scores: [12, 14, 12, 8, 10, 8],
 		saves: ["", 4, "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Gnoll",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2931,10 +2862,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +3",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Gnoll",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -2946,7 +2876,7 @@ var VGtM = {
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 6 (1d8+2) piercing damage when used with two hands",
+				description: "Two-Handed: 6 (1d8+2) piercing damage.",
 			}, {
 				name: "Spear (Ranged)",
 				ability: 1,
@@ -2984,13 +2914,12 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [14, 8, 12, 5, 5, 5],
 		saves: ["", "", "", "", "", ""],
-		damage_immunities: "Poison",
-		condition_immunities: "Exhaustion, Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: 7,
+		passive_perception: 7,
 		languages: "understands Gnoll but can't speak",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -3016,9 +2945,9 @@ var VGtM = {
 			},
 		],
 		reactions: [{
-			name: "Vengeful Strike",
-			description: "In response to a gnoll being reduced to 0 hit points within 30 feet of the witherling, the witherling makes a melee attack."
-		},
+				name: "Vengeful Strike",
+				description: "In response to a gnoll being reduced to 0 hit points within 30 feet of the witherling, the witherling makes a melee attack."
+			},
 		],
 	},
 	"Green Guard Drake": {
@@ -3034,12 +2963,11 @@ var VGtM = {
 		scores: [16, 1, 16, 4, 10, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
-		damage_resistances: "Poison",
+		damage_resistances: "poison",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -3078,27 +3006,26 @@ var VGtM = {
 		scores: [7, 14, 15, 10, 11, 10],
 		saves: ["", 4, "", "", "", ""],
 		skills: "Athletics +2, Perception +2, Stealth +4, Survival +2",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Grung",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Melee (5 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			}, {
 				name: "Dagger (Ranged)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Ranged (20/60 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			},
 		],
 		traits: [{
@@ -3106,7 +3033,7 @@ var VGtM = {
 				description: "The grung can breathe air and water."
 			}, {
 				name: "Poisonous Skin",
-				description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become Poisoned for 1 minute. A Poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			}, {
 				name: "Standing Leap",
 				description: "The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
@@ -3114,10 +3041,10 @@ var VGtM = {
 				name: "Variant: Grung Poison",
 				description: [
 					"Grung Poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.",
-					"A creature Poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer Poisoned by the grung.",
-					"Green: The Poisoned creature can’t move except to climb or make standing jumps. If the creature is flying, it can’t take any actions or reactions unless it lands.",
-					"Blue: The Poisoned creature must shout loudly or otherwise make a loud noise at the start and end of its turn.",
-					"Purple: The Poisoned creature feels a desperate need to soak itself in liquid or mud. It can’t take actions or move except to do so or to reach a body of liquid or mud."
+					"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer poisoned by the grung.",
+					"Green: The poisoned creature can’t move except to climb or make standing jumps. If the creature is flying, it can’t take any actions or reactions unless it lands.",
+					"Blue: The poisoned creature must shout loudly or otherwise make a loud noise at the start and end of its turn.",
+					"Purple: The poisoned creature feels a desperate need to soak itself in liquid or mud. It can’t take actions or move except to do so or to reach a body of liquid or mud."
 				]
 			},
 		],
@@ -3135,34 +3062,33 @@ var VGtM = {
 		scores: [7, 16, 15, 10, 11, 12],
 		saves: ["", 5, "", "", "", ""],
 		skills: "Athletics +2, Perception +2, Stealth +5, Survival +2",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Grung",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Melee (5 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			}, {
 				name: "Dagger (Ranged)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Ranged (20/60 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			}, {
 				name: "Shortbow",
 				ability: 2,
 				damage: [1, 6, "piercing"],
 				range: "Ranged (80/320 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			},
 		],
 		traits: [{
@@ -3170,7 +3096,7 @@ var VGtM = {
 				description: "The grung can breathe air and water."
 			}, {
 				name: "Poisonous Skin",
-				description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become Poisoned for 1 minute. A Poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			}, {
 				name: "Standing Leap",
 				description: "The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
@@ -3178,9 +3104,9 @@ var VGtM = {
 				name: "Variant: Grung Poison",
 				description: [
 					"Grung Poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.",
-					"A creature Poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer Poisoned by the grung.",
-					"Orange: The Poisoned creature is Frightened of its allies.",
-					"Gold: The Poisoned creature is charmed and can speak Grung."
+					"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer poisoned by the grung.",
+					"Orange: The poisoned creature is frightened of its allies.",
+					"Gold: The poisoned creature is charmed and can speak Grung."
 				]
 			},
 		],
@@ -3203,34 +3129,33 @@ var VGtM = {
 		scores: [7, 16, 15, 10, 15, 11],
 		saves: ["", 5, "", "", "", ""],
 		skills: "Athletics +2, Perception +4, Stealth +5, Survival +4",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Grung",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Melee (5 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			}, {
 				name: "Dagger (Ranged)",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Ranged (20/60 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			}, {
 				name: "Shortbow",
 				ability: 2,
 				damage: [1, 6, "piercing"],
 				range: "Ranged (80/320 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) Poison damage.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.",
 			},
 		],
 		traits: [{
@@ -3238,17 +3163,16 @@ var VGtM = {
 				description: "The grung can breathe air and water."
 			}, {
 				name: "Poisonous Skin",
-				description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become Poisoned for 1 minute. A Poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			}, {
-
 				name: "Standing Leap",
 				description: "The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
 			}, {
 				name: "Variant: Grung Poison",
 				description: [
 					"Grung Poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.",
-					"A creature Poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer Poisoned by the grung.",
-					"Red: The Poisoned creature must use its action to eat if food is within reach. "
+					"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer poisoned by the grung.",
+					"Red: The poisoned creature must use its action to eat if food is within reach. "
 				]
 			},
 		],
@@ -3258,7 +3182,6 @@ var VGtM = {
 			"2nd level (3 slots): barkskin, spike growth",
 			"3rd level (2 slots): plant growth"
 		],
-
 	},
 	"Guard Drake": {
 		name: "Guard Drake",
@@ -3274,11 +3197,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "2",
-		proficiencyBonus: 2,
-
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -3313,10 +3234,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
 		senses: "",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Tail",
 				ability: 1,
@@ -3340,16 +3260,15 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +5",
 		senses: "darkvision 60 ft",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "Common, Goblin",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 5 (1d8+1) bludgeoning damage if used with two hands.",
+				description: "Two-Handed: 5 (1d8+1) bludgeoning damage.",
 			},
 		],
 		traits: [{
@@ -3358,15 +3277,14 @@ var VGtM = {
 			}, {
 				name: "Army Arcane",
 				description: "When the hobgoblin casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw."
-
 			},
 		],
 		spells: [
 			"The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:",
-			"Cantrips (at will): Acid splash, Fire bolt, ray of frost, shocking grasp",
+			"Cantrips (at will): acid splash, fire bolt, ray of frost, shocking grasp",
 			"1st level (4 slots): fog cloud, magic missile, Thunderwave",
-			"2nd level (3 slots): gust of wind, Melf’s Acid arrow, scorching ray",
-			"3rd level (3 slots): Fireball, fly, Lightning bolt",
+			"2nd level (3 slots): gust of wind, Melf’s acid arrow, scorching ray",
+			"3rd level (3 slots): fireball, fly, lightning bolt",
 			"4th level (1 slot): ice storm"
 		],
 	},
@@ -3384,10 +3302,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +5, Athletics +4, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Common, Goblin",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Unarmed Strike",
 				ability: 1,
@@ -3434,14 +3351,13 @@ var VGtM = {
 		scores: [11, 16, 16, 20, 14, 16],
 		saves: ["", "", 10, 12, 9, ""],
 		skills: "Arcana +18, History +12, Insight +9, Perception +9",
-		damage_resistances: "Cold, Lightning, Necrotic",
-		damage_immunities: "Poison; bludgeoning, piercing, and slashing from nonmagical weapons",
-		condition_immunities: "charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+		damage_resistances: "cold, lightning, necrotic",
+		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical weapons",
+		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: 19,
+		passive_perception: 19,
 		languages: "Deep Speech, Undercommon, telepathy 120 ft",
-		challengeRating: "22",
-		proficiencyBonus: 7,
+		challenge_rating: "22",
 		attacks: [{
 				name: "Tentacles",
 				ability: 1,
@@ -3457,10 +3373,10 @@ var VGtM = {
 			}, {
 				name: "Paralyzing Touch",
 				ability: 1,
-				damage: [3, 6, "Cold"],
+				damage: [3, 6, "cold"],
 				range: "Melee (5 ft)",
 				dc: [18, "Con"],
-				description: ["Target must succeed on a DC 18 Constitution saving throw or be Paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.", ],
+				description: ["Target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.", ],
 			},
 		],
 		traits: [{
@@ -3510,8 +3426,8 @@ var VGtM = {
 			"The illithilich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared: ",
 			"Cantrips (at will): mage hand, prestidigitation, ray of frost",
 			"1st level (4 slots): detect magic, magic missile, shield, Thunderwave",
-			"2nd level (3 slots): detect thoughts, invisibility, Melf's Acid arrow, mirror image",
-			"3rd level (3 slots): animate dead, counterspell, dispel magic, Fireball",
+			"2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image",
+			"3rd level (3 slots): animate dead, counterspell, dispel magic, fireball",
 			"4th level (3 slots): blight, dimension door",
 			"5th level (3 slots): cloudkill, scrying",
 			"6th level (1 slot): disintegrate, globe of invulnerability",
@@ -3534,27 +3450,25 @@ var VGtM = {
 		saves: ["", "", "", 5, 2, ""],
 		skills: "Arcana +5, History +5",
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "any four languages",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 3 (1d8-1) bludgeoning damage if used with two hands.",
+				description: "Two-Handed: 3 (1d8-1) bludgeoning damage.",
 			},
 		],
 		traits: [{
-
 				name: "Displacement (Recharges after the Illusionist Casts an Illusion Spell of 1st Level or Higher)",
 				description: "As a bonus action, the illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect ends if the illusionist takes damage, it is incapacitated, or its speed becomes 0."
 			},
 		],
 		spells: [
 			"The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The illusionist has the following wizard spells prepared:",
-			"Cantrips (at will): dancing lights, mage hand, minor illusion, Poison spray",
+			"Cantrips (at will): dancing lights, mage hand, minor illusion, poison spray",
 			"1st level (4 slots): color spray*, disguise self*, mage armor, magic missile",
 			"2nd level (3 slots): invisibility*, mirror image*, phantasmal force",
 			"3rd level (3 slots): major image*, phantom steed*",
@@ -3575,13 +3489,12 @@ var VGtM = {
 		scores: [21, 16, 16, 19, 20, 20],
 		saves: ["", "", "", "", "", ""],
 		skills: "Insight +9, Perception +9, Religion +8",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "blindsight 30 ft, darkvision 120 ft",
-		passivePerception: 19,
+		passive_perception: 19,
 		languages: "all, telepathy 120 ft",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 				name: "Hoof",
 				ability: 1,
@@ -3599,9 +3512,9 @@ var VGtM = {
 		traits: [{
 				name: "Innate Spellcasting",
 				description: [
-				"The ki-rin's innate spellcasting ability is Charisma (spell save DC 17). The ki-rin can innately cast the following spells, requiring no material components:",
-				"At will: gaseous form, major image (6th-level version), wind walk",
-				"1/day: create food and water"
+					"The ki-rin's innate spellcasting ability is Charisma (spell save DC 17). The ki-rin can innately cast the following spells, requiring no material components:",
+					"At will: gaseous form, major image (6th-level version), wind walk",
+					"1/day: create food and water"
 				]
 			}, {
 				name: "Legendary Resistance (3/Day)",
@@ -3661,16 +3574,15 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +1",
 		senses: "darkvision 60 ft",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "Common, Draconic",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Spear (Melee)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.",
+				description: "Two-Handed: 5 (ld8+l) piercing damage.",
 			}, {
 				name: "Spear (Ranged)",
 				ability: 1,
@@ -3681,10 +3593,10 @@ var VGtM = {
 		],
 		traits: [{
 				name: "Dragon's Resistance",
-				description: "The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, Acid (black); 3-4, Cold (white); 5-6, Fire (red); 7-8, Lightning (blue); 9-10, Poison (green)."
+				description: "The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green)."
 			}, {
 				name: "Heart of the Dragon",
-				description: "If the kobold is Frightened or Paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll."
+				description: "If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll."
 			}, {
 				name: "Pack Tactics",
 				description: "The kobold has advantage on an attack roll against a creature if at least one of the kobold’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
@@ -3713,10 +3625,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +0",
 		senses: "darkvision 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Common, Draconic",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -3739,16 +3650,16 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Weapon Invention",
-				description: [
+				description: [ // fix
 					"The kobold uses one of the following options (roll a d8 or choose one); the kobold can use each one no more than once per day:",
-					"1. Acid. The kobold hurls a flask of Acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 7 (2d6) Acid damage.",
-					"2. Alchemist’s Fire. The kobold throws a flask of alchemist's Fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 2 (1d4) Fire damage at the start of each of the target’s turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
-					"3. Basket of Centipedes. The kobold throws a small basket into a S-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm’s turns, there's a 50 percent chance that the swarm disperses.",
-					"4. Green Slime Pot. The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master’s Guide). Miss: A patch of green slime covers a randomly determined S-foot-square section of wall or floor within 5 feet of the target.",
-					"5. Rot Grub Pot. The kobold throws a clay pot into a 5-foot-square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.",
-					"6. Scorpion on a Stick. The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) Poison damage on a failed save, or half as much damage on a successful one.",
-					"7. Skunk in a Cage. The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can’t take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn’t need to breathe or is immune to Poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can’t do so again until it finishes a short or long rest.",
-					"8. Wasp Nest in a Bag. The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there’s a 50 percent chance that the swarm disperses."
+					"1. Acid: The kobold hurls a flask of acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 7 (2d6) acid damage.",
+					"2. Alchemist’s fire: The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 2 (1d4) fire damage at the start of each of the target’s turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+					"3. Basket of Centipedes: The kobold throws a small basket into a S-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm’s turns, there's a 50 percent chance that the swarm disperses.",
+					"4. Green Slime Pot: The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master’s Guide). Miss: A patch of green slime covers a randomly determined S-foot-square section of wall or floor within 5 feet of the target.",
+					"5. Rot Grub Pot: The kobold throws a clay pot into a 5-foot-square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.",
+					"6. Scorpion on a Stick. The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.",
+					"7. Skunk in a Cage: The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can’t take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn’t need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can’t do so again until it finishes a short or long rest.",
+					"8. Wasp Nest in a Bag: The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there’s a 50 percent chance that the swarm disperses."
 				],
 			},
 		],
@@ -3767,10 +3678,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +2, Medicine +1",
 		senses: "darkvision 60 ft",
-		passivePerception: 9,
+		passive_perception: 9,
 		languages: "Common, Draconic",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -3802,7 +3712,7 @@ var VGtM = {
 		],
 		spells: [
 			"The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:",
-			"Cantrips (at will): Fire bolt, mage hand, mending, Poison spray",
+			"Cantrips (at will): fire bolt, mage hand, mending, poison spray",
 			"1st level (4 slots): charm person, chromatic orb, expeditious retreat",
 			"2nd level (2 slots): scorching ray"
 		],
@@ -3822,10 +3732,9 @@ var VGtM = {
 		skills: "Athletics +9, Perception +5, Stealth +5",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks",
 		senses: "darkvision 120 ft, tremorsense 120 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Dwarvish, Gnomish, Sylvan, Terran, Undercommon",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Greatclub",
 				ability: 1,
@@ -3882,10 +3791,9 @@ var VGtM = {
 		skills: "Perception +5",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks",
 		senses: "",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "any two languages",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Thunderous Touch",
 				ability: 5,
@@ -3903,13 +3811,13 @@ var VGtM = {
 					"The priest’s spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
 					"At will: command, create or destroy water",
 					"3/day each: control water, darkness, water breathing, water walk",
-					"1/day each: call Lightning, Evard’s black tentacles"
+					"1/day each: call lightning, Evard’s black tentacles"
 				]
 			},
 		],
 		actions: [{
 				name: "Voice of the Kraken (Recharges after a Short or Long Rest)",
-				description: "A kraken speaks through the priest with a Thunderous voice audible within 300 feet. Creatures of the priest’s choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be Frightened for 1 minute. A Frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				description: "A kraken speaks through the priest with a Thunderous voice audible within 300 feet. Creatures of the priest’s choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			},
 		],
 	},
@@ -3927,10 +3835,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +2, Perception +3",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Abyssal, Gnoll",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -3979,10 +3886,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +5, Insight +5, Stealth +5",
 		senses: "",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "any one language (usually Common)",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Unarmed Strike",
 				ability: 1,
@@ -4008,9 +3914,9 @@ var VGtM = {
 			},
 		],
 		reactions: [{
-			name: "Deflect Missile",
-			description: "In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it’s small enough to hold in one hand and the adept has a hand free."
-		},
+				name: "Deflect Missile",
+				description: "In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it’s small enough to hold in one hand and the adept has a hand free."
+			},
 		],
 	},
 	"Master Thief": {
@@ -4027,10 +3933,9 @@ var VGtM = {
 		saves: ["", 7, "", 3, "", ""],
 		skills: "Acrobatics +7, Athletics +3, Perception +3, Sleight of Hand +7, Stealth +7",
 		senses: "",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "any one language (usually Common) plus thieves' cant",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -4062,9 +3967,9 @@ var VGtM = {
 			},
 		],
 		reactions: [{
-			name: "Uncanny Dodge",
-			description: "The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
-		},
+				name: "Uncanny Dodge",
+				description: "The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
+			},
 		],
 	},
 	"Maw Demon": {
@@ -4079,14 +3984,13 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [14, 8, 13, 5, 8, 5],
 		saves: ["", "", "", "", "", ""],
-		damage_resistances: "Cold, Fire, Lightning",
-		damage_immunities: "Poison",
-		condition_immunities: "charmed, Frightened, Poisoned",
+		damage_resistances: "cold, fire, lightning",
+		damage_immunities: "poison",
+		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: 9,
+		passive_perception: 9,
 		languages: "understands Abyssal but can't speak",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -4114,24 +4018,23 @@ var VGtM = {
 		scores: [7, 15, 12, 11, 10, 5],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +6, Survival +2",
-		condition_immunities: "Frightened",
+		condition_immunities: "frightened",
 		senses: "darkvision 120 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "telepathy 120 ft",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
 				damage: [2, 4, "slashing"],
 				range: "Melee (5 ft)",
 				dc: [11, "Con"],
-				description: "Target must succeed on a DC 11 Constitution saving throw or be Paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			},
 		],
 		traits: [{
 				name: "Fear Aura",
-				description: "Any beast or humanoid that starts its turn within 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be Frightened until the start of the creature’s next turn."
+				description: "Any beast or humanoid that starts its turn within 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be frightened until the start of the creature’s next turn."
 			}, {
 				name: "Light Sensitivity",
 				description: "While in bright light, the meenlock has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
@@ -4155,10 +4058,9 @@ var VGtM = {
 		saves: ["", "", "", 7, 6, 6],
 		skills: "Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4",
 		senses: "darkvision 120 ft",
-		passivePerception: 16,
+		passive_perception: 16,
 		languages: "Deep Speech, Undercommon, telepathy 120 ft",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 				name: "Tentacles",
 				ability: 1,
@@ -4210,10 +4112,9 @@ var VGtM = {
 		skills: "Perception +8",
 		condition_immunities: "prone",
 		senses: "darkvision 120 ft",
-		passivePerception: 18,
+		passive_perception: 18,
 		languages: "Deep Speech, Undercommon, telepathy 600 ft",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -4241,7 +4142,7 @@ var VGtM = {
 				description: [
 					"The mindwitness shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:",
 					"Aversion Ray: The targeted creature must make a DC 13 Charisma saving throw. On a failed save, the target has disadvantage on attack rolls for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-					"Fear Ray: The targeted creature must succeed on a DC 13 Wisdom saving throw or be Frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+					"Fear Ray: The targeted creature must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 					"Psychic Ray: The target must succeed on a DC 13 Intelligence saving throw or take 27 (6d8) psychic damage.",
 					"Slowing Ray: The targeted creature must make a DC 13 Dexterity saving throw. On a failed save, the target’s speed is halved for 1 minute. In addition, the creature can’t take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 					"Stunning Ray: The targeted creature must succeed on a DC 13 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success.",
@@ -4266,10 +4167,9 @@ var VGtM = {
 		skills: "Arcana +9, History +9, Perception +10, Stealth +6",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks",
 		senses: "blindsight 30 ft, darkvision 120 ft",
-		passivePerception: 20,
+		passive_perception: 20,
 		languages: "telepathy 120 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -4298,19 +4198,19 @@ var VGtM = {
 			},
 		],
 		reactions: [{
-			name: "Spell Reflection",
-			description: "If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
-		},
+				name: "Spell Reflection",
+				description: "If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
+			},
 		],
 		spells: [
 			"The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:",
-			"Cantrips (at will): Acid splash, mage hand, mending, ray of frost, shocking grasp",
+			"Cantrips (at will): acid splash, mage hand, mending, ray of frost, shocking grasp",
 			"1st level (4 slots): detect magic, identify, shield, witch bolt",
 			"2nd level (3 slots): darkness, detect thoughts, shatter",
-			"3rd level (3 slots): dispel magic, Lightning bolt, sending",
+			"3rd level (3 slots): dispel magic, lightning bolt, sending",
 			"4th level (3 slots): dimension door, Evard’s black tentacles",
 			"5th level (3 slots): geas, scrying",
-			"6th level (1 slot): chain Lightning"
+			"6th level (1 slot): chain lightning"
 		],
 	},
 	"Mouth of Grolantor": {
@@ -4326,12 +4226,11 @@ var VGtM = {
 		scores: [21, 10, 18, 5, 7, 5],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +1",
-		condition_immunities: "Frightened",
+		condition_immunities: "frightened",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "Giant",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -4370,16 +4269,15 @@ var VGtM = {
 		scores: [9, 14, 12, 17, 12, 11],
 		saves: ["", "", "", 7, 5, ""],
 		skills: "Arcana +7, History +7",
-		damage_resistances: "Necrotic",
+		damage_resistances: "necrotic",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any four languages",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Withering Touch",
 				ability: 4,
-				damage: [2, 4, "Necrotic"],
+				damage: [2, 4, "necrotic"],
 				range: "Melee (5 ft)",
 				description: "",
 			},
@@ -4415,17 +4313,16 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Intimidation +4, Perception +3",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Common, Deep Speech, Undercommon",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
 				dc: [14, "Con"],
-				description: "Plus 14 (4d6) Poison damage, and the target must succeed on a DC 12 Constitution saving throw or become Poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			}, {
 				name: "Claws",
 				ability: 1,
@@ -4436,7 +4333,7 @@ var VGtM = {
 		],
 		traits: [{
 				name: "Mental Fortitude",
-				description: "The neogi has advantage on saving throws against being charmed or Frightened. and magic can't put the neogi to sleep."
+				description: "The neogi has advantage on saving throws against being charmed or frightened. and magic can't put the neogi to sleep."
 			}, {
 				name: "Spider Climb",
 				description: "The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -4463,24 +4360,22 @@ var VGtM = {
 		speed: "20 ft, climb 20 ft",
 		scores: [3, 13, 10, 6, 10, 9],
 		saves: ["", "", "", "", "", ""],
-
 		senses: "darkvision 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
 				damage: [1, 4, "piercing"],
 				range: "Melee (5 ft)",
 				dc: [10, "Con"],
-				description: "Plus 7 (2d6) Poison damage, and the target must succeed on a DC 10 Constitution saving throw or become Poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			},
 		],
 		traits: [{
 				name: "Mental Fortitude",
-				description: "The hatchling has advantage on saving throws against being charmed or Frightened, and magic can’t put the hatchling to sleep."
+				description: "The hatchling has advantage on saving throws against being charmed or frightened, and magic can’t put the hatchling to sleep."
 			}, {
 				name: "Spider Climb",
 				description: "The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -4501,17 +4396,16 @@ var VGtM = {
 		saves: ["", "", "", 3, "", ""],
 		skills: "Arcana +5, Deception +6, Intimidation +6, Perception +3, Persuasion +6",
 		senses: "darkvision 120 ft (penetrates magical darkness)",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Common, Deep Speech, Undercommon, telepathy 30 ft",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
 				dc: [12, "Con"],
-				description: "Plus 14 (4d6) Poison damage, and the target must succeed on a DC 12 Constitution saving throw or become Poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			}, {
 				name: "Claws",
 				ability: 2,
@@ -4522,7 +4416,7 @@ var VGtM = {
 		],
 		traits: [{
 				name: "Mental Fortitude",
-				description: "The neogi has advantage on saving throws against being charmed or Frightened, and magic can’t put the neogi to sleep."
+				description: "The neogi has advantage on saving throws against being charmed or frightened, and magic can’t put the neogi to sleep."
 			}, {
 				name: "Spider Climb",
 				description: "The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -4555,17 +4449,16 @@ var VGtM = {
 		scores: [27, 7, 21, 3, 16, 12],
 		saves: ["", "", "", 1, 8, 6],
 		senses: "blindsight 120 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 				name: "Tentacles",
 				ability: 1,
 				damage: [3, 8, "bludgeoning"],
 				range: "Melee (15 ft)",
 				dc: [18, "Str"],
-				description: "Plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) Acid damage at the start of each of the neothelid’s turns. If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
+				description: "Plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid’s turns. If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
 			},
 		],
 		traits: [{
@@ -4585,7 +4478,7 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Acid Breath (Recharges 5-6)",
-				description: "The neothelid exhales Acid in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) Acid damage on a failed save, or half as much damage on a successful one.",
+				description: "The neothelid exhales acid in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.",
 			},
 		],
 		spells: "levitate, confusion, feeblemind, telekinesis"
@@ -4604,10 +4497,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +6",
 		senses: "darkvision 60 ft",
-		passivePerception: 9,
+		passive_perception: 9,
 		languages: "Common, Goblin",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Fool's Scepter",
 				ability: 2,
@@ -4637,9 +4529,9 @@ var VGtM = {
 			},
 		],
 		reactions: [{
-			name: "Reversal of Fortune",
-			description: "In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points.",
-		},
+				name: "Reversal of Fortune",
+				description: "In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points.",
+			},
 		],
 	},
 	"Orc Blade of Ilneval": {
@@ -4656,16 +4548,15 @@ var VGtM = {
 		saves: ["", "", "", 3, "", ""],
 		skills: "Insight +3, Intimidation +4, Perception +3",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Common, Orc",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [2, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 14 (2d10+3) slashing damage when used with two hands.",
+				description: "Two-Handed: 14 (2d10+3) slashing damage.",
 			}, {
 				name: "Javelin (Melee)",
 				ability: 1,
@@ -4711,10 +4602,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Intimidation +2, Medicine +4, Survival +4",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Common, Orc",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -4755,16 +4645,15 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +2, Intimidation +1, Medicine +4, Religion +2",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Common and Orc but can't speak",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Touch of the White Hand",
 				ability: 1,
-				damage: [2, 8, "Necrotic"],
+				damage: [2, 8, "necrotic"],
 				range: "Melee (5 ft)",
-				modifiers: ["","",false],
+				modifiers: ["", "", false],
 				description: "",
 			},
 		],
@@ -4792,18 +4681,16 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [15, 8, 16, 7, 11, 7],
 		saves: ["", "", "", "", "", ""],
-
 		senses: "darkvision 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Common, Orc",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
 				damage: [1, 4, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 2 (1d4) Necrotic damage.",
+				description: "Plus 2 (1d4) necrotic damage.",
 			},
 		],
 		traits: [{
@@ -4811,10 +4698,10 @@ var VGtM = {
 				description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
 			}, {
 				name: "Corrupted Carrier",
-				description: "When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) Poison damage and becomes Poisoned. On a success, the creature takes half as much damage and isn‘t Poisoned. A creature Poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While Poisoned by this effect, a creature can’t regain hit points.",
+				description: "When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn‘t poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can’t regain hit points.",
 			}, {
 				name: "Nurtured One of Yurtrus",
-				description: "The orc has advantage on saving throws against Poison and disease."
+				description: "The orc has advantage on saving throws against poison and disease."
 			},
 		],
 		actions: [{
@@ -4837,10 +4724,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Intimidation +1, Perception +2, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Common, Orc",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -4890,12 +4776,10 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [18, 10, 14, 2, 10, 4],
 		saves: ["", "", "", "", "", ""],
-
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Gore",
 				ability: 1,
@@ -4927,10 +4811,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
 		senses: "",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -4962,10 +4845,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8",
 		senses: "darkvision 60 ft",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "Common, Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -5007,12 +4889,11 @@ var VGtM = {
 		scores: [16, 11, 16, 4, 10, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
-		damage_resistances: "Fire",
+		damage_resistances: "fire",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5047,10 +4928,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +6, Perception +3",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Common, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Wicked Sickle",
 				ability: 1,
@@ -5088,12 +4968,10 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [18, 10, 14, 2, 10, 4],
 		saves: ["", "", "", "", "", ""],
-
 		senses: "darkvision 30 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Gore",
 				ability: 1,
@@ -5120,12 +4998,10 @@ var VGtM = {
 		speed: "20 ft, swim 30 ft",
 		scores: [15, 8, 15, 6, 10, 8],
 		saves: ["", "", "", "", "", ""],
-
 		senses: "darkvision 120 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "understands Aquan and Common but can't speak",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Unarmed Strike",
 				ability: 1,
@@ -5141,10 +5017,10 @@ var VGtM = {
 			}, {
 				name: "Poison Quills",
 				ability: 1,
-				damage: [1, 6, "Poison"],
+				damage: [1, 6, "poison"],
 				range: "Melee (5 ft)",
 				dc: [12, "Con"],
-				description: "Target must succeed on a DC 12 Constitution saving throw or be Poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			}, {
 				name: "Tentacle",
 				ability: 1,
@@ -5183,10 +5059,9 @@ var VGtM = {
 		skills: "Perception +3, Stealth +6",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks while in dim light or darkness",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5223,15 +5098,13 @@ var VGtM = {
 		speed: "40 ft",
 		scores: [18, 13, 17, 7, 14, 9],
 		saves: ["", 4, 6, "", 5, ""],
-
-		damage_resistances: "Cold, Fire, Lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
-		damage_immunities: "Poison",
-		condition_immunities: "charmed, Frightened, Poisoned",
+		damage_resistances: "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_immunities: "poison",
+		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Abyssal, Gnoll, telepathy 120 ft",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5244,7 +5117,7 @@ var VGtM = {
 				damage: [2, 8, "piercing"],
 				range: "Melee (15 ft)",
 				dc: [14, "Con"],
-				description: "Target must succeed on a DC 14 Constitution saving throw or become Poisoned. While Poisoned, the target is also Paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			},
 		],
 		traits: [{
@@ -5272,13 +5145,12 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +8",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks",
-		damage_vulnerabilities: "Cold, Fire",
-		condition_immunities: "blinded, deafened, Exhaustion, grappled, Paralyzed, petrified, prone, restrained, unconscious",
+		damage_vulnerabilities: "cold, fire",
+		condition_immunities: "blinded, deafened, exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious",
 		senses: "blindsight 120 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands languages it knew in its previous form but can't speak",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -5312,7 +5184,7 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Life Leech",
-				description: "One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a DC 13 Dexterity saving throw or be grappled (escape DC 13). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. In addition, the grappled target takes 16 (3d10) Necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time."
+				description: "One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a DC 13 Dexterity saving throw or be grappled (escape DC 13). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. In addition, the grappled target takes 16 (3d10) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time."
 			},
 		],
 	},
@@ -5328,25 +5200,23 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [16, 11, 18, 5, 7, 3],
 		saves: ["", "", "", "", 1, ""],
-
-		damage_immunities: "Poison",
-		condition_immunities: "Exhaustion, Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: 8,
+		passive_perception: 8,
 		languages: "understands the languages it knew in life but can't speak",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
 				damage: [1, 6, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 7 (2d6) Necrotic damage.",
+				description: "Plus 7 (2d6) necrotic damage.",
 			},
 		],
 		traits: [{
 				name: "Regeneration",
-				description: "The spawn of Kyuss regains 10 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or a body of running water. If the spawn takes Acid, Fire, or radiant damage, this trait doesn’t function at the start of the spawn's next turn. The spawn is destroyed only if it starts its turn with 0 hit points and doesn’t regenerate."
+				description: "The spawn of Kyuss regains 10 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or a body of running water. If the spawn takes acid, fire, or radiant damage, this trait doesn’t function at the start of the spawn's next turn. The spawn is destroyed only if it starts its turn with 0 hit points and doesn’t regenerate."
 			}, {
 				name: "Worms",
 				description: "If the spawn of Kyuss is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away, and it loses its Burrowing Worm action."
@@ -5357,7 +5227,7 @@ var VGtM = {
 				description: "The spawn of Kyuss makes two attacks with its claws and uses Burrowing Worm."
 			}, {
 				name: "Burrowing Worm",
-				description: "A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target’s skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target’s skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target’s skin at the end of the target's next turn, dealing l piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) Necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away."
+				description: "A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target’s skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target’s skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target’s skin at the end of the target's next turn, dealing l piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away."
 			},
 		],
 	},
@@ -5373,12 +5243,10 @@ var VGtM = {
 		speed: "40 ft",
 		scores: [20, 9, 17, 2, 11, 5],
 		saves: ["", "", "", "", "", ""],
-
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Tail",
 				ability: 1,
@@ -5400,13 +5268,11 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [18, 10, 14, 2, 10, 4],
 		saves: ["", "", "", "", "", ""],
-
-		damage_resistances: "Cold, Fire, Poison",
+		damage_resistances: "cold, fire, poison",
 		senses: "darkvision 60 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Gore",
 				ability: 1,
@@ -5420,7 +5286,7 @@ var VGtM = {
 				description: "If the kow moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.",
 			}, {
 				name: "Stench",
-				description: "Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a DC 26 Constitution saving throw or be Poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of all stench kows for 1 hour."
+				description: "Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a DC 26 Constitution saving throw or be poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of all stench kows for 1 hour."
 			},
 		],
 	},
@@ -5437,12 +5303,11 @@ var VGtM = {
 		scores: [23, 14, 21, 10, 8, 12],
 		saves: ["", 6, 9, "", 3, ""],
 		skills: "Athletics +14, Perception +3",
-		condition_immunities: "charmed, Frightened",
+		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Common, Giant",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 				name: "Greatclub",
 				ability: 1,
@@ -5485,17 +5350,16 @@ var VGtM = {
 		scores: [29, 14, 20, 17, 30, 19],
 		saves: [14, "", 10, "", 10, 9],
 		skills: "Arcana +8, History +8, Perception +10",
-		damage_resistances: "Cold; bludgeoning, piercing, and slashing from nonmagical attacks",
-		damage_immunities: "Lightning, Thunder",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+		damage_immunities: "lightning, Thunder",
 		senses: "truesight 60 ft",
-		passivePerception: 20,
+		passive_perception: 20,
 		languages: "Common, Giant",
-		challengeRating: "16",
-		proficiencyBonus: 5,
+		challenge_rating: "16",
 		attacks: [{
 				name: "Lightning Sword",
 				ability: 1,
-				damage: [9, 6, "Lightning"],
+				damage: [9, 6, "lightning"],
 				range: "Melee (15 ft)",
 				description: "",
 			},
@@ -5540,26 +5404,24 @@ var VGtM = {
 		speed: "30 ft",
 		scores: [9, 14, 10, 15, 11, 14],
 		saves: ["", "", "", "", "", ""],
-
 		damage_resistances: "bludgenoning, piercing, slashing",
-		condition_immunities: "charmed, Frightened, grappled, Paralyzed, petrified, prone, restrained, stunned",
+		condition_immunities: "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
 		senses: "darkvision 30 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "telepathy 30 ft",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
 				damage: [4, 6, "piercing"],
 				range: "Melee (0 ft)",
-				modifiers: ["","",false],
+				modifiers: ["", "", false],
 				description: "Or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.",
 			},
 		],
 		traits: [{
 				name: "Illumination",
-				description: "As a bonus action, the swarm can shed dim light from its brains in a 5-foot radius, increase the illumination to bright light in a 5- to 20-foot radius (and dim light for an additional number of feet equal to the chosen radius), or extinguish the light."
+				description: "As a bonus action, the swarm can shed dim light from its brains in a 5-foot radius, increase the illumination to bright light in a 5-20-foot radius (and dim light for an additional number of feet equal to the chosen radius), or extinguish the light."
 			}, {
 				name: "Innate Spellcasting (Psionics)",
 				description: [
@@ -5589,19 +5451,18 @@ var VGtM = {
 		scores: [2, 7, 10, 1, 2, 1],
 		saves: ["", "", "", "", "", ""],
 		damage_resistances: "piercing, slashing",
-		condition_immunities: "charmed, Frightened, grappled, Paralyzed, petrified, prone, restrained",
+		condition_immunities: "charmed, frightened, grappled, paralyzed, petrified, prone, restrained",
 		senses: "blindsight 10 ft",
-		passivePerception: 6,
+		passive_perception: 6,
 		languages: "",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Bites",
 				ability: 3,
 				damage: [1, 4, "rot grubs"],
 				range: "Melee (0 ft)",
-				modifiers: [-2,"",false],
-				description: "At the start of each of the target’s turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying Fire to the bite wound before the end of the target's next turn deals 1 Fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target.",
+				modifiers: [-2, "", false],
+				description: "At the start of each of the target’s turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target.",
 			},
 		],
 		traits: [{
@@ -5624,10 +5485,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +8, Athletics +5, Persuasion +6",
 		senses: "",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "any one language (usually Common)",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -5675,12 +5535,11 @@ var VGtM = {
 		scores: [18, 13, 20, 9, 9, 9],
 		saves: ["", "", "", "", "", ""],
 		skills: "Intimidation +2, Perception +2",
-		damage_resistances: "Fire, Poison",
+		damage_resistances: "fire, poison",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Abyssal, Common, Orc",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5727,12 +5586,11 @@ var VGtM = {
 		scores: [13, 12, 13, 2, 10, 6],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +3",
-		damage_resistances: "Lightning, piercing",
+		damage_resistances: "lightning, piercing",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5746,7 +5604,7 @@ var VGtM = {
 				description: "The thorny has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
 			}, {
 				name: "Regeneration",
-				description: "The thorny regains 5 hit points at the start of its turn. If it takes Cold, Fire, or Necrotic damage, this trait doesn’t function at the start of the thorny’s next turn. The thorny dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+				description: "The thorny regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the thorny’s next turn. The thorny dies only if it starts its turn with 0 hit points and doesn’t regenerate."
 			},
 		],
 	},
@@ -5764,16 +5622,15 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +4, Survival +4",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Tlincalli",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 8 (1d10+3) slashing damage if used with two hands.",
+				description: "Two-Handed: 8 (1d10+3) slashing damage.",
 			}, {
 				name: "Spiked Chain",
 				ability: 1,
@@ -5787,7 +5644,7 @@ var VGtM = {
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
 				dc: [14, "Con"],
-				description: "Plus 14 (4d6) Poison damage, and the target must succeed on a DC 14 Constitution saving throw or be Poisoned for 1 minute. If it fails the saving throw by 5 or more, the target is also Paralyzed while Poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Plus 14 (4d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. If it fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			},
 		],
 		actions: [{
@@ -5810,21 +5667,27 @@ var VGtM = {
 		saves: ["", "", "", 6, 4, ""],
 		skills: "Arcana +6, History +6",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any four languages",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 3 (1d8-1) bludgeoning damage if used with two hands.",
+				description: "Two-Handed: 3 (1d8-1) bludgeoning damage.",
 			},
 		],
 		traits: [{
 				name: "Transmuter's Stone",
-				description: ["The transmuter carries a magic stone it crafted that grants its bearer one of the following effects:", "", "Darkvision out to a range of 60 feet", "", "An extra 10 feet of speed while the bearer is unencumbered", "", "Proficiency with Constitution saving throws", "", "Resistance to Acid, Cold, Fire, Lightning, or Thunder damage (transmuter’s choice whenever the transmuter chooses this benefit)", "", "If the transmuter has the stone and casts a transmutation spell of 1st level or higher, it can change the effect of the stone."]
+				description: [
+					"The transmuter carries a magic stone it crafted that grants its bearer one of the following effects:",
+					"Darkvision out to a range of 60 feet",
+					"An extra 10 feet of speed while the bearer is unencumbered",
+					"Proficiency with Constitution saving throws",
+					"Resistance to acid, cold, fire, lightning, or Thunder damage (transmuter’s choice whenever the transmuter chooses this benefit)",
+					"If the transmuter has the stone and casts a transmutation spell of 1st level or higher, it can change the effect of the stone."
+				]
 			},
 		],
 		spells: [
@@ -5832,7 +5695,7 @@ var VGtM = {
 			"Cantrips (at will): light, mending, prestidigitation, ray of frost ",
 			"1st level (4 slots): chromatic orb, expeditious retreat*, mage armor",
 			"2nd level (3 slots): alter self*, hold person, knock* ",
-			"3rd level (3 slots): blink*, Fireball, slow*",
+			"3rd level (3 slots): blink*, fireball, slow*",
 			"4th level (3 slots): polymorph*, stoneskin ",
 			"5th level (1 slot): telekinesis*",
 			"*Transmutation spell of 1st level or higher"
@@ -5852,13 +5715,12 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +2",
 		senses: "blindsight 30 ft, darkvision 60 ft",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		actions: [{
 				name: "Smother",
-				description: "One Large or smaller creature within 5 feet of the trapper must succeed on a DC 14 Dexterity saving throw or be grappled (escape DC 14). Until the grapple ends, the target takes 17 (4d6+3) bludgeoning damage plus 3 (1d6) Acid damage at the start of each of its turns. While grappled in this way, the target is restrained, blinded, and at risk of suffocating. The trapper can smother only one creature at a time.",
+				description: "One Large or smaller creature within 5 feet of the trapper must succeed on a DC 14 Dexterity saving throw or be grappled (escape DC 14). Until the grapple ends, the target takes 17 (4d6+3) bludgeoning damage plus 3 (1d6) acid damage at the start of each of its turns. While grappled in this way, the target is restrained, blinded, and at risk of suffocating. The trapper can smother only one creature at a time.",
 			},
 		],
 		traits: [{
@@ -5884,10 +5746,9 @@ var VGtM = {
 		saves: ["", "", "", 9, 8, 9],
 		skills: "Arcana +9, Insight +8, Perception +8, Stealth +5",
 		senses: "darkvision 120 ft",
-		passivePerception: 18,
+		passive_perception: 18,
 		languages: "Deep Speech, Undercommon, telepathy 2 miles",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Tentacles",
 				ability: 1,
@@ -5938,21 +5799,19 @@ var VGtM = {
 		speed: "5 ft, fly 40 ft",
 		scores: [6, 14, 14, 4, 7, 2],
 		saves: ["", "", "", "", "", ""],
-
-		damage_resistances: "Cold, Fire, Lightning",
-		damage_immunities: "Poison",
+		damage_resistances: "cold, fire, lightning",
+		damage_immunities: "poison",
 		condition_immunities: "Poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: 8,
+		passive_perception: 8,
 		languages: "understands Abyssal, Infernal, and any languages it knew before becoming a vargouille but can't speak",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
 				damage: [3, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Plus 10 (3d6) Poison damage.",
+				description: "Plus 10 (3d6) poison damage.",
 			},
 		],
 		actions: [{
@@ -5960,7 +5819,7 @@ var VGtM = {
 				description: "The vargouille kisses one incapacitated humanoid within 5 feet of it. The target must succeed on a DC 12 Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn’t advance while the target is in sunlight or the area of a daylight spell; don’t count that time. When the cursed target’s Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting remove curse, greater restoration, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse."
 			}, {
 				name: "Stunning Shriek",
-				description: "The vargouille shrieks. Each humanoid and beast within 30 feet of the vargouille and able to hear it must succeed on a DC 12 Wisdom saving throw or be Frightened until the end of the vargouille’s next turn. While Frightened in this way, a target is stunned. If a target’s saving throw is successful or the effect ends for ft, the target is immune to the Stunning Shriek of all vargouilles for 1 hour."
+				description: "The vargouille shrieks. Each humanoid and beast within 30 feet of the vargouille and able to hear it must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the vargouille’s next turn. While frightened in this way, a target is stunned. If a target’s saving throw is successful or the effect ends for ft, the target is immune to the Stunning Shriek of all vargouilles for 1 hour."
 			},
 		],
 	},
@@ -5977,12 +5836,11 @@ var VGtM = {
 		scores: [7, 14, 13, 6, 11, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2, Stealth +4",
-		damage_resistances: "Lightning, piercing",
+		damage_resistances: "lightning, piercing",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Vegepygmy",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Claws ",
 				ability: 2,
@@ -6002,7 +5860,7 @@ var VGtM = {
 				description: "The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
 			}, {
 				name: "Regeneration",
-				description: "The vegepygmy regains 3 hit points at the start of its turn. If it takes Cold, Fire, or Necrotic damage, this trait doesn’t function at the start of the vegepygmy’s next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+				description: "The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the vegepygmy’s next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn’t regenerate."
 			},
 		],
 	},
@@ -6019,12 +5877,11 @@ var VGtM = {
 		scores: [14, 14, 14, 7, 12, 9],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +4",
-		damage_resistances: "Lightning, piercing",
+		damage_resistances: "lightning, piercing",
 		senses: "darkvision 60 ft",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "Vegepygmy",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -6036,7 +5893,7 @@ var VGtM = {
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Or 6 (id8+2) piercing damage if used with two hands.",
+				description: "Two-Handed: 6 (id8+2) piercing damage.",
 			}, {
 				name: "Spear (Ranged)",
 				ability: 1,
@@ -6050,7 +5907,7 @@ var VGtM = {
 				description: "The vegepygmy makes two attacks with its claws or two melee attacks with its spear."
 			}, {
 				name: "Spores (1/Day)",
-				description: "A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn’t a plant must succeed on a DC 12 Constitution saving throw or be Poisoned. While Poisoned in this way, a target takes 9 (2d8) Poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn’t a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			},
 		],
 	},
@@ -6068,10 +5925,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -6111,10 +5967,9 @@ var VGtM = {
 		saves: ["", "", 6, "", 7, ""],
 		skills: "Intimidation +5, Religion +4",
 		senses: "",
-		passivePerception: 13,
+		passive_perception: 13,
 		languages: "any two languages",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Maul",
 				ability: 1,
@@ -6158,10 +6013,9 @@ var VGtM = {
 		skills: "Arcana +2, Deception +6, Nature +2, Persuasion +6",
 		condition_immunities: "charmed",
 		senses: "",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any two languages (usually Sylvan)",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -6193,7 +6047,7 @@ var VGtM = {
 		spells: [
 			"The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
 			"Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery",
-			"1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie Fire, fear, hold monster, misty step, phantasmal force, seeming, sleep"
+			"1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep"
 		],
 	},
 	"Warlock of the Fiend": {
@@ -6211,16 +6065,15 @@ var VGtM = {
 		skills: "Arcana +4, Deception +7, Persuasion +7, Religion +4",
 		damage_resistances: "slashing damage from nonmagical attacks not made with silvered weapons",
 		senses: "darkvision 60 ft",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any two languages (usually Abyssal or Infernal)",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Mace",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 10 (3d6) Fire damage.",
+				description: "Plus 10 (3d6) fire damage.",
 			},
 		],
 		traits: [{
@@ -6237,8 +6090,8 @@ var VGtM = {
 		],
 		spells: [
 			"The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-			"Cantrips (at will): eldritch blast, Fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp",
-			"1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of Fire"
+			"Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp",
+			"1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire"
 		],
 	},
 	"Warlock of the Great Old One": {
@@ -6256,10 +6109,9 @@ var VGtM = {
 		skills: "Arcana +4, History +4",
 		damage_resistances: "psychic",
 		senses: "darkvision 60 ft",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "any two languages, telepathy 30 ft",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Dagger",
 				ability: 2,
@@ -6306,10 +6158,9 @@ var VGtM = {
 		saves: [9, 7, 8, "", "", ""],
 		skills: "Athletics +9, Intimidation +8, Perception +5, Persuasion +8",
 		senses: "",
-		passivePerception: 15,
+		passive_perception: 15,
 		languages: "any two languages",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 				name: "Greatsword",
 				ability: 1,
@@ -6348,7 +6199,7 @@ var VGtM = {
 				description: "The warlord targets one ally it can see within 30 feet of it. if the target can see and hear the warlord, the target can make one weapon attack as a reaction and gains advantage on the attack roll."
 			}, {
 				name: "Frighten Foe (Costs 2 Actions)",
-				description: "The warlord targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a DC 16 Wisdom saving throw or be Frightened until the end of warlord’s next turn."
+				description: "The warlord targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a DC 16 Wisdom saving throw or be frightened until the end of warlord’s next turn."
 			},
 		],
 	},
@@ -6365,12 +6216,11 @@ var VGtM = {
 		scores: [16, 11, 16, 4, 10, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
-		damage_resistances: "Cold",
+		damage_resistances: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -6405,13 +6255,12 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +7, Perception +4, Stealth +4",
 		damage_resistances: "bludgeoning, piercing",
-		damage_vulnerabilities: "Fire",
-		condition_immunities: "charmed, Frightened",
+		damage_vulnerabilities: "fire",
+		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: 14,
+		passive_perception: 14,
 		languages: "Sylvan",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Club",
 				ability: 1,
@@ -6428,7 +6277,7 @@ var VGtM = {
 				description: "The wood woad has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
 			}, {
 				name: "Regeneration",
-				description: "The wood woad regains 10 hit points at the start of its turn if it is in contact with the ground. If the wood woad takes Fire damage, this trait doesn’t function at the start of the wood woad’s next turn. The wood woad dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+				description: "The wood woad regains 10 hit points at the start of its turn if it is in contact with the ground. If the wood woad takes fire damage, this trait doesn’t function at the start of the wood woad’s next turn. The wood woad dies only if it starts its turn with 0 hit points and doesn’t regenerate."
 			}, {
 				name: "Tree Stride",
 				description: "Once on each of its turns, the wood woad can use 10 feet of its movement to step magically into one living tree within 5 feet of it and emerge from a second living tree within 60 feet of it that it can see, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
@@ -6454,10 +6303,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +4",
 		senses: "darkvision 30 ft",
-		passivePerception: 8,
+		passive_perception: 8,
 		languages: "Abyssal",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -6498,10 +6346,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +4",
 		senses: "darkvision 30 ft",
-		passivePerception: 8,
+		passive_perception: 8,
 		languages: "Abyssal plus one other language, usually Common or Goblin",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 				name: "Unarmed Strike",
 				ability: 1,
@@ -6525,10 +6372,9 @@ var VGtM = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +3",
 		senses: "darkvision 30 ft",
-		passivePerception: 10,
+		passive_perception: 10,
 		languages: "Abyssal",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -6556,7 +6402,7 @@ var VGtM = {
 		],
 		spells: [
 			"The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC ll, +3 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-			"Cantrips (at will): eldritch blast, mage hand, minor illusion, Poison spray, prestidigitation",
+			"Cantrips (at will): eldritch blast, mage hand, minor illusion, poison spray, prestidigitation",
 			"1st-2nd level (2 2nd-level slots): burning hands, expeditious retreat, invisibility, scorching ray"
 		],
 	},
@@ -6572,20 +6418,18 @@ var VGtM = {
 		speed: "40 ft, fly 40 ft (hover)",
 		scores: [18, 17, 16, 5, 12, 7],
 		saves: ["", "", "", "", "", ""],
-
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
-		condition_immunities: "charmed, Exhaustion, Frightened",
+		condition_immunities: "charmed, exhaustion, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "understands Common, Elvish, and Sylvan but can't speak",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
 				damage: [2, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Plus 14 (4d6) psychic damage if the target is Frightened.",
+				description: "Plus 14 (4d6) psychic damage if the target is frightened.",
 			},
 		],
 		traits: [{
@@ -6601,7 +6445,7 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Baleful Baying",
-				description: "The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a DC 13 Wisdom saving throw or be Frightened until the end of the hound’s next turn or until the hound is incapacitated. A Frightened target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours."
+				description: "The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened until the end of the hound’s next turn or until the hound is incapacitated. A frightened target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours."
 			},
 		],
 	},
@@ -6618,14 +6462,13 @@ var VGtM = {
 		scores: [23, 13, 19, 19, 17, 20],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +7, Stealth +5",
-		damage_resistances: "Acid, Fire, Lightning",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_resistances: "acid, fire, lightning",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: 17,
+		passive_perception: 17,
 		languages: "Abyssal, Common, Draconic",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 				name: "Claw (Anathema Form Only)",
 				ability: 1,
@@ -6638,13 +6481,13 @@ var VGtM = {
 				damage: [3, 6, "bludgeoning"],
 				range: "Melee (15 ft)",
 				dc: [16, "Escape"],
-				description: "Plus 7 (2d6) Acid damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained and takes 16 (3d6+6) bludgeoning damage plus 7 (2d6) Acid damage at the start of each of its turns, and the anathema can’t constrict another target.",
+				description: "Plus 7 (2d6) acid damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained and takes 16 (3d6+6) bludgeoning damage plus 7 (2d6) acid damage at the start of each of its turns, and the anathema can’t constrict another target.",
 			}, {
 				name: "Flurry of Bites",
 				ability: 1,
 				damage: [6, 6, "piercing"],
 				range: "Melee (10 ft)",
-				description: "Plus 14 (4d6) Poison damage.",
+				description: "Plus 14 (4d6) poison damage.",
 			},
 		],
 		traits: [{
@@ -6660,16 +6503,16 @@ var VGtM = {
 				description: "The anathema has advantage on saving throws against spells and other magical effects."
 			}, {
 				name: "Ophidiophobia Aura",
-				description: "Any creature of the anathema’s choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema and can see or hear it must succeed on a DC 17 Wisdom saving throw or become Frightened of snakes and yuan-ti. A Frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target’s saving throw is successful or the effect ends for it, the target is immune to this aura for the next 24 hours."
+				description: "Any creature of the anathema’s choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema and can see or hear it must succeed on a DC 17 Wisdom saving throw or become frightened of snakes and yuan-ti. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target’s saving throw is successful or the effect ends for it, the target is immune to this aura for the next 24 hours."
 			}, {
 				name: "Shapechanger",
 				description: "The anathema can use its action to polymorph into a Huge giant constrictor snake, or back into its true form. its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed."
 			}, {
 				name: "Six Heads",
-				description: "The anathema has advantage on Wisdom (Perception) checks and on saving throws against being blinded. charmed, deafened, Frightened, stunned, or knocked unconscious."
+				description: "The anathema has advantage on Wisdom (Perception) checks and on saving throws against being blinded. charmed, deafened, frightened, stunned, or knocked unconscious."
 			}, {
 				name: "Variant: Acid Slime",
-				description: "As a bonus action, the yuan-ti can coat its body in a slimy Acid that lasts for 1 minute. A creature that touches the yuan-ti, hits it with a melee attack while within 5 feet of it, or is hit by its constrict attack takes 5 (1d10) Acid damage."
+				description: "As a bonus action, the yuan-ti can coat its body in a slimy acid that lasts for 1 minute. A creature that touches the yuan-ti, hits it with a melee attack while within 5 feet of it, or is hit by its constrict attack takes 5 (1d10) acid damage."
 			}, {
 				name: "Variant: Chameleon Skin",
 				description: "The yuan-ti has advantage on Dexterity (Stealth) checks made to hide."
@@ -6681,7 +6524,6 @@ var VGtM = {
 		actions: [{
 				name: "Multiattack (Anathema Form Only)",
 				description: "The anathema makes two claw attacks, one constrict attack, and one Flurry of Bites attack."
-
 			},
 		],
 	},
@@ -6698,13 +6540,12 @@ var VGtM = {
 		scores: [15, 14, 14, 6, 11, 4],
 		saves: [4, 4, "", "", 2, ""],
 		skills: "Perception +2",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Abyssal, Common, Draconic",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -6752,19 +6593,18 @@ var VGtM = {
 		scores: [16, 14, 13, 14, 12, 16],
 		saves: ["", "", "", "", 4, 5],
 		skills: "Deception +5, Stealth +4",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft (penetrates magical darkness)",
-		passivePerception: 12,
+		passive_perception: 12,
 		languages: "Abyssal, Common, Draconic",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
 				damage: [1, 4, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Plus 7 (2d6) Poison damage.",
+				description: "Plus 7 (2d6) poison damage.",
 			}, {
 				name: "Scimitar (Yuan-ti Form Only)",
 				ability: 1,
@@ -6793,7 +6633,7 @@ var VGtM = {
 				name: "Spellcasting (Yuan-ti Form Only)",
 				description: [
 					"The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-					"Cantrips (at will): eldritch blast (range 300 ft, +3 bonus to each damage roll),friends, message, minor illusion, Poison spray, prestidigitation",
+					"Cantrips (at will): eldritch blast (range 300 ft, +3 bonus to each damage roll),friends, message, minor illusion, poison spray, prestidigitation",
 					"1st-3rd level (2 3rd-level slots): charm person, crown of madness, detect thoughts, expeditious retreat, fly, hypnotic pattern, illusory script"
 				]
 			}, {
@@ -6826,13 +6666,12 @@ var VGtM = {
 		scores: [16, 14, 13, 14, 12, 16],
 		saves: ["", "", "", "", 3, 5],
 		skills: "Deception +5, Stealth +4",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft (penetrates magical darkness)",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "Abyssal, Common, Draconic",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Constrict",
 				ability: 1,
@@ -6853,7 +6692,7 @@ var VGtM = {
 				description: "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. If it dies, it stays in its current form."
 			}, {
 				name: "Death Fangs (2/Day)",
-				description: "The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) Necrotic damage to the target.",
+				description: "The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) necrotic damage to the target.",
 			}, {
 				name: "Innate Spellcasting (Yuan-ti Form Only)",
 				description: [
@@ -6867,7 +6706,7 @@ var VGtM = {
 				name: "Spellcasting (Yuan-ti Form Only)",
 				description: [
 					"The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-					"Cantrip (at will): chill touch, eldritch blast (range 300 ft, +3 bonus to each damage roll), mage hand, message, Poison spray, prestidigitation",
+					"Cantrip (at will): chill touch, eldritch blast (range 300 ft, +3 bonus to each damage roll), mage hand, message, poison spray, prestidigitation",
 					"1st-3rd level (2 3rd-level slots): arms of Hadar, darkness, fear, hex, hold person, hunger of Hadar, witch bolt"
 				]
 			}, {
@@ -6883,7 +6722,7 @@ var VGtM = {
 				description: "The yuan-ti makes one constrict attack and one scimitar attack."
 			}, {
 				name: "Invoke Nightmare (Recharges after a Short or Long Rest)",
-				description: "The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature’s deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is Frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can’t be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure.",
+				description: "The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature’s deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can’t be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure.",
 			},
 		],
 	},
@@ -6900,19 +6739,18 @@ var VGtM = {
 		scores: [16, 14, 13, 14, 12, 16],
 		saves: ["", "", "", "", 3, 5],
 		skills: "Deception +5, Stealth +4",
-		damage_immunities: "Poison",
-		condition_immunities: "Poisoned",
+		damage_immunities: "poison",
+		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft (penetrates magical darkness)",
-		passivePerception: 11,
+		passive_perception: 11,
 		languages: "Abyssal, Common, Draconic",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
 				damage: [1, 4, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Plus 7 (2d6) Poison damage.",
+				description: "Plus 7 (2d6) poison damage.",
 			},
 		],
 		traits: [{
@@ -6922,19 +6760,20 @@ var VGtM = {
 				name: "Innate Spellcasting (Yuan-ti Form Only)",
 				description: [
 					"The yuan-ti’s innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
-					"At will: animal friendship (snakes only) 3/day: suggestion"
+					"At will: animal friendship (snakes only)",
+					"3/day: suggestion"
 				]
 			}, {
 				name: "Magic Resistance",
 				description: "The yuan-ti has advantage on saving throws against spells and other magical effects."
 			}, {
 				name: "Poison’s Disciple (2/Day)",
-				description: "The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) Poison damage to the target.",
+				description: "The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) poison damage to the target.",
 			}, {
 				name: "Spellcasting (Yuan-ti Farm Only)",
 				description: [
 					"The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-					"Cantrips (at will): eldritch blast (range 300 ft, +3 bonus to each damage roll), friends, guidance, mage hand, message, Poison spray",
+					"Cantrips (at will): eldritch blast (range 300 ft, +3 bonus to each damage roll), friends, guidance, mage hand, message, poison spray",
 					"1st-3rd level (2 3rd-level slots): command, counterspell, hellish rebuke, invisibility, misty step, unseen servant, vampiric touch"
 				]
 			}, {

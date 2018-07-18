@@ -17,17 +17,16 @@ var ToA = {
 		damage_immunities: "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
 		senses: "truesight 120 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon",
-		challengeRating: "23",
-		proficiencyBonus: 7,
+		challenge_rating: "23",
 		attacks: [{
 				name: "Staff (+3 Quarterstaff)",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
 				modifiers: [3, 3, true],
-				description: "Plus 10 (3d6) necrotic damage. 8 (1d8+4) bludgeoning damage plus 10 (3d6) necrotic damage when used with two hands.",
+				description: "Plus 10 (3d6) necrotic damage; Two-Handed: 8 (1d8+4) bludgeoning damage.",
 			}, {
 				name: "Paralyzing Touch",
 				ability: 1,
@@ -105,10 +104,9 @@ var ToA = {
 		skills: "Perception +4, Stealth +3, Survival +4",
 		damage_resistances: "poison",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Dwarvish",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Handaxe (Melee)",
 				ability: 1,
@@ -150,10 +148,9 @@ var ToA = {
 		skills: "Perception +4, Stealth +3, Survival +4",
 		damage_resistances: "poison",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Dwarvish",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Handaxe (Melee)",
 				ability: 1,
@@ -188,10 +185,9 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Survival +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -223,9 +219,8 @@ var ToA = {
 		speed: "50 ft",
 		scores: [2, 16, 10, 2, 14, 10],
 		saves: ["", "", "", "", "", ""],
-		passivePerception: "12",
-		challengeRating: "0",
-		proficiencyBonus: 2,
+		passive_perception: "12",
+		challenge_rating: "0",
 		attacks: [{
 				name: "Horn",
 				ability: 2,
@@ -255,9 +250,8 @@ var ToA = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		passive_perception: "8",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Tail",
 				ability: 1,
@@ -268,7 +262,7 @@ var ToA = {
 		],
 		traits: [{
 				name: "Undead Fortitude",
-				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
 			}
 		],
 	},
@@ -286,10 +280,9 @@ var ToA = {
 		saves: ["", "5", "", "", "", "7"],
 		skills: "Deception +7, History +9, Insight +6, Survival +9",
 		damage_immunities: "cold (while wearing the Ring of Winter)",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic, Dwarvish, Goblin",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Bookmark (+3 Dagger)",
 				ability: 2,
@@ -346,9 +339,8 @@ var ToA = {
 		damage_resistances: "cold, fire",
 		condition_immunities: "blinded, deafened, exhaustion, prone",
 		senses: "blindsight 30 ft",
-		passivePerception: "10",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		passive_perception: "10",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Constrict",
 				ability: 1,
@@ -384,10 +376,9 @@ var ToA = {
 		damage_immunities: "cold, necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
 		condition_immunities: "exhaustion, frightened, paralyzed, poisoned, prone",
 		senses: "darkvision 120 ft, truesight 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands Celestial but utters only obscene nonsense",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 				name: "Touch",
 				ability: 1,
@@ -453,9 +444,8 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +7, Perception +7, Stealth +7",
 		senses: "blindsight 60 ft",
-		passivePerception: "17",
-		challengeRating: "0",
-		proficiencyBonus: 2,
+		passive_perception: "17",
+		challenge_rating: "0",
 		attacks: [{
 				name: "Unarmed Strike",
 				ability: 1,
@@ -497,17 +487,16 @@ var ToA = {
 		scores: [15, 13, 17, 14, 16, 18],
 		saves: ["", "", "", "", "6", "7"],
 		skills: "Athletics +5, Medicine +6",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "understands Common but can’t speak",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Holy Avenger (+3 Longsword)",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
 				modifiers: [3, 3, true],
-				description: "Or 10 (1d10 + 5) slashing damage when used with two hands. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage.",
+				description: "Two-Handed: 10 (1d10+5) slashing damage. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage.",
 			},
 		],
 		traits: [{
@@ -540,10 +529,9 @@ var ToA = {
 		scores: [11, 16, 12, 12, 14, 11],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Auran, Common",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Beak",
 				ability: 2,
@@ -578,9 +566,8 @@ var ToA = {
 		speed: "20 ft ., climb 20 ft , fly 30 ft",
 		scores: [8, 14, 11, 5, 12, 6],
 		saves: ["", "", "", "", "", ""],
-		passivePerception: "11",
-		challengeRating: "0",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "0",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -612,10 +599,9 @@ var ToA = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Terran",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -654,9 +640,8 @@ var ToA = {
 		scores: [19, 10, 14, 2, 12, 5],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -692,9 +677,8 @@ var ToA = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		passive_perception: "8",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -717,7 +701,7 @@ var ToA = {
 				description: "As a bonus action, the zombie can move up to its speed toward a hostile creature that it can see."
 			}, {
 				name: "Undead Fortitude",
-				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
 			}
 		],
 		actions: [{
@@ -740,9 +724,8 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +4, Perception +1, Stealth +4",
 		senses: "blindsight 30 ft",
-		passivePerception: "11",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -778,9 +761,8 @@ var ToA = {
 		scores: [16, 16, 14, 3, 14, 10],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +7",
-		passivePerception: "14",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		passive_perception: "14",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -807,7 +789,6 @@ var ToA = {
 			}, {
 				name: "Pounce",
 				description: "If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the kamadan can make two attacks — one with its bite and one with its snakes — against it as a bonus action.",
-
 			}
 		],
 		actions: [{
@@ -832,16 +813,15 @@ var ToA = {
 		scores: [16, 12, 15, 14, 14, 16],
 		saves: ["", "", "4", "", "4", ""],
 		skills: "Athletics +5, Deception +5, Insight +4, Intimidation +5",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Draconic, Dwarvish",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Battleaxe",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 8 (1d10 + 3) slashing damage when used with two hands.",
+				description: "Two-Handed: 8 (1d10+3) slashing damage.",
 			}, {
 				name: "Heavy Crossbow",
 				ability: 2,
@@ -878,9 +858,8 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "blinded, deafened, exhaustion, prone",
 		senses: "tremorsense 30 ft",
-		passivePerception: "10",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		passive_perception: "10",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Engulf",
 				ability: 2,
@@ -912,10 +891,9 @@ var ToA = {
 		scores: [6, 10, 11, 13, 12, 16],
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +5, Nature +3, Persuasion +5, Religion +3",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Auran, Common, telepathy 30 ft",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -949,10 +927,9 @@ var ToA = {
 		scores: [15, 13, 12, 9, 10, 11],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2, Survival +2",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -1006,10 +983,9 @@ var ToA = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Abyssal, Common, Draconic",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Bite (Snake Form Only)",
 				ability: 2,
@@ -1027,7 +1003,7 @@ var ToA = {
 				ability: 2,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 7 (2d6) fire damage; Yuan-ti Form Only; Or 8 (1d10+3) slashing damage when used with two hands",
+				description: "Plus 7 (2d6) fire damage; Yuan-ti Form Only; Two-Handed: 8 (1d10+3) slashing damage.",
 			},
 		],
 		traits: [{
@@ -1082,9 +1058,8 @@ var ToA = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with adamantine weapons",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
 		senses: "blindsight 120 ft",
-		passivePerception: "10",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		passive_perception: "10",
+		challenge_rating: "12",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -1121,9 +1096,8 @@ var ToA = {
 		scores: [14, 15, 12, 9, 13, 9],
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +6, Perception +3",
-		passivePerception: "13",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		passive_perception: "13",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -1135,7 +1109,7 @@ var ToA = {
 				ability: 1,
 				damage: [2, 4, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 12 (4d4 + 2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free.",
+				description: "Or 12 (4d4+2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free.",
 			},
 		],
 		actions: [{
@@ -1144,7 +1118,6 @@ var ToA = {
 			}, {
 				name: "Psychic Crush (Recharge 5-6)",
 				description: "The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-
 			}
 		]
 	},
@@ -1162,10 +1135,9 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +2, Perception +4, Stealth +5, Survival +6",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common plus any one language",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -1211,10 +1183,9 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Performance +7, Persuasion +5, Stealth +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common plus any two languages",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -1257,9 +1228,8 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "blinded, deafened, exhaustion, prone",
 		senses: "blindsight 30 ft",
-		passivePerception: "10",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		passive_perception: "10",
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Red Blossom",
 				ability: 2,
@@ -1295,9 +1265,8 @@ var ToA = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "6",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		passive_perception: "6",
+		challenge_rating: "8",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -1317,7 +1286,7 @@ var ToA = {
 				description: "As a bonus action, the tyrannosaurus zombie can disgorge a normal zombie, which appears in an unoccupied space within 10 feet of it. The disgorged zombie acts on its own initiative count. After a zombie is disgorged, roll a d6. On a roll of 1, the tyrannosaurus zombie runs out of zombies to disgorge and loses this trait. If the tyrannosaurus zombie still has this trait when it dies, 1d4 normal zombies erupt from its corpse at the start of its next turn. These zombies act on their own initiative count."
 			}, {
 				name: "Undead Fortitude",
-				description: "If damage reduces the tyrannosaurus zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+				description: "If damage reduces the tyrannosaurus zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
 			}
 		],
 		actions: [{
@@ -1339,10 +1308,9 @@ var ToA = {
 		scores: [9, 12, 10, 15, 11, 16],
 		saves: ["", "", "2", "", "2", ""],
 		skills: "Animal Handling +4, Arcana +4, Deception +5, History +4, Insight +2, Investigation +4, Perception +2, Performance +7, Persuasion +7, Sleight of Hand +3, Survival +2",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Dwarvish, Elvish",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -1376,16 +1344,15 @@ var ToA = {
 		scores: [10, 11, 14, 18, 16, 18],
 		saves: ["", "", "", "7", "6", ""],
 		skills: "Arcana +7, Deception +10, History +7, Insight +6, Survival +6",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic, Dwarvish, Elvish, Halfling",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 4 (1d8) bludgeoning damage when used with two hands.",
+				description: "Two-Handed: 4 (1d8) bludgeoning damage.",
 			},
 		],
 		traits: [{
@@ -1417,9 +1384,8 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "blinded, deafened, exhaustion, prone",
 		senses: "blindsight 30 ft",
-		passivePerception: "10",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		passive_perception: "10",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Touch",
 				ability: 1,
@@ -1440,7 +1406,6 @@ var ToA = {
 		actions: [{
 				name: "Yellow Musk (3/Day)",
 				description: "The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target must succeed on a DC 11 Wisdom saving throw or be charmed by the creeper for 1 minute. A creature charmed in this way does nothing on its turn except move as close as it can to the creeper. A creature charmed by the creeper can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-
 			}
 		]
 	},
@@ -1458,9 +1423,8 @@ var ToA = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "charmed, exhaustion",
 		senses: "blindsight 30 ft",
-		passivePerception: "8",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		passive_perception: "8",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -1471,7 +1435,7 @@ var ToA = {
 		],
 		traits: [{
 				name: "Undead Fortitude",
-				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is fire or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is fire or from a critical hit. On a success, the zombie drops to 1 hit point instead."
 			}
 		],
 	},
@@ -1490,16 +1454,15 @@ var ToA = {
 		skills: "Arcana +6, History +9, Insight +5, Investigation +9",
 		damage_resistances: "fire",
 		senses: "blindsight 10 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Draconic, Dwarvish, Primordial",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 6 (1d8+2) bludgeoning damage when used with two hands.",
+				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
 			},
 		],
 		traits: [{
@@ -1541,9 +1504,8 @@ var ToA = {
 		scores: [13, 11, 13, 3, 12, 7],
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +3",
-		passivePerception: "11",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Destructive Claws",
 				ability: 1,
@@ -1561,4 +1523,4 @@ var ToA = {
 			}
 		],
 	}
-}
+};

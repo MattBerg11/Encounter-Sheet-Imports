@@ -15,10 +15,9 @@ var ToD = {
 		skills: "Perception +4, Stealth +4",
 		damage_resistances: "poison",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -42,17 +41,16 @@ var ToD = {
 		size: "Medium",
 		type: "humanoid (human)",
 		alignment: "lawful evil",
-		ac: [13, , "", false],
+		ac: [13, "", false],
 		hp: 39,
 		hd: [6, 8],
 		speed: "30 ft",
 		scores: [9, 16, 14, 16, 13, 11],
 		saves: ["", "", "", "5", "3", ""],
 		skills: "Arcana +5, Deception +2, Insight +3, Stealth +5",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic, Infernal, Primordial, Thayan",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Dagger (Melee)",
 				ability: 2,
@@ -85,7 +83,6 @@ var ToD = {
 			"2nd level (3 slots): invisibility, misty step, scorching ray",
 			"3rd level (3 slots): counterspell, dispel magic, fireball"
 		]
-
 	},
 	"Blagothkus": {
 		name: "Blagothkus",
@@ -100,10 +97,9 @@ var ToD = {
 		scores: [26, 13, 20, 16, 15, 15],
 		saves: ["", "", "9", "", "6", "6"],
 		skills: "Arcana +7, Insight +6, Intimidation +6, Perception +6",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Draconic, Giant",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Morningstar",
 				ability: 1,
@@ -135,7 +131,6 @@ var ToD = {
 			"2nd level (3 slots): gust of wind, misty step, shatter",
 			"3rd level (2 slots): fly, lightning bolt"
 		]
-
 	},
 	"Captain Othelstan": {
 		name: "Captain Othelstan",
@@ -150,10 +145,9 @@ var ToD = {
 		scores: [19, 10, 16, 13, 14, 12],
 		saves: ["7", "", "6", "", "", ""],
 		skills: "Athletics +7, Intimidation +7, Perception +5, Religion +4",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Draconic, Giant",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Flail",
 				ability: 1,
@@ -201,10 +195,9 @@ var ToD = {
 		scores: [9, 16, 13, 11, 10, 12],
 		saves: ["", "", "", "", "2", ""],
 		skills: "Deception +3, Stealth +5",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Draconic",
-		challengeRating: "1",
-		proficiencyBonus: 1,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -244,10 +237,9 @@ var ToD = {
 		saves: ["", "", "", "", "3", ""],
 		skills: "Deception +4, Stealth +5",
 		damage_resistances: "one of the following: acid, cold, fire, lightning or poison",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic, Infernal",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -293,10 +285,9 @@ var ToD = {
 		saves: ["", "", "", "", "4", ""],
 		skills: "Deception +6, Stealth +7",
 		damage_resistances: "one of the following: acid, cold, fire, lightning or poison",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic, Infernal",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -332,7 +323,6 @@ var ToD = {
 			}
 		]
 	},
-
 	"Dragonwing": {
 		name: "Dragonwing",
 		source: ["Rise of Tiamat", 90],
@@ -347,10 +337,9 @@ var ToD = {
 		saves: ["", "", "", "", "2", ""],
 		skills: "Deception +3, Stealth +5",
 		damage_resistances: "one of the following: acid, cold, fire, lightning, or poison",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Draconic",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -393,10 +382,9 @@ var ToD = {
 		saves: ["6", "", "4", "", "", ""],
 		skills: "Arcana +5, Deception +1, Insight +2, Perception +2, Religion +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Bullywug, Draconic, Elvish, Goblin, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
@@ -439,7 +427,6 @@ var ToD = {
 			"1st level (4 slots): longstrider, magic missile, shield, thunderwave",
 			"2nd level (2 slots): magic weapon, misty step"
 		]
-
 	},
 	"Frulam Mondath": {
 		name: "Frulam Mondath",
@@ -454,10 +441,9 @@ var ToD = {
 		scores: [14, 10, 13, 11, 18, 15],
 		saves: ["", "", "", "", "6", "4"],
 		skills: "Deception +4, History +2, Religion +2",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Draconic, Infernal",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Halberd",
 				ability: 1,
@@ -478,7 +464,6 @@ var ToD = {
 			"2nd level (3 slots): calm emotions, hold person, spiritual weapon",
 			"3rd level (2 slots): mass healing word, spirit guardians"
 		]
-
 	},
 	"Guard Drake": {
 		name: "Guard Drake",
@@ -495,10 +480,9 @@ var ToD = {
 		skills: "Perception +2",
 		damage_resistances: "lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "understands Draconic but can't speak it",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -534,10 +518,9 @@ var ToD = {
 		skills: "Perception +2",
 		damage_immunities: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Ice Toad",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -558,7 +541,6 @@ var ToD = {
 			}
 		],
 	},
-
 	"Jamna Gleamsilver": {
 		name: "Jamna Gleamsilver",
 		source: ["Hoard of the Dragon Queen", 91],
@@ -573,10 +555,9 @@ var ToD = {
 		saves: ["", "5", "", "4", "", ""],
 		skills: "Acrobatics +5, Deception +3, Insight +2, Perception +4, Persuasion +3, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Gnomish, Goblin, Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 1,
+		challenge_rating: "1",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -603,7 +584,6 @@ var ToD = {
 			"Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost",
 			"1st level (3 slots): charm person, color spray, disguise self, longstrider"
 		]
-
 	},
 	"Langdedrosa Cyanwrath": {
 		name: "Langdedrosa Cyanwrath",
@@ -620,10 +600,9 @@ var ToD = {
 		skills: "Athletics +6, Intimidation +3, Perception +4",
 		damage_resistances: "lightning",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Draconic",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 				name: "Greatsword",
 				ability: 1,
@@ -678,10 +657,9 @@ var ToD = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Draconic",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 				name: "Life Drain",
 				ability: 1,
@@ -693,7 +671,7 @@ var ToD = {
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Or 10 (1d10+5) if used with two hands, plus 10 (3d6) necrotic damage.",
+				description: "Plus 10 (3d6) necrotic damage; Two-Handed: 10 (1d10+5) slashing damage.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -729,10 +707,9 @@ var ToD = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Draconic, Elvish, Infernal",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 				name: "Shortsword",
 				ability: 2,
@@ -765,7 +742,6 @@ var ToD = {
 			}
 		]
 	},
-
 	"Pharblex Spattergoo": {
 		name: "Pharblex Spattergoo",
 		source: ["Hoard of the Dragon Queen", 91],
@@ -779,10 +755,9 @@ var ToD = {
 		scores: [15, 12, 18, 11, 16, 7],
 		saves: ["4", "", "6", "", "", ""],
 		skills: "Perception +5, Religion +2, Stealth +3",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Bullywug",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -829,7 +804,6 @@ var ToD = {
 			"2nd level (3 slots): barkskin, beast sense, spike growth",
 			"3rd level (3 slots): plant growth, water walk"
 		]
-
 	},
 	"Rath Modar": {
 		name: "Rath Modar",
@@ -844,10 +818,9 @@ var ToD = {
 		scores: [11, 16, 14, 18, 14, 10],
 		saves: ["", "", "", "7", "5", ""],
 		skills: "Arcana +7, Deception +3, Insight +5, Stealth +6",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Draconic, Infernal, Primordial, Thayan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
@@ -876,7 +849,6 @@ var ToD = {
 			"5th level (2 slots): mislead, seeming",
 			"6th level (1 slot): globe of invulnerability"
 		]
-
 	},
 	"Rezmir": {
 		name: "Rezmir",
@@ -894,10 +866,9 @@ var ToD = {
 		damage_immunities: "acid",
 		condition_immunities: "charmed, frightened",
 		senses: "blindsight 10 ft, darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic, Infernal, Giant, Netherese",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 				name: "Greatsword (Hazirawn)",
 				ability: 1,
@@ -970,10 +941,9 @@ var ToD = {
 		damage_immunities: "While wearing the mask of the Dragon Queen: fire",
 		condition_immunities: "While wearing the mask of the Dragon Queen: charmed, frightened, poisoned",
 		senses: "While wearing the Mask of the Dragon Queen: darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic, Infernal",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 				name: "Burning Touch",
 				ability: 5,
@@ -1022,7 +992,6 @@ var ToD = {
 			}
 		]
 	},
-
 	"Talis the White": {
 		name: "Talis the White",
 		source: ["Hoard of the Dragon Queen", 93],
@@ -1037,10 +1006,9 @@ var ToD = {
 		saves: ["", "", "", "", "6", "6"],
 		skills: "Deception +6, Insight +6, Perception +6, Persuasion +6",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Draconic, Elvish, Infernal",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 				name: "Spear (Melee)",
 				ability: 1,
@@ -1075,7 +1043,6 @@ var ToD = {
 			"4th level (3 slots): death ward, freedom of movement",
 			"5th level (1 slot): insect plague"
 		]
-
 	},
 	"Thurl Merosska": {
 		name: "Thurl Merosska",
@@ -1090,10 +1057,9 @@ var ToD = {
 		scores: [16, 14, 14, 11, 10, 15],
 		saves: ["", "", "", "", "", ""],
 		skills: "Animal Handling +2, Athletics +5, Deception +4, Persuasion +4",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Auran, Common",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 				name: "Greatsword",
 				ability: 1,
@@ -1142,10 +1108,9 @@ var ToD = {
 		damage_immunities: "acid, cold, fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons",
 		condition_immunities: "blinded, charmed, deafened, frightened, poisoned, stunned",
 		senses: "darkvision 240 ft, truesight 120 ft",
-		passivePerception: "36",
+		passive_perception: "36",
 		languages: "Common, Draconic, Infernal",
-		challengeRating: "30",
-		proficiencyBonus: 9,
+		challenge_rating: "30",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -1216,4 +1181,4 @@ var ToD = {
 			}
 		],
 	},
-}
+};

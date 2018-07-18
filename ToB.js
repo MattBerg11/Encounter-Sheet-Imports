@@ -15,10 +15,9 @@ var ToB = {
 		skills: "Deception +12, Perception +7, Performance +12, Persuasion +12",
 		damage_immunities: "fire",
 		senses: "",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Draconic, Elven, Sylvan",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Slam",
 			ability: 2,
@@ -61,10 +60,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands an ancient language, but can't speak",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -106,10 +104,9 @@ var ToB = {
 		damage_immunities: "acid, poison, thunder",
 		condition_immunities: "poisoned",
 		senses: "blindsight 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Common, Darakhul, Draconic, Dwarvish, Goblin",
-		challengeRating: "16",
-		proficiencyBonus: 5,
+		challenge_rating: "16",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -214,10 +211,9 @@ var ToB = {
 		skills: "Deception +10, Insight +7, Perception +12, Persuasion +10, Stealth +7",
 		damage_immunities: "fire",
 		senses: "",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "Common, Draconic, Giant, Ignan, Infernal, Orc",
-		challengeRating: "16",
-		proficiencyBonus: 5,
+		challenge_rating: "16",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -292,10 +288,9 @@ var ToB = {
 		damage_immunities: "acid, thunder",
 		condition_immunities: "charmed",
 		senses: "blindsight 60 ft, darkvision 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Celestial, Common, Draconic, Primordial",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -350,7 +345,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Wing Attack (Costs 2 Actions)",
-			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 15 (2d6 +8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 15 (2d6+8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
 		}
 		],
 		spells: [
@@ -360,7 +355,6 @@ var ToB = {
 			"2nd level (3 slots): blur, hold person, see invisibility",
 			"3rd level (3 slots): haste, lightning bolt, protection from energy"
 		]
-
 	},
 	"Adult Rime Worm": {
 		name: "Adult Rime Worm",
@@ -376,10 +370,9 @@ var ToB = {
 		saves: ["8", "", "8", "", "", ""],
 		damage_immunities: "cold, necrotic",
 		senses: "darkvision 200 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Tendril",
 			ability: 1,
@@ -426,10 +419,9 @@ var ToB = {
 		skills: "Perception +12, Stealth +5",
 		damage_immunities: "cold",
 		senses: "",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "Common, Draconic",
-		challengeRating: "16",
-		proficiencyBonus: 5,
+		challenge_rating: "16",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -483,7 +475,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Wing Attack (Costs 2 Actions)",
-			description: "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 +7) bludgeoning damage and be knocked prone. The dragon can then move up to half its flying speed, or half its swim speed if in the water."
+			description: "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6+7) bludgeoning damage and be knocked prone. The dragon can then move up to half its flying speed, or half its swim speed if in the water."
 		}
 		]
 	},
@@ -503,10 +495,9 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "charmed, frightened",
 		senses: "",
-		passivePerception: "21",
+		passive_perception: "21",
 		languages: "Common, Draconic, Void Speech",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -552,7 +543,7 @@ var ToB = {
 			description: "The dragon exhales a 60-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 20 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively."
 		}, {
 			name: "Stellar Flare Breath",
-			description: "The dragon exhales star fire in a 60- foot cone. Each creature in that area must make a DC 20 Dexterity saving throw, taking 31 (9d6) fire damage and 31 (9d6) radiant damage on a failed save, or half as much damage on a successful one."
+			description: "The dragon exhales star fire in a 60-foot cone. Each creature in that area must make a DC 20 Dexterity saving throw, taking 31 (9d6) fire damage and 31 (9d6) radiant damage on a failed save, or half as much damage on a successful one."
 		}, {
 			name: "Teleport",
 			description: "The dragon magically teleports to any open space within 100 feet."
@@ -574,7 +565,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Void Slip (Costs 2 Actions)",
-			description: "The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 18 Dexterity saving throw or take 12 (2d6 +5) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet."
+			description: "The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 18 Dexterity saving throw or take 12 (2d6+5) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet."
 		}, {
 			name: "Void Cache (Costs 3 Actions)",
 			description: "The dragon can magically reach into its treasure hoard and retrieve one item. If it is holding an item, it can use this ability to deposit the item into its hoard."
@@ -597,10 +588,9 @@ var ToB = {
 		damage_immunities: "lightning",
 		condition_immunities: "charmed, exhausted, paralyzed, restrained",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "24",
+		passive_perception: "24",
 		languages: "Common, Draconic, Primordial",
-		challengeRating: "17",
-		proficiencyBonus: 6,
+		challenge_rating: "17",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -667,7 +657,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Wing Attack (Costs 2 Actions)",
-			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 14 (2d6 +7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 14 (2d6+7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
 		}
 		]
 	},
@@ -688,10 +678,9 @@ var ToB = {
 		damage_immunities: "cold, lightning, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft, truesight 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Abyssal, Common, Draconic, Elvish, Infernal; telepathy 60 ft",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -753,10 +742,9 @@ var ToB = {
 		saves: ["", "6", "", "", "7", "9"],
 		damage_immunities: "lightning, thunder",
 		senses: "darkvision 120 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Auran, Common, Ignan",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Scimitar",
 			ability: 1,
@@ -814,10 +802,9 @@ var ToB = {
 		damage_immunities: "lightning, poison, thunder",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Draconic",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -867,10 +854,9 @@ var ToB = {
 		skills: "Deception +5, Insight +3, Persuasion +5",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -887,7 +873,12 @@ var ToB = {
 		],
 		traits: [{
 			name: "Innate Spellcasting",
-			description: ["The drake's innate casting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:", "At will: friends, vicious mockery", "5/day each: calm emotions, dissonant whispers, ray of sickness, hideous laughter", "3/day each: confusion, invisibility"]
+			description: [
+			"The drake's innate casting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+			"At will: friends, vicious mockery",
+			"5/day each: calm emotions, dissonant whispers, ray of sickness, hideous laughter",
+			"3/day each: confusion, invisibility"
+			]
 		}, {
 			name: "Forgetful Spellcasting",
 			description: "When a creature fails an Intelligence, Wisdom, or Charisma saving throw against a spell cast by an alehouse drake, the creature immediately forgets the source of the spellcasting."
@@ -919,10 +910,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Celestial, Draconic, Infernal",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Logic Razor",
 			ability: 1,
@@ -973,10 +963,9 @@ var ToB = {
 		damage_immunities: "cold, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "21",
-		proficiencyBonus: 7,
+		challenge_rating: "21",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -1073,16 +1062,15 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Nature +3, Perception +5, Stealth +5, Survival +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Spear (Melee)",
 			ability: 1,
 			damage: [1, 6, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 5 (1d8 +1) piercing damage.",
+			description: "Two-Handed: 5 (1d8+1) piercing damage.",
 		}, {
 			name: "Spear (Ranged)",
 			ability: 1,
@@ -1117,16 +1105,15 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Nature +3, Perception +5, Stealth +5, Survival +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Quarterstaff",
 			ability: 1,
 			damage: [1, 6, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "Or 5 (1d8 +1) bludgeoning damage if used in two hands",
+			description: "Two-Handed: 5 (1d8+1) bludgeoning damage.",
 		}, {
 			name: "Quarterstaff (Shillelagh)",
 			ability: 2,
@@ -1153,7 +1140,6 @@ var ToB = {
 			"2nd (3 slots): animal messenger, heat metal, lesser restoration",
 			"3rd (2 slots): call lightning, dispel magic"
 		]
-
 	},
 	"Amphiptere": {
 		name: "Amphiptere",
@@ -1169,10 +1155,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +5",
 		senses: "blindsight 10 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -1216,10 +1201,9 @@ var ToB = {
 		skills: "Deception +13, Insight +10, Perception +17, Persuasion +13, Stealth +9",
 		damage_immunities: "fire",
 		senses: "blindsight 60 ft, darkvision 120 ft",
-		passivePerception: "27",
+		passive_perception: "27",
 		languages: "Common, Draconic, Giant, Ignan, Infernal, Orc",
-		challengeRating: "24",
-		proficiencyBonus: 7,
+		challenge_rating: "24",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -1290,7 +1274,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Wing Attack (Costs 2 Actions)",
-			description: "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 +6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+			description: "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6+6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
 		}
 		]
 	},
@@ -1311,10 +1295,9 @@ var ToB = {
 		damage_immunities: "acid, thunder",
 		condition_immunities: "charmed",
 		senses: "blindsight 60 ft, darkvision 120 ft",
-		passivePerception: "23",
+		passive_perception: "23",
 		languages: "Celestial, Common, Draconic, Primordial",
-		challengeRating: "18",
-		proficiencyBonus: 6,
+		challenge_rating: "18",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -1372,7 +1355,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Wing Attack (Costs 2 Actions)",
-			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 18 (2d8 +9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 18 (2d8+9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
 		}
 		],
 		spells: [
@@ -1387,7 +1370,6 @@ var ToB = {
 			"7th level (1 slot): forcecage",
 			"8th level (1 slot): antimagic field"
 		]
-
 	},
 	"Ancient Sea Dragon": {
 		name: "Ancient Sea Dragon",
@@ -1404,10 +1386,9 @@ var ToB = {
 		skills: "Perception +17, Stealth +7",
 		damage_immunities: "cold",
 		senses: "blindsight 60 ft, darkvision 120 ft",
-		passivePerception: "27",
+		passive_perception: "27",
 		languages: "Common, Draconic, Infernal, Primordial",
-		challengeRating: "22",
-		proficiencyBonus: 7,
+		challenge_rating: "22",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -1477,7 +1458,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Wing Attack (Costs 2 Actions)",
-			description: "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 +9) bludgeoning damage and be knocked prone. The dragon can then move up to half its flying speed, or swim speed if in the water."
+			description: "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6+9) bludgeoning damage and be knocked prone. The dragon can then move up to half its flying speed, or swim speed if in the water."
 		}
 		]
 	},
@@ -1496,10 +1477,9 @@ var ToB = {
 		skills: "Athletics +14, Intimidation +9, Perception +7",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "darkvision 120 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Giant, Primordial, Titan, telepathy 120 ft",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Greatsword",
 			ability: 1,
@@ -1551,10 +1531,9 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "charmed, frightened",
 		senses: "",
-		passivePerception: "26",
+		passive_perception: "26",
 		languages: "Celestial, Common, Draconic, Infernal, Primordial, Void Speech",
-		challengeRating: "24",
-		proficiencyBonus: 7,
+		challenge_rating: "24",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -1643,7 +1622,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Void Slip (Costs 2 Actions)",
-			description: "The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 +6) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet."
+			description: "The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6+6) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet."
 		}, {
 			name: "Void Cache (Costs 3 Actions)",
 			description: "The dragon can magically reach into its treasure hoard and retrieve one item. If the dragon is holding an item, it can use this ability to deposit the item into its hoard."
@@ -1667,10 +1646,9 @@ var ToB = {
 		damage_immunities: "lightning, ranged weapons",
 		condition_immunities: "charmed, exhausted, paralyzed, restrained",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "27",
+		passive_perception: "27",
 		languages: "Common, Draconic, Dwarvish, Elvish, Primordial",
-		challengeRating: "22",
-		proficiencyBonus: 7,
+		challenge_rating: "22",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -1745,7 +1723,7 @@ var ToB = {
 			description: "The dragon makes a tail attack."
 		}, {
 			name: "Wing Attack (Costs 2 Actions)",
-			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 20 (2d10 +9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+			description: "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 20 (2d10+9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
 		}
 		]
 	},
@@ -1765,10 +1743,9 @@ var ToB = {
 		damage_resistances: "acid, cold, fire, lightning",
 		damage_immunities: "psychic",
 		senses: "darkvision 60 ft, tremorsense 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Celestial, Giant, Sylvan",
-		challengeRating: "15",
-		proficiencyBonus: 5,
+		challenge_rating: "15",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -1834,10 +1811,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "all languages it knew in life",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -1874,12 +1850,11 @@ var ToB = {
 		saves: ["", "6", "", "", "7", "8"],
 		skills: "Perception +7",
 		senses: "darkvision 200 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		damage_resistances: "piercing",
 		damage_immunities: "fire, radiant",
 		languages: "Common, Celestial, Infernal",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Fiery Greatsword",
 			ability: 1,
@@ -1903,7 +1878,7 @@ var ToB = {
 		],
 		reactions: [{
 			name: "Fiendish Cunning",
-			description: "When a creature within 60 feet casts a divine spell, the chained angel can counter the spell if it succeeds on a Charisma check against a DC of 10 +the spell's level."
+			description: "When a creature within 60 feet casts a divine spell, the chained angel can counter the spell if it succeeds on a Charisma check against a DC of 10 + the spell's level."
 		},
 		],
 	},
@@ -1924,17 +1899,16 @@ var ToB = {
 		damage_immunities: "acid, cold",
 		condition_immunities: "charmed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Celestial, Infernal",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "+1 Longsword",
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
 			modifiers: [1, 1, true],
-			description: "Mortal or Angel Form Only; 11 (1d10+6) slashing damage if used with two hands.",
+			description: "Mortal or Angel Form Only; Two-Handed: 11 (1d10+6) slashing damage.",
 		}, {
 			name: "+1 Longbow",
 			ability: 2,
@@ -2005,10 +1979,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "blinded, charmed, deafened, poisoned, prone",
 		senses: "tremorsense 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -2061,10 +2034,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "darkvision 60 ft, tremorsense 30 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Primordial",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -2111,10 +2083,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Ape, Infernal, telepathy 120 ft",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -2173,10 +2144,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, frightened, poisoned, stunned",
 		senses: "truesight 120 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "Celestial, Common, Draconic, Infernal, telepathy 120 ft",
-		challengeRating: "21",
-		proficiencyBonus: 7,
+		challenge_rating: "21",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -2256,10 +2226,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +5, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -2304,10 +2273,9 @@ var ToB = {
 		damage_immunities: "cold, necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "understands the languages it knew in life but can't speak",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Spectral Rend",
 			ability: 2,
@@ -2355,10 +2323,9 @@ var ToB = {
 		saves: ["", "8", "", "", "", ""],
 		skills: "Acrobatics +11, Perception +3, Stealth +11",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Gnoll, Sylvan, Void Speech",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Short Sword",
 			ability: 2,
@@ -2415,10 +2382,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +4, Perception +3, Stealth +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Giant",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -2463,10 +2429,9 @@ var ToB = {
 		damage_resistances: "fire",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Draconic",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -2510,10 +2475,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Infernal; telepathy 100 ft",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -2554,7 +2518,7 @@ var ToB = {
 			description: "The automata devil makes two melee attacks, using any combination of bite, claw, and whip attacks. The bite attack can be used only once per turn."
 		}, {
 			name: "Punishing Maw",
-			description: "If a target is already grappled in a whip at the start of the automata devil's turn, both creatures make opposed Strength (Athletics) checks. If the grappled creature wins, it takes 9 (2d8) piercing damage and remains grappled. If the devil wins, the grappled creature is dragged into the devil's stomach maw, a mass of churning gears, razor teeth, and whirling blades. The creature takes 49 (4d20 +7) slashing damage and is grappled, and the whip is free to attack again on the devil's next turn. The creature takes another 49 (4d20 +7) slashing damage automatically at the start of each of the automata devil's turns for as long as it remains grappled in the maw. Only one creature can be grappled in the punishing maw at a time. The automata devil can freely \"spit out\"a creature or corpse during its turn, to free up the maw for another victim."
+			description: "If a target is already grappled in a whip at the start of the automata devil's turn, both creatures make opposed Strength (Athletics) checks. If the grappled creature wins, it takes 9 (2d8) piercing damage and remains grappled. If the devil wins, the grappled creature is dragged into the devil's stomach maw, a mass of churning gears, razor teeth, and whirling blades. The creature takes 49 (4d20+7) slashing damage and is grappled, and the whip is free to attack again on the devil's next turn. The creature takes another 49 (4d20+7) slashing damage automatically at the start of each of the automata devil's turns for as long as it remains grappled in the maw. Only one creature can be grappled in the punishing maw at a time. The automata devil can freely \"spit out\"a creature or corpse during its turn, to free up the maw for another victim."
 		}, {
 			name: "Fear Aura",
 			description: "Automata devils radiate fear in a 10-foot radius. A creature that starts its turn in the affected area must make a successful DC 16 Wisdom saving throw or become frightened. A creature that makes the save successfully cannot be affected by the same automata devil's fear aura again."
@@ -2578,10 +2542,9 @@ var ToB = {
 		damage_immunities: "cold, lightning, poison, thunder",
 		condition_immunities: "petrification, poisoned",
 		senses: "darkvision 60 ft, truesight 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Common, Dwarvish, Giant, Infernal",
-		challengeRating: "17",
-		proficiencyBonus: 6,
+		challenge_rating: "17",
 		attacks: [{
 			name: "Ice Spear",
 			ability: 1,
@@ -2658,10 +2621,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		damage_immunities: "lightning, thunder",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Primordial",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Lightning Jolt (Melee)",
 			ability: 2,
@@ -2706,10 +2668,9 @@ var ToB = {
 		damage_immunities: "cold, lightning, poison",
 		condition_immunities: "exhaustion, paralyzed, poisoned",
 		senses: "",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Celestial, Common, Infernal; telepathy 100 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Lance",
 			ability: 1,
@@ -2773,10 +2734,9 @@ var ToB = {
 		damage_immunities: "lightning, poison",
 		condition_immunities: "exhaustion, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Celestial, Common, Infernal, telepathy 100 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Lance",
 			ability: 1,
@@ -2837,10 +2797,9 @@ var ToB = {
 		damage_immunities: "fire, lightning, poison",
 		condition_immunities: "blinded, charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Celestial, Common, Infernal; telepathy 100 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Lance",
 			ability: 1,
@@ -2855,7 +2814,6 @@ var ToB = {
 			description: "",
 		},
 		],
-
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
@@ -2898,10 +2856,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -2941,10 +2898,9 @@ var ToB = {
 		saves: ["5", "4", "", "", "2", ""],
 		skills: "Athletics +5, Deception +4, Intimidation +4",
 		senses: "",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "any two languages",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Greatsword",
 			ability: 1,
@@ -3001,10 +2957,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +5, Stealth +6",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Nurian, and Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -3061,10 +3016,9 @@ var ToB = {
 		damage_immunities: "poison; bludgeoning, slashing, and piercing from nonmagical weapons that aren't made of cold iron",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Elvish, Giant, Sylvan",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -3155,16 +3109,15 @@ var ToB = {
 		scores: [19, 14, 16, 8, 12, 9],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Giant",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Battleaxe",
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 9 (1d10 +4) slashing damage.",
+			description: "Two-Handed: 9 (1d10+4) slashing damage.",
 		}, {
 			name: "Bite",
 			ability: 1,
@@ -3176,7 +3129,7 @@ var ToB = {
 			ability: 1,
 			damage: [1, 8, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 9 (1d10 +4) bludgeoning damage.",
+			description: "Two-Handed: 9 (1d10+4) bludgeoning damage.",
 		},
 		],
 		traits: [{
@@ -3208,10 +3161,9 @@ var ToB = {
 		skills: "Athletics +5, Stealth +5",
 		damage_resistances: "cold, fire, lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Behtu, Common, Infernal",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -3257,10 +3209,9 @@ var ToB = {
 		damage_immunities: "cold",
 		damage_vulnerabilities: "fire",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Dwarvish, Giant",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Ice Dagger",
 			ability: 2,
@@ -3309,10 +3260,9 @@ var ToB = {
 		skills: "Perception +5, Stealth +9",
 		damage_immunities: "bludgeoning",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -3347,10 +3297,9 @@ var ToB = {
 		damage_immunities: "lightning, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Abyssal, Common, Sylvan; telepathy 120 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -3375,7 +3324,7 @@ var ToB = {
 			description: "The berstuc makes three slam attacks and Absorbs once."
 		}, {
 			name: "Absorb",
-			description: "The berstuc draws a Medium or smaller creature it has grappled into its body. An absorbed creature is no longer grappled but is blinded and restrained, has total cover from attacks and other effects from outside the berstuc, and takes 14 (2d8 +5) piercing damage plus 27 (5d10) poison damage at the start of each of the berstuc's turns. The berstuc can hold one absorbed creature at a time. If the berstuc takes 20 damage or more on a single turn from a creature inside it, the berstuc must succeed on a DC 17 Constitution saving throw or expel the absorbed creature, which falls prone within 5 feet of the berstuc. If the berstuc dies, an absorbed creature is no longer restrained and can escape from the corpse by using 5 feet of movement, exiting prone."
+			description: "The berstuc draws a Medium or smaller creature it has grappled into its body. An absorbed creature is no longer grappled but is blinded and restrained, has total cover from attacks and other effects from outside the berstuc, and takes 14 (2d8+5) piercing damage plus 27 (5d10) poison damage at the start of each of the berstuc's turns. The berstuc can hold one absorbed creature at a time. If the berstuc takes 20 damage or more on a single turn from a creature inside it, the berstuc must succeed on a DC 17 Constitution saving throw or expel the absorbed creature, which falls prone within 5 feet of the berstuc. If the berstuc dies, an absorbed creature is no longer restrained and can escape from the corpse by using 5 feet of movement, exiting prone."
 		}
 		]
 	},
@@ -3392,10 +3341,9 @@ var ToB = {
 		scores: [18, 10, 14, 12, 13, 15],
 		saves: ["7", "", "", "", "4", ""],
 		skills: "Animal Handling +4, Athletics +7, Intimidation +5",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "any two languages",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Mace",
 			ability: 1,
@@ -3444,10 +3392,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Intimidation +3",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Giant",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -3494,16 +3441,15 @@ var ToB = {
 		skills: "Deception +7, Intimidation +7, Perception +9, Stealth +7",
 		condition_immunities: "charmed, poisoned",
 		senses: "blood sense 90 ft, darkvision 60 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Giant, Infernal, Sylvan, Trollkin",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Blood-Drinking Hair",
 			ability: 1,
 			damage: [3, 8, "piercing"],
 			range: "Melee (10 ft)",
-			description: "Medium or smaller target is grappled (escape DC 15). A grappled creature takes 13 (2d8 +3) necrotic damage at the start of the hag's turns, and the hag heals half as many hit points. The hag gains excess healing as temporary hit points. The hag can grapple one or two creatures at a time. Also see Face Peel.",
+			description: "Medium or smaller target is grappled (escape DC 15). A grappled creature takes 13 (2d8+3) necrotic damage at the start of the hag's turns, and the hag heals half as many hit points. The hag gains excess healing as temporary hit points. The hag can grapple one or two creatures at a time. Also see Face Peel.",
 		}, {
 			name: "Claws",
 			ability: 1,
@@ -3539,7 +3485,7 @@ var ToB = {
 			]
 		}, {
 			name: "Face Peel",
-			description: "The blood hag peels the face off one grappled foe. The target must make a DC 17 Dexterity saving throw. If the saving throw fails, the face is torn off; the target takes 38 (8d6 +10) slashing damage and is stunned until the start of the hag's next turn. If the save succeeds, the target takes half damage and isn't stunned. Heal, regeneration, or comparable magic restores the stolen features; other curative magic forms a mass of scar tissue. The peeled-off face is a tiny, animated object (per the spell-20 HP, AC 18, no attack, Str 4, Dex 18) under the hag's control. It retains the former owner's memories and personality. Blood hags keep such faces as trophies, but they can also wear someone's face to gain advantage on Charisma (Deception) checks made to imitate the face's former owner."
+			description: "The blood hag peels the face off one grappled foe. The target must make a DC 17 Dexterity saving throw. If the saving throw fails, the face is torn off; the target takes 38 (8d6+10) slashing damage and is stunned until the start of the hag's next turn. If the save succeeds, the target takes half damage and isn't stunned. Heal, regeneration, or comparable magic restores the stolen features; other curative magic forms a mass of scar tissue. The peeled-off face is a tiny, animated object (per the spell-20 HP, AC 18, no attack, Str 4, Dex 18) under the hag's control. It retains the former owner's memories and personality. Blood hags keep such faces as trophies, but they can also wear someone's face to gain advantage on Charisma (Deception) checks made to imitate the face's former owner."
 		}
 		]
 	},
@@ -3557,10 +3503,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Primordial, Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Dagger (Melee)",
 			ability: 2,
@@ -3614,10 +3559,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Darakhul",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -3633,9 +3577,9 @@ var ToB = {
 		}, {
 			name: "Swarm",
 			ability: 1,
-			damage: [8, 12, ""],
+			damage: [8, 12, "piercing"],
 			range: "Melee (0 ft)",
-			description: "Melee Weapon Attack: +8 to hit, reach 0 ft, one creature in the swarm's space. Hit: 57 (8d12 +5) piercing damage, or 31 (4d12 +5) piercing damage if the bone collective has half its hit points or fewer. If the attack hits, the target must make a successful DC 15 Constitution save or suffer the effects of Wyrmblood Venom.",
+			description: "One creature in the swarm's space. Or 31 (4d12 +5) piercing damage if the bone collective has half its hit points or fewer. If the attack hits, the target must make a successful DC 15 Constitution save or suffer the effects of Wyrmblood Venom.",
 		},
 		],
 		traits: [{
@@ -3643,7 +3587,11 @@ var ToB = {
 			description: "All elements of a bone collective within 50 miles of their main body constantly communicate with each other. If one is aware of a particular danger, they all are. Any bone collective with at least 30 hit points forms a hive mind, giving it an Intelligence of 14. Below this hp threshold, it becomes mindless (Intelligence 0) and loses its innate spellcasting ability. At 0 hp, a few surviving sets of bones scatter, and must spend months to create a new collective."
 		}, {
 			name: "Innate Spellcasting",
-			description: ["The bone collective's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:", "At will: chill touch", "3/day: animate dead (up to 5 skeletons or zombies)"]
+			description: [
+			"The bone collective's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:", 
+			"At will: chill touch",
+			"3/day: animate dead (up to 5 skeletons or zombies)"
+			]
 		}, {
 			name: "Swarm",
 			description: "A bone collective can act as a swarm (composed of smaller elements), or it can grant a single member (called an exarch) control, acting as a singular creature. Changing between forms takes one action. In its singular form, the collective can't occupy the same space as another creature, but it can perform sneak attacks and cast spells. In swarm form, the bone collective can occupy another creature's space and vice versa, and it can move through openings at least 1 foot square. It can't change to singular form while it occupies the same space as another creature. It uses its skills normally in either form."
@@ -3673,10 +3621,9 @@ var ToB = {
 		skills: "Perception +3, Stealth +4",
 		damage_resistances: "bludgeoning",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -3726,10 +3673,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Void Speech",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Swirling Bones",
 			ability: 1,
@@ -3772,10 +3718,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Celestial, Infernal, Nurian; telepathy 100 ft",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -3832,10 +3777,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -3875,10 +3819,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +1, Sleight of Hand +7, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Darakhul, Dwarvish",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -3918,10 +3861,9 @@ var ToB = {
 		skills: "Perception +10, Stealth +11",
 		damage_immunities: "thunder",
 		senses: "darkvision 60 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Sylvan",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -3975,10 +3917,9 @@ var ToB = {
 		damage_resistances: "radiant; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened",
 		senses: "truesight 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Celestial, Common, Primordial, telepathy 120 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Hooves",
 			ability: 2,
@@ -3997,7 +3938,6 @@ var ToB = {
 				"At will: comprehend languages, detect evil and good, holy aura, pass without trace",
 				"1/day each: plane shift, wind walk",
 				"3/day each: haste, longstrider",
-
 			]
 		}, {
 			name: "Magic Resistance",
@@ -4030,10 +3970,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -4084,10 +4023,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing",
 		condition_immunities: "blinded, deafened",
 		senses: "blindsight 60 ft (blind beyond this radius)",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands Sylvan, but can't speak",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Tendril",
 			ability: 1,
@@ -4128,10 +4066,9 @@ var ToB = {
 		damage_vulnerabilities: "cold",
 		condition_immunities: "charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned",
 		senses: "blindsight 120 ft, darkvision 40 ft",
-		passivePerception: "23",
+		passive_perception: "23",
 		languages: "Common, Darakhul, Derro, Draconic, Dwarvish, Infernal, Nurian, Primordial, Void Speech; telepathy 300 ft",
-		challengeRating: "22",
-		proficiencyBonus: 7,
+		challenge_rating: "22",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -4216,10 +4153,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Draconic, Infernal",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Needle Fingers",
 			ability: 1,
@@ -4233,7 +4169,7 @@ var ToB = {
 			description: [
 				"The cambium's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). The cambium can innately cast the following spells, requiring no material components:",
 				"Constant: levitate", "At will: alter self, detect thoughts, hold person, plane shift, spare the dying",
-				"3/day: cure wounds 21 (4d8 +3), ray of sickness 18 (4d8), protection from poison, heal",
+				"3/day: cure wounds 21 (4d8+3), ray of sickness 18 (4d8), protection from poison, heal",
 				"1/day: finger of death"
 			]
 		},
@@ -4270,10 +4206,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "paralysis",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -4313,10 +4248,9 @@ var ToB = {
 		damage_immunities: "acid, poison, thunder",
 		condition_immunities: "poisoned",
 		senses: "blindsight 120 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Draconic",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -4357,10 +4291,9 @@ var ToB = {
 		damage_resistances: "acid, cold, fire; slashing from nonmagical weapons",
 		condition_immunities: "charmed, deafened, frightened, paralyzed, prone, stunned, unconscious",
 		senses: "tremorsense 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Tendrils",
 			ability: 1,
@@ -4396,10 +4329,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -4438,7 +4370,6 @@ var ToB = {
 			"3rd level: animate dead, haste, lightning bolt",
 			"4th level: phantasmal killer"
 		]
-
 	},
 	"Chernomoi": {
 		name: "Chernomoi",
@@ -4455,10 +4386,9 @@ var ToB = {
 		skills: "Acrobatics +6, Perception +2, Stealth +6",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks not made with silver weapons",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Draconic, Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Scimitar",
 			ability: 2,
@@ -4497,10 +4427,9 @@ var ToB = {
 		skills: "Perception +4, Stealth +7",
 		damage_vulnerabilities: "fire",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Briarclick, Common, Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -4549,10 +4478,9 @@ var ToB = {
 		damage_immunities: "cold, fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Celestial, Common, Draconic, Infernal, Primordial; telepathy (120 ft)",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -4607,10 +4535,9 @@ var ToB = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "exhaustion, paralyzed, petrified, poisoned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Celestial, Infernal",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Slam",
 			ability: 2,
@@ -4626,7 +4553,7 @@ var ToB = {
 		],
 		actions: [{
 			name: "Multiattack",
-			description: "The chronalmental makes 1d4 +1 slam attacks."
+			description: "The chronalmental makes 1d4+1 slam attacks."
 		}, {
 			name: "Steal Time (1/day)",
 			description: "The chronalmental targets one creature it can see within 30 feet of it. The targeted creature must make a DC 16 Wisdom saving throw. On a failed saving throw, the chronalmental draws some of the creature's time into itself and gains +10 to its position in initiative order. In addition, the target's speed is reduced by half, it can't take reactions, and it can take either an action or a bonus action on its turn, but not both. While it is stealing time, the chronalmental's speed increases by 30 feet, and when it takes the multiattack action, it can make an additional slam attack. The targeted creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
@@ -4656,10 +4583,9 @@ var ToB = {
 		skills: "Perception +5, Stealth +9",
 		damage_resistances: "acid, fire, poison",
 		senses: "",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "understands Common; telepathy (touch)",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -4691,10 +4617,9 @@ var ToB = {
 		scores: [13, 16, 14, 10, 11, 13],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "one language (usually Common)",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Rapier",
 			ability: 2,
@@ -4755,10 +4680,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Infernal",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -4812,10 +4736,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "understands Common, telepathy 100 ft (creator only)",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -4849,10 +4772,9 @@ var ToB = {
 		damage_immunities: "fire, poison, psychic",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
@@ -4884,10 +4806,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands Common",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -4935,10 +4856,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands Common",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Longsword",
 			ability: 1,
@@ -4989,10 +4909,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "understands Common",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Heavy Pick",
 			ability: 1,
@@ -5046,10 +4965,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Halberd",
 			ability: 1,
@@ -5094,10 +5012,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands Common",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Trimming Blade",
 			ability: 2,
@@ -5144,10 +5061,9 @@ var ToB = {
 		skills: "Perception +1, Stealth +3",
 		condition_immunities: "frightened, poisoned",
 		senses: "darkvision 60ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Unarmed Strike",
 			ability: 1,
@@ -5199,10 +5115,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, slashing",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, stunned",
 		senses: "",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Stings",
 			ability: 1,
@@ -5242,10 +5157,9 @@ var ToB = {
 		damage_resistances: "cold",
 		condition_immunities: "paralyzed, poisoned, prone, unconscious",
 		senses: "darkvision 120 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Draconic",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -5299,10 +5213,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Understands Common but can't speak",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -5354,10 +5267,9 @@ var ToB = {
 		damage_immunities: "acid, fire, poison",
 		condition_immunities: "exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "blindsight 60 ft, tremorsense 60 ft",
-		passivePerception: "5",
+		passive_perception: "5",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -5391,10 +5303,9 @@ var ToB = {
 		damage_immunities: "fire",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic, telepathy 60 ft",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -5440,10 +5351,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Celestial, Common, Infernal, telepathy 120 ft",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -5502,10 +5412,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +5, Insight +5, Perception +5, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Deep Speech, Primordial, Sylvan, telepathy 60 ft",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Slam",
 			ability: 2,
@@ -5557,15 +5466,14 @@ var ToB = {
 		damage_vulnerabilities: "cold, fire",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, petrified",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
 			damage: [6, 6, "piercing"],
 			range: "Melee (0 ft)",
-			description: "Or 11 (3d6 +1) piercing damage if the swarm has half of its hit points or fewer. The target also takes 10 (3d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 13 Constitution saving throw reduces poison damage by half and prevents the poisoned condition..",
+			description: "Or 11 (3d6+1) piercing damage if the swarm has half of its hit points or fewer. The target also takes 10 (3d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 13 Constitution saving throw reduces poison damage by half and prevents the poisoned condition..",
 		},
 		],
 		traits: [{
@@ -5598,10 +5506,9 @@ var ToB = {
 		scores: [12, 10, 16, 10, 11, 9],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Fist",
 			ability: 1,
@@ -5647,10 +5554,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "the languages it knew in life",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Life Drain",
 			ability: 2,
@@ -5698,10 +5604,9 @@ var ToB = {
 		damage_immunities: "necrotic",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "blindsight 60 ft, darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Darakhul, Draconic, Undercommon",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -5751,10 +5656,9 @@ var ToB = {
 		damage_vulnerabilities: "fire",
 		damage_resistances: "cold",
 		senses: "darkvision 120 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Common, Void Speech",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Claws",
 			ability: 1,
@@ -5794,10 +5698,9 @@ var ToB = {
 		damage_vulnerabilities: "fire",
 		damage_resistances: "cold, thunder",
 		senses: "darkvision 240 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Void Speech",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -5859,10 +5762,9 @@ var ToB = {
 		damage_vulnerabilities: "fire",
 		damage_resistances: "cold",
 		senses: "darkvision 120 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Void Speech",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Claws",
 			ability: 1,
@@ -5911,10 +5813,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Intimidation +1, Perception +2",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Titan",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Greatclub",
 			ability: 1,
@@ -5962,10 +5863,9 @@ var ToB = {
 		damage_immunities: "psychic",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Unarmed Strike",
 			ability: 1,
@@ -6008,10 +5908,9 @@ var ToB = {
 		saves: ["3", "", "", "", "0", "5"],
 		skills: "Perception +0, Stealth +7",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Derro, Undercommon",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Scimitar",
 			ability: 2,
@@ -6056,7 +5955,6 @@ var ToB = {
 			"1st level (4 slots): hellish rebuke, inflict wounds, shield of faith, wrathful smite",
 			"2nd level (2 slots): aid, crown of madness, darkness, magic weapon"
 		]
-
 	},
 	"Desert Giant": {
 		name: "Desert Giant",
@@ -6073,10 +5971,9 @@ var ToB = {
 		skills: "Perception +8, Stealth +4, Survival +8",
 		damage_immunities: "fire",
 		senses: "",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Giant",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Falchion",
 			ability: 1,
@@ -6121,10 +6018,9 @@ var ToB = {
 		damage_resistances: "cold, fire, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons that aren’t silvered",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Infernal, Gnomish",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Dagger (Melee)",
 			ability: 2,
@@ -6165,7 +6061,6 @@ var ToB = {
 			"Cantrips (at will): chill touch, eldritch blast, minor illusion, prestidigitation",
 			"5th level (3 slots): banishment, command, contact other plane, counterspell, dimension door, fireball, fly, flame strike, hallow, hex, hold monster, invisibility, scorching ray, scrying, wall of fire, witch bolt"
 		]
-
 	},
 	"Dipsa": {
 		name: "Dipsa",
@@ -6183,10 +6078,9 @@ var ToB = {
 		damage_resistances: "acid",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, prone",
 		senses: "blindsight 60 ft (blind beyond this radius)",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -6226,10 +6120,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -6265,10 +6158,9 @@ var ToB = {
 		scores: [14, 17, 15, 2, 12, 10],
 		saves: ["", "", "", "", "", ""],
 		senses: "blindsight 30 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -6310,10 +6202,9 @@ var ToB = {
 		scores: [21, 14, 20, 2, 10, 2],
 		saves: ["", "", "11", "", "", ""],
 		senses: "blindsight 30 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -6363,10 +6254,9 @@ var ToB = {
 		skills: "Intimidation +5, Perception +2",
 		damage_immunities: "acid, lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Dwarvish, Elvish",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -6404,10 +6294,9 @@ var ToB = {
 		saves: ["", "5", "", "", "", ""],
 		skills: "Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -6448,10 +6337,9 @@ var ToB = {
 		skills: "Intimidate +2, Perception +3, Stealth +8",
 		damage_resistances: "acid, cold, lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Void Speech",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -6499,10 +6387,9 @@ var ToB = {
 		damage_immunities: "lightning",
 		condition_immunities: "paralyzed, prone",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Draconic, Primordial",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -6552,10 +6439,9 @@ var ToB = {
 		damage_immunities: "A dragonleaf tree enjoys the same immunities as its progenitor. Black, copper, and green trees are immune to acid damage; blue and bronze trees are immune to lightning damage; brass, gold, and red trees are immune to fire damage; and silver and white trees are immune to cold damage.",
 		condition_immunities: "blinded, deafened",
 		senses: "blindsight 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "can understand the language of its creator or designated master",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -6600,10 +6486,9 @@ var ToB = {
 		damage_resistances: "acid",
 		condition_immunities: "paralyzed",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -6649,10 +6534,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Celestial, Common, Draconic, Infernal, telepathy 100 ft",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -6684,7 +6568,7 @@ var ToB = {
 			description: "The dream eater makes one bite attack and one claw attack."
 		}, {
 			name: "Dream Eater's Caress",
-			description: "A creature that ends its turn grappled by a dream eater is restrained until the end of its next turn, it takes 5 (1d4 +3) psychic damage, and the dream eater gains the same number of temporary hit points."
+			description: "A creature that ends its turn grappled by a dream eater is restrained until the end of its next turn, it takes 5 (1d4+3) psychic damage, and the dream eater gains the same number of temporary hit points."
 		}, {
 			name: "Lotus Scent (Recharge 6)",
 			description: "The dream eater secretes an oily chemical that most creatures find intoxicating. All living creatures within 30 feet must succeed on a DC 14 Constitution saving throw against poison or be poisoned for 2d4 rounds. While poisoned this way, the creature is stunned. Creatures that successfully save are immune to that dream eater's lotus scent for 24 hours."
@@ -6710,10 +6594,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -6768,10 +6651,9 @@ var ToB = {
 		damage_immunities: "necrotic",
 		condition_immunities: "charmed, frightened, exhaustion",
 		senses: "blindsight 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Spine Whip",
 			ability: 1,
@@ -6829,10 +6711,9 @@ var ToB = {
 		damage_immunities: "acid",
 		condition_immunities: "prone",
 		senses: "darkvision 60 ft, tremorsense 30 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Pseudopod",
 			ability: 1,
@@ -6878,10 +6759,9 @@ var ToB = {
 		saves: ["", "", "3", "", "4", ""],
 		skills: "Animal Handling +4, Deception +9, Nature +6, Perception +4, Persuasion +9, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Elvish, Sylvan, Umbral",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Dagger (Melee)",
 			ability: 2,
@@ -6940,10 +6820,9 @@ var ToB = {
 		skills: "Stealth +7",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Common, Goblin",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Shortsword",
 			ability: 2,
@@ -6979,10 +6858,9 @@ var ToB = {
 		skills: "Arcana +7, History +7",
 		damage_resistances: "poison",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Dwarvish",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Ring-Staff",
 			ability: 1,
@@ -7016,7 +6894,6 @@ var ToB = {
 			"4th level (3 slots): greater invisibility, ice storm",
 			"5th level (1 slot): cone of cold"
 		]
-
 	},
 	"Eala": {
 		name: "Eala",
@@ -7032,10 +6909,9 @@ var ToB = {
 		saves: ["", "5", "", "", "", ""],
 		damage_immunities: "fire",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Wing Blades",
 			ability: 2,
@@ -7075,10 +6951,9 @@ var ToB = {
 		damage_immunities: "bludgeoning, piercing, poison and slashing from nonmagical weapons",
 		condition_immunities: "blindness, lightning, poisoned",
 		senses: "blindsight 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "understands Abyssal, Common, Infernal, Void Speech, but cannot speak; telepathy 100 ft",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Mawblade",
 			ability: 1,
@@ -7127,10 +7002,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "blindsight 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common but can't speak",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Water Siphon",
 			ability: 2,
@@ -7163,10 +7037,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Sylvan",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -7190,7 +7063,6 @@ var ToB = {
 		}
 		],
 	},
-	
 	"Einherjar": {
 		name: "Einherjar",
 		source: ["Tome of Beasts", 167],
@@ -7206,10 +7078,9 @@ var ToB = {
 		skills: "Animal Handling +5, Intimidation +6, Perception +5",
 		damage_resistances: "piercing weapons that are nonmagical",
 		senses: "darkvision 60 ft, truesight 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Celestial, Common",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Asgardian Battleaxe", //check battleaxe for +6 to damage
 			ability: 1,
@@ -7275,10 +7146,9 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Draconic, Umbral",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -7327,10 +7197,9 @@ var ToB = {
 		saves: ["4", "7", "6", "5", "5", "7"],
 		skills: "Deception +7, Insight +5, Perception +5",
 		senses: "",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Aquan, Common, Elvish, Sylvan",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Dagger (Melee)",
 			ability: 2,
@@ -7390,10 +7259,9 @@ var ToB = {
 		damage_immunities: "acid, cold, fire, lightning, poison, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
 		senses: "darkvision 120 ft, tremorsense 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Primordial",
-		challengeRating: "17",
-		proficiencyBonus: 6,
+		challenge_rating: "17",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -7438,10 +7306,9 @@ var ToB = {
 		scores: [11, 16, 12, 11, 13, 11],
 		saves: ["", "", "", "", "", ""],
 		skills: "Nature +2, Perception +5, Stealth +5, Survival +3",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Elvish",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Shortsword",
 			ability: 2,
@@ -7502,10 +7369,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "blinded, deafened, exhausted, paralyzed, petrified, poisoned, prone, unconscious",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic, telepathy 250 ft",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Slash",
 			ability: 2,
@@ -7549,10 +7415,9 @@ var ToB = {
 		skills: "Arcana +5, Deception +5, History +5, Religion +5",
 		damage_resistances: "cold, fire, lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "any three languages",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Mace",
 			ability: 1,
@@ -7592,7 +7457,6 @@ var ToB = {
 			"4th level (3 slots): banishment, death ward, guardian of faith",
 			"5th level (2 slots): flame strike"
 		]
-
 	},
 	"Emperor of The Ghouls": {
 		name: "Emperor of The Ghouls",
@@ -7611,10 +7475,9 @@ var ToB = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing damage from nonmagical weapons.",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Darakhul, Draconic, Gnoll, Undercommon",
-		challengeRating: "20",
-		proficiencyBonus: 6,
+		challenge_rating: "20",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -7700,7 +7563,6 @@ var ToB = {
 			"8th level (1 slot): power word stun",
 			"9th level (1 slot): power word kill"
 		]
-
 	},
 	"Empty Cloak": {
 		name: "Empty Cloak",
@@ -7720,10 +7582,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands Elvish and Umbral but can't speak",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Razor Cloak",
 			ability: 1,
@@ -7736,6 +7597,12 @@ var ToB = {
 			damage: [1, 4, "bludgeoning"],
 			range: "Melee (5 ft)",
 			description: "",
+		}, {
+			name: "Shadow Snare",
+			ability: 2,
+			damage: [0, 0, ""],
+			range: "Ranged (20/60 ft)",
+			description: "Large or smaller creatures are restrained. To escape, the restrained creature or an adjacent ally must use an action to make a successful DC 14 Strength check. The shadow snare has 15 hit points and AC 12."
 		},
 		],
 		traits: [{
@@ -7749,11 +7616,6 @@ var ToB = {
 			description: "Empty cloaks can share the same space as one Medium or smaller creature. The empty cloak has advantage on attack rolls against any creature in the same space with it."
 		}
 		],
-		actions: [{
-			name: "Shadow Snare",
-			description: "Ranged Weapon Attack: +4 to hit, range 20/60 ft, one target. Hit: Large or smaller creatures are restrained. To escape, the restrained creature or an adjacent ally must use an action to make a successful DC 14 Strength check. The shadow snare has 15 hit points and AC 12."
-		}
-		]
 	},
 	"Eonic Drifter": {
 		name: "Eonic Drifter",
@@ -7769,10 +7631,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +6, History +6",
 		senses: "",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Eonic, Giant, Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Time Warping Staff",
 			ability: 2,
@@ -7808,10 +7669,9 @@ var ToB = {
 		skills: "Athletics +4, Perception +3",
 		damage_resistances: "poison",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Erina",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Shortsword",
 			ability: 2,
@@ -7862,10 +7722,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		damage_resistances: "poison",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Erina",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -7908,10 +7767,9 @@ var ToB = {
 		damage_immunities: "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhausted, frightened, paralyzed, petrified, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "understands the language of its creator, but can't speak",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -7960,10 +7818,9 @@ var ToB = {
 		saves: ["", "5", "7", "", "", "7"],
 		skills: "Nature +4, Animal Handling +6, Medicine +6, Perception +6, Survival +6",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Antler Glaive",
 			ability: 2,
@@ -8007,10 +7864,9 @@ var ToB = {
 		skills: "Arcana +7, History +7, Insight +6, Religion +7",
 		condition_immunities: "charmed, unconscious",
 		senses: "truesight 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "telepathy 100 ft",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -8061,10 +7917,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
 		condition_immunities: "charmed, frightened",
 		senses: "blindsight 30 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -8116,10 +7971,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "any languages it knew in life",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Necrotic Slam",
 			ability: 1,
@@ -8164,10 +8018,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing damage with nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "the languages spoken by its patron",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Eldritch Blade",
 			ability: 1,
@@ -8198,7 +8051,7 @@ var ToB = {
 			description: "The fext's weapon attacks are magical."
 		}, {
 			name: "Patron Blessing",
-			description: "A fext is infused with a portion of their patron's power. They have an Armor Class equal to 10 +their Charisma modifier +their Dexterity modifier."
+			description: "A fext is infused with a portion of their patron's power. They have an Armor Class equal to 10 + their Charisma modifier + their Dexterity modifier."
 		}
 		],
 		actions: [{
@@ -8223,10 +8076,9 @@ var ToB = {
 		damage_immunities: "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Razor-Leafed Branch",
 			ability: 1,
@@ -8281,10 +8133,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Ignan",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Swarm",
 			ability: 2,
@@ -8325,10 +8176,9 @@ var ToB = {
 		damage_immunities: "fire",
 		condition_immunities: "charmed, frightened, invisible",
 		senses: "truesight 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Celestial, Common, Elvish, Primordial, Sylvan",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -8347,7 +8197,7 @@ var ToB = {
 			name: "Innate Spellcasting",
 			description: [
 				"The firebird's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:",
-				"At will: guidance, purify food and drink, speak with animals", "3/day each: charm person, cure wounds (2d8 +5), daylight, faerie fire, heat metal, hypnotic pattern, tongues",
+				"At will: guidance, purify food and drink, speak with animals", "3/day each: charm person, cure wounds (2d8+5), daylight, faerie fire, heat metal, hypnotic pattern, tongues",
 				"1/day each: geas, heal, reincarnate"
 			]
 		}, {
@@ -8383,10 +8233,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Primordial",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Slam",
 			ability: 2,
@@ -8397,7 +8246,7 @@ var ToB = {
 		],
 		traits: [{
 			name: "Hide By Firelight",
-			description: "In an area lit only by nonmagical flame, a Firegeist gains a +2 bonus on Stealth checks. This becomes +4 when hiding within the fire."
+			description: "In an area lit only by nonmagical flame, a firegeist gains a +2 bonus on Stealth checks. This becomes +4 when hiding within the fire."
 		}, {
 			name: "Illumination",
 			description: "The firegeist sheds dim light in a 30-foot radius."
@@ -8434,10 +8283,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Dwarvish, Giant",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -8456,7 +8304,7 @@ var ToB = {
 			description: "The giant makes two slam attacks. If both hit, the target is grappled (escape DC 15), and the flab giant uses its squatting pin against the target as a bonus action."
 		}, {
 			name: "Squatting Pin",
-			description: "The flab giant squats atop the target, pinning it to the ground, where it is grappled and restrained (escape DC 17). The flab giant is free to attack another target, but the restrained creatures are released if it moves from its current space. As long as the giant does not move from the spot, it can maintain the squatting pin on up to two Medium-sized or smaller creatures. A creature suffers 9 (1d8 +5) bludgeoning damage every time it starts its turn restrained by a squatting pin."
+			description: "The flab giant squats atop the target, pinning it to the ground, where it is grappled and restrained (escape DC 17). The flab giant is free to attack another target, but the restrained creatures are released if it moves from its current space. As long as the giant does not move from the spot, it can maintain the squatting pin on up to two Medium-sized or smaller creatures. A creature suffers 9 (1d8+5) bludgeoning damage every time it starts its turn restrained by a squatting pin."
 		}
 		]
 	},
@@ -8475,10 +8323,9 @@ var ToB = {
 		skills: "Deception +5, Insight +3, Perception +5, Persuasion +5, Stealth +4",
 		damage_immunities: "fire",
 		senses: "",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Draconic, Ignan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -8511,10 +8358,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, paralyzed, exhaustion, poison, stunned, unconscious",
 		senses: "darkvision 240 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Darakhul",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Bone Spur",
 			ability: 2,
@@ -8569,10 +8415,9 @@ var ToB = {
 		damage_immunities: "necrotic",
 		condition_immunities: "frightened",
 		senses: "",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Void Speech",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Etheric Harpoon",
 			ability: 2,
@@ -8627,10 +8472,9 @@ var ToB = {
 		scores: [21, 10, 18, 6, 10, 7],
 		saves: ["", "", "6", "", "", ""],
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Giant, Orcish, Sylvan",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Boar Spear",
 			ability: 1,
@@ -8672,10 +8516,9 @@ var ToB = {
 		skills: "Stealth +4",
 		damage_immunities: "cold",
 		senses: "",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Sylvan",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -8731,10 +8574,9 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "blinded, charmed, deafened, frightened, prone",
 		senses: "blindsight 100 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Tendril",
 			ability: 1,
@@ -8766,11 +8608,6 @@ var ToB = {
 		}
 		]
 	},
-
-
-
-
-
 	"Garroter Crab": {
 		name: "Garroter Crab",
 		source: ["Tome of Beasts", 208],
@@ -8786,10 +8623,9 @@ var ToB = {
 		damage_immunities: "psychic",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Whip-claw",
 			ability: 2,
@@ -8818,10 +8654,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +8",
 		senses: "",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -8863,10 +8698,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, exhaustion, poisoned",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Glaive",
 			ability: 1,
@@ -8916,10 +8750,9 @@ var ToB = {
 		scores: [16, 15, 17, 2, 13, 7],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -8965,10 +8798,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -8986,7 +8818,7 @@ var ToB = {
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Plus 10 (3d6) necrotic damage. Two-Handed: 8 (1d10 +3) slashing damage.",
+			description: "Plus 10 (3d6) necrotic damage. Two-Handed: 8 (1d10+3) slashing damage.",
 		}, {
 			name: "Lance",
 			ability: 1,
@@ -9031,10 +8863,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "understands Undercommon but can't speak",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -9084,10 +8915,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Undercommon",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -9128,10 +8958,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Darakhul, Draconic, Dwarvish",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -9185,10 +9014,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Darakhul",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -9252,10 +9080,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Darakhul, Undercommon",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -9302,10 +9129,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Darakhul, Undercommon",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -9356,10 +9182,9 @@ var ToB = {
 		scores: [15, 13, 15, 1, 9, 2],
 		saves: ["", "", "", "", "", ""],
 		senses: "blindsight 60 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -9398,10 +9223,9 @@ var ToB = {
 		scores: [17, 13, 16, 2, 11, 4],
 		saves: ["", "", "", "", "", ""],
 		senses: "blindsight 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -9447,10 +9271,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Celestial, Common, Draconic, Infernal; telepathy (120 ft)",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Heavy Flail",
 			ability: 1,
@@ -9524,10 +9347,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2, Stealth +4",
 		senses: "Blindsight 30 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Claws",
 			ability: 1,
@@ -9579,10 +9401,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "blindsight 30 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -9611,16 +9432,15 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +5, Perception +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Gnoll",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Battleaxe",
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 8 (1d10 +3) slashing damage.",
+			description: "Two-Handed: 8 (1d10+3) slashing damage.",
 		}, {
 			name: "Bite",
 			ability: 1,
@@ -9662,10 +9482,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Giant, Trollkin, but cannot speak",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -9708,10 +9527,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "understands all languages it knew in life but can't speak",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -9756,15 +9574,14 @@ var ToB = {
 		damage_vulnerabilities: "cold, fire",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, petrified",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		passive_perception: "12",
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
 			damage: [6, 6, "piercing"],
 			range: "Melee (0 ft)",
-			description: "Or 13 (3d6 +3) piercing damage if the swarm has half of its hit points or fewer. The target also takes 17 (5d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 15 Constitution saving throw reduces poison damage by half and prevents the poisoned condition.",
+			description: "Or 13 (3d6+3) piercing damage if the swarm has half of its hit points or fewer. The target also takes 17 (5d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 15 Constitution saving throw reduces poison damage by half and prevents the poisoned condition.",
 		},
 		],
 		traits: [{
@@ -9801,10 +9618,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Abyssal, Celestial, Common, Gnomish, telepathy 60 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Unarmed Strike",
 			ability: 1,
@@ -9862,10 +9678,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "confusion, exhaustion, paralysis, poisoned",
 		senses: "darkvision 240 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Deep Speech, Giant, Undercommon",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -9907,10 +9722,10 @@ var ToB = {
 			description: "The gug makes one slam or stomp attack."
 		}, {
 			name: "Swallow",
-			description: "The gug swallows one creature it has grappled. The creature takes 26 (3d12 +7) bludgeoning damage immediately plus 13 (2d12) acid damage at the start of each of the gug's turns. A swallowed creature is no longer grappled but is blinded and restrained, and has total cover against attacks and other effects from outside the gug. If the gug takes 75 points of damage in a single turn, the swallowed creature is expelled and falls prone next to the gug. When the gug dies, a swallowed creature can crawl from the corpse by using 10 feet of movement."
+			description: "The gug swallows one creature it has grappled. The creature takes 26 (3d12+7) bludgeoning damage immediately plus 13 (2d12) acid damage at the start of each of the gug's turns. A swallowed creature is no longer grappled but is blinded and restrained, and has total cover against attacks and other effects from outside the gug. If the gug takes 75 points of damage in a single turn, the swallowed creature is expelled and falls prone next to the gug. When the gug dies, a swallowed creature can crawl from the corpse by using 10 feet of movement."
 		}, {
 			name: "Throw",
-			description: "The gug throws one creature it has grappled. The creature is thrown a distance of 2d4 times 10 feet in the direction the gug chooses, and takes 20 (2d12 +7) bludgeoning damage (plus falling damage if they are thrown into a chasm or off a cliff). A gug can throw a creature up to Large size. Small creatures are thrown twice as far, but the damage is the same."
+			description: "The gug throws one creature it has grappled. The creature is thrown a distance of 2d4 times 10 feet in the direction the gug chooses, and takes 20 (2d12+7) bludgeoning damage (plus falling damage if they are thrown into a chasm or off a cliff). A gug can throw a creature up to Large size. Small creatures are thrown twice as far, but the damage is the same."
 		}
 		]
 	},
@@ -9931,10 +9746,9 @@ var ToB = {
 		damage_immunities: "psychic, poison",
 		condition_immunities: "poisoned",
 		senses: "truesight 90 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Abyssal, Common, Darakhul, Sphinx",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -9965,7 +9779,7 @@ var ToB = {
 			description: "The sphinx makes one bite attack and two claw attacks."
 		}, {
 			name: "Rake",
-			description: "If the sphinx succeeds with both claw attacks, it automatically follows up with a rake attack. If the target fails a DC 17 Dexterity check, it is knocked prone and takes 14 (2d8 +5) slashing damage."
+			description: "If the sphinx succeeds with both claw attacks, it automatically follows up with a rake attack. If the target fails a DC 17 Dexterity check, it is knocked prone and takes 14 (2d8+5) slashing damage."
 		}
 		],
 		legendary_actions: [{
@@ -9991,7 +9805,6 @@ var ToB = {
 			"4th level (3 slots): blight, greater invisibility",
 			"5th level (1 slot): cloudkill"
 		]
-
 	},
 	"Haugbui": {
 		name: "Haugbui",
@@ -10010,10 +9823,9 @@ var ToB = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "truesight 60 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "the languages it spoke in life; telepathy 120 ft",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 			name: "Psychic Claw",
 			ability: 5,
@@ -10074,10 +9886,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 240 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Draconic, Infernal, Void Speech",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Engulfing Protoplasm",
 			ability: 1,
@@ -10135,10 +9946,9 @@ var ToB = {
 		damage_immunities: "cold, lightning, necrotic, poison",
 		condition_immunities: "exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 200 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Elvish, Goblin, Infernal, Sylvan",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Shadow Sword",
 			ability: 1,
@@ -10197,10 +10007,9 @@ var ToB = {
 		damage_immunities: "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhausted, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands the language of its creator but can't speak",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -10228,7 +10037,7 @@ var ToB = {
 			description: "The golem makes two slam attacks."
 		}, {
 			name: "Thieving Whirlwind (Recharge 5-6)",
-			description: "The hoard golem transforms into a 20-foot radius whirlwind of the treasures of which it is composed. In this form, it has immunity to all slashing and piercing damage. As a whirlwind, it can enter other creatures'spaces and stop there. Every creature in a space the whirlwind occupies must make a DC 17 Dexterity saving throw. On a failure, a target takes 40 (6d10 +7) bludgeoning damage and the whirlwind removes the most valuable visible item on the target, including wielded items, but not armor. If the saving throw is successful, the target takes half the bludgeoning damage and retains all possessions. The golem can remain in whirlwind form for up to 3 rounds, or it can transform back to its normal form on any of its turns as a bonus action."
+			description: "The hoard golem transforms into a 20-foot radius whirlwind of the treasures of which it is composed. In this form, it has immunity to all slashing and piercing damage. As a whirlwind, it can enter other creatures'spaces and stop there. Every creature in a space the whirlwind occupies must make a DC 17 Dexterity saving throw. On a failure, a target takes 40 (6d10+7) bludgeoning damage and the whirlwind removes the most valuable visible item on the target, including wielded items, but not armor. If the saving throw is successful, the target takes half the bludgeoning damage and retains all possessions. The golem can remain in whirlwind form for up to 3 rounds, or it can transform back to its normal form on any of its turns as a bonus action."
 		}
 		]
 	},
@@ -10246,10 +10055,9 @@ var ToB = {
 		saves: ["", "12", "", "", "", ""],
 		skills: "Athletics +8, Perception +6, Stealth +8",
 		senses: "darkvision 60 ft, tremorsense 30 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "understands Undercommon",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -10297,10 +10105,9 @@ var ToB = {
 		damage_immunities: "cold",
 		damage_vulnerabilities: "fire",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "understands Elvish and Umbral but can't speak",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -10343,10 +10150,9 @@ var ToB = {
 		damage_immunities: "cold; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "exhaustion",
 		senses: "",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Auran, Common, Giant (can't speak in roc form)",
-		challengeRating: "19",
-		proficiencyBonus: 6,
+		challenge_rating: "19",
 		attacks: [{
 			name: "Beak",
 			ability: 1,
@@ -10438,10 +10244,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "impaired sight 30 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -10455,7 +10260,7 @@ var ToB = {
 			description: [
 				"When a hulking whelp is calm and unafraid, it uses the following statistics instead:",
 				"Size: Small",
-				"HP: 9 (6d6 +12)",
+				"HP: 9 (6d6+12)",
 				"Speed: 20 ft",
 				"Str: 8 (-1), Con: 6 (-2)",
 				"Languages: Common, Sylvan"
@@ -10496,10 +10301,9 @@ var ToB = {
 		damage_immunities: "acid, psychic",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, stunned, unconscious",
 		senses: "blindsight 60 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "understands Celestial and Primordial, but cannot speak intelligibly",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -10561,10 +10365,9 @@ var ToB = {
 		damage_immunities: "fire, poison; bludgeoning, piercing, slashing",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, poisoned, restrained, stunned",
 		senses: "blindsight 10 ft, darkvision 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Draconic, Infernal, Primordial",
-		challengeRating: "15",
-		proficiencyBonus: 5,
+		challenge_rating: "15",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
@@ -10622,10 +10425,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		damage_immunities: "cold",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Giant, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Ice Dagger",
 			ability: 2,
@@ -10695,10 +10497,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "telepathy 60 ft",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Slam",
 			ability: 2,
@@ -10746,10 +10547,9 @@ var ToB = {
 		damage_resistances: "bludgeoning",
 		condition_immunities: "exhaustion, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common (Ancient Nurian)",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
@@ -10796,10 +10596,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Celestial, Common, Draconic, Infernal; telepathy (120 ft)",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -10825,7 +10624,7 @@ var ToB = {
 			description: [
 				"The ink devil's spellcasting ability is Charisma (spell save DC 14). The ink devil can cast the following spells, requiring no material components:",
 				"At will: detect magic, illusory script, invisibility, teleportation (self plus 50 lb of objects only)",
-				"1/day each: glyph of warding, planar ally (1d4 +1 lemures 40 percent, or 1 ink devil 25 percent)"
+				"1/day each: glyph of warding, planar ally (1d4+1 lemures 40 percent, or 1 ink devil 25 percent)"
 			]
 		}
 		],
@@ -10856,10 +10655,9 @@ var ToB = {
 		skills: "Athletics +14, Perception +8",
 		damage_immunities: "ability damage/drain",
 		senses: "darkvision 90 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "understands Aquan and Elvish, but cannot speak",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -10900,7 +10698,7 @@ var ToB = {
 			description: "The isonade makes one tail slap attack and one bite attack."
 		}, {
 			name: "Breach",
-			description: "The isonade leaps out of the water to crash down onto a target with devastating effect. The isonade must move 30 feet in a straight line toward its target before jumping. When jumping, the isonade travels up to 30 feet through the air before landing. Any creature occupying the space where the isonade lands takes 76 (12d10 +10) bludgeoning damage and becomes submerged 10 feet below the surface of the water. Targets that make a successful DC 20 Strength saving throw take half damage and are not submerged, but are moved to the nearest unoccupied space. Boats and structures are not immune to this attack."
+			description: "The isonade leaps out of the water to crash down onto a target with devastating effect. The isonade must move 30 feet in a straight line toward its target before jumping. When jumping, the isonade travels up to 30 feet through the air before landing. Any creature occupying the space where the isonade lands takes 76 (12d10+10) bludgeoning damage and becomes submerged 10 feet below the surface of the water. Targets that make a successful DC 20 Strength saving throw take half damage and are not submerged, but are moved to the nearest unoccupied space. Boats and structures are not immune to this attack."
 		}, {
 			name: "Swallow Whole",
 			description: "When the isonade's bite attack hits a target grappled from a previous bite attack, the target is also swallowed. The grapple ends, but the target is blinded and restrained, it has total cover against attacks and other effects outside the isonade, and it takes 36 (8d8) acid damage at the start of each of the isonade's turns. An isonade can have two Large, four Medium, or six Small creatures swallowed at a time. If the isonade takes 40 damage or more from a swallowed creature in a single turn, it must succeed on a DC 20 Constitution saving throw or regurgitate all swallowed creatures, which fall prone within 10 feet of the isonade. If the isonade dies, a swallowed creature is no longer restrained by it and can escape by using 20 feet of movement, exiting prone."
@@ -10921,9 +10719,8 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +5",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "11",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		passive_perception: "11",
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -10968,10 +10765,9 @@ var ToB = {
 		skills: "Acrobatics +6, Perception +3, Stealth +6",
 		damage_resistances: "acid, lightning",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Jaws",
 			ability: 1,
@@ -11012,10 +10808,9 @@ var ToB = {
 		skills: "Arcana +10, History +10, Nature +10, Stealth +5",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Giant",
-		challengeRating: "22",
-		proficiencyBonus: 7,
+		challenge_rating: "22",
 		attacks: [{
 			name: "Greatclub",
 			ability: 1,
@@ -11071,7 +10866,7 @@ var ToB = {
 			description: "If banished, a Jotun giant can return to the plane it departed 2/day. If banished a third time, it cannot return."
 		}, {
 			name: "Sweeping Blow",
-			description: "The Jotun giant can sweep its greatclub in an arc around itself. The sweep affects a semicircular path 30 feet wide around the giant. All targets in that area take 46 (8d8 +10) bludgeoning damage, or no damage with a successful DC 19 Dexterity saving throw."
+			description: "The Jotun giant can sweep its greatclub in an arc around itself. The sweep affects a semicircular path 30 feet wide around the giant. All targets in that area take 46 (8d8+10) bludgeoning damage, or no damage with a successful DC 19 Dexterity saving throw."
 		}
 		],
 		reactions: [{
@@ -11094,10 +10889,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +0, Stealth +5",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Abyssal, Common, Infernal",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -11133,10 +10927,9 @@ var ToB = {
 		skills: "Deception +7, Persuasion +7, Stealth +6",
 		damage_resistances: "bludgeoning, piercing, and slashing from",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Sylvan",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -11184,10 +10977,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Celestial, Common, Draconic, Infernal, telepathy",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -11199,7 +10991,7 @@ var ToB = {
 			ability: 1,
 			damage: [1, 6, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 8 (1d8 +4) piercing damage.",
+			description: "Two-Handed: 8 (1d8+4) piercing damage.",
 		}, {
 			name: "Spear (Ranged)",
 			ability: 1,
@@ -11254,10 +11046,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Common, Draconic",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -11310,10 +11101,9 @@ var ToB = {
 		skills: "Intimidation +6, Stealth +5",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Shortsword",
 			ability: 2,
@@ -11364,10 +11154,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -11434,10 +11223,9 @@ var ToB = {
 		saves: ["","","","","",""],
 		skills: "Perception +3",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -11485,10 +11273,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Infernal, telepathy 120 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Scythe",
 			ability: 1,
@@ -11543,16 +11330,15 @@ var ToB = {
 		damage_immunities: "necrotic; bludgeoning, piercing, and slashing damage from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Abyssal, Common, Celestial, Dwarvish, Infernal",
-		challengeRating: "17",
-		proficiencyBonus: 6,
+		challenge_rating: "17",
 		attacks: [{
 			name: "Longsword",
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Plus 14 (4d6) necrotic damage; Two-Handed: 11 (1d10 +6) slashing damage.",
+			description: "Plus 14 (4d6) necrotic damage; Two-Handed: 11 (1d10+6) slashing damage.",
 		}, {
 			name: "Drain Life",
 			ability: 6,
@@ -11632,10 +11418,9 @@ var ToB = {
 		scores: [16, 16, 13, 12, 16, 17],
 		saves: ["", "5", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Sylvan",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -11686,10 +11471,9 @@ var ToB = {
 		damage_immunities: "cold, poison, psychic",
 		condition_immunities: "charmed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Infernal, Primordial, Void Speech",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -11724,7 +11508,7 @@ var ToB = {
 			description: "The krake spawn makes eight tentacle attacks and one bite attack. It can subsitute one constrict attack for two tentacle attacks if it has a creature grappled at the start of the krake spawn’s turn, but it never constricts more than once per turn."
 		}, {
 			name: "Constrict",
-			description: "The constricted creature takes 26 (3d12 +7) bludgeoning damage and is grappled (escape DC 17) and restrained."
+			description: "The constricted creature takes 26 (3d12+7) bludgeoning damage and is grappled (escape DC 17) and restrained."
 		}, {
 			name: "Ink Cloud (Recharge 6)",
 			description: "The krake spawn emits black, venomous ink in a 30-foot cloud as a bonus action while underwater. The cloud affects vision as the darkness spell, and any creature that starts its turn inside the cloud takes 10 (3d6) poison damage, or half damage with a successful DC 18 Constitution saving throw. The krake spawn’s darkvision is not impaired by this cloud. The cloud persists for 1 minute, then disperses."
@@ -11748,10 +11532,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Giant",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -11798,10 +11581,9 @@ var ToB = {
 		skills: "Arcana +5, History +5, Nature +5, Perception +3, Religion +5",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic, Elvish, Primordial; telepathy 60 ft",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -11839,10 +11621,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +4, Stealth +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Lemurfolk",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Kukri Dagger (Melee)",
 			ability: 2,
@@ -11886,10 +11667,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +5, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Lemurfolk",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Kukri Dagger (Melee)",
 			ability: 2,
@@ -11925,7 +11705,6 @@ var ToB = {
 			"2nd Level (3 slots): detect thoughts, misty step",
 			"3rd Level (2 slots): lightning bolt"
 		]
-
 	},
 	"Leshy": {
 		name: "Leshy",
@@ -11941,10 +11720,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +5, Perception +4, Stealth +3, Survival +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Club",
 			ability: 1,
@@ -11993,10 +11771,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, poisoned",
 		senses: "blindsight 60 ft, truesight 10 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Machine Speech",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "",
 			ability: 0,
@@ -12012,7 +11789,7 @@ var ToB = {
 		],
 		actions: [{
 			name: "Gaze of Confusion",
-			description: "The library automaton chooses one creature it can see within 40 feet. The target must succeed on a DC 12 Intelligence saving throw or take 9 (3d4 +2) psychic damage and have disadvantage on Intelligence-based checks, saving throws, and attacks until the end of its next turn. If the saving throw succeeds, then the target takes half damage and suffers no other effect."
+			description: "The library automaton chooses one creature it can see within 40 feet. The target must succeed on a DC 12 Intelligence saving throw or take 9 (3d4+2) psychic damage and have disadvantage on Intelligence-based checks, saving throws, and attacks until the end of its next turn. If the saving throw succeeds, then the target takes half damage and suffers no other effect."
 		}, {
 			name: "Bibliotelekinesis",
 			description: "This ability functions as the cantrip mage hand but can be used only on books, scrolls, maps, and other printed or written materials."
@@ -12036,10 +11813,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "blindsight 100 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands Darakhul",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -12079,10 +11855,9 @@ var ToB = {
 		saves: ["", "7", "", "", "", "8"],
 		skills: "Acrobatics +7, Perception +6, Stealth +10",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Goblin, Void Speech",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -12133,9 +11908,8 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "paralyzed, prone, unconscious",
 		senses: "darkvision 60 ft, tremorsense 120 ft on ice",
-		passivePerception: "14",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		passive_perception: "14",
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -12190,10 +11964,9 @@ var ToB = {
 		damage_immunities: "poison, psychic, radiant",
 		condition_immunities: "blinded, charmed, exhaustion (see Lightform special ability), grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "blindsight 120 ft, truesight 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Celestial, Elemental, Elvish, Giant",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Disrupting Touch",
 			ability: 2,
@@ -12250,10 +12023,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
 		senses: "sight 20 ft (blind beyond the radius of its own light)",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "shares a telepathic link with the individual that lit its wick",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -12296,16 +12068,15 @@ var ToB = {
 		damage_immunities: "cold, poison",
 		condition_immunities: "exhaustion, charmed, frightened, poisoned",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Common, Draconic, Elvish, Sylvan",
-		challengeRating: "18",
-		proficiencyBonus: 6,
+		challenge_rating: "18",
 		attacks: [{
 			name: "Huntsman's Spear (Melee)",
 			ability: 1,
 			damage: [2, 6, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Plus 7 (2d6) poison damage. Two-Handed: 14 (2d8 +5) piercing damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone. As a bonus action, the Lord of the Hunt can cause his spear to magically appear in his hand, even if it is destroyed.",
+			description: "Plus 7 (2d6) poison damage. Two-Handed: 14 (2d8+5) piercing damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone. As a bonus action, the Lord of the Hunt can cause his spear to magically appear in his hand, even if it is destroyed.",
 		}, {
 			name: "Huntsman's Spear (Ranged)",
 			ability: 1,
@@ -12395,10 +12166,9 @@ var ToB = {
 		saves: ["", "8", "", "", "", "9"],
 		skills: "Deception +9, Performance +9, Persuasion +9",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Sylvan",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -12434,7 +12204,6 @@ var ToB = {
 			"3rd level (3 slots): hypnotic pattern, gaseous form, water walk",
 			"4th level (2 slots): dominate beast, ice storm"
 		]
-
 	},
 	"Loxoda": {
 		name: "Loxoda",
@@ -12450,10 +12219,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Survival +5",
 		senses: "",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Loxodan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Maul",
 			ability: 1,
@@ -12508,10 +12276,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Celestial, Draconic, Elvish, Infernal, Sylvan, telepathy 120 ft",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -12584,10 +12351,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +6",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -12646,10 +12412,9 @@ var ToB = {
 		damage_immunities: "fire, radiant, poison",
 		condition_immunities: "blinded, poisoned",
 		senses: "truesight 30 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Abyssal, telepathy 120 ft",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Scorching Blast",
 			ability: 6,
@@ -12698,10 +12463,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "the languages it knew in life",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Desiccating Touch",
 			ability: 1,
@@ -12763,10 +12527,9 @@ var ToB = {
 		saves: ["", "7", "6", "", "4", "5"],
 		skills: "Perception +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Giant, Ravenfolk, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Longsword",
 			ability: 1,
@@ -12821,10 +12584,9 @@ var ToB = {
 		damage_immunities: "fire, poison; bludgeoning, piercing, and slashing from weapons that aren't silvered",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "23",
+		passive_perception: "23",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "25",
-		proficiencyBonus: 8,
+		challenge_rating: "25",
 		attacks: [{
 			name: "Purse",
 			ability: 1,
@@ -12912,10 +12674,9 @@ var ToB = {
 		skills: "Acrobatics +7, Perception +6, Stealth +7",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Elvish, Goblin, Sylvan, Void Speech",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -12969,10 +12730,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, slashing",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
 		senses: "blindsight 10 ft, darkvision 30 ft, tremorsense 30 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
@@ -13011,10 +12771,9 @@ var ToB = {
 		damage_immunities: "acid",
 		condition_immunities: "prone",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Pseudopod",
 			ability: 2,
@@ -13055,10 +12814,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, poisoned, stunned, unconscious",
 		senses: "darkvision 60 ft, truesight 30 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Giant, Infernal",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 			name: "Khopesh of Oblivion",
 			ability: 1,
@@ -13110,10 +12868,9 @@ var ToB = {
 		damage_resistances: "acid, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical weapons",
 		damage_immunities: "cold, lightning",
 		senses: "darkvision 90 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Infernal, Sylvan",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -13159,10 +12916,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Tail",
 			ability: 1,
@@ -13199,10 +12955,9 @@ var ToB = {
 		damage_immunities: "acid, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, frightened, poisoned, stunned",
 		senses: "truesight 120 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "Celestial, Common, Draconic, Infernal, Primordial, telepathy 300 ft",
-		challengeRating: "27",
-		proficiencyBonus: 8,
+		challenge_rating: "27",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -13307,16 +13062,15 @@ var ToB = {
 		damage_resistances: "thunder",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
 			damage: [4, 8, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Or 39 (8d8 +3) piercing damage against a stunned target.",
+			description: "Or 39 (8d8+3) piercing damage against a stunned target.",
 		}, {
 			name: "Quarterstaff",
 			ability: 1,
@@ -13364,10 +13118,9 @@ var ToB = {
 		skills: "Arcana +10, Deception +7, Medicine +5, Perception +5, Stealth +7",
 		damage_resistances: "radiant, cold",
 		senses: "blindsight 30 ft, darkvision 240 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Mi-go, Void Speech",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -13394,7 +13147,7 @@ var ToB = {
 		],
 		reactions: [{
 			name: "Spore Release",
-			description: "When a mi-go dies, it releases its remaining spores. All living creatures within 10 feet take 14 (2d8 +5) poison damage and become poisoned; a successful DC 16 Constitution saving throw halves the damage and prevents poisoning. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on itself with a success."
+			description: "When a mi-go dies, it releases its remaining spores. All living creatures within 10 feet take 14 (2d8+5) poison damage and become poisoned; a successful DC 16 Constitution saving throw halves the damage and prevents poisoning. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on itself with a success."
 		},
 		],
 	},
@@ -13414,10 +13167,9 @@ var ToB = {
 		damage_resistances: "poison; bludgeoning and slashing from nonmagical weapons",
 		condition_immunities: "prone",
 		senses: "darkvision 60 ft, tremorsense 30 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Handaxe",
 			ability: 1,
@@ -13448,10 +13200,9 @@ var ToB = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "tremorsense 30 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "understands Common but cannot speak",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -13491,10 +13242,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +7, Performance +9, Perception +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Slam",
 			ability: 2,
@@ -13544,10 +13294,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Stealth +5, Survival +3",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Sylvan, Umbral",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -13601,10 +13350,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +5, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Sylvan, can speak with felines",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -13657,10 +13405,9 @@ var ToB = {
 		damage_immunities: "poison, bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Elvish, Umbral",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Greatsword",
 			ability: 1,
@@ -13704,10 +13451,9 @@ var ToB = {
 		damage_immunities: "poison, bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Elvish, Umbral",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Longsword",
 			ability: 1,
@@ -13751,10 +13497,9 @@ var ToB = {
 		damage_immunities: "cold, fire, poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "blindsight 30 ft, darkvision 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Umbral; telepathy 100 ft",
-		challengeRating: "17",
-		proficiencyBonus: 6,
+		challenge_rating: "17",
 		attacks: [{
 			name: "Crystal Staff",
 			ability: 1,
@@ -13852,10 +13597,9 @@ var ToB = {
 		damage_immunities: "acid",
 		condition_immunities: "prone",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Primordial",
-		challengeRating: "15",
-		proficiencyBonus: 5,
+		challenge_rating: "15",
 		attacks: [{
 			name: "Spike",
 			ability: 2,
@@ -13909,10 +13653,9 @@ var ToB = {
 		scores: [11, 16, 13, 14, 10, 15],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -13967,10 +13710,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "blind, poisoned",
 		senses: "blindsight 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Giant, Sylvan, Trollkin",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -14029,10 +13771,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, frightened, poisoned, stunned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -14072,10 +13813,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "paralyzed, poisoned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Darakhul, Draconic, Elvish, Sylvan",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -14120,7 +13860,6 @@ var ToB = {
 			"4th level (3 slots): dimension door",
 			"5th level (1 slot): dominate person"
 		]
-
 	},
 	"Ngobou": {
 		name: "Ngobou",
@@ -14136,10 +13875,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +5",
 		senses: "",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Gore",
 			ability: 1,
@@ -14183,10 +13921,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, paralyzed, poisoned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Elvish, Primordial, Sylvan, Void Speech",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -14239,10 +13976,9 @@ var ToB = {
 		scores: [15, 14, 14, 1, 9, 3],
 		saves: ["", "", "", "", "", ""],
 		senses: "blindsight 60 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -14279,10 +14015,9 @@ var ToB = {
 		damage_vulnerabilities: "radiant; silvered weapons",
 		damage_resistances: "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Giant, Goblin, telepathy 200 ft (with falsemen only)",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -14326,10 +14061,9 @@ var ToB = {
 		damage_immunities: "cold, necrotic, poison; bludgeoning, piercing and slashing from nonmagical weapons (only when in ethereal form)",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "understand Void Speech and the languages it knew in life but can't speak",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -14346,7 +14080,7 @@ var ToB = {
 		],
 		traits: [{
 			name: "Undead Fortitude",
-			description: "If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 +the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead."
+			description: "If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead."
 		}, {
 			name: "Dual State",
 			description: "Like its nihileth creator, a nihilethic zombie can assume either a material or ethereal form. When in its material form, it has resistance to nonmagical weapons. In its ethereal form, it is immune to nonmagical weapons. Its ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within."
@@ -14380,10 +14114,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Survival +2",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Scimitar",
 			ability: 1,
@@ -14430,10 +14163,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Survival +2",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Scimitar",
 			ability: 1,
@@ -14490,10 +14222,9 @@ var ToB = {
 		scores: [15, 12, 16, 2, 10, 5],
 		saves: ["", "", "", "", "", ""],
 		senses: "",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -14530,16 +14261,15 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "frightened",
 		senses: "",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, plus the language spoken by the noctini's fext master",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Pact Staff",
 			ability: 1,
 			damage: [1, 6, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 8 (1d8 +4) bludgeoning damage",
+			description: "Two-Handed: 8 (1d8+4) bludgeoning damage",
 		},
 		],
 		traits: [{
@@ -14561,7 +14291,6 @@ var ToB = {
 			"1st level (4 slots): armor of agathys, charm person, hellish rebuke, hex",
 			"2nd level (2 slots): crown of madness, misty step"
 		]
-
 	},
 	"Oculo Swarm": {
 		name: "Oculo Swarm",
@@ -14579,10 +14308,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, slashing",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "understands Common but can't speak",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "", //check
 			ability: 0,
@@ -14618,10 +14346,9 @@ var ToB = {
 		scores: [20, 8, 16, 5, 7, 8],
 		saves: ["8", "", "6", "", "", "2"],
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "Common, Giant",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Greatclub",
 			ability: 1,
@@ -14679,16 +14406,15 @@ var ToB = {
 		damage_immunities: "acid",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, prone",
 		senses: "blindsight 60 ft (blind beyond this radius), tremorsense 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "understands all languages but can't speak, telepathy 120 ft",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Pseudopod",
 			ability: 1,
 			damage: [2, 8, "bludgeoning"],
 			range: "Melee (15 ft)",
-			description: "Melee Weapon Attack: +8 to hit, reach 15 ft, one creature. Hit: 13 (2d8 +4) damage plus 10 (3d6) acid damage, and a target that's Large or smaller is grappled (escape DC 16) and restrained until the grapple ends. The oozasis has two pseudopods, each of which can grapple one target at a time.",
+			description: "Plus 10 (3d6) acid damage; If target is Large or smaller it is grappled (escape DC 16) and restrained until the grapple ends. The oozasis has two pseudopods, each of which can grapple one target at a time.",
 		},
 		],
 		traits: [{
@@ -14731,10 +14457,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "truesight 90 ft",
-		passivePerception: "23",
+		passive_perception: "23",
 		languages: "Celestial, Darakhul, Draconic, Giant, Infernal, Undercommon, Void Speech; telepathy 100 ft",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -14808,10 +14533,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "telepathy 200 ft",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Cacophony Ray",
 			ability: 2,
@@ -14859,10 +14583,9 @@ var ToB = {
 		skills: "Performance +7, Stealth +6",
 		damage_vulnerabilities: "thunder",
 		senses: "blindsight 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Abyssal, Giant",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -14903,7 +14626,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Paper Drake": {
 		name: "Paper Drake",
 		source: ["Tome of Beasts", 154],
@@ -14918,10 +14640,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "paralysis, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Draconic, Dwarvish, Elvish",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -14970,10 +14691,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +5, Sleight of Hand +5, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Fist",
 			ability: 1,
@@ -15023,10 +14743,9 @@ var ToB = {
 		damage_immunities: "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands the languages of its creator but can't speak",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -15074,10 +14793,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, slashing",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
 		senses: "blindsight 10 ft, darkvision 30 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
@@ -15112,10 +14830,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 30 ft, darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Infernal; telepathy 60 ft",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -15163,10 +14880,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -15189,7 +14905,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Qorgeth, Demon Lord of The Devouring Worm": {
 		name: "Qorgeth, Demon Lord of The Devouring Worm",
 		source: ["Tome of Beasts", 90],
@@ -15207,10 +14922,9 @@ var ToB = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "blinded, charmed, exhaustion, frightened, poisoned",
 		senses: "blindsight 120 ft, tremorsense 120 ft",
-		passivePerception: "21",
+		passive_perception: "21",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "23",
-		proficiencyBonus: 7,
+		challenge_rating: "23",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -15307,10 +15021,9 @@ var ToB = {
 		damage_immunities: "cold; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
 		condition_immunities: "charmed, frightened",
 		senses: "truesight 120 ft",
-		passivePerception: "21",
+		passive_perception: "21",
 		languages: "Celestial, Common, Elvish, Sylvan, Umbral; telepathy 120 ft",
-		challengeRating: "21",
-		proficiencyBonus: 7,
+		challenge_rating: "21",
 		attacks: [{
 			name: "Rapier",
 			ability: 2,
@@ -15403,7 +15116,6 @@ var ToB = {
 			"8th level (1 slot): dominate monster",
 			"9th level (1 slot): meteor swarm"
 		]
-
 	},
 	"Queen of Witches": {
 		name: "Queen of Witches",
@@ -15422,10 +15134,9 @@ var ToB = {
 		damage_immunities: "radiant",
 		condition_immunities: "blinded, charmed, frightened",
 		senses: "truesight 60 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Celestial, Common, Draconic, Elvish, Sylvan, Umbral",
-		challengeRating: "17",
-		proficiencyBonus: 6,
+		challenge_rating: "17",
 		attacks: [{
 			name: "Moonsilver Ring",
 			ability: 1,
@@ -15516,10 +15227,9 @@ var ToB = {
 		skills: "Acrobatics +11, Perception +4",
 		damage_resistances: "acid, cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Goblin, Infernal, Sylvan, Void Speech",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -15541,7 +15251,7 @@ var ToB = {
 			description: "The qwyllion uses its deadly gaze if it can, and makes two claw attacks."
 		}, {
 			name: "Deadly Gaze (Recharge 5-6)",
-			description: "The qwyllion turns its gaze against a single creature within 20 feet of the qwyllion. The target must succeed on a DC 14 Constitution saving throw or take 16 (3d8 +3) necrotic damage and be incapacitated until the start of the qwyllion's next turn. A humanoid slain by a qwyllion's death gaze rises 2d4 hours later as a specter under the qwyllion's control."
+			description: "The qwyllion turns its gaze against a single creature within 20 feet of the qwyllion. The target must succeed on a DC 14 Constitution saving throw or take 16 (3d8+3) necrotic damage and be incapacitated until the start of the qwyllion's next turn. A humanoid slain by a qwyllion's death gaze rises 2d4 hours later as a specter under the qwyllion's control."
 		}, {
 			name: "Innate Spellcasting",
 			description: [
@@ -15565,10 +15275,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +5, Investigation +5",
 		senses: "",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Scimitar",
 			ability: 2,
@@ -15606,10 +15315,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Thieves'Cant",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -15655,10 +15363,9 @@ var ToB = {
 		skills: "Deception +6, Persuasion +6, Stealth +6",
 		damage_resistances: "bludgeoning, piercing, and slashing damage from nonmagical weapons",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Celestial, Common; telepathy 100 ft",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Gore",
 			ability: 2,
@@ -15705,10 +15412,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +2",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -15746,10 +15452,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +5, Perception +2, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Thieves Cant",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Dagger",
 			ability: 2,
@@ -15801,10 +15506,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing",
 		condition_immunities: "blinded, deafened",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Druidic, Elvish, Sylvan",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -15857,10 +15561,9 @@ var ToB = {
 		saves: ["3", "5", "", "", "7", ""],
 		skills: "Intimidate +5, Perception +10",
 		senses: "darkvision 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Common, Feather Speech, Huginn",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Radiant Runestaff",
 			ability: 1,
@@ -15906,10 +15609,9 @@ var ToB = {
 		saves: ["", "4", "1", "", "4", "3"],
 		skills: "Deception +3, Perception +6, Stealth +6",
 		senses: "darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Feather Speech, Huginn",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Longbow",
 			ability: 2,
@@ -15958,10 +15660,9 @@ var ToB = {
 		saves: ["", "5", "", "", "3", "2"],
 		skills: "Deception +2, Perception +5, Stealth +5",
 		senses: "darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Feather Speech, Huginn",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Longbow",
 			ability: 2,
@@ -16025,10 +15726,9 @@ var ToB = {
 		skills: "Arcana +9, Deception +5, Insight +7, Perception +9",
 		condition_immunities: "charmed, poisoned",
 		senses: "blood sense 90 ft, darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Druidic, Giant",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -16050,7 +15750,7 @@ var ToB = {
 		],
 		actions: [{
 			name: "Siphoning Aura (Recharge 5-6)",
-			description: "The red hag radiates an aura in a 30-foot radius, lasting for 3 rounds, that draws all fluids out through a creature's mouth, nose, eyes, ears, and pores. Every creature of the hag's choosing that starts its turn in the affected area takes 18 (4d6 +4) necrotic damage, or half damage with a successful DC 15 Constitution saving throw."
+			description: "The red hag radiates an aura in a 30-foot radius, lasting for 3 rounds, that draws all fluids out through a creature's mouth, nose, eyes, ears, and pores. Every creature of the hag's choosing that starts its turn in the affected area takes 18 (4d6+4) necrotic damage, or half damage with a successful DC 15 Constitution saving throw."
 		}
 		],
 		spells: [
@@ -16061,7 +15761,6 @@ var ToB = {
 			"3rd level (3 slots): call lightning, conjure animals, dispel magic, meld into stone",
 			"4th level (2 slots): control water, dominate beast, freedom of movement, hallucinatory terrain"
 		]
-
 	},
 	"Red-Banded Line Spider": {
 		name: "Red-Banded Line Spider",
@@ -16079,10 +15778,9 @@ var ToB = {
 		damage_immunities: "psychic",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -16122,10 +15820,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing damage from nonmagical weapons",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Sylvan, Undercommon",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -16171,10 +15868,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		damage_resistances: "force, poison",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Tusks",
 			ability: 1,
@@ -16197,7 +15893,7 @@ var ToB = {
 			description: [
 				"50% of rift swine have additional mutant features. Choose or roll on the table below.",
 				"1: Acid Boils: A creature that hits the rift swine with a melee attack must make a successful DC 12 Dexterity saving throw or take 3 (1d6) acid damage.",
-				"2: Tentacular Tongue: Instead of using its tusks, the rift swine can attack with its tongue: Melee weapon attack: +7 to hit, reach 5 ft, one target. Hit: 9 (2d4 +4) bludgeoning damage. If the target is a creature, it is grappled and restrained as with a tentacle attack (escape DC 14).",
+				"2: Tentacular Tongue: Instead of using its tusks, the rift swine can attack with its tongue: Melee weapon attack: +7 to hit, reach 5 ft, one target. Hit: 9 (2d4+4) bludgeoning damage. If the target is a creature, it is grappled and restrained as with a tentacle attack (escape DC 14).",
 				"3: Covered in Slime:Increase the rift swine's AC by 1.",
 				"4: Acid Saliva: The rift swine's tusk or tongue attack does an additional 3 (1d6) acid damage.",
 				"5: Poison Spit: Ranged Weapon Attack: +3 to hit, range 15 ft, one target. Hit: 6 (1d12) poison damage.",
@@ -16225,10 +15921,9 @@ var ToB = {
 		saves: ["5", "", "5", "", "", ""],
 		damage_resistances: "cold",
 		senses: "darkvision 200 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Tendril",
 			ability: 1,
@@ -16271,10 +15966,9 @@ var ToB = {
 		saves: ["", "6", "", "", "", ""],
 		skills: "Perception +1",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "any languages it knew in life",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Blade",
 			ability: 1,
@@ -16320,16 +16014,15 @@ var ToB = {
 		damage_immunities: "lightning",
 		condition_immunities: "exhaustion",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Elemental, Elvish, Giant",
-		challengeRating: "16",
-		proficiencyBonus: 5,
+		challenge_rating: "16",
 		attacks: [{
 			name: "Longsword",
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Plus 10 (3d6) lightning damage; Two-Handed: 10 (1d10 +5) slashing damage.",
+			description: "Plus 10 (3d6) lightning damage; Two-Handed: 10 (1d10+5) slashing damage.",
 		}, {
 			name: "Flood Blast",
 			ability: 6,
@@ -16416,10 +16109,9 @@ var ToB = {
 		saves: ["", "5", "5", "", "", ""],
 		skills: "Acrobatics +5, Stealth +7",
 		senses: "darkvision 60 ft, tremorsense 10 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Common",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Begrimed Shortsword",
 			ability: 2,
@@ -16462,10 +16154,9 @@ var ToB = {
 		saves: ["", "4", "2", "", "", ""],
 		skills: "Acrobatics +4, Stealth +6",
 		senses: "darkvision 60 ft, tremorsense 10 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Common",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Shortsword",
 			ability: 2,
@@ -16505,10 +16196,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "blindsight 60 ft (blind beyond this)",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Wind of Decay",
 			ability: 2,
@@ -16546,10 +16236,9 @@ var ToB = {
 		damage_immunities: "lightning, thunder, poison",
 		condition_immunities: "poisoned, stunned",
 		senses: "blindsight 10 ft, darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Abyssal, Common, telepathy 120 ft",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -16607,10 +16296,9 @@ var ToB = {
 		skills: "Stealth +5",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -16661,10 +16349,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison; piercing and slashing damage from nonmagical weapons",
 		condition_immunities: "charmed, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Breathless Kiss",
 			ability: 1,
@@ -16711,10 +16398,9 @@ var ToB = {
 		damage_vulnerabilities: "acid",
 		condition_immunities: "paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -16741,7 +16427,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Spawn of Akyishigal": {
 		name: "Spawn of Akyishigal",
 		source: ["Tome of Beasts", 83],
@@ -16757,10 +16442,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Infernal, Spawn of Akyishigal",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -16805,15 +16489,14 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		passive_perception: "13",
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
 			damage: [1, 4, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Target must make a successful DC 10 Constitution saving throw or be paralyzed for 1d4 rounds. In addition, the skin bat attaches itself to the target. The skin bat can't bite a different creature while it's attached, and its bite attack automatically hits a creature the skin bat is attached to. Removing a skin bat requires a successful DC 11 Strength check and inflicts 5 (1d4 +3) slashing damage to the creature the bat is being removed from. A successful save renders the target immune to skin bat poison for 24 hours.",
+			description: "Target must make a successful DC 10 Constitution saving throw or be paralyzed for 1d4 rounds. In addition, the skin bat attaches itself to the target. The skin bat can't bite a different creature while it's attached, and its bite attack automatically hits a creature the skin bat is attached to. Removing a skin bat requires a successful DC 11 Strength check and inflicts 5 (1d4+3) slashing damage to the creature the bat is being removed from. A successful save renders the target immune to skin bat poison for 24 hours.",
 		},
 		],
 		traits: [{
@@ -16838,10 +16521,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Infernal",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -16891,10 +16573,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Celestial, Common, Gnoll, Infernal, telepathy 120 ft",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Scimitar",
 			ability: 1,
@@ -16943,10 +16624,9 @@ var ToB = {
 		damage_immunities: "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands the languages of its creator but can't speak",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -16989,10 +16669,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +6, Perception +5, Stealth +5",
 		senses: "darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Dwarvish, Giant, Gnomish",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -17047,10 +16726,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "all languages it knew in life",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -17078,7 +16756,7 @@ var ToB = {
 			description: "The sand silhouette makes two slam attacks."
 		}, {
 			name: "Engulf",
-			description: "The sand silhouette engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded and restrained, but no longer grappled. It must make a successful DC 15 Constitution saving throw at the start of each of the sand silhouette's turns or take 14 (3d6 +4) bludgeoning damage. If the sand silhouette moves, the engulfed target moves with it. The sand silhouette can only engulf one creature at a time."
+			description: "The sand silhouette engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded and restrained, but no longer grappled. It must make a successful DC 15 Constitution saving throw at the start of each of the sand silhouette's turns or take 14 (3d6+4) bludgeoning damage. If the sand silhouette moves, the engulfed target moves with it. The sand silhouette can only engulf one creature at a time."
 		}, {
 			name: "Haunted Haboob (Recharge 4-6)",
 			description: "The sand silhouette turns into a 60-foot radius roiling cloud of dust and sand filled with frightening shapes. A creature that starts its turn inside the cloud must choose whether to close its eyes and be blinded until the start of its next turn, or keep its eyes open and make a DC 15 Wisdom saving throw. If the saving throw fails, the creature is frightened for 1 minute. A frightened creature repeats the Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success."
@@ -17099,16 +16777,15 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +6",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Impaling Leg",
 			ability: 1,
 			damage: [1, 12, "piercing"],
 			range: "Melee (10 ft)",
-			description: "If the sand spider scores a critical hit with this attack, it rolls damage dice three times instead of twice. If both impaling leg attacks hit the same target, the second hit does an extra 11 (1d12 +5) piercing damage.",
+			description: "If the sand spider scores a critical hit with this attack, it rolls damage dice three times instead of twice. If both impaling leg attacks hit the same target, the second hit does an extra 11 (1d12+5) piercing damage.",
 		}, {
 			name: "Bite",
 			ability: 1,
@@ -17155,10 +16832,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned, unconscious",
 		senses: "truesight 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Celestial, Giant, Infernal, Umbral",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -17206,9 +16882,8 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +7, Stealth +4",
 		senses: "darkvision 60 ft, tremorsense 120 ft",
-		passivePerception: "17",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		passive_perception: "17",
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17256,10 +16931,9 @@ var ToB = {
 		damage_immunities: "bludgeoning; acid, lightning",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, prone",
 		senses: "blindsight 90 ft (blind beyond this radius)",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "none in its natural form; knows the same languages as a creature it dominates",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -17302,10 +16976,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, poisoned, prone",
 		senses: "blindsight 60 ft (blind beyond this radius)",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "understands the languages of its creator but can't speak",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -17343,16 +17016,15 @@ var ToB = {
 		speed: "20 ft, burrow 20 ft, swim 20 ft",
 		scores: [22, 6, 20, 5, 12, 9],
 		saves: ["", "", "", "", "", ""],
-		skills: "Perception +5, Stealth +2 (+6 in sand, mud, or",
+		skills: "Perception +5, Stealth +2 (+6 in sand, mud, or stone terrain",
 		damage_vulnerabilities: "thunder",
 		damage_resistances: "fire; bludgeoning, piercing, and slashing from nonmagical weapons",
 		damage_immunities: "acid, poison",
 		condition_immunities: "exhaustion, paralyzed, petrified, poisoned, unconscious",
 		senses: "tremorsense 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "understands Deep Speech and Terran, but can't speak",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17389,9 +17061,8 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		passive_perception: "13",
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17434,10 +17105,9 @@ var ToB = {
 		saves: ["10", "", "10", "", "", ""],
 		condition_immunities: "unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Darakhul, Elvish",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Heavy Pick",
 			ability: 1,
@@ -17486,10 +17156,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Animal Handling +2, Deception +2, Perception +3, Stealth +4",
 		damage_resistances: "poison",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Scimitar",
 			ability: 2,
@@ -17530,10 +17199,9 @@ var ToB = {
 		skills: "Perception +4, Stealth +2",
 		damage_immunities: "cold",
 		senses: "blindsight 10 ft darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Draconic, Primordial",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17564,10 +17232,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		damage_immunities: "acid, lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Elvish, Sylvan, Void Speech",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Dagger (Melee)",
 			ability: 1,
@@ -17625,10 +17292,9 @@ var ToB = {
 		damage_resistances: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17675,10 +17341,9 @@ var ToB = {
 		damage_immunities: "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands the languages of its creator but can't speak",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Nabboot",
 			ability: 2,
@@ -17724,10 +17389,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "understands Elvish and Umbral but can't speak",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Gore",
 			ability: 1,
@@ -17780,10 +17444,9 @@ var ToB = {
 		saves: ["", "7", "6", "", "", ""],
 		skills: "Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Elvish, Umbral, Void Speech",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17841,10 +17504,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +5",
 		senses: "",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17912,10 +17574,9 @@ var ToB = {
 		damage_immunities: "cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, frightened, paralyzed, unconscious",
 		senses: "truesight 120 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "Celestial, Common, Draconic, Dwarvish, Elvish, Infernal, Primordial",
-		challengeRating: "15",
-		proficiencyBonus: 5,
+		challenge_rating: "15",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -17996,10 +17657,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Arcana +2, Perception +2",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common, Elvish, Umbral",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Shortsword",
 			ability: 2,
@@ -18046,10 +17706,9 @@ var ToB = {
 		saves: ["", "8", "5", "", "4", "6"],
 		skills: "Arcana +4, Deception +6, Perception +4, Stealth +8",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Elvish, Umbral",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Dagger (Melee)",
 			ability: 2,
@@ -18112,10 +17771,9 @@ var ToB = {
 		saves: ["", "5", "", "", "6", "7"],
 		skills: "Arcana +4, Deception +7, Perception +6, Persuasion +7, Stealth +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Elvish, Umbral",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Rapier",
 			ability: 2,
@@ -18161,7 +17819,6 @@ var ToB = {
 			"4th level (3 slots): confusion, greater invisibility, phantasmal killer",
 			"5th level (2 slots): animate objects, dominate person, hold monster"
 		]
-
 	},
 	"Shadow Fey Forest Hunter": {
 		name: "Shadow Fey Forest Hunter",
@@ -18177,10 +17834,9 @@ var ToB = {
 		saves: ["", "7", "4", "", "", "6"],
 		skills: "Arcana +3, Perception +4, Stealth +10, Survival +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Elvish, Umbral",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Rapier",
 			ability: 2,
@@ -18236,10 +17892,9 @@ var ToB = {
 		skills: "Athletics +6, Perception +4",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Elvish, Umbral",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Pike",
 			ability: 1,
@@ -18302,10 +17957,9 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "charmed, frightened, exhaustion",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Common, Elvish, Giant, Sylvan",
-		challengeRating: "16",
-		proficiencyBonus: 5,
+		challenge_rating: "16",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -18398,10 +18052,9 @@ var ToB = {
 		damage_immunities: "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands the languages of its creator but can't speak",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -18421,7 +18074,7 @@ var ToB = {
 			description: "The golem's weapon attacks are magical."
 		}, {
 			name: "Absorb Magic",
-			description: "As a bonus action, the golem targets any creature, object, or magical effect within 10 feet of it. The golem chooses a spell already cast on the target. If the spell is of 3rd level or lower, the golem absorbs the spell and it ends. If the spell is of 4th level or higher, the golem must make a check with a +9 modifier. The DC equals 10 +the spell's level. On a successful check, the golem absorbs the spell and it ends. The golem's body glows when it absorbs a spell, as if under the effect of a light spell. A smaragdine golem can only hold one absorbed spell at a time."
+			description: "As a bonus action, the golem targets any creature, object, or magical effect within 10 feet of it. The golem chooses a spell already cast on the target. If the spell is of 3rd level or lower, the golem absorbs the spell and it ends. If the spell is of 4th level or higher, the golem must make a check with a +9 modifier. The DC equals 10 + the spell's level. On a successful check, the golem absorbs the spell and it ends. The golem's body glows when it absorbs a spell, as if under the effect of a light spell. A smaragdine golem can only hold one absorbed spell at a time."
 		}
 		],
 		actions: [{
@@ -18448,10 +18101,9 @@ var ToB = {
 		damage_immunities: "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands its creator's languages but can't speak",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 			name: "Ax Arm",
 			ability: 1,
@@ -18510,10 +18162,9 @@ var ToB = {
 		scores: [3, 16, 10, 1, 10, 2],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -18549,10 +18200,9 @@ var ToB = {
 		skills: "Perception +1, Stealth +4",
 		condition_immunities: "charmed, unconscious",
 		senses: "Darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Giant, Sylvan",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -18608,10 +18258,9 @@ var ToB = {
 		damage_immunities: "cold, thunder, slashing",
 		condition_immunities: "blinded, deafened, prone, stunned, unconscious",
 		senses: "darkvision 120 ft, tremorsense 60 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Void Speech",
-		challengeRating: "19",
-		proficiencyBonus: 6,
+		challenge_rating: "19",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -18642,7 +18291,7 @@ var ToB = {
 		],
 		actions: [{
 			name: "Multiattack",
-			description: "The shoggoth makes 1d4 +1 slam attacks. Reroll the number of attacks at the start of each of the shoggoth's turns."
+			description: "The shoggoth makes 1d4+1 slam attacks. Reroll the number of attacks at the start of each of the shoggoth's turns."
 		}
 		]
 	},
@@ -18664,10 +18313,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 			name: "Strength Drain",
 			ability: 2,
@@ -18707,10 +18355,9 @@ var ToB = {
 		damage_resistances: "radiant",
 		damage_immunities: "fire, lightning, psychic",
 		senses: "truesight 60 ft",
-		passivePerception: "25",
+		passive_perception: "25",
 		languages: "Celestial, telepathy (100 ft)",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Inexorable Threads",
 			ability: 2,
@@ -18766,10 +18413,9 @@ var ToB = {
 		damage_immunities: "cold, necrotic, poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft, blindsense 30 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "understands the languages of its creator but can't speak",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -18805,10 +18451,9 @@ var ToB = {
 		damage_immunities: "acid",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, prone",
 		senses: "blindsight 60 ft (blind beyond this radius)",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -18856,10 +18501,9 @@ var ToB = {
 		damage_immunities: "lightning",
 		condition_immunities: "prone",
 		senses: "blindsight 30 ft, darkvision 120 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Primordial",
-		challengeRating: "15",
-		proficiencyBonus: 5,
+		challenge_rating: "15",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -18902,10 +18546,9 @@ var ToB = {
 		scores: [4, 16, 12, 1, 10, 4],
 		saves: ["", "", "", "", "", ""],
 		senses: "blindsight 10 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -18937,10 +18580,9 @@ var ToB = {
 		damage_immunities: "cold, lightning, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "truesight 60 ft, tremorsense 100 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Celestial, Draconic, Elvish, Dwarvish, Giant, Infernal, telepathy 60 ft",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -18984,7 +18626,6 @@ var ToB = {
 			"6th level (1 slot): harm",
 			"7th level (1 slot): plane shift",
 			"8th level (1 slot): earthquake"]
-
 	},
 	"Soul Eater": {
 		name: "Soul Eater",
@@ -19003,10 +18644,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "paralyzed, poisoned, stunned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Infernal",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -19048,10 +18688,9 @@ var ToB = {
 		damage_resistances: "acid, fire, force, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Primordial",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Inhabit", //check attack
 			ability: 2,
@@ -19088,10 +18727,9 @@ var ToB = {
 		damage_immunities: "cold, necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "understands the languages it knew in life but can't speak",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Spectral Rend",
 			ability: 2,
@@ -19133,10 +18771,9 @@ var ToB = {
 		damage_resistances: "poison",
 		condition_immunities: "charmed, poisoned, unconscious",
 		senses: "darkvision 240 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Void Speech",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -19204,10 +18841,9 @@ var ToB = {
 		damage_immunities: "poison, psychic",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands Common but can't speak",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Sickle Claw",
 			ability: 2,
@@ -19254,10 +18890,9 @@ var ToB = {
 		damage_resistances: "piercing from nonmagical weapons",
 		damage_immunities: "lightning, thunder",
 		senses: "",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Lightning Dart",
 			ability: 2,
@@ -19299,10 +18934,9 @@ var ToB = {
 		damage_immunities: "cold, fire, lightning, poison, psychic",
 		condition_immunities: "exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 300 ft",
-		passivePerception: "24",
+		passive_perception: "24",
 		languages: "Common, Infernal, Void Speech",
-		challengeRating: "15",
-		proficiencyBonus: 5,
+		challenge_rating: "15",
 		attacks: [{
 			name: "Crushing Claws",
 			ability: 1,
@@ -19354,10 +18988,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +5",
 		senses: "darkvision 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Elvish",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 			name: "Talons",
 			ability: 2,
@@ -19401,10 +19034,9 @@ var ToB = {
 		damage_immunities: "cold, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Infernal; telepathy 100 ft",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -19453,10 +19085,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "History +5, Investigation +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -19509,10 +19140,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Stealth +6",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Sew",
 			ability: 2,
@@ -19547,10 +19177,9 @@ var ToB = {
 		damage_resistances: "cold; bludgeoning, piercing, and slashing",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Sylvan",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Chilling Touch",
 			ability: 2,
@@ -19574,7 +19203,6 @@ var ToB = {
 		}
 		],
 	},
-
 	"Totivillus, Scribe of Hell": {
 		name: "Totivillus, Scribe of Hell",
 		source: ["Tome of Beasts", 101],
@@ -19592,10 +19220,9 @@ var ToB = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "truesight 30 ft, darkvision 60 ft",
-		passivePerception: "23",
+		passive_perception: "23",
 		languages: "Common, Celestial, Draconic, Infernal, Void Speech; telepathy 120 ft",
-		challengeRating: "24",
-		proficiencyBonus: 7,
+		challenge_rating: "24",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -19661,7 +19288,6 @@ var ToB = {
 			"7th level (2 slots): forcecage, plane shift",
 			"8th level (1 slot): feeblemind", "9th level (1 slot): time stop"
 		]
-
 	},
 	"Thursir Giant": {
 		name: "Thursir Giant",
@@ -19677,10 +19303,9 @@ var ToB = {
 		saves: ["", "", "6", "", "", ""],
 		skills: "Athletics +6, Perception +4",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Dwarven, Giant",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Warhammer",
 			ability: 1,
@@ -19724,16 +19349,15 @@ var ToB = {
 		skills: "Perception +5",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "understands Celestial and Common but can't speak",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
 			damage: [3, 8, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Plus 9 (2d4 +4) bludgeoning damage, and the target is grappled (escape DC 14). The target must also make a successful DC 15 Constitution saving throw or be stunned until the end of its next turn.",
+			description: "Plus 9 (2d4+4) bludgeoning damage, and the target is grappled (escape DC 14). The target must also make a successful DC 15 Constitution saving throw or be stunned until the end of its next turn.",
 		}, {
 			name: "Slam",
 			ability: 1,
@@ -19772,10 +19396,9 @@ var ToB = {
 		damage_vulnerabilities: "fire",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Dwarvish, Primordial",
-		challengeRating: "10",
-		proficiencyBonus: 4,
+		challenge_rating: "10",
 		attacks: [{
 			name: "Claw",
 			ability: 1,
@@ -19830,10 +19453,9 @@ var ToB = {
 		saves: ["", "5", "", "", "5", ""],
 		skills: "Perception +5",
 		senses: "blindsight 10 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -19879,10 +19501,9 @@ var ToB = {
 		damage_immunities: "fire, cold, poison",
 		condition_immunities: "exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 200 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -19921,10 +19542,9 @@ var ToB = {
 		scores: [8, 16, 14, 8, 12, 4],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Tosculi",
-		challengeRating: "1/2",
-		proficiencyBonus: 2,
+		challenge_rating: "1/2",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -19962,10 +19582,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +6, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Gnoll, Infernal, Tosculi",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -20016,10 +19635,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Deep Speech, Gnoll, Infernal, Tosculi",
-		challengeRating: "12",
-		proficiencyBonus: 4,
+		challenge_rating: "12",
 		attacks: [{
 			name: "Scimitar",
 			ability: 2,
@@ -20098,10 +19716,9 @@ var ToB = {
 		scores: [12, 20, 16, 10, 12, 12],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Tosculi",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -20153,10 +19770,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +4",
 		senses: "blindsight 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "",
 			ability: 0,
@@ -20196,10 +19812,9 @@ var ToB = {
 		saves: ["", "", "5", "", "3", "3"],
 		skills: "Intimidation +5, Survival +3",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Trollkin",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -20217,7 +19832,7 @@ var ToB = {
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 9 (1d10 +4) slashing damage. Using the battleaxe two-handed prevents using the handaxe.",
+			description: "Two-Handed: 9 (1d10+4) slashing damage. Using the battleaxe two-handed prevents using the handaxe.",
 		}, {
 			name: "Handaxe",
 			ability: 1,
@@ -20257,10 +19872,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		damage_immunities: "lightning",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Gore",
 			ability: 1,
@@ -20289,7 +19903,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Uraeus": {
 		name: "Uraeus",
 		source: ["Tome of Beasts", 392],
@@ -20307,10 +19920,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 10 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "understands Celestial and Common but can't speak",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -20355,10 +19967,9 @@ var ToB = {
 		damage_immunities: "thunder",
 		condition_immunities: "frightened",
 		senses: "truesight 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "understands Darakhul and Void Speech",
-		challengeRating: "17",
-		proficiencyBonus: 6,
+		challenge_rating: "17",
 		attacks: [{
 			name: "Tentacle",
 			ability: 1,
@@ -20399,7 +20010,7 @@ var ToB = {
 			description: "Only one option can be used at a time and only at the end of another creature's turn. The strangling watcher regains spent legendary actions at the start of its turn."
 		}, {
 			name: "Crush Attack",
-			description: "The urochar crushes one creature grappled by its tentacle. The target takes 25 (4d8 +7) bludgeoning damage."
+			description: "The urochar crushes one creature grappled by its tentacle. The target takes 25 (4d8+7) bludgeoning damage."
 		}, {
 			name: "Tentacle Attack",
 			description: "The watcher makes one tentacle attack."
@@ -20425,10 +20036,9 @@ var ToB = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Ancient language of DM's choice",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Medjai's Scepter",
 			ability: 1,
@@ -20483,10 +20093,9 @@ var ToB = {
 		damage_immunities: "cold, necrotic, poison",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common, Umbral, Void Speech",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Umbral Grasp",
 			ability: 2,
@@ -20517,7 +20126,6 @@ var ToB = {
 		}
 		],
 	},
-	
 	"Venomous Mummy": {
 		name: "Venomous Mummy",
 		source: ["Tome of Beasts", 299],
@@ -20535,10 +20143,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "the languages it knew in life",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Venomous Fist",
 			ability: 1,
@@ -20572,10 +20179,9 @@ var ToB = {
 		damage_immunities: "poison",
 		condition_immunities: "deafened, exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -20617,10 +20223,9 @@ var ToB = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "truesight 30 ft, darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "the languages it knew in life",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Greataxe",
 			ability: 1,
@@ -20683,22 +20288,21 @@ var ToB = {
 		damage_immunities: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		condition_immunities: "frightened",
 		senses: "truesight 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Dwarvish, Giant, and see Gift of Tongues",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Longsword",
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Plus 11 (2d10) radiant damage; Two-Handed: 9 (1d10 +4) slashing damage.",
+			description: "Plus 11 (2d10) radiant damage; Two-Handed: 9 (1d10+4) slashing damage.",
 		}, {
 			name: "Spear (Melee)",
 			ability: 1,
 			damage: [1, 6, "piercing"],
 			range: "Melee (10 ft)",
-			description: "Plus 11 (2d10) radiant damage; Two-Handed: 8 (1d8 +4) piercing damage.",
+			description: "Plus 11 (2d10) radiant damage; Two-Handed: 8 (1d8+4) piercing damage.",
 		}, {
 			name: "Spear (Ranged)",
 			ability: 1,
@@ -20756,10 +20360,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +4, Stealth +7",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Sylvan",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -20790,7 +20393,7 @@ var ToB = {
 			description: "The vapor lynx makes one bite attack and two claw attacks."
 		}, {
 			name: "Poison Breath (Recharge 5-6)",
-			description: "The vapor lynx exhales a 40-foot radius poison fog, which heavily obscures a spherical area around the lynx. Any breathing creature that ends its turn in the fog must make a DC 14 Constitution saving throw or become poisoned for 1d4 +1 rounds."
+			description: "The vapor lynx exhales a 40-foot radius poison fog, which heavily obscures a spherical area around the lynx. Any breathing creature that ends its turn in the fog must make a DC 14 Constitution saving throw or become poisoned for 1d4+1 rounds."
 		}
 		]
 	},
@@ -20810,10 +20413,9 @@ var ToB = {
 		damage_resistances: "fire, bludgeoning, piercing",
 		condition_immunities: "charmed, blinded, deafened, frightened, prone",
 		senses: "tremorsense 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "",
 			ability: 0,
@@ -20869,10 +20471,9 @@ var ToB = {
 		skills: "Animal Handling +8, Insight +5, Intimidation +6, Perception +8, Stealth +8",
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "darkvision 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Sylvan, telepathy 60 ft (beasts only)",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "+1 Shortsword",
 			ability: 2,
@@ -20935,10 +20536,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered or made of cold iron",
 		condition_immunities: "frightened",
 		senses: "60 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Common, Goblin, Sylvan, Umbral",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Straight Razor",
 			ability: 2,
@@ -20994,10 +20594,9 @@ var ToB = {
 		damage_vulnerabilities: "fire",
 		condition_immunities: "blinded, deafened",
 		senses: "blindsight 30 ft (blind beyond this radius)",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "7",
-		proficiencyBonus: 3,
+		challenge_rating: "7",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -21053,16 +20652,15 @@ var ToB = {
 		damage_vulnerabilities: "fire",
 		condition_immunities: "blinded, deafened",
 		senses: "blindsight 30 ft (blind beyond this radius)",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Assegai (Melee)",
 			ability: 1,
 			damage: [1, 6, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Or 7 (1d8 +3) piercing damage.",
+			description: "Or 7 (1d8+3) piercing damage.",
 		}, {
 			name: "Assegai (Ranged)",
 			ability: 1,
@@ -21111,10 +20709,9 @@ var ToB = {
 		damage_immunities: "necrotic",
 		condition_immunities: "exhaustion, petrified, prone",
 		senses: "truesight 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "telepathy 60 ft",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Tendril",
 			ability: 2,
@@ -21166,10 +20763,9 @@ var ToB = {
 		skills: "Perception +7, Stealth +9",
 		damage_resistances: "necrotic, bludgeoning, piercing, and slashing from nonmagical weapons",
 		senses: "darkvision 120 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "the languages it knew in life",
-		challengeRating: "13",
-		proficiencyBonus: 5,
+		challenge_rating: "13",
 		attacks: [{
 			name: "",
 			ability: 0,
@@ -21192,7 +20788,7 @@ var ToB = {
 			description: "The vampire warlock saturates itself in its own blood, causing 20 poison damage to itself. For 1 minute, its armor class increases to 20 and its unarmed strike and bite attacks do an additional 7 (2d6) poison damage."
 		}, {
 			name: "Call the Blood",
-			description: "The vampire warlock targets one humanoid it can see within 60 feet. The target must be injured (has fewer than its normal maximum hit points). The target's blood is drawn out of the body and streams through the air to the vampire warlock. The target takes 25 (6d6 +4) necrotic damage and its hit point maximum is reduced by an equal amount until the target finishes a long rest; a successful DC 17 Constitution saving throw prevents both effects. The vampire warlock regains hit points equal to half the damage dealt. The target dies if this effect reduces its hit point maximum to 0."
+			description: "The vampire warlock targets one humanoid it can see within 60 feet. The target must be injured (has fewer than its normal maximum hit points). The target's blood is drawn out of the body and streams through the air to the vampire warlock. The target takes 25 (6d6+4) necrotic damage and its hit point maximum is reduced by an equal amount until the target finishes a long rest; a successful DC 17 Constitution saving throw prevents both effects. The vampire warlock regains hit points equal to half the damage dealt. The target dies if this effect reduces its hit point maximum to 0."
 		}, {
 			name: "Blood Puppet",
 			description: "The vampire warlock targets one humanoid it can see within 30 feet. The target must succeed on a DC 17 Wisdom saving throw or be dominated by the vampire warlock as if it were the target of a dominate person spell. The target repeats the saving throw each time the vampire warlock or the vampire's companions do anything harmful to it, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire warlock is destroyed, is on a different plane of existence than the target, or uses a bonus action to end the effect; the vampire warlock doesn't need to concentrate on maintaining the effect."
@@ -21213,7 +20809,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Wyrmling Wind Dragon": {
 		name: "Wyrmling Wind Dragon",
 		source: ["Tome of Beasts", 145],
@@ -21230,10 +20825,9 @@ var ToB = {
 		damage_immunities: "lightning",
 		condition_immunities: "charmed, exhausted, paralyzed",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Draconic, Primordial",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -21265,10 +20859,9 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "understands Common",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -21309,10 +20902,9 @@ var ToB = {
 		damage_resistances: "bludgeoning and piercing",
 		damage_vulnerabilities: "fire",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Druidic, Elvish, Sylvan",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Slam",
 			ability: 1,
@@ -21358,10 +20950,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Deception +5, Persuasion +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Common",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Claws",
 			ability: 2,
@@ -21404,10 +20995,9 @@ var ToB = {
 		scores: [16, 14, 15, 4, 12, 5],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -21456,10 +21046,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3, Sleight of Hand +5",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "1/8",
-		proficiencyBonus: 2,
+		challenge_rating: "1/8",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -21490,10 +21079,9 @@ var ToB = {
 		damage_resistances: "bludgeoning, piercing, slashing",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bites",
 			ability: 2,
@@ -21530,10 +21118,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +6, Athletics +7, Intimidation +2, Perception +5, Stealth +6",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -21581,10 +21168,9 @@ var ToB = {
 		damage_immunities: "poison, radiant",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "understands the language of its creator but can't speak",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Light Ray",
 			ability: 2,
@@ -21626,10 +21212,9 @@ var ToB = {
 		damage_resistances: "necrotic; bludgeoning, piercing, and slashing from nonmagical weapons",
 		damage_vulnerabilities: "radiant",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "the languages it knew in life",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Helminth Infestation",
 			ability: 2,
@@ -21670,10 +21255,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Athletics +6, Intimidation +1",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Dwarvish",
-		challengeRating: "3",
-		proficiencyBonus: 2,
+		challenge_rating: "3",
 		attacks: [{
 			name: "Battleaxe",
 			ability: 1,
@@ -21720,7 +21304,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Xanka": {
 		name: "Xanka",
 		source: ["Tome of Beasts", 411],
@@ -21735,10 +21318,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		condition_immunities: "charmed, exhaustion, frightened,",
 		senses: "blindsight 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Understands the languages of its creator but can't",
-		challengeRating: "1/4",
-		proficiencyBonus: 2,
+		challenge_rating: "1/4",
 		attacks: [{
 			name: "Absorb",
 			ability: 2,
@@ -21773,10 +21355,9 @@ var ToB = {
 		saves: ["", "", "", "", "", "5"],
 		skills: "Insight +6, Perception +6, Stealth +8",
 		senses: "darkvision 60 ft, tremorsense 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common, Deep Speech, Undercommon",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Claw",
 			ability: 2,
@@ -21803,7 +21384,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Young Spinosaurus": {
 		name: "Young Spinosaurus",
 		source: ["Tome of Beasts", 117],
@@ -21818,10 +21398,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -21863,10 +21442,9 @@ var ToB = {
 		damage_immunities: "acid, poison, thunder",
 		condition_immunities: "poisoned",
 		senses: "blindsight 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common, Darakhul, Draconic",
-		challengeRating: "8",
-		proficiencyBonus: 3,
+		challenge_rating: "8",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -21922,10 +21500,9 @@ var ToB = {
 		skills: "Deception +8, Insight +5, Perception +9, Persuasion +8, Stealth +6",
 		damage_immunities: "fire",
 		senses: "",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Draconic, Ignan, Giant, Infernal, Orc",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -21971,10 +21548,9 @@ var ToB = {
 		damage_immunities: "acid, thunder",
 		condition_immunities: "charmed",
 		senses: "blindsight 60 ft, darkvision 120 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Celestial, Common, Draconic, Primordial",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22024,10 +21600,9 @@ var ToB = {
 		skills: "Perception +9, Stealth +4",
 		damage_immunities: "cold",
 		senses: "blindsight 30 ft darkvision 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Draconic",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22075,10 +21650,9 @@ var ToB = {
 		damage_immunities: "cold",
 		condition_immunities: "charmed, frightened",
 		senses: "",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Draconic, Void Speech",
-		challengeRating: "9",
-		proficiencyBonus: 4,
+		challenge_rating: "9",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22115,7 +21689,7 @@ var ToB = {
 			description: "When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, it must make a DC 17 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively."
 		}, {
 			name: "Stellar Flare Breath",
-			description: "The dragon exhales star fire in a 30- foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 28 (8d6) fire damage and 28 (8d6) radiant damage on a failed save, or half as much damage on a successful one."
+			description: "The dragon exhales star fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 28 (8d6) fire damage and 28 (8d6) radiant damage on a failed save, or half as much damage on a successful one."
 		}
 		],
 		reactions: [{
@@ -22139,10 +21713,9 @@ var ToB = {
 		skills: "Perception +3, Stealth +2",
 		damage_immunities: "cold",
 		senses: "",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic, Void Speech",
-		challengeRating: "2",
-		proficiencyBonus: 2,
+		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22192,10 +21765,9 @@ var ToB = {
 		damage_immunities: "lightning",
 		condition_immunities: "charmed, exhausted, paralyzed, restrained",
 		senses: "blindsight 10 ft, darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Draconic, Primordial",
-		challengeRating: "6",
-		proficiencyBonus: 3,
+		challenge_rating: "6",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22248,10 +21820,9 @@ var ToB = {
 		damage_resistances: "bludgeoning",
 		condition_immunities: "exhaustion",
 		senses: "",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "11",
-		proficiencyBonus: 4,
+		challenge_rating: "11",
 		attacks: [{
 			name: "Gore",
 			ability: 1,
@@ -22286,7 +21857,6 @@ var ToB = {
 		}
 		]
 	},
-
 	"Zanskaran Viper": {
 		name: "Zanskaran Viper",
 		source: ["Tome of Beasts", 354],
@@ -22300,10 +21870,9 @@ var ToB = {
 		scores: [12, 11, 18, 2, 13, 2],
 		saves: ["", "", "", "", "", ""],
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "1",
-		proficiencyBonus: 2,
+		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22329,10 +21898,9 @@ var ToB = {
 		damage_immunities: "cold, poison",
 		condition_immunities: "frightened, paralyzed, poisoned",
 		senses: "blindsight 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Aquan",
-		challengeRating: "26",
-		proficiencyBonus: 8,
+		challenge_rating: "26",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22366,7 +21934,7 @@ var ToB = {
 			description: "The zaratan makes one bite attack and two flipper attacks."
 		}, {
 			name: "Swallow",
-			description: "The zaratan makes one bite attack against a Huge or smaller creature it is grappling. If the attack hits, the target takes 26 (3d10 +10) piercing damage, is swallowed, and the grapple ends. A swallowed creature is blinded and restrained, but has total cover against attacks and effects outside the zaratan. A swallowed creature takes 28 (8d6) acid damage at the start of each of the zaratan's turns. The zaratan can have any number of creatures swallowed at once. If the zaratan takes 40 damage or more on a single turn from a creature inside it, the zaratan must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the zaratan. If the zaratan dies, swallowed creatures are no longer restrained and can escape by using 30 feet of movement, exiting prone."
+			description: "The zaratan makes one bite attack against a Huge or smaller creature it is grappling. If the attack hits, the target takes 26 (3d10+10) piercing damage, is swallowed, and the grapple ends. A swallowed creature is blinded and restrained, but has total cover against attacks and effects outside the zaratan. A swallowed creature takes 28 (8d6) acid damage at the start of each of the zaratan's turns. The zaratan can have any number of creatures swallowed at once. If the zaratan takes 40 damage or more on a single turn from a creature inside it, the zaratan must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the zaratan. If the zaratan dies, swallowed creatures are no longer restrained and can escape by using 30 feet of movement, exiting prone."
 		}
 		],
 		legendary_actions: [{
@@ -22398,10 +21966,9 @@ var ToB = {
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +1",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Giant",
-		challengeRating: "4",
-		proficiencyBonus: 2,
+		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
 			ability: 2,
@@ -22438,10 +22005,9 @@ var ToB = {
 		damage_resistances: "cold, fire",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "blindsight 60 ft, darkvision 90 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Common, Draconic, Elvish, Sylvan",
-		challengeRating: "14",
-		proficiencyBonus: 5,
+		challenge_rating: "14",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22501,7 +22067,7 @@ var ToB = {
 			description: "The zmey makes a tail attack."
 		}, {
 			name: "Trample",
-			description: "The zmey moves up to half its land speed. It can enter enemy-occupied spaces but can't end its move there. Creatures in spaces the zmey enters must make successful DC 14 Dexterity saving throws or take 10 (1d8 +6) bludgeoning damage and fall prone."
+			description: "The zmey moves up to half its land speed. It can enter enemy-occupied spaces but can't end its move there. Creatures in spaces the zmey enters must make successful DC 14 Dexterity saving throws or take 10 (1d8+6) bludgeoning damage and fall prone."
 		}
 		]
 	},
@@ -22520,10 +22086,9 @@ var ToB = {
 		damage_resistances: "cold, fire",
 		condition_immunities: "paralyzed, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Draconic, Sylvan",
-		challengeRating: "5",
-		proficiencyBonus: 3,
+		challenge_rating: "5",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
@@ -22561,4 +22126,4 @@ var ToB = {
 		}
 		]
 	},
-}
+};

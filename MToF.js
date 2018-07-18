@@ -17,9 +17,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "understands Abyssal but can’t speak",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -46,9 +46,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Kruthik",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Stab",
 				ability: 2,
@@ -98,9 +98,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, prone",
 		senses: "blindsight 60 ft (blind beyond this distance)",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Common plus two more languages",
-		challengeRating: "5",
+		challenge_rating: "5",
 		attacks: [{
 				name: "Pseudopod",
 				ability: 2,
@@ -126,7 +126,7 @@ var MToF = {
 				]
 			}, {
 				name: "Sulfurous Impersonation",
-				description: "As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 ft away. For all practical purposes, the simulacrum is the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed."
+				description: "As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4+1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 ft away. For all practical purposes, the simulacrum is the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed."
 			}
 		],
 		actions: [{
@@ -159,9 +159,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "paralyzed, petrified, poisoned, prone",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Auran, one language of its creator's choice",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Flail",
 				ability: 1,
@@ -202,9 +202,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands Abyssal but can’t speak",
-		challengeRating: "11",
+		challenge_rating: "11",
 		attacks: [{
 				name: "Tentacle",
 				ability: 2,
@@ -254,9 +254,9 @@ var MToF = {
 		damage_immunities: "cold; necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "the languages it knew in life",
-		challengeRating: "5",
+		challenge_rating: "5",
 		attacks: [{
 				name: "Maddening Touch",
 				ability: 6,
@@ -275,10 +275,10 @@ var MToF = {
 		],
 		actions: [{
 				name: "Whispers of Madness",
-				description: "The allip chooses up to three creatures it can see within 60 ft of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and undead are immune to this effect."
+				description: "The allip chooses up to three creatures it can see within 60 ft of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8+3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and undead are immune to this effect."
 			}, {
 				name: "Howling Babble (Recharge 6)",
-				description: "Each creature within 30 ft of the allip that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned. Constructs and undead are immune to this effect.",
+				description: "Each creature within 30 ft of the allip that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8+3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned. Constructs and undead are immune to this effect.",
 			}
 		],
 	},
@@ -300,9 +300,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Infernal, telepathy 1,000 ft",
-		challengeRating: "18",
+		challenge_rating: "18",
 		attacks: [{
 				name: "Taskmaster Whip",
 				ability: 1,
@@ -371,9 +371,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Abyssal, telepathy 120 ft",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Hooves",
 				ability: 1,
@@ -429,9 +429,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned",
 		senses: "darkvision 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "",
-		challengeRating: "21",
+		challenge_rating: "21",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -485,7 +485,7 @@ var MToF = {
 				description: "One creature that is Huge or smaller that the astral dreadnought can see within 60 ft of it must succeed on a DC 19 Charisma saving throw or be magically teleported to an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon. At the end of the target's next turn, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
 			}, {
 				name: "Psychic Projection (Costs 3 Actions)",
-				description: "Each creature within 60 ft of the astral dreadnought must make a DC 19 Wisdom saving throw, taking 15 (2d10 + 4) psychic damage on a failed save, or half as much damage on a successful one."
+				description: "Each creature within 60 ft of the astral dreadnought must make a DC 19 Wisdom saving throw, taking 15 (2d10+4) psychic damage on a failed save, or half as much damage on a successful one."
 			}
 		],
 	},
@@ -507,15 +507,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 18 (4d8) psychic damage; Two-Handed: 6 (1d10 + 1) slashing damage. ",
+				description: "Plus 18 (4d8) psychic damage; Two-Handed: 6 (1d10+1) slashing damage. ",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -570,9 +570,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "23",
+		passive_perception: "23",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "19",
+		challenge_rating: "19",
 		attacks: [{
 				name: "Hellish Morningstar",
 				ability: 1,
@@ -653,9 +653,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "blinded",
 		senses: "blindsight 500 ft (blind beyond this radius)",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "understands Deep Speech, telepathy 1 mile",
-		challengeRating: "11",
+		challenge_rating: "11",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -721,9 +721,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "24",
+		passive_perception: "24",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "23",
+		challenge_rating: "23",
 		attacks: [{
 				name: "Heartcleaver",
 				ability: 1,
@@ -821,9 +821,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "truesight 120 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "all, but rarely speaks",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -874,9 +874,9 @@ var MToF = {
 		damage_immunities: "acid, fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Draconic, Infernal, telepathy 120 ft",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -932,15 +932,15 @@ var MToF = {
 		damage_immunities: "fire, lightning, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Draconic, Infernal, telepathy 120 ft",
-		challengeRating: "17",
+		challenge_rating: "17",
 		attacks: [{
 				name: "Quarterstaff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed 6 (1d8 + 2) bludgeoning damage.",
+				description: "Two-Handed 6 (1d8+2) bludgeoning damage.",
 			}, {
 				name: "Bite",
 				ability: 1,
@@ -976,7 +976,6 @@ var MToF = {
 			"6th level (1 slot): chain lightning",
 			"7th level (1 slot): teleport"
 		]
-
 	},
 	"Boneclaw": {
 		name: "Boneclaw",
@@ -996,9 +995,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common plus the main language of its master",
-		challengeRating: "12",
+		challenge_rating: "12",
 		attacks: [{
 				name: "Piercing Claw",
 				ability: 1,
@@ -1024,7 +1023,7 @@ var MToF = {
 			}, {
 				name: "Shadow Jump",
 				description: [
-					"If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 5 ft of it must succeed on a DC 14 Constitution saving throw or take 34 (5d12 + 2) necrotic damage.",
+					"If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 5 ft of it must succeed on a DC 14 Constitution saving throw or take 34 (5d12+2) necrotic damage.",
 					"The boneclaw then magically teleports up to 60 ft to an unoccupied space it can see. It can bring one creature it's grappling, teleporting that creature to an unoccupied space it can see within 5 ft of its destination. The destination spaces of this teleportation must be in dim light or darkness."
 				]
 			}
@@ -1053,9 +1052,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "understands one language of its creator but can’t speak",
-		challengeRating: "1",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -1127,9 +1126,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Abyssal, telepathy 60 ft",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Barbed Tail",
 				ability: 1,
@@ -1167,9 +1166,9 @@ var MToF = {
 		damage_immunities: "necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamatine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands all languages but can't speak",
-		challengeRating: "14",
+		challenge_rating: "14",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -1216,9 +1215,9 @@ var MToF = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft, truesight 120 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Abyssal, Infernal, telepathy 60 ft",
-		challengeRating: "8",
+		challenge_rating: "8",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -1277,9 +1276,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Deep Speech",
-		challengeRating: "1",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Tentacle",
 				ability: 1,
@@ -1319,9 +1318,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "blinded, deafened",
 		senses: "blindsight 120 ft (blind beyond this radius)",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "8",
+		challenge_rating: "8",
 		attacks: [{
 				name: "Tentacle",
 				ability: 1,
@@ -1333,7 +1332,7 @@ var MToF = {
 		traits: [{
 				name: "Corpses",
 				description: [
-					"When first encountered, a corpse flower contains the corpses of 1d6 + 3 humanoids. A corpse flower can hold the remains of up to nine dead humanoids. These remains have total cover against attacks and other effects outside the corpse flower. If the corpse flower dies, the corpses within it can be pulled free.",
+					"When first encountered, a corpse flower contains the corpses of 1d6+3 humanoids. A corpse flower can hold the remains of up to nine dead humanoids. These remains have total cover against attacks and other effects outside the corpse flower. If the corpse flower dies, the corpses within it can be pulled free.",
 					"While it has at least one humanoid corpse in its body, the corpse flower can use a bonus action to do one of the following:",
 					"The corpse flower digests one humanoid corpse in its body and instantly regains 11 (2d10) hit points. Nothing of the digested body remains. Any equipment on the corpse is expelled from the corpse flower in its space.",
 					"The corpse flower animates one dead humanoid in its body, turning it into a zombie. The zombie appears in an unoccupied space within 5 ft of the corpse flower and acts immediately after it in the initiative order. The zombie acts as an ally of the corpse flower but isn't under its control, and the flower's stench clings to it (see the Stench of Death trait)."
@@ -1373,9 +1372,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "the languages it knew in life",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Deathly Claw",
 				ability: 1,
@@ -1431,9 +1430,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 120 ft (including magical darkness)",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "the languages it knew in life",
-		challengeRating: "8",
+		challenge_rating: "8",
 		attacks: [{
 				name: "Deathly Claw",
 				ability: 2,
@@ -1495,9 +1494,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "the languages it knew in life",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Grave Bolt",
 				ability: 6,
@@ -1551,9 +1550,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "29",
+		passive_perception: "29",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "26",
+		challenge_rating: "26",
 		attacks: [{
 				name: "Tentacle",
 				ability: 1,
@@ -1641,9 +1640,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "7",
+		passive_perception: "7",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Hooked Shortspear",
 				ability: 2,
@@ -1688,9 +1687,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "7",
+		passive_perception: "7",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Hooked Shortspear",
 				ability: 1,
@@ -1741,9 +1740,9 @@ var MToF = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 60 ft, darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Abyssal, Infernal, telepathy 60 ft",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -1772,7 +1771,7 @@ var MToF = {
 				description: "The dhergoloth makes two claw attacks."
 			}, {
 				name: "Flailing Claws (Recharge 5-6)",
-				description: "The dhergoloth moves up to its walking speed in a straight line and targets each creature within 5 ft of it during its movement. Each target must succeed on a DC 14 Dexterity saving throw or take 22 (3d12 + 3) slashing damage."
+				description: "The dhergoloth moves up to its walking speed in a straight line and targets each creature within 5 ft of it during its movement. Each target must succeed on a DC 14 Dexterity saving throw or take 22 (3d12+3) slashing damage."
 			}, {
 				name: "Teleport",
 				description: "The dhergoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 ft to an unoccupied space it can see."
@@ -1797,9 +1796,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Giant",
-		challengeRating: "13",
+		challenge_rating: "13",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -1849,9 +1848,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "blindsight 10 ft, darkvision 120 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Elvish, Undercommon, can speak with spiders",
-		challengeRating: "13",
+		challenge_rating: "13",
 		attacks: [{
 				name: "Poisonous Touch",
 				ability: 2,
@@ -1927,9 +1926,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Elvish, Undercommon",
-		challengeRating: "18",
+		challenge_rating: "18",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -1996,9 +1995,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Elvish, Undercommon",
-		challengeRating: "9",
+		challenge_rating: "9",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -2066,9 +2065,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "frightened",
 		senses: "darkvision 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Elvish, Undercommon",
-		challengeRating: "14",
+		challenge_rating: "14",
 		attacks: [{
 				name: "Death Lance",
 				ability: 2,
@@ -2135,15 +2134,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "21",
+		passive_perception: "21",
 		languages: "Elvish, Undercommon",
-		challengeRating: "20",
+		challenge_rating: "20",
 		attacks: [{
 				name: "Demon Staff",
 				ability: 2,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Plus 14 (4d6) psychic damage; 8 (1d8 + 4) bludgeoning damage if used with two hands. In addition, the target must succeed on a DC 19 Wisdom saving throw or become frightened of the drow for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				description: "Plus 14 (4d6) psychic damage; Two-Handed: 8 (1d8+4) bludgeoning damage. In addition, the target must succeed on a DC 19 Wisdom saving throw or become frightened of the drow for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 			}, {
 				name: "Tentacle Rod",
 				ability: 2,
@@ -2228,9 +2227,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Elvish, Undercommon",
-		challengeRating: "11",
+		challenge_rating: "11",
 		attacks: [{
 				name: "Shadow Sword",
 				ability: 2,
@@ -2289,9 +2288,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "12",
+		challenge_rating: "12",
 		attacks: [{
 				name: "Iron Fist",
 				ability: 1,
@@ -2303,7 +2302,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 8, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Or 18 (3d8 + 5) to a prone target.",
+				description: "Or 18 (3d8+5) to a prone target.",
 			},
 		],
 		traits: [{
@@ -2350,9 +2349,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "7",
+		passive_perception: "7",
 		languages: "understands Dwarvish but can’t speak",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -2398,9 +2397,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "War Pick",
 				ability: 1,
@@ -2469,9 +2468,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft, truesight 30 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Mind-Poison Dagger",
 				ability: 2,
@@ -2520,9 +2519,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "7",
+		passive_perception: "7",
 		languages: "understands Dwarvish but can’t speak",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Drill",
 				ability: 1,
@@ -2562,9 +2561,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "1",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Soulblade",
 				ability: 2,
@@ -2617,9 +2616,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "King's Knife (Shortsword)",
 				ability: 1,
@@ -2677,21 +2676,27 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "6",
+		challenge_rating: "6",
 		attacks: [{
+				name: "Psychic-Attuned Hammer",
+				ability: 1,
+				damage: [1, 10, "bludgeoning"],
+				range: "Melee (5 ft)",
+				description: "Plus 5 (1d10) psychic damage; While enlarged: 15 (2d10+4) bludgeoning damage.",
+			},{
 				name: "Javelin (Melee)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "While enlarged: 11 (2d6 + 4) piercing damage.",
+				description: "While enlarged: 11 (2d6+4) piercing damage.",
 			}, {
 				name: "Javelin (Ranged)",
 				ability: 1,
 				damage: [1, 6, "piercing"],
 				range: "Ranged (30/120 ft)",
-				description: "While enlarged: 11 (2d6 + 4) piercing damage.",
+				description: "While enlarged: 11 (2d6+4) piercing damage.",
 			},
 		],
 		traits: [{
@@ -2705,9 +2710,6 @@ var MToF = {
 		actions: [{
 				name: "Multiattack",
 				description: "The duergar makes three hammer or javelin attacks and uses Call to Attack, or Enlarge if it is available."
-			}, {
-				name: "Psychic-Attuned Hammer",
-				description: "Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 9 (1d10 + 4) bludgeoning damage, or 15 (2d10 + 4) bludgeoning damage while enlarged, plus 5 (1d10) psychic damage.",
 			}, {
 				name: "Call to Attack",
 				description: "Up to three allied duergar within 120 ft of this duergar that can hear it can each use their reaction to make one weapon attack."
@@ -2742,9 +2744,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Dwarvish, Undercommon",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Fire Lance",
 				ability: 1,
@@ -2791,9 +2793,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 120 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Abyssal, Common, telepathy 120 ft",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Tendril",
 				ability: 2,
@@ -2847,9 +2849,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "paralyzed, petrified, poisoned, prone",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Terran, one language of its creator's choice",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Maul",
 				ability: 1,
@@ -2890,9 +2892,9 @@ var MToF = {
 		damage_immunities: "cold, necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "the languages it knew in life",
-		challengeRating: "12",
+		challenge_rating: "12",
 		attacks: [{
 				name: "",
 				ability: 0,
@@ -2939,9 +2941,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, prone",
 		senses: "blindsight 60 ft (blind beyond this distance)",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Common plus six more",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Pseudopod",
 				ability: 2,
@@ -2968,7 +2970,7 @@ var MToF = {
 				]
 			}, {
 				name: "Sulfurous Impersonation",
-				description: "As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 ft away. For all practical purposes, the simulacrum is the oblex, meaning the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed."
+				description: "As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 2d6+1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 ft away. For all practical purposes, the simulacrum is the oblex, meaning the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed."
 			}
 		],
 		actions: [{
@@ -3001,9 +3003,9 @@ var MToF = {
 		damage_immunities: "lightning, poison, thunder",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "23",
+		challenge_rating: "23",
 		attacks: [{
 				name: "Thunderous Slam",
 				ability: 2,
@@ -3025,7 +3027,7 @@ var MToF = {
 			}, {
 				name: "Living Storm",
 				description: [
-					"The tempest is always at the center of a storm 1d6 + 4 miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing.",
+					"The tempest is always at the center of a storm 1d6+4 miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing.",
 					"In addition, strong winds swirl in the area covered by the storm. The winds impose disadvantage on ranged attack rolls. The winds extinguish open flames and disperse fog."
 				]
 			}, {
@@ -3073,9 +3075,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "paralyzed, petrified, poisoned, prone",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Ignan, one language of its creator's choice",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Scimitar",
 				ability: 2,
@@ -3122,9 +3124,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "24",
+		passive_perception: "24",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "23",
+		challenge_rating: "23",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -3210,9 +3212,9 @@ var MToF = {
 		damage_immunities: "cold",
 		condition_immunities: "",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Primordial",
-		challengeRating: "9",
+		challenge_rating: "9",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -3259,9 +3261,9 @@ var MToF = {
 		damage_immunities: "cold, fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "22",
+		challenge_rating: "22",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -3348,15 +3350,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed: 9 (1d10 + 4) slashing damage.",
+				description: "Two-Handed: 9 (1d10+4) slashing damage.",
 			}, {
 				name: "Musket",
 				ability: 2,
@@ -3406,15 +3408,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Gith",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 18 (4d8) psychic damage; Two-Handed: 8 (1d10 + 3) slashing damage.",
+				description: "Plus 18 (4d8) psychic damage; Two-Handed: 8 (1d10+3) slashing damage.",
 			},
 		],
 		traits: [{
@@ -3462,9 +3464,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Gith",
-		challengeRating: "12",
+		challenge_rating: "12",
 		attacks: [{
 				name: "Greatsword",
 				ability: 1,
@@ -3515,9 +3517,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Gith",
-		challengeRating: "14",
+		challenge_rating: "14",
 		attacks: [{
 				name: "Silver Greatsword",
 				ability: 1,
@@ -3580,9 +3582,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Gith",
-		challengeRating: "16",
+		challenge_rating: "16",
 		attacks: [{
 				name: "Unarmed Strike",
 				ability: 2,
@@ -3650,9 +3652,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Gith",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Unarmed Strike",
 				ability: 2,
@@ -3703,15 +3705,15 @@ var MToF = {
 		damage_immunities: "necrotic",
 		condition_immunities: "charmed, exhaustion",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Elvish",
-		challengeRating: "9",
+		challenge_rating: "9",
 		attacks: [{
 				name: "Shadow Spear",
 				ability: 2,
 				damage: [1, 6, "piercing"],
 				range: "Melee (5 ft)",
-				description: "Plus 26 (4d12) necrotic damage; Two-Handed: 8 (1d8 + 4) piercing damage.",
+				description: "Plus 26 (4d12) necrotic damage; Two-Handed: 8 (1d8+4) piercing damage.",
 			},
 		],
 		traits: [{
@@ -3763,9 +3765,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "12",
+		challenge_rating: "12",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -3809,9 +3811,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "24",
+		passive_perception: "24",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "24",
+		challenge_rating: "24",
 		attacks: [{
 				name: "Wave of Sorrow",
 				ability: 1,
@@ -3887,21 +3889,21 @@ var MToF = {
 		speed: "30 ft, fly 40 ft",
 		scores: [12, 17, 16, 17, 12, 19],
 		saves: ["", "", "", "8", "", "9"],
-		skills: "Deception + 9, Insight +6, Perception +6, Persuasion +9",
+		skills: "Deception +9, Insight +6, Perception +6, Persuasion +9",
 		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Draconic, Infernal, telepathy 120 ft",
-		challengeRating: "15",
+		challenge_rating: "15",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed: 6 (1d10 + 1) slashing damage.",
+				description: "Two-Handed: 6 (1d10+1) slashing damage.",
 			}, {
 				name: "Claws",
 				ability: 2,
@@ -3952,9 +3954,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, deafened, exhaustion, frightened, paralyzed, poisoned, unconscious",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands Infernal but can't speak",
-		challengeRating: "16",
+		challenge_rating: "16",
 		attacks: [{
 				name: "Lightning Flail",
 				ability: 1,
@@ -4010,9 +4012,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "understands Abyssal but can’t speak",
-		challengeRating: "8",
+		challenge_rating: "8",
 		attacks: [{
 				name: "Rending Bite",
 				ability: 1,
@@ -4053,9 +4055,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "21",
+		passive_perception: "21",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "21",
+		challenge_rating: "21",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -4153,9 +4155,9 @@ var MToF = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 60 ft, darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Abyssal, Infernal, telepathy 60 ft",
-		challengeRating: "9",
+		challenge_rating: "9",
 		attacks: [{
 				name: "Claws",
 				ability: 2,
@@ -4224,9 +4226,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands one language of its creator but can’t speak",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -4300,9 +4302,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
 		senses: "truesight 120 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "23",
+		challenge_rating: "23",
 		attacks: [{
 				name: "Acid Lash",
 				ability: 1,
@@ -4389,9 +4391,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Kruthik",
-		challengeRating: "5",
+		challenge_rating: "5",
 		attacks: [{
 				name: "Stab",
 				ability: 1,
@@ -4443,9 +4445,9 @@ var MToF = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "",
-		challengeRating: "20",
+		challenge_rating: "20",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -4517,9 +4519,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, paralyzed, poisoned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "all but rarely speaks",
-		challengeRating: "25",
+		challenge_rating: "25",
 		attacks: [{
 				name: "Unerring Slam",
 				ability: 0,
@@ -4581,9 +4583,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Abyssal, Elvish, telepathy 120 ft",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -4633,15 +4635,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common",
-		challengeRating: "1",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Garrote",
 				ability: 2,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Target must be medium or smaller. Target is grappled (escape DC 13 with disadvantage). Until the grapple ends, the target takes 10 (2d6 + 3) bludgeoning damage at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
+				description: "Target must be medium or smaller. Target is grappled (escape DC 13 with disadvantage). Until the grapple ends, the target takes 10 (2d6+3) bludgeoning damage at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
 			}, {
 				name: "Shortsword",
 				ability: 2,
@@ -4681,9 +4683,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "frightened, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "understands Infernal but can’t speak, telepathy 120 ft",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Halberd",
 				ability: 1,
@@ -4735,9 +4737,9 @@ var MToF = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 60 ft, darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "Abyssal, Infernal, telepathy 60 ft",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Oar",
 				ability: 2,
@@ -4800,9 +4802,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "21",
+		passive_perception: "21",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "21",
+		challenge_rating: "21",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -4888,9 +4890,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned, stunned",
 		senses: "truesight 120 ft",
-		passivePerception: "31",
+		passive_perception: "31",
 		languages: "Abyssal, telepathy 120 ft",
-		challengeRating: "21",
+		challenge_rating: "21",
 		attacks: [{
 				name: "Demonic Weapon",
 				ability: 1,
@@ -4971,9 +4973,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Abyssal, telepathy 120 ft",
-		challengeRating: "15",
+		challenge_rating: "15",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -5029,9 +5031,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "truesight 120 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Common plus up to five other languages",
-		challengeRating: "17",
+		challenge_rating: "17",
 		attacks: [{
 				name: "Staff",
 				ability: 1,
@@ -5079,9 +5081,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Infernal, telepathy 120 ft",
-		challengeRating: "13",
+		challenge_rating: "13",
 		attacks: [{
 				name: "Hellfire Lance",
 				ability: 1,
@@ -5133,9 +5135,9 @@ var MToF = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 120 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "",
-		challengeRating: "20",
+		challenge_rating: "20",
 		attacks: [{
 				name: "Enervating Focus",
 				ability: 1,
@@ -5182,9 +5184,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "blinded, charmed, frightened, poisoned",
 		senses: "blindsight 10 ft (blind beyond this radius)",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "understands Infernal but can’t speak",
-		challengeRating: "1/2",
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5219,9 +5221,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands one language of its creator but can’t speak",
-		challengeRating: "5",
+		challenge_rating: "5",
 		attacks: [{
 				name: "Lancing Bolt",
 				ability: 2,
@@ -5305,9 +5307,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, prone",
 		senses: "blindsight 60 ft (blind beyond this distance)",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Pseudopod",
 				ability: 2,
@@ -5345,9 +5347,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "Common, Giant",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Bash",
 				ability: 1,
@@ -5384,9 +5386,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "Common, Giant",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Fist",
 				ability: 1,
@@ -5419,9 +5421,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "Common, Giant",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Fist",
 				ability: 1,
@@ -5460,9 +5462,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "Common, Giant",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Mace",
 				ability: 1,
@@ -5495,9 +5497,9 @@ var MToF = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 60 ft, darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Abyssal, Infernal, telepathy 60 ft",
-		challengeRating: "12",
+		challenge_rating: "12",
 		attacks: [{
 				name: "Claw",
 				ability: 1,
@@ -5561,9 +5563,9 @@ var MToF = {
 		damage_immunities: "necrotic; poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "26",
+		challenge_rating: "26",
 		attacks: [{
 				name: "Wand of Orcus",
 				ability: 1,
@@ -5653,9 +5655,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
 		senses: "darkvision 120 ft, truesight 30 ft",
-		passivePerception: "20",
+		passive_perception: "20",
 		languages: "Common, Infernal, telepathy 120 ft",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Infernal Dagger",
 				ability: 1,
@@ -5713,9 +5715,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "16",
+		challenge_rating: "16",
 		attacks: [{
 				name: "Beak",
 				ability: 2,
@@ -5791,9 +5793,9 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "18",
+		passive_perception: "18",
 		languages: "Draconic, Infernal, telepathy 120 ft",
-		challengeRating: "19",
+		challenge_rating: "19",
 		attacks: [{
 				name: "Morningstar",
 				ability: 1,
@@ -5858,9 +5860,9 @@ var MToF = {
 		damage_immunities: "necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned",
 		senses: "blindsight 30 ft, darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "understands Abyssal, Elvish, and Undercommon but can't speak",
-		challengeRating: "14",
+		challenge_rating: "14",
 		attacks: [{
 				name: "Foreleg",
 				ability: 1,
@@ -5913,9 +5915,9 @@ var MToF = {
 		damage_immunities: "necrotic",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Giant",
-		challengeRating: "9",
+		challenge_rating: "9",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5958,9 +5960,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "understands Abyssal but can’t speak",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -5992,9 +5994,9 @@ var MToF = {
 		damage_immunities: "cold, necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "the languages the eidolon knew in life",
-		challengeRating: "12",
+		challenge_rating: "12",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -6044,9 +6046,9 @@ var MToF = {
 		damage_immunities: "necrotic",
 		condition_immunities: "charmed, exhaustion",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Common, Elvish",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Spiked Chain",
 				ability: 2,
@@ -6094,9 +6096,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "23",
+		passive_perception: "23",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "18",
+		challenge_rating: "18",
 		attacks: [{
 				name: "Chain",
 				ability: 1,
@@ -6187,9 +6189,9 @@ var MToF = {
 		damage_immunities: "radiant",
 		condition_immunities: "blinded",
 		senses: "darkvision 120 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "understands Common but can’t speak",
-		challengeRating: "1/2",
+		challenge_rating: "1/2",
 		attacks: [{
 				name: "Claws",
 				ability: 2,
@@ -6230,9 +6232,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, poisoned, stunned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "22",
+		passive_perception: "22",
 		languages: "all the languages it knew in life",
-		challengeRating: "15",
+		challenge_rating: "15",
 		attacks: [{
 				name: "Bone Staff",
 				ability: 2,
@@ -6307,9 +6309,9 @@ var MToF = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "Common, Elvish",
-		challengeRating: "11",
+		challenge_rating: "11",
 		attacks: [{
 				name: "Phantasmal Dagger",
 				ability: 2,
@@ -6366,9 +6368,9 @@ var MToF = {
 		damage_immunities: "bludgeoning, piercing, and slashing from nonmagical attacks",
 		condition_immunities: "exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Giant",
-		challengeRating: "11",
+		challenge_rating: "11",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -6415,15 +6417,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 4 (1d8) psychic damage; Two-Handed: 7 (1d10 + 2) slashing damage.",
+				description: "Plus 4 (1d8) psychic damage; Two-Handed: 7 (1d10+2) slashing damage.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -6477,9 +6479,9 @@ var MToF = {
 		damage_immunities: "psychic",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Deep Speech",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Confounding Bite",
 				ability: 2,
@@ -6512,9 +6514,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "Deep Speech",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -6555,9 +6557,9 @@ var MToF = {
 		damage_immunities: "psychic",
 		condition_immunities: "charmed, frightened, paralyzed, petrified, poisoned, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Deep Speech",
-		challengeRating: "16",
+		challenge_rating: "16",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -6622,9 +6624,9 @@ var MToF = {
 		damage_immunities: "psychic",
 		condition_immunities: "charmed, frightened, prone",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Deep Speech",
-		challengeRating: "5",
+		challenge_rating: "5",
 		attacks: [{
 				name: "Claw",
 				ability: 2,
@@ -6668,16 +6670,16 @@ var MToF = {
 		damage_immunities: "psychic",
 		condition_immunities: "charmed, frightened",
 		senses: "darkvision 60 ft",
-		passivePerception: "19",
+		passive_perception: "19",
 		languages: "Common, Deep Speech, Undercommon",
-		challengeRating: "13",
+		challenge_rating: "13",
 		attacks: [{
 				name: "Comet Staff",
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
 				modifiers: [4, 4, true],
-				description: "Plus 18 (4d8) psychic damage; Two-Handed: 10 (1d8 + 6) bludgeoning damage. Target must succeed on a DC 19 Constitution saving throw or be incapacitated until the end of its next turn.",
+				description: "Plus 18 (4d8) psychic damage; Two-Handed: 10 (1d8+6) bludgeoning damage. Target must succeed on a DC 19 Constitution saving throw or be incapacitated until the end of its next turn.",
 			}, {
 				name: "Psychic Orb",
 				ability: 4,
@@ -6723,9 +6725,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "1",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -6767,9 +6769,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 120 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
@@ -6811,9 +6813,9 @@ var MToF = {
 		damage_immunities: "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
 		senses: "blindsight 30 ft, darkvision 60 ft",
-		passivePerception: "17",
+		passive_perception: "17",
 		languages: "understands Modron and the language of its owner but can’t speak",
-		challengeRating: "16",
+		challenge_rating: "16",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -6871,15 +6873,15 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, frightened, petrified, poisoned",
 		senses: "",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "the languages it knew in life",
-		challengeRating: "1",
+		challenge_rating: "1",
 		attacks: [{
 				name: "Petrifying Claws",
 				ability: 1,
 				damage: [1, 10, "slashing"],
 				range: "Melee (5 ft)",
-				description: "If the attack roll has advantage: 14 (2d10 + 3) slashing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw, or it begins to turn to stone and is restrained until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is petrified for 24 hours.",
+				description: "If the attack roll has advantage: 14 (2d10+3) slashing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw, or it begins to turn to stone and is restrained until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is petrified for 24 hours.",
 			},
 		],
 		traits: [{
@@ -6911,9 +6913,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "understands one language of its creator but can’t speak",
-		challengeRating: "4",
+		challenge_rating: "4",
 		attacks: [{
 				name: "Slam",
 				ability: 1,
@@ -6986,15 +6988,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [2, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 4 (1d8) fire damage; Two-Handed: 15 (2d10 + 4) slashing damage.",
+				description: "Plus 4 (1d8) fire damage; Two-Handed: 15 (2d10+4) slashing damage.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -7043,15 +7045,15 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, frightened, poisoned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "14",
+		passive_perception: "14",
 		languages: "the languages it knew in life",
-		challengeRating: "8",
+		challenge_rating: "8",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed: 9 (1d10 + 4) slashing damage.",
+				description: "Two-Handed: 9 (1d10+4) slashing damage.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -7076,7 +7078,7 @@ var MToF = {
 				description: "The sword wraith makes two weapon attacks."
 			}, {
 				name: "Call to Honor (1/Day)",
-				description: "To use this action, the sword wraith must have taken damage during the current combat. If the sword wraith can use this action, it gives itself advantage on attack rolls until the end of its next turn, and 1d4 + 1 sword wraith warriors appear in unoccupied spaces within 30 ft of it. The warriors last until they drop to 0 hit points, and they take their turns immediately after the commander's turn on the same initiative count."
+				description: "To use this action, the sword wraith must have taken damage during the current combat. If the sword wraith can use this action, it gives itself advantage on attack rolls until the end of its next turn, and 1d4+1 sword wraith warriors appear in unoccupied spaces within 30 ft of it. The warriors last until they drop to 0 hit points, and they take their turns immediately after the commander's turn on the same initiative count."
 			}
 		],
 	},
@@ -7097,15 +7099,15 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, frightened, poisoned, unconscious",
 		senses: "darkvision 60 ft",
-		passivePerception: "9",
+		passive_perception: "9",
 		languages: "the languages it knew in life",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed: 9 (1d10 + 4) slashing damage.",
+				description: "Two-Handed: 9 (1d10+4) slashing damage.",
 			}, {
 				name: "Longbow",
 				ability: 2,
@@ -7141,9 +7143,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Common",
-		challengeRating: "13",
+		challenge_rating: "13",
 		attacks: [{
 				name: "Hook",
 				ability: 1,
@@ -7186,9 +7188,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "11",
+		challenge_rating: "11",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -7231,9 +7233,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Common",
-		challengeRating: "9",
+		challenge_rating: "9",
 		attacks: [{
 				name: "Harpoon Arm",
 				ability: 1,
@@ -7277,9 +7279,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "Common",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Arm Spike",
 				ability: 1,
@@ -7322,15 +7324,15 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "8",
+		passive_perception: "8",
 		languages: "",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Bite",
 				ability: 2,
 				damage: [1, 10, "piercing"],
 				range: "Melee (5 ft)",
-				description: "The Wretched attaches to the target. While attached, the Wretched can't attack, and at the start of each of the Wretched's turns, the target takes 6 (1d10 + 1) necrotic damage. The attached Wretched moves with the target whenever the target moves, requiring none of the Wretched's movement. The Wretched can detach itself by spending 5 ft of its movement on its turn. A creature, including the target, can use its action to detach a Wretched.",
+				description: "The Wretched attaches to the target. While attached, the Wretched can't attack, and at the start of each of the Wretched's turns, the target takes 6 (1d10+1) necrotic damage. The attached Wretched moves with the target whenever the target moves, requiring none of the Wretched's movement. The Wretched can detach itself by spending 5 ft of its movement on its turn. A creature, including the target, can use its action to detach a Wretched.",
 			},
 		],
 		traits: [{
@@ -7357,15 +7359,15 @@ var MToF = {
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "16",
+		challenge_rating: "16",
 		attacks: [{
 				name: "Silver Sword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Plus 16 (3d10) necrotic damage; Two-Handed: 9 (1d10 + 4) slashing damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage it takes.",
+				description: "Plus 16 (3d10) necrotic damage; Two-Handed: 9 (1d10+4) slashing damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage it takes.",
 			},
 		],
 		traits: [{
@@ -7440,9 +7442,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Aquan, Common",
-		challengeRating: "1/4",
+		challenge_rating: "1/4",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -7454,7 +7456,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed: 6 (1d8 + 2) bludgeoning damage.",
+				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
 			}, {
 				name: "Claws",
 				ability: 2,
@@ -7492,9 +7494,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Aquan, Common",
-		challengeRating: "2",
+		challenge_rating: "2",
 		attacks: [{
 				name: "Claws",
 				ability: 1,
@@ -7506,7 +7508,7 @@ var MToF = {
 				ability: 1,
 				damage: [1, 6, "bludgeoning"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed: 6 (1d8 + 2) bludgeoning damage.",
+				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
 			},
 		],
 		traits: [{
@@ -7543,9 +7545,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
 		senses: "darkvision 60 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "",
-		challengeRating: "3",
+		challenge_rating: "3",
 		attacks: [{
 				name: "",
 				ability: 0,
@@ -7574,7 +7576,7 @@ var MToF = {
 		actions: {
 			name: "Blood Drain",
 			description: [
-				"One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6 + 3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount.",
+				"One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6+3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount.",
 				"This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0."
 			]
 		},
@@ -7597,9 +7599,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 60 ft",
-		passivePerception: "12",
+		passive_perception: "12",
 		languages: "Giant",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -7651,9 +7653,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Abyssal, telepathy 120 ft",
-		challengeRating: "13",
+		challenge_rating: "13",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -7691,7 +7693,7 @@ var MToF = {
 				description: "The wastrilith uses Grasping Spout and makes three attacks: one with its bite and two with its claws."
 			}, {
 				name: "Grasping Spout",
-				description: "The wastrilith magically launches a spout of water at one creature it can see within 60 ft of it. The target must make a DC 17 Strength saving throw, and it has disadvantage if it's underwater. On a failed save, it takes 22 (4d8 + 4) acid damage and is pulled up to 60 ft toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled."
+				description: "The wastrilith magically launches a spout of water at one creature it can see within 60 ft of it. The target must make a DC 17 Strength saving throw, and it has disadvantage if it's underwater. On a failed save, it takes 22 (4d8+4) acid damage and is pulled up to 60 ft toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled."
 			}
 		],
 	},
@@ -7712,9 +7714,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "paralyzed, petrified, poisoned, prone",
 		senses: "darkvision 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Aquan, one language of its creator's choice",
-		challengeRating: "7",
+		challenge_rating: "7",
 		attacks: [{
 				name: "Trident",
 				ability: 1,
@@ -7754,15 +7756,15 @@ var MToF = {
 		damage_immunities: "cold, fire, poison",
 		condition_immunities: "poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "11",
+		passive_perception: "11",
 		languages: "Draconic, Infernal, telepathy 120 ft",
-		challengeRating: "6",
+		challenge_rating: "6",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [1, 8, "slashing"],
 				range: "Melee (5 ft)",
-				description: "Two-Handed: 8 (1d10 + 3) slashing damage.",
+				description: "Two-Handed: 8 (1d10+3) slashing damage.",
 			}, {
 				name: "Claw",
 				ability: 1,
@@ -7819,9 +7821,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 60 ft",
-		passivePerception: "13",
+		passive_perception: "13",
 		languages: "Common, Elvish, Sylvan",
-		challengeRating: "10",
+		challenge_rating: "10",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
@@ -7881,9 +7883,9 @@ var MToF = {
 		damage_immunities: "acid, poison",
 		condition_immunities: "poisoned",
 		senses: "blindsight 60 ft, darkvision 60 ft",
-		passivePerception: "16",
+		passive_perception: "16",
 		languages: "Abyssal, Infernal, telepathy 60 ft",
-		challengeRating: "11",
+		challenge_rating: "11",
 		attacks: [{
 				name: "Electrified Touch",
 				ability: 1,
@@ -7919,7 +7921,7 @@ var MToF = {
 				description: "The yagnoloth makes one massive arm attack and one electrified touch attack, or it makes one massive arm attack and teleports before or after the attack."
 			}, {
 				name: "Life Leech",
-				description: "The yagnoloth touches one incapacitated creature within 15 ft of it. The target takes 36 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a DC 16 Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
+				description: "The yagnoloth touches one incapacitated creature within 15 ft of it. The target takes 36 (7d8+4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a DC 16 Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
 			}, {
 				name: "Battlefield Cunning (Recharge 4-6)",
 				description: "Up to two allied yugoloths within 60 ft of the yagnoloth that can hear it can use their reactions to make one melee attack each."
@@ -7947,9 +7949,9 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "24",
+		passive_perception: "24",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "24",
+		challenge_rating: "24",
 		attacks: [{
 				name: "Flail",
 				ability: 1,
@@ -8036,9 +8038,9 @@ var MToF = {
 		damage_immunities: "",
 		condition_immunities: "",
 		senses: "darkvision 30 ft, tremorsense 60 ft",
-		passivePerception: "10",
+		passive_perception: "10",
 		languages: "Kruthik",
-		challengeRating: "1/8",
+		challenge_rating: "1/8",
 		attacks: [{
 				name: "Stab",
 				ability: 2,
@@ -8065,9 +8067,9 @@ var MToF = {
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, paralyzed, petrified, poisoned, stunned",
 		senses: "darkvision 60 ft, tremorsense 60 ft",
-		passivePerception: "15",
+		passive_perception: "15",
 		languages: "",
-		challengeRating: "22",
+		challenge_rating: "22",
 		attacks: [{
 				name: "Bite",
 				ability: 1,
@@ -8155,15 +8157,15 @@ var MToF = {
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		passivePerception: "26",
+		passive_perception: "26",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "26",
+		challenge_rating: "26",
 		attacks: [{
 				name: "Longsword",
 				ability: 1,
 				damage: [2, 8, "slashing"],
 				range: "Melee (10 ft)",
-				description: "Plus 36 (8d8) fire damage; Two-Handed: 19 (2d10 + 8) slashing damage.",
+				description: "Plus 36 (8d8) fire damage; Two-Handed: 19 (2d10+8) slashing damage.",
 			}, {
 				name: "Javelin (Melee)",
 				ability: 1,
@@ -8254,15 +8256,15 @@ var MToF = {
 		damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
 		senses: "truesight 120 ft",
-		passivePerception: "21",
+		passive_perception: "21",
 		languages: "all, telepathy 120 ft",
-		challengeRating: "23",
+		challenge_rating: "23",
 		attacks: [{
-				name: "",
-				ability: 0,
-				damage: [0, 0, ""],
-				range: "",
-				description: "",
+				name: "Pseudopod",
+				ability: 1,
+				damage: [2, 8, "bludgeoning"],
+				range: "Melee (10 ft)",
+				description: "Plus 9 (2d8) poison damage.",
 			},
 		],
 		traits: [{
@@ -8287,9 +8289,6 @@ var MToF = {
 		actions: [{
 				name: "Multiattack",
 				description: "Zuggtmoy makes four pseudopod attacks."
-			}, {
-				name: "Pseudopod",
-				description: "Melee Weapon Attack: +13 to hit, reach 10 ft, one target. Hit: 15 (2d8+6) bludgeoning damage plus 9 (2d8) poison damage.",
 			}, {
 				name: "Infestation Spores (3/Day)",
 				description: "Zuggtmoy releases spores that burst out in cloud fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 19 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
@@ -8318,4 +8317,4 @@ var MToF = {
 			}
 		]
 	}
-}
+};
