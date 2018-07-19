@@ -267,7 +267,7 @@ var TftYP = {
 		senses: "darkvision 60 ft",
 		passive_perception: "13",
 		languages: "Common",
-		challenge_rating: "l",
+		challenge_rating: "1",
 		traits: [{
 				name: "Undead Nature",
 				description: "A dread warrior doesn't require air, food, drink, or sleep."
@@ -1142,6 +1142,14 @@ var TftYP = {
 		senses: "darkvision 60 ft",
 		passive_perception: "11",
 		challenge_rating: "3",
+		attacks: [{
+				name: "",
+				ability: 1,
+				damage: [0, 0, ""],
+				range: "",
+				description: "",
+			},
+		],
 		traits: [{
 				name: "Undead Nature",
 				description: "A vampiric mist doesn't require air or sleep."

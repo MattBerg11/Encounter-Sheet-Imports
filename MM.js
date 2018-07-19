@@ -3609,7 +3609,7 @@ var MM = {
 				description: "The bulette's long jump is up to 30 ft. and its high jump is up to 15 ft., with or without a running start.",
 			},
 		],
-		actions: [{}, {
+		actions: [{
 				name: "Deadly Leap",
 				description: "If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its ft. in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6+4) bludgeoning damage plus 14 (3d6+4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space.",
 			},
@@ -5642,8 +5642,6 @@ var MM = {
 				name: "Sunlight Sensitivity",
 				description: "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
 			},
-		],
-		actions: [{}, {},
 		],
 	},
 	"Drow Elite Warrior": {
@@ -11952,9 +11950,6 @@ var MM = {
 			}, {
 				name: "Turn Resistance",
 				description: "The lich has advantage on saving throws against any effect that turns undead.",
-			},
-		],
-		actions: [{
 			},
 		],
 		legendary_actions: [{

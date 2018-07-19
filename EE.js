@@ -805,6 +805,7 @@ var EE = {
 		hd: [15, 8],
 		speed: "30 ft, swim 30 ft",
 		scores: [15, 15, 16, 12, 18, 13],
+		saves: ["","","","","",""],
 		skills: "Nature +8, Survival +8",
 		damage_resistances: "cold",
 		passive_perception: "14",
@@ -927,6 +928,7 @@ var EE = {
 		hd: [12, 8],
 		speed: "30 ft",
 		scores: [13, 18, 14, 10, 15, 13],
+		saves: ["", "", "", "", "", ""],
 		skills: "Acrobatics +7, Athletics +4, Insight +5, Perception +5",
 		damage_immunities: "poison",
 		condition_immunities: "blinded, poisoned",
@@ -1514,8 +1516,6 @@ var EE = {
 		traits: [{
 				name: "Grim Harvest",
 				description: "Once per turn when Oreioth kills one or more creatures with a spell of 1st level or higher, he regains hit points equal to twice the spell's level."
-			}, {
-				name: "Spellcasting",
 			}, {
 				name: "Swift Animation (Recharges after a Long Rest)",
 				description: "When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time."

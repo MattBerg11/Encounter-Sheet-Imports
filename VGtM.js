@@ -3650,7 +3650,7 @@ var VGtM = {
 		],
 		actions: [{
 				name: "Weapon Invention",
-				description: [ // fix
+				description: [// fix
 					"The kobold uses one of the following options (roll a d8 or choose one); the kobold can use each one no more than once per day:",
 					"1. Acid: The kobold hurls a flask of acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 7 (2d6) acid damage.",
 					"2. Alchemist’s fire: The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 2 (1d4) fire damage at the start of each of the target’s turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
@@ -5718,6 +5718,14 @@ var VGtM = {
 		passive_perception: 11,
 		languages: "",
 		challenge_rating: "3",
+		attacks: [{
+				name: "",
+				ability: 1,
+				damage: [0, 0, ""],
+				range: "",
+				description: "",
+			},
+		],
 		actions: [{
 				name: "Smother",
 				description: "One Large or smaller creature within 5 feet of the trapper must succeed on a DC 14 Dexterity saving throw or be grappled (escape DC 14). Until the grapple ends, the target takes 17 (4d6+3) bludgeoning damage plus 3 (1d6) acid damage at the start of each of its turns. While grappled in this way, the target is restrained, blinded, and at risk of suffocating. The trapper can smother only one creature at a time.",
