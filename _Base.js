@@ -1,4 +1,4 @@
-//This would not be possible without the invaluble advice from MorePurpleMoreBetter! I highly recommend you check out his work https:reddit.com/r/mpmb
+//This would not be possible without the invaluble advice from MorePurpleMoreBetter! I highly recommend you check out his work @ https:reddit.com/r/mpmb
 
 //Doc Open
 
@@ -13,7 +13,7 @@ function highlightSelect(value) {
 }
 
 //Version & Footer
-var sheetVersion = "v1.6";
+var sheetVersion = "v1.61";
 this.getField("Version").value = "Encounter Sheet " + sheetVersion;
 this.getField("Note").value = "Have a suggestion? Let me know by hitting the 'Contact Me!' button above!";
 
@@ -44,8 +44,8 @@ function applyMonster(input, fieldNum) {
 		this.getField(fieldName + ".Shield").display = display.visible;
 		this.getField(fieldName + ".Shield2").display = display.hidden;
 	}
-	this.getField(fieldName + ".Proficiency").value = "+" + challengeArray[monster.challengeRating][1];
-	this.getField(fieldName + ".Perception").value = monster.passivePerception;
+	this.getField(fieldName + ".Proficiency").value = "+" + challengeArray[monster.challenge_rating][1];
+	this.getField(fieldName + ".Perception").value = monster.passive_perception;
 	this.getField(fieldName + ".Health").value = monster.hp;
 	this.getField(fieldName + ".HitDice").value = monster.hd[0] + "d" + monster.hd[1];
 	this.getField(fieldName + ".Speed").value = monster.speed;
@@ -108,60 +108,69 @@ function applyMonster(input, fieldNum) {
 		}
 	}
 	this.getField(fieldName + ".MonsterInfo").value = compileInfo(monster);
-	this.getField(fieldName + ".XP").value = removeCommas(challengeArray[monster.challengeRating][0]);
+	this.getField(fieldName + ".XP").value = removeCommas(challengeArray[monster.challenge_rating][0]);
 	this.getField(fieldName + ".Features").value = ((compileFeatures(monster) != "") ? compileFeatures(monster) : "");
 }
 
 function compileInfo(monster) {
-	var Language = "",
+	var XP = "",
+	Type = "",
+	Languages = "",
+	Alignment = "",
+	Size = "",
+	Resistances = "",
 	Immunities = "",
-	Type = "";
-	Resistances = "";
+	Vulnerabilities = "",
+	ConImmune = "";
 
-	var XP = "\u2756CR & EXP: " + monster.challengeRating + ", " + challengeArray[monster.challengeRating][0];
+	var XP = "\u2756CR & EXP: " + monster.challenge_rating + ", " + challengeArray[monster.challenge_rating][0];
+	if (monster.type) {
+		var Type = "\n\u2756Type: " + monster.type;
+	}
 	if (monster.languages) {
-		var Language = "\n\u2756Languages: " + monster.languages;
-	} else {
-		var Language = "";
+		var Languages = "\n\u2756Languages: " + monster.languages;
 	}
 	var Alignment = "\n\u2756Alignment: " + monster.alignment;
 	var Size = "\n\u2756Size: " + monster.size;
+
 	if (monster.damage_resistances) {
 		var Resistances = "\n\u2756Resistances: " + monster.damage_resistances;
 	}
 	if (monster.damage_immunities) {
 		var Immunities = "\n\u2756Immunities: " + monster.damage_immunities;
 	}
-	if (monster.type) {
-		var Type = "\n\u2756Type: " + monster.type;
-		if (monster.subtype) {
-			var Type = Type + "; " + monster.subtype;
-		}
+	if (monster.damage_vulnerabilities) {
+		var Vulnerabilities = "\n\u2756Vulnerabilities: " + monster.damage_vulnerabilities;
 	}
-	return XP + Type + Language + Alignment + Size + Resistances + Immunities;
+	if (monster.condition_immunities) {
+		var ConImmune = "\n\u2756Condition Immunities: " + monster.condition_immunities;
+	}
+	return XP + Type + Languages + Alignment + Size + Resistances + Immunities + Vulnerabilities + ConImmune;
 }
 
 function compileFeatures(monster) {
-	var Traits = "",
+	var Skills = "",
+	Spells = "",
+	Traits = "",
 	Actions = "",
 	Reactions = "",
-	Legendary = "",
-	Skills = "",
-	Spells = "";
+	Legendary = "";
 
+	if (monster.skills) {
+		var Skills = "\u2756" + boldText(Skills) + "\u2756\n\u25CF " + monster.skills + "\n";
+	}
 	if (monster.spells) {
 		for (var i = 0; i < monster.spells.length; i++) {
 			Spells += "\u2022 " + monster.spells[i] + "\n";
 		}
 		var Spells = "\u2756Spells\u2756\n" + Spells;
 	}
-	if (monster.skills) {
-		var Skills = "\u2756Skills\u2756\n\u25CF " + monster.skills + "\n";
-	}
 
 	if (monster.traits) {
 		var TraitSetup = "";
+
 		for (var i = 0; i < monster.traits.length; i++) {
+
 			if (monster.traits[i].description.length > 1 && monster.traits[i].description instanceof Array) {
 				var MultiDescSetup = "";
 				var TraitName = "\n\u25CF " + monster.traits[i].name + "\u25CF ";
@@ -294,7 +303,7 @@ var backPage = backPage + Traits;
 // Calculate the number to display in Monster0.toHit
 function toHit(monster, attackNum) {
 
-	if (monster.attacks[attackNum].ability == 0) {
+	if (monster.attacks[attackNum].ability == 0 && !monster.attacks[attackNum].name) {
 		return "";
 	} else {
 		var modifiedHit = 0,
@@ -302,7 +311,7 @@ function toHit(monster, attackNum) {
 		proficiency = 0;
 
 		// scores: [21, 9, 15, 18, 15, 18],
-		var proficiency = challengeArray[monster.challengeRating][1]; // 4
+		var proficiency = challengeArray[monster.challenge_rating][1]; // 4
 		var attackSkill = monster.attacks[attackNum].ability - 1; // 1
 		var skillScore = monster.scores[attackSkill]; // 21
 		var hitMod = modArray[skillScore]; // Score 21 => 5 bonus
@@ -471,6 +480,10 @@ function removeCommas(str) {
 	return (str.replace(/,/g, ''));
 }
 
+function boldText(text) {
+	var text = text.fontWeight = 800;
+	return text;
+}
 function returnFieldValue(arg) {
 	return this.getField(arg).value;
 }
@@ -546,7 +559,14 @@ var monsterListDialog = {
 		]
 	}
 }
-
+function tm(manual, manual2) {
+	// tm(VGtM,"VGtM");
+	this.getField("List.Monster0").value = manual2;
+	for (key in manual) {
+		console.println("\nMonster:" + key);
+		applyMonster(key, 0);
+	}
+}
 function layerControl(layer, value) {
 	this.getOCGs();
 	/*
