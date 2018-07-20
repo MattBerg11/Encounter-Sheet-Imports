@@ -20,6 +20,16 @@ File Listing:
 
 &nbsp;
 
+**v1.61** *(7/19/18)*
+
+This one is all bug fixes! I highly recommend deleting all previous copies to make sure you're using this version. I would also love to know if this alerts people when I update? Is there any other way I should be alerting people? Let me know.
+
+* Went through and tested all monsters so none of them should error out. Please report any oddities and bugs on [GitHub](https://github.com/Shwaffle/Encounter-Sheet-Imports/issues)
+* Changed the verbiage of two-handed variant attacks in the descriptions to make it more apparent
+* Fixed a bug where some attacks wouldn't show based on the ability
+* Small code changes for consistency
+
+
 **v1.6** *(7/7/18)*
 
 This feels like a small update due to the changelog, but I think the way I reworked how you choose a monster is such a big addition that I wanted to push it out as quickly as possible. This has been something I've wanted to add for quite a while so it feels nice that it's finally finished. This is the groundwork I needed to get the different lists into the sheet so let me know what you think!
