@@ -20,6 +20,11 @@ File Listing:
 
 &nbsp;
 
+**v1.62** *(11/18/18)*
+
+* Fixed issue with 'Skills' not showing properly
+* Added in the Constitution Modifier for the hit dice due to demand
+	
 **v1.61** *(7/19/18)*
 
 This one is all bug fixes! I highly recommend deleting all previous copies to make sure you're using this version. I would also love to know if this alerts people when I update? Is there any other way I should be alerting people? Let me know.
