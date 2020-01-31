@@ -21,59 +21,59 @@ var ToA = {
 		languages: "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon",
 		challenge_rating: "23",
 		attacks: [{
-				name: "Staff (+3 Quarterstaff)",
-				ability: 1,
-				damage: [1, 6, "bludgeoning"],
-				range: "Melee (5 ft)",
-				modifiers: [3, 3, true],
-				description: "Plus 10 (3d6) necrotic damage; Two-Handed: 8 (1d8+4) bludgeoning damage.",
-			}, {
-				name: "Paralyzing Touch",
-				ability: 1,
-				damage: [3, 6, "cold"],
-				range: "Melee (5 ft)",
-				modifiers: ["", "", false],
-				description: "Target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-			},
+			name: "Staff (+3 Quarterstaff)",
+			ability: 1,
+			damage: [1, 6, "bludgeoning"],
+			range: "Melee (5 ft)",
+			modifiers: [3, 3, true],
+			description: "Plus 10 (3d6) necrotic damage; Two-Handed: 8 (1d8+4) bludgeoning damage.",
+		}, {
+			name: "Paralyzing Touch",
+			ability: 1,
+			damage: [3, 6, "cold"],
+			range: "Melee (5 ft)",
+			modifiers: ["", "", false],
+			description: "Target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+		}
 		],
 		traits: [{
-				name: "Special Equipment",
-				description: "Acererak carries the Staff of the Forgotten One (see Appendix C). He wears a talisman of the sphere and has a sphere of annihilation under his control."
-			}, {
-				name: "Legendary Resistance (3/Day)",
-				description: "If Acererak fails a saving throw, he can choose to succeed instead."
-			}, {
-				name: "Rejuvenation",
-				description: "Acererak's body turns to dust when he drops to 0 hit points, and his equipment is left behind. Acererak gains a new body after 1d10 days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden."
-			}, {
-				name: "Turn Resistance",
-				description: "Acererak has advantage on saving throws against any effect that turns undead."
-			}
+			name: "Special Equipment",
+			description: "Acererak carries the Staff of the Forgotten One (see Appendix C). He wears a talisman of the sphere and has a sphere of annihilation under his control."
+		}, {
+			name: "Legendary Resistance (3/Day)",
+			description: "If Acererak fails a saving throw, he can choose to succeed instead."
+		}, {
+			name: "Rejuvenation",
+			description: "Acererak's body turns to dust when he drops to 0 hit points, and his equipment is left behind. Acererak gains a new body after 1d10 days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden."
+		}, {
+			name: "Turn Resistance",
+			description: "Acererak has advantage on saving throws against any effect that turns undead."
+		}
 		],
 		actions: [{
-				name: "Invoke Curse",
-				description: "While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a DC 23 Constitution saving throw or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. Greater restoration, remove curse, or similar magic ends the curse on the target."
-			}
+			name: "Invoke Curse",
+			description: "While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a DC 23 Constitution saving throw or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. Greater restoration, remove curse, or similar magic ends the curse on the target."
+		}
 		],
 		legendary_actions: [{
-				name: "Legendary Actions (3/Turn)",
-				description: "Acererak can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Acererak regains spent legendary actions at the start of his turn."
-			}, {
-				name: "At-Will Spell",
-				description: "Acererak can cast one of his at-will spells."
-			}, {
-				name: "Melee Attack",
-				description: "Acererak uses Paralyzing Touch or makes one melee attack with his staff."
-			}, {
-				name: "Frightening Gaze (Costs 2 Actions)",
-				description: "Acererak fixes his gaze on one creature it can see within 10 feet of him. The target must succeed on a DC 20 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Acererak's gaze for the next 24 hours.",
-			}, {
-				name: "Talisman of the Sphere (Costs 2 Actions)",
-				description: "Acererak uses his talisman of the sphere to move the sphere of annihilation under his control up to 90 feet."
-			}, {
-				name: "Disrupt Life (Costs 3 Actions)",
-				description: "Each creature within 20 feet of Acererak must make a DC 20 Constitution saving throw against this magic, taking 42 (12d6) necrotic damage on a failed save, or half as much damage on a successful one."
-			}
+			name: "Legendary Actions (3/Turn)",
+			description: "Acererak can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Acererak regains spent legendary actions at the start of his turn."
+		}, {
+			name: "At-Will Spell",
+			description: "Acererak can cast one of his at-will spells."
+		}, {
+			name: "Melee Attack",
+			description: "Acererak uses Paralyzing Touch or makes one melee attack with his staff."
+		}, {
+			name: "Frightening Gaze (Costs 2 Actions)",
+			description: "Acererak fixes his gaze on one creature it can see within 10 feet of him. The target must succeed on a DC 20 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Acererak's gaze for the next 24 hours.",
+		}, {
+			name: "Talisman of the Sphere (Costs 2 Actions)",
+			description: "Acererak uses his talisman of the sphere to move the sphere of annihilation under his control up to 90 feet."
+		}, {
+			name: "Disrupt Life (Costs 3 Actions)",
+			description: "Each creature within 20 feet of Acererak must make a DC 20 Constitution saving throw against this magic, taking 42 (12d6) necrotic damage on a failed save, or half as much damage on a successful one."
+		}
 		],
 		spells: [
 			"Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:",
@@ -108,29 +108,29 @@ var ToA = {
 		languages: "Common, Dwarvish",
 		challenge_rating: "1",
 		attacks: [{
-				name: "Handaxe (Melee)",
-				ability: 1,
-				damage: [1, 6, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Handaxe (Ranged)",
-				ability: 1,
-				damage: [1, 6, "slashing"],
-				range: "Ranged (20/60 ft)",
-				description: "",
-			},
+			name: "Handaxe (Melee)",
+			ability: 1,
+			damage: [1, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Handaxe (Ranged)",
+			ability: 1,
+			damage: [1, 6, "slashing"],
+			range: "Ranged (20/60 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Dwarven Resilience",
-				description: "The dwarf has advantage on saving throws against poison."
-			}, {
-				name: "Innate Spellcasting",
-				description: [
-					"The dwarf's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:",
-					"1/day each: hunter's mark, jump, pass without trace, speak with animals, speak with plant"
-				]
-			}
+			name: "Dwarven Resilience",
+			description: "The dwarf has advantage on saving throws against poison."
+		}, {
+			name: "Innate Spellcasting",
+			description: [
+				"The dwarf's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:",
+				"1/day each: hunter's mark, jump, pass without trace, speak with animals, speak with plant"
+			]
+		}
 		],
 	},
 	"Albino Dwarf Warrior": {
@@ -152,23 +152,23 @@ var ToA = {
 		languages: "Common, Dwarvish",
 		challenge_rating: "1/4",
 		attacks: [{
-				name: "Handaxe (Melee)",
-				ability: 1,
-				damage: [1, 6, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Handaxe (Ranged)",
-				ability: 1,
-				damage: [1, 6, "slashing"],
-				range: "Ranged (20/60 ft)",
-				description: "",
-			},
+			name: "Handaxe (Melee)",
+			ability: 1,
+			damage: [1, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Handaxe (Ranged)",
+			ability: 1,
+			damage: [1, 6, "slashing"],
+			range: "Ranged (20/60 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Dwarven Resilience",
-				description: "The dwarf has advantage on saving throws against poison."
-			}
+			name: "Dwarven Resilience",
+			description: "The dwarf has advantage on saving throws against poison."
+		}
 		],
 	},
 	"Aldani (Lobsterfolk)": {
@@ -189,22 +189,22 @@ var ToA = {
 		languages: "Common",
 		challenge_rating: "1",
 		attacks: [{
-				name: "Claw",
-				ability: 1,
-				damage: [1, 8, "slashing"],
-				range: "Melee (5 ft)",
-				description: "Target is grappled (escape DC 11). The aldani has two claws, each of which can grapple only one target.",
-			},
+			name: "Claw",
+			ability: 1,
+			damage: [1, 8, "slashing"],
+			range: "Melee (5 ft)",
+			description: "Target is grappled (escape DC 11). The aldani has two claws, each of which can grapple only one target.",
+		}
 		],
 		traits: [{
-				name: "Amphibious",
-				description: "The aldani can breathe air and water."
-			}
+			name: "Amphibious",
+			description: "The aldani can breathe air and water."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The aldani makes two attacks with its claws."
-			}
+			name: "Multiattack",
+			description: "The aldani makes two attacks with its claws."
+		}
 		]
 	},
 	"Almiraj": {
@@ -222,17 +222,17 @@ var ToA = {
 		passive_perception: "12",
 		challenge_rating: "0",
 		attacks: [{
-				name: "Horn",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Horn",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Keen Senses",
-				description: "The almiraj has advantage on Wisdom (Perception) checks that rely on hearing or sight."
-			}
+			name: "Keen Senses",
+			description: "The almiraj has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+		}
 		],
 	},
 	"Ankylosaurus Zombie": {
@@ -253,17 +253,17 @@ var ToA = {
 		passive_perception: "8",
 		challenge_rating: "3",
 		attacks: [{
-				name: "Tail",
-				ability: 1,
-				damage: [4, 6, "bludgeoning"],
-				range: "Melee (10 ft)",
-				description: "If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
-			},
+			name: "Tail",
+			ability: 1,
+			damage: [4, 6, "bludgeoning"],
+			range: "Melee (10 ft)",
+			description: "If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
+		}
 		],
 		traits: [{
-				name: "Undead Fortitude",
-				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-			}
+			name: "Undead Fortitude",
+			description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+		}
 		],
 	},
 	"Artus Cimber": {
@@ -284,44 +284,44 @@ var ToA = {
 		languages: "Common, Draconic, Dwarvish, Goblin",
 		challenge_rating: "7",
 		attacks: [{
-				name: "Bookmark (+3 Dagger)",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				modifiers: [3, 3, true],
-				description: "",
-			}, {
-				name: "Longbow",
-				ability: 2,
-				damage: [1, 8, "piercing"],
-				range: "Ranged (150/600 ft)",
-				description: "",
-			},
+			name: "Bookmark (+3 Dagger)",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			modifiers: [3, 3, true],
+			description: "",
+		}, {
+			name: "Longbow",
+			ability: 2,
+			damage: [1, 8, "piercing"],
+			range: "Ranged (150/600 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Special Equipment",
-				description: [
-					"Artus wears the Ring of Winter. He and the ring can't be targeted by divination magic or perceived through magical scrying sensors. While attuned to and wearing the ring, Artus ceases to age and is immune to cold damage and the effects of extreme cold.",
-					"Artus wields Bookmark, a +3 dagger with additional magical properties. As a bonus action, Artus can activate any one of the following properties while attuned to the dagger, provided he has the weapon drawn:",
-					"Cause a blue gem set into the dagger's pommel to shed bright light in a 20-foot radius and dim light for an additional 20 feet, or make the gem go dark.",
-					"Turn the dagger into a compass that, while resting on Artus's palm, points north.",
-					"Cast dimension door from the dagger. Once this property is used, it can't be used again until the next dawn.",
-					"Cast compulsion (save DC 15) from the dagger. The range of the spell increases to 90 feet, but the spell targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn."
-				]
-			}
+			name: "Special Equipment",
+			description: [
+				"Artus wears the Ring of Winter. He and the ring can't be targeted by divination magic or perceived through magical scrying sensors. While attuned to and wearing the ring, Artus ceases to age and is immune to cold damage and the effects of extreme cold.",
+				"Artus wields Bookmark, a +3 dagger with additional magical properties. As a bonus action, Artus can activate any one of the following properties while attuned to the dagger, provided he has the weapon drawn:",
+				"Cause a blue gem set into the dagger's pommel to shed bright light in a 20-foot radius and dim light for an additional 20 feet, or make the gem go dark.",
+				"Turn the dagger into a compass that, while resting on Artus's palm, points north.",
+				"Cast dimension door from the dagger. Once this property is used, it can't be used again until the next dawn.",
+				"Cast compulsion (save DC 15) from the dagger. The range of the spell increases to 90 feet, but the spell targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn."
+			]
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "Artus makes three attacks with Bookmark or his longbow."
-			}, {
-				name: "Ring of Winter",
-				description: [
-					"The Ring of Winter has 12 charges and regains all its expended charges daily at dawn. While attuned to and wearing the ring, Artus can expend the necessary number of charges to activate one of the following properties:",
-					"Artus can expend 1 charge and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point he can see within 300 feet of him. The temperature in that area drops 20 degrees per minute, to a minimum of _30 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless Artus uses the ring to end the effect as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.",
-					"Artus can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: Bigby's hand (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), cone of cold (2 charges), flesh to ice (3 charges; as flesh to stone except that the target turns to solid ice with the density and durability of stone), ice storm (2 charges), Otiluke's otiluke's freezing sphere (3 charges), sleet storm (1 charge), spike growth (1 charge; the spikes are made of ice), or wall of ice (2 charges).",
-					"Artus can expend the necessary number of charges and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (Artus's choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: charmed, exhaustion, frightened, paralyzed, petrified, and poisoned. The ice creature obeys only its creator's commands. The ice object or creature appears in an unoccupied space within 60 feet of Artus. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 (1d10) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
-				]
-			}
+			name: "Multiattack",
+			description: "Artus makes three attacks with Bookmark or his longbow."
+		}, {
+			name: "Ring of Winter",
+			description: [
+				"The Ring of Winter has 12 charges and regains all its expended charges daily at dawn. While attuned to and wearing the ring, Artus can expend the necessary number of charges to activate one of the following properties:",
+				"Artus can expend 1 charge and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point he can see within 300 feet of him. The temperature in that area drops 20 degrees per minute, to a minimum of _30 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless Artus uses the ring to end the effect as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.",
+				"Artus can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: Bigby's hand (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), cone of cold (2 charges), flesh to ice (3 charges; as flesh to stone except that the target turns to solid ice with the density and durability of stone), ice storm (2 charges), Otiluke's otiluke's freezing sphere (3 charges), sleet storm (1 charge), spike growth (1 charge; the spikes are made of ice), or wall of ice (2 charges).",
+				"Artus can expend the necessary number of charges and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (Artus's choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: charmed, exhaustion, frightened, paralyzed, petrified, and poisoned. The ice creature obeys only its creator's commands. The ice object or creature appears in an unoccupied space within 60 feet of Artus. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 (1d10) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
+			]
+		}
 		]
 	},
 	"Assassin Vine": {
@@ -342,22 +342,22 @@ var ToA = {
 		passive_perception: "10",
 		challenge_rating: "3",
 		attacks: [{
-				name: "Constrict",
-				ability: 1,
-				damage: [2, 6, "bludgeoning"],
-				range: "Melee (20 ft)",
-				description: "Target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and it takes 21 (6d6) poison damage at the start of each of its turns. The vine can constrict only one target at a time.",
-			},
+			name: "Constrict",
+			ability: 1,
+			damage: [2, 6, "bludgeoning"],
+			range: "Melee (20 ft)",
+			description: "Target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and it takes 21 (6d6) poison damage at the start of each of its turns. The vine can constrict only one target at a time.",
+		}
 		],
 		traits: [{
-				name: "False Appearance",
-				description: "While the assassin vine remains motionless, it is indistinguishable from a normal plant."
-			}
+			name: "False Appearance",
+			description: "While the assassin vine remains motionless, it is indistinguishable from a normal plant."
+		}
 		],
 		actions: [{
-				name: "Entangling Vines",
-				description: "The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.",
-			}
+			name: "Entangling Vines",
+			description: "The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.",
+		}
 		]
 	},
 	"Atropal": {
@@ -380,54 +380,54 @@ var ToA = {
 		languages: "understands Celestial but utters only obscene nonsense",
 		challenge_rating: "13",
 		attacks: [{
-				name: "Touch",
-				ability: 1,
-				damage: [3, 6, "necrotic"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Ray of Cold",
-				ability: 4,
-				damage: [6, 6, "cold"],
-				range: "Ranged (120 ft)",
-				description: "One target.",
-			},
+			name: "Touch",
+			ability: 1,
+			damage: [3, 6, "necrotic"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Ray of Cold",
+			ability: 4,
+			damage: [6, 6, "cold"],
+			range: "Ranged (120 ft)",
+			description: "One target.",
+		}
 		],
 		traits: [{
-				name: "Magic Resistance",
-				description: "The atropal has advantage on saving throws against spells and other magical effects."
-			}, {
-				name: "Negative Energy Aura",
-				description: [
-					"Creatures within 30 feet of the atropal can't regain hit points, and any creature that starts its turn within 30 feet of the atropal takes 10 (3d6) necrotic damage.",
-					"If the atropal is struck by a vorpal sword, the wielder can cut the atropal's umbilical cord instead of dealing damage. If its umbilical cord is cut, the atropal loses this feature."
-				]
-			}, {
-				name: "Turn Resistance Aura",
-				description: "The atropal and any other undead creature within 30 feet of it has advantage on saving throws against any effect that turns undead."
-			}
+			name: "Magic Resistance",
+			description: "The atropal has advantage on saving throws against spells and other magical effects."
+		}, {
+			name: "Negative Energy Aura",
+			description: [
+				"Creatures within 30 feet of the atropal can't regain hit points, and any creature that starts its turn within 30 feet of the atropal takes 10 (3d6) necrotic damage.",
+				"If the atropal is struck by a vorpal sword, the wielder can cut the atropal's umbilical cord instead of dealing damage. If its umbilical cord is cut, the atropal loses this feature."
+			]
+		}, {
+			name: "Turn Resistance Aura",
+			description: "The atropal and any other undead creature within 30 feet of it has advantage on saving throws against any effect that turns undead."
+		}
 		],
 		actions: [{
-				name: "Life Drain",
-				description: "The atropal targets one creature it can see within 120 feet of it. The target must succeed on a DC 19 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one. The atropal regains a number of hit points equal to half the amount of damage dealt."
-			}, {
-				name: "Summon Wraith (Recharge 6)",
-				description: "The atropal summons a wraith, which materializes within 30 feet of it in an unoccupied space it can see. The wraith obeys its summoner's commands and can't be controlled by any other creature. The wraith vanishes when it drops to 0 hit points or when its summoner dies."
-			}
+			name: "Life Drain",
+			description: "The atropal targets one creature it can see within 120 feet of it. The target must succeed on a DC 19 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one. The atropal regains a number of hit points equal to half the amount of damage dealt."
+		}, {
+			name: "Summon Wraith (Recharge 6)",
+			description: "The atropal summons a wraith, which materializes within 30 feet of it in an unoccupied space it can see. The wraith obeys its summoner's commands and can't be controlled by any other creature. The wraith vanishes when it drops to 0 hit points or when its summoner dies."
+		}
 		],
 		legendary_actions: [{
-				name: "Legendary Actions (3/Turn)",
-				description: "The atropal can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The atropal regains spent legendary actions at the start of its turn."
-			}, {
-				name: "Touch",
-				description: "The atropal makes a touch attack."
-			}, {
-				name: "Ray of Cold (Costs 2 Actions)",
-				description: "The atropal uses its Ray of Cold."
-			}, {
-				name: "Disrupt Life (Costs 3 Actions)",
-				description: "The atropal lets out a withering wail. Any creature within 120 feet of the atropal that can hear the wail must succeed on a DC 19 Constitution saving throw or gain 1 level of exhaustion."
-			}
+			name: "Legendary Actions (3/Turn)",
+			description: "The atropal can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The atropal regains spent legendary actions at the start of its turn."
+		}, {
+			name: "Touch",
+			description: "The atropal makes a touch attack."
+		}, {
+			name: "Ray of Cold (Costs 2 Actions)",
+			description: "The atropal uses its Ray of Cold."
+		}, {
+			name: "Disrupt Life (Costs 3 Actions)",
+			description: "The atropal lets out a withering wail. Any creature within 120 feet of the atropal that can hear the wail must succeed on a DC 19 Constitution saving throw or gain 1 level of exhaustion."
+		}
 		]
 	},
 	"Chwinga": {
@@ -447,31 +447,31 @@ var ToA = {
 		passive_perception: "17",
 		challenge_rating: "0",
 		attacks: [{
-				name: "Unarmed Strike",
-				ability: 1,
-				damage: [1, 4, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Unarmed Strike",
+			ability: 1,
+			damage: [1, 4, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Evasion",
-				description: "When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
-			}, {
-				name: "Innate Spellcasting",
-				description: [
-					"The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:",
-					"At will: druidcraft, guidance, pass without trace, resistance"
-				]
-			}
+			name: "Evasion",
+			description: "When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+		}, {
+			name: "Innate Spellcasting",
+			description: [
+				"The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:",
+				"At will: druidcraft, guidance, pass without trace, resistance"
+			]
+		}
 		],
 		actions: [{
-				name: "Magical Gift (1/Day)",
-				description: "The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM's choice. See chapter 7 of the Dungeon Master's Guide for more information on supernatural charms."
-			}, {
-				name: "Natural Shelter",
-				description: "The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed."
-			}
+			name: "Magical Gift (1/Day)",
+			description: "The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM's choice. See chapter 7 of the Dungeon Master's Guide for more information on supernatural charms."
+		}, {
+			name: "Natural Shelter",
+			description: "The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed."
+		}
 		],
 	},
 	"Dragonbait": {
@@ -491,29 +491,29 @@ var ToA = {
 		languages: "understands Common but can’t speak",
 		challenge_rating: "5",
 		attacks: [{
-				name: "Holy Avenger (+3 Longsword)",
-				ability: 1,
-				damage: [1, 8, "slashing"],
-				range: "Melee (5 ft)",
-				modifiers: [3, 3, true],
-				description: "Two-Handed: 10 (1d10+5) slashing damage. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage.",
-			},
+			name: "Holy Avenger (+3 Longsword)",
+			ability: 1,
+			damage: [1, 8, "slashing"],
+			range: "Melee (5 ft)",
+			modifiers: [3, 3, true],
+			description: "Two-Handed: 10 (1d10+5) slashing damage. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage.",
+		}
 		],
 		traits: [{
-				name: "Divine Health",
-				description: "Dragonbait is immune to disease."
-			}, {
-				name: "Magic Resistance Aura",
-				description: "While holding his holy avenger, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on saving throws against spells and other magical effects."
-			}
+			name: "Divine Health",
+			description: "Dragonbait is immune to disease."
+		}, {
+			name: "Magic Resistance Aura",
+			description: "While holding his holy avenger, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on saving throws against spells and other magical effects."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "Dragonbait makes two melee weapon attacks."
-			}, {
-				name: "Sense Alignment",
-				description: "Dragonbait chooses one creature he can see within 60 feet of him and determines its alignment, as long as the creature isn't hidden from divination magic by a spell or other magical effect."
-			}
+			name: "Multiattack",
+			description: "Dragonbait makes two melee weapon attacks."
+		}, {
+			name: "Sense Alignment",
+			description: "Dragonbait chooses one creature he can see within 60 feet of him and determines its alignment, as long as the creature isn't hidden from divination magic by a spell or other magical effect."
+		}
 		]
 	},
 	"Eblis": {
@@ -533,25 +533,25 @@ var ToA = {
 		languages: "Auran, Common",
 		challenge_rating: "1",
 		attacks: [{
-				name: "Beak",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Beak",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Innate Spellcasting",
-				description: [
-					"The eblis's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:",
-					"1/day each: blur, hypnotic pattern, minor illusion"
-				]
-			}
+			name: "Innate Spellcasting",
+			description: [
+				"The eblis's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:",
+				"1/day each: blur, hypnotic pattern, minor illusion"
+			]
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The eblis attacks twice with its beak."
-			}
+			name: "Multiattack",
+			description: "The eblis attacks twice with its beak."
+		}
 		],
 	},
 	"Flying Monkey": {
@@ -569,17 +569,17 @@ var ToA = {
 		passive_perception: "11",
 		challenge_rating: "0",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Pack Tactics",
-				description: "The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is within 5 feet of the creature and the ally isn't incapacitated."
-			}
+			name: "Pack Tactics",
+			description: "The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is within 5 feet of the creature and the ally isn't incapacitated."
+		}
 		],
 	},
 	"Giant Four-Armed Gargoyle": {
@@ -603,28 +603,28 @@ var ToA = {
 		languages: "Terran",
 		challenge_rating: "10",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [2, 6, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Claw",
-				ability: 1,
-				damage: [2, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [2, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Claw",
+			ability: 1,
+			damage: [2, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "False Appearance",
-				description: "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
-			}
+			name: "False Appearance",
+			description: "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The gargoyle makes five attacks: one with its bite and four with its claws."
-			},
+			name: "Multiattack",
+			description: "The gargoyle makes five attacks: one with its bite and four with its claws."
+		},
 		]
 	},
 	"Giant Snapping Turtle": {
@@ -643,28 +643,28 @@ var ToA = {
 		passive_perception: "11",
 		challenge_rating: "3",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [4, 6, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [4, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Prone AC",
-				description: "While prone, Armor Class is 12"
-			}, {
-				name: "Amphibious",
-				description: "The turtle can breathe air and water."
-			}, {
-				name: "Stable",
-				description: "Whenever an effect knocks the turtle prone, it can make a DC 10 Constitution saving throw to avoid being knocked prone. A prone turtle is upside down. To stand up, it must succeed on a DC 10 Dexterity check on its turn and then use all its movement for that turn."
-			}
+			name: "Prone AC",
+			description: "While prone, Armor Class is 12"
+		}, {
+			name: "Amphibious",
+			description: "The turtle can breathe air and water."
+		}, {
+			name: "Stable",
+			description: "Whenever an effect knocks the turtle prone, it can make a DC 10 Constitution saving throw to avoid being knocked prone. A prone turtle is upside down. To stand up, it must succeed on a DC 10 Dexterity check on its turn and then use all its movement for that turn."
+		}
 		],
 	},
 	"Girallon Zombie": {
 		name: "Girallon Zombie",
-		source: ["Tomb of Annihilation", ],
+		source: ["Tomb of Annihilation",],
 		size: "Large",
 		type: "undead",
 		alignment: "chaotic evil",
@@ -680,34 +680,34 @@ var ToA = {
 		passive_perception: "8",
 		challenge_rating: "3",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [1, 6, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Claw",
-				ability: 1,
-				damage: [1, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [1, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Claw",
+			ability: 1,
+			damage: [1, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Source",
-				description: "Tomb of Annihilation, p. 222"
-			}, {
-				name: "Aggressive",
-				description: "As a bonus action, the zombie can move up to its speed toward a hostile creature that it can see."
-			}, {
-				name: "Undead Fortitude",
-				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-			}
+			name: "Source",
+			description: "Tomb of Annihilation, p. 222"
+		}, {
+			name: "Aggressive",
+			description: "As a bonus action, the zombie can move up to its speed toward a hostile creature that it can see."
+		}, {
+			name: "Undead Fortitude",
+			description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The zombie makes five attacks: one with its bite and four with its claws."
-			}
+			name: "Multiattack",
+			description: "The zombie makes five attacks: one with its bite and four with its claws."
+		}
 		]
 	},
 	"Jaculi": {
@@ -727,25 +727,25 @@ var ToA = {
 		passive_perception: "11",
 		challenge_rating: "1/2",
 		attacks: [{
-				name: "Bite",
-				ability: 2,
-				damage: [2, 6, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Bite",
+			ability: 2,
+			damage: [2, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Camouflage",
-				description: "The jaculi has advantage on Dexterity (Stealth) checks made to hide."
-			}, {
-				name: "Keen Smell",
-				description: "The jaculi has advantage on Wisdom (Perception) checks that rely on smell."
-			}
+			name: "Camouflage",
+			description: "The jaculi has advantage on Dexterity (Stealth) checks made to hide."
+		}, {
+			name: "Keen Smell",
+			description: "The jaculi has advantage on Wisdom (Perception) checks that rely on smell."
+		}
 		],
 		actions: [{
-				name: "Spring",
-				description: "The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 (2d6) piercing damage."
-			}
+			name: "Spring",
+			description: "The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 (2d6) piercing damage."
+		}
 		]
 	},
 	"Kamadan": {
@@ -764,40 +764,40 @@ var ToA = {
 		passive_perception: "14",
 		challenge_rating: "4",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [1, 6, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Claw",
-				ability: 1,
-				damage: [1, 6, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Snakes",
-				ability: 1,
-				damage: [1, 6, "piercing"],
-				range: "Melee (5 ft)",
-				description: "Target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [1, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Claw",
+			ability: 1,
+			damage: [1, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Snakes",
+			ability: 1,
+			damage: [1, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "Target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.",
+		}
 		],
 		traits: [{
-				name: "Keen Smell",
-				description: "The kamadan has advantage on Wisdom (Perception) checks that rely on smell."
-			}, {
-				name: "Pounce",
-				description: "If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the kamadan can make two attacks — one with its bite and one with its snakes — against it as a bonus action.",
-			}
+			name: "Keen Smell",
+			description: "The kamadan has advantage on Wisdom (Perception) checks that rely on smell."
+		}, {
+			name: "Pounce",
+			description: "If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the kamadan can make two attacks — one with its bite and one with its snakes — against it as a bonus action.",
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The kamadan makes two attacks: one with its bite or claw and one with its snakes."
-			}, {
-				name: "Sleep Breath (Recharges after a Short or Long Rest)",
-				description: "The kamadan exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if it takes damage or someone uses an action to wake it.",
-			}
+			name: "Multiattack",
+			description: "The kamadan makes two attacks: one with its bite or claw and one with its snakes."
+		}, {
+			name: "Sleep Breath (Recharges after a Short or Long Rest)",
+			description: "The kamadan exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if it takes damage or someone uses an action to wake it.",
+		}
 		]
 	},
 	"Liara Portyr": {
@@ -817,31 +817,31 @@ var ToA = {
 		languages: "Common, Draconic, Dwarvish",
 		challenge_rating: "4",
 		attacks: [{
-				name: "Battleaxe",
-				ability: 1,
-				damage: [1, 8, "slashing"],
-				range: "Melee (5 ft)",
-				description: "Two-Handed: 8 (1d10+3) slashing damage.",
-			}, {
-				name: "Heavy Crossbow",
-				ability: 2,
-				damage: [1, 10, "piercing"],
-				range: "Ranged (100/400 ft)",
-				description: "",
-			},
+			name: "Battleaxe",
+			ability: 1,
+			damage: [1, 8, "slashing"],
+			range: "Melee (5 ft)",
+			description: "Two-Handed: 8 (1d10+3) slashing damage.",
+		}, {
+			name: "Heavy Crossbow",
+			ability: 2,
+			damage: [1, 10, "piercing"],
+			range: "Ranged (100/400 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Brave",
-				description: "Liara has advantage on saving throws against being frightened."
-			}, {
-				name: "Flaming Fury",
-				description: "Once per turn, when Liara hits a creature with a melee weapon, she can cause fire to magically erupt from her weapon and deal an extra 10 (3d6) fire damage to the target."
-			}
+			name: "Brave",
+			description: "Liara has advantage on saving throws against being frightened."
+		}, {
+			name: "Flaming Fury",
+			description: "Once per turn, when Liara hits a creature with a melee weapon, she can cause fire to magically erupt from her weapon and deal an extra 10 (3d6) fire damage to the target."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "Liara makes three melee attacks."
-			}
+			name: "Multiattack",
+			description: "Liara makes three melee attacks."
+		}
 		]
 	},
 	"Mantrap": {
@@ -861,21 +861,21 @@ var ToA = {
 		passive_perception: "10",
 		challenge_rating: "1",
 		attacks: [{
-				name: "Engulf",
-				ability: 2,
-				damage: [4, 6, "acid"],
-				range: "Melee (5 ft)",
-				modifiers: ["", "", false],
-				description: "Target must be Medium or smaller creature. Hit: The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is blinded and restrained, has total cover from attacks and other effects outside the mantrap, and takes 14 (4d6) acid damage at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer restrained by it. A mantrap can engulf only one creature at a time.",
-			},
+			name: "Engulf",
+			ability: 2,
+			damage: [4, 6, "acid"],
+			range: "Melee (5 ft)",
+			modifiers: ["", "", false],
+			description: "Target must be Medium or smaller creature. Hit: The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is blinded and restrained, has total cover from attacks and other effects outside the mantrap, and takes 14 (4d6) acid damage at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer restrained by it. A mantrap can engulf only one creature at a time.",
+		}
 		],
 		traits: [{
-				name: "Attractive Pollen (1/Day)",
-				description: "When the mantrap detects any creatures nearby, it can use its reaction to release pollen out to a radius of 30 feet. Any beast or humanoid within the area must succeed on a DC 11 Wisdom saving throw or be forced to use all its movement on its turns to get as close to the mantrap as possible. An affected target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-			}, {
-				name: "False Appearance",
-				description: "While the mantrap remains motionless, it is indistinguishable from an ordinary tropical plant."
-			}
+			name: "Attractive Pollen (1/Day)",
+			description: "When the mantrap detects any creatures nearby, it can use its reaction to release pollen out to a radius of 30 feet. Any beast or humanoid within the area must succeed on a DC 11 Wisdom saving throw or be forced to use all its movement on its turns to get as close to the mantrap as possible. An affected target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+		}, {
+			name: "False Appearance",
+			description: "While the mantrap remains motionless, it is indistinguishable from an ordinary tropical plant."
+		}
 		],
 	},
 	"Mwaxanaré": {
@@ -895,18 +895,18 @@ var ToA = {
 		languages: "Auran, Common, telepathy 30 ft",
 		challenge_rating: "1/8",
 		attacks: [{
-				name: "Dagger (Melee)",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Dagger (Ranged)",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Ranged (20/60 ft)",
-				description: "",
-			},
+			name: "Dagger (Melee)",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Dagger (Ranged)",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Ranged (20/60 ft)",
+			description: "",
+		}
 		],
 		spells: [
 			"Mwaxanaré is a 2nd-level spellcaster. Her spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:",
@@ -931,40 +931,40 @@ var ToA = {
 		languages: "Common",
 		challenge_rating: "1",
 		attacks: [{
-				name: "Bite",
-				ability: 2,
-				damage: [2, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Claw",
-				ability: 2,
-				damage: [1, 6, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Javelin (Melee)",
-				ability: 2,
-				damage: [2, 6, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Javelin",
-				ability: 2,
-				damage: [2, 6, "piercing"],
-				range: "Ranged (30/120 ft)",
-				description: "",
-			},
+			name: "Bite",
+			ability: 2,
+			damage: [2, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Claw",
+			ability: 2,
+			damage: [1, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Javelin (Melee)",
+			ability: 2,
+			damage: [2, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Javelin",
+			ability: 2,
+			damage: [2, 6, "piercing"],
+			range: "Ranged (30/120 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Terror Dive",
-				description: "If the pterafolk is flying and dives at least 30 feet straight toward a target, and then hits that target with a melee weapon attack, the target is frightened until the end of its next turn.",
-			}
+			name: "Terror Dive",
+			description: "If the pterafolk is flying and dives at least 30 feet straight toward a target, and then hits that target with a melee weapon attack, the target is frightened until the end of its next turn.",
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The pterafolk makes three attacks: one with its bite and two with its claws. Alternatively, it makes two melee attacks with its javelin."
-			}
+			name: "Multiattack",
+			description: "The pterafolk makes three attacks: one with its bite and two with its claws. Alternatively, it makes two melee attacks with its javelin."
+		}
 		]
 	},
 	"Ras Nsi": {
@@ -987,50 +987,50 @@ var ToA = {
 		languages: "Abyssal, Common, Draconic",
 		challenge_rating: "7",
 		attacks: [{
-				name: "Bite (Snake Form Only)",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "Plus 7 (2d6) poison damage.",
-			}, {
-				name: "Constrict",
-				ability: 2,
-				damage: [2, 6, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "Target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and Ras Nsi can't constrict another target.",
-			}, {
-				name: "Flame Tongue Longsword ",
-				ability: 2,
-				damage: [1, 8, "slashing"],
-				range: "Melee (5 ft)",
-				description: "Plus 7 (2d6) fire damage; Yuan-ti Form Only; Two-Handed: 8 (1d10+3) slashing damage.",
-			},
+			name: "Bite (Snake Form Only)",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "Plus 7 (2d6) poison damage.",
+		}, {
+			name: "Constrict",
+			ability: 2,
+			damage: [2, 6, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "Target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and Ras Nsi can't constrict another target.",
+		}, {
+			name: "Flame Tongue Longsword ",
+			ability: 2,
+			damage: [1, 8, "slashing"],
+			range: "Melee (5 ft)",
+			description: "Plus 7 (2d6) fire damage; Yuan-ti Form Only; Two-Handed: 8 (1d10+3) slashing damage.",
+		}
 		],
 		traits: [{
-				name: "Death Curse",
-				description: "Having died and been brought back to life, Ras Nsi is suffering from the death curse. His hit point maximum is reduced to 107, and decreases by 1 for each day that passes during the adventure."
-			}, {
-				name: "Special Equipment",
-				description: "Ras Nsi wears bracers of defense, wields a flame tongue longsword, and carries a sending stone matched to one carried by the guide Salida (see chapter 1)."
-			}, {
-				name: "Shapechanger",
-				description: "Ras Nsi can use his action to polymorph into a Medium snake or back into his yuan-ti form. His statistics are the same in each form. Any equipment he is wearing or carrying isn't transformed. He doesn't change form if he dies."
-			}, {
-				name: "Innate Spellcasting",
-				description: [
-					"Ras Nsi's innate spellcasting ability is Charisma (spell save DC 16). He can innately cast the following spells, requiring no material components:",
-					"At will: animal friendship (snakes only)",
-					"3/day each: suggestion."
-				]
-			}, {
-				name: "Magic Resistance",
-				description: "Ras Nsi has advantage on saving throws against spells and other magical effects."
-			}
+			name: "Death Curse",
+			description: "Having died and been brought back to life, Ras Nsi is suffering from the death curse. His hit point maximum is reduced to 107, and decreases by 1 for each day that passes during the adventure."
+		}, {
+			name: "Special Equipment",
+			description: "Ras Nsi wears bracers of defense, wields a flame tongue longsword, and carries a sending stone matched to one carried by the guide Salida (see chapter 1)."
+		}, {
+			name: "Shapechanger",
+			description: "Ras Nsi can use his action to polymorph into a Medium snake or back into his yuan-ti form. His statistics are the same in each form. Any equipment he is wearing or carrying isn't transformed. He doesn't change form if he dies."
+		}, {
+			name: "Innate Spellcasting",
+			description: [
+				"Ras Nsi's innate spellcasting ability is Charisma (spell save DC 16). He can innately cast the following spells, requiring no material components:",
+				"At will: animal friendship (snakes only)",
+				"3/day each: suggestion."
+			]
+		}, {
+			name: "Magic Resistance",
+			description: "Ras Nsi has advantage on saving throws against spells and other magical effects."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "Ras Nsi makes three melee attacks, but can use Constrict only once."
-			}
+			name: "Multiattack",
+			description: "Ras Nsi makes three melee attacks, but can use Constrict only once."
+		}
 		],
 		spells: [
 			"Ras Nsi is an 11th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). Ras Nsi has the following wizard spells prepared:",
@@ -1061,26 +1061,26 @@ var ToA = {
 		passive_perception: "10",
 		challenge_rating: "12",
 		attacks: [{
-				name: "Slam",
-				ability: 1,
-				damage: [3, 12, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "If the target is a Large or smaller creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.",
-			},
+			name: "Slam",
+			ability: 1,
+			damage: [3, 12, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "If the target is a Large or smaller creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.",
+		}
 		],
 		traits: [{
-				name: "Devastating Roll",
-				description: "The juggernaut can move through the space of a prone creature. A creature whose space the juggernaut enters for the first time on a turn must make a DC 17 Dexterity saving throw, taking 55 (10d10) bludgeoning damage on a failed save, or half as much damage on a successful one."
-			}, {
-				name: "Immutable Form",
-				description: "The juggernaut is immune to any spell or effect that would alter its form."
-			}, {
-				name: "Regeneration",
-				description: "As long as it has 1 hit point left, the juggernaut magically regains all its hit points daily at dawn. The juggernaut is destroyed and doesn't regenerate if it drops to 0 hit points."
-			}, {
-				name: "Siege Monster",
-				description: "The juggernaut deals double damage to objects and structures."
-			}
+			name: "Devastating Roll",
+			description: "The juggernaut can move through the space of a prone creature. A creature whose space the juggernaut enters for the first time on a turn must make a DC 17 Dexterity saving throw, taking 55 (10d10) bludgeoning damage on a failed save, or half as much damage on a successful one."
+		}, {
+			name: "Immutable Form",
+			description: "The juggernaut is immune to any spell or effect that would alter its form."
+		}, {
+			name: "Regeneration",
+			description: "As long as it has 1 hit point left, the juggernaut magically regains all its hit points daily at dawn. The juggernaut is destroyed and doesn't regenerate if it drops to 0 hit points."
+		}, {
+			name: "Siege Monster",
+			description: "The juggernaut deals double damage to objects and structures."
+		}
 		],
 	},
 	"Su-Monster": {
@@ -1099,26 +1099,26 @@ var ToA = {
 		passive_perception: "13",
 		challenge_rating: "1",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Claws",
-				ability: 1,
-				damage: [2, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "Or 12 (4d4+2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free.",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Claws",
+			ability: 1,
+			damage: [2, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "Or 12 (4d4+2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free.",
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The su-monster makes two attacks: one with its bite and one with its claws."
-			}, {
-				name: "Psychic Crush (Recharge 5-6)",
-				description: "The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-			}
+			name: "Multiattack",
+			description: "The su-monster makes two attacks: one with its bite and one with its claws."
+		}, {
+			name: "Psychic Crush (Recharge 5-6)",
+			description: "The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+		}
 		]
 	},
 	"Tabaxi Hunter": {
@@ -1139,34 +1139,34 @@ var ToA = {
 		languages: "Common plus any one language",
 		challenge_rating: "1",
 		attacks: [{
-				name: "Claws",
-				ability: 1,
-				damage: [1, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Shortsword",
-				ability: 2,
-				damage: [1, 6, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Shortbow",
-				ability: 2,
-				damage: [1, 6, "piercing"],
-				range: "Ranged (80/320 ft)",
-				description: "",
-			},
+			name: "Claws",
+			ability: 1,
+			damage: [1, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Shortsword",
+			ability: 2,
+			damage: [1, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Shortbow",
+			ability: 2,
+			damage: [1, 6, "piercing"],
+			range: "Ranged (80/320 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Feline Agility",
-				description: "When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
-			}
+			name: "Feline Agility",
+			description: "When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The tabaxi makes two attacks with its claws, its shortsword, or its shortbow."
-			}
+			name: "Multiattack",
+			description: "The tabaxi makes two attacks with its claws, its shortsword, or its shortbow."
+		}
 		]
 	},
 	"Tabaxi Minstrel": {
@@ -1187,31 +1187,31 @@ var ToA = {
 		languages: "Common plus any two languages",
 		challenge_rating: "1/4",
 		attacks: [{
-				name: "Claws",
-				ability: 1,
-				damage: [1, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Dart",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Ranged (20/60 ft)",
-				description: "",
-			},
+			name: "Claws",
+			ability: 1,
+			damage: [1, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Dart",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Ranged (20/60 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Feline Agility",
-				description: "When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
-			}, {
-				name: "Inspire (1/Day)",
-				description: "While taking a short rest, the tabaxi can spend 1 minute singing, playing an instrument, telling a story, or reciting a poem to soothe and inspire creatures other than itself. Up to five creatures of the tabaxi's choice that can see and hear its performance gain 8 temporary hit points at the end of the tabaxi's short rest."
-			}
+			name: "Feline Agility",
+			description: "When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+		}, {
+			name: "Inspire (1/Day)",
+			description: "While taking a short rest, the tabaxi can spend 1 minute singing, playing an instrument, telling a story, or reciting a poem to soothe and inspire creatures other than itself. Up to five creatures of the tabaxi's choice that can see and hear its performance gain 8 temporary hit points at the end of the tabaxi's short rest."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The tabaxi makes two claws attacks or two dart attacks."
-			}
+			name: "Multiattack",
+			description: "The tabaxi makes two claws attacks or two dart attacks."
+		}
 		]
 	},
 	"Tri-Flower Frond": {
@@ -1231,23 +1231,23 @@ var ToA = {
 		passive_perception: "10",
 		challenge_rating: "1/2",
 		attacks: [{
-				name: "Red Blossom",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "Target is grappled (escape DC 11). Until this grapple ends, the target takes 5 (2d4) poison damage at the start of each of its turns. The red blossom can grapple only one target at a time. Another creature within reach of the tri-flower frond can use its action to end the grapple on the target.",
-			},
+			name: "Red Blossom",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "Target is grappled (escape DC 11). Until this grapple ends, the target takes 5 (2d4) poison damage at the start of each of its turns. The red blossom can grapple only one target at a time. Another creature within reach of the tri-flower frond can use its action to end the grapple on the target.",
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The tri-flower frond uses its orange blossom, then its yellow blossom, and then its red blossom."
-			}, {
-				name: "Orange Blossom",
-				description: "The tri-flower frond chooses one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 hour. While poisoned in this way, the target is unconscious. At the end of each minute, the poisoned target can repeat the saving throw, ending the effect on itself on a success.",
-			}, {
-				name: "Yellow Blossom",
-				description: "The tri-flower frond chooses one creature it can see within 5 feet of it. The target must succeed on a DC 11 Dexterity saving throw, or it is covered with corrosive sap and takes 5 acid damage at the start of each of its turns. Dousing the target with water reduces the acid damage by 1 point per pint or flask of water used."
-			}
+			name: "Multiattack",
+			description: "The tri-flower frond uses its orange blossom, then its yellow blossom, and then its red blossom."
+		}, {
+			name: "Orange Blossom",
+			description: "The tri-flower frond chooses one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 hour. While poisoned in this way, the target is unconscious. At the end of each minute, the poisoned target can repeat the saving throw, ending the effect on itself on a success.",
+		}, {
+			name: "Yellow Blossom",
+			description: "The tri-flower frond chooses one creature it can see within 5 feet of it. The target must succeed on a DC 11 Dexterity saving throw, or it is covered with corrosive sap and takes 5 acid damage at the start of each of its turns. Dousing the target with water reduces the acid damage by 1 point per pint or flask of water used."
+		}
 		]
 	},
 	"Tyrannosaurus Zombie": {
@@ -1268,31 +1268,31 @@ var ToA = {
 		passive_perception: "6",
 		challenge_rating: "8",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [4, 12, "piercing"],
-				range: "Melee (10 ft)",
-				description: "If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained and the tyrannosaurus zombie can't bite another target or disgorge zombies.",
-			}, {
-				name: "Tail",
-				ability: 1,
-				damage: [3, 8, "bludgeoning"],
-				range: "Melee (10 ft)",
-				description: "",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [4, 12, "piercing"],
+			range: "Melee (10 ft)",
+			description: "If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained and the tyrannosaurus zombie can't bite another target or disgorge zombies.",
+		}, {
+			name: "Tail",
+			ability: 1,
+			damage: [3, 8, "bludgeoning"],
+			range: "Melee (10 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Disgorge Zombie",
-				description: "As a bonus action, the tyrannosaurus zombie can disgorge a normal zombie, which appears in an unoccupied space within 10 feet of it. The disgorged zombie acts on its own initiative count. After a zombie is disgorged, roll a d6. On a roll of 1, the tyrannosaurus zombie runs out of zombies to disgorge and loses this trait. If the tyrannosaurus zombie still has this trait when it dies, 1d4 normal zombies erupt from its corpse at the start of its next turn. These zombies act on their own initiative count."
-			}, {
-				name: "Undead Fortitude",
-				description: "If damage reduces the tyrannosaurus zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-			}
+			name: "Disgorge Zombie",
+			description: "As a bonus action, the tyrannosaurus zombie can disgorge a normal zombie, which appears in an unoccupied space within 10 feet of it. The disgorged zombie acts on its own initiative count. After a zombie is disgorged, roll a d6. On a roll of 1, the tyrannosaurus zombie runs out of zombies to disgorge and loses this trait. If the tyrannosaurus zombie still has this trait when it dies, 1d4 normal zombies erupt from its corpse at the start of its next turn. These zombies act on their own initiative count."
+		}, {
+			name: "Undead Fortitude",
+			description: "If damage reduces the tyrannosaurus zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The tyrannosaurus zombie makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
-			}
+			name: "Multiattack",
+			description: "The tyrannosaurus zombie makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
+		}
 		]
 	},
 	"Volothamp “Volo” Geddarm": {
@@ -1312,18 +1312,18 @@ var ToA = {
 		languages: "Common, Dwarvish, Elvish",
 		challenge_rating: "1/4",
 		attacks: [{
-				name: "Dagger (Melee)",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Dagger (Ranged)",
-				ability: 2,
-				damage: [1, 4, "piercing"],
-				range: "Ranged (20/60 ft)",
-				description: "",
-			},
+			name: "Dagger (Melee)",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Dagger (Ranged)",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Ranged (20/60 ft)",
+			description: "",
+		}
 		],
 		spells: [
 			"Volo is a 1st-level spellcaster. His spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). He has the following wizard spells prepared:",
@@ -1348,17 +1348,17 @@ var ToA = {
 		languages: "Common, Draconic, Dwarvish, Elvish, Halfling",
 		challenge_rating: "7",
 		attacks: [{
-				name: "Quarterstaff",
-				ability: 1,
-				damage: [1, 6, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "Two-Handed: 4 (1d8) bludgeoning damage.",
-			},
+			name: "Quarterstaff",
+			ability: 1,
+			damage: [1, 6, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "Two-Handed: 4 (1d8) bludgeoning damage.",
+		}
 		],
 		traits: [{
-				name: "Quickened Spell (3/Day)",
-				description: "When she casts a spell that has a casting time of 1 action, Xandala changes the casting time to 1 bonus action for that casting."
-			}
+			name: "Quickened Spell (3/Day)",
+			description: "When she casts a spell that has a casting time of 1 action, Xandala changes the casting time to 1 bonus action for that casting."
+		}
 		],
 		spells: [
 			"Xandala is a 9th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Xandala has the following sorcerer spells prepared:",
@@ -1387,26 +1387,26 @@ var ToA = {
 		passive_perception: "10",
 		challenge_rating: "2",
 		attacks: [{
-				name: "Touch",
-				ability: 1,
-				damage: [3, 8, "psychic"],
-				range: "Melee (5 ft)",
-				modifiers: ["", "", false],
-				description: "If the target is a humanoid that drops to 0 hit points as a result of this damage, it dies and is implanted with a yellow musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a yellow musk zombie after being dead for 24 hours. The bulb is destroyed if the creature is raised from the dead before it can transform into a yellow musk zombie, or if the corpse is targeted by a remove curse spell or similar magic before it animates.",
-			},
+			name: "Touch",
+			ability: 1,
+			damage: [3, 8, "psychic"],
+			range: "Melee (5 ft)",
+			modifiers: ["", "", false],
+			description: "If the target is a humanoid that drops to 0 hit points as a result of this damage, it dies and is implanted with a yellow musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a yellow musk zombie after being dead for 24 hours. The bulb is destroyed if the creature is raised from the dead before it can transform into a yellow musk zombie, or if the corpse is targeted by a remove curse spell or similar magic before it animates.",
+		}
 		],
 		traits: [{
-				name: "False Appearance",
-				description: "While the creeper remains motionless, it is indistinguishable from an ordinary flowering vine."
-			}, {
-				name: "Regeneration",
-				description: "The creeper regains 10 hit points at the start of its turn. If the creeper takes fire, necrotic, or radiant damage, this trait doesn't function at the start of its next turn. The creeper dies only if it starts its turn with 0 hit points and doesn't regenerate."
-			}
+			name: "False Appearance",
+			description: "While the creeper remains motionless, it is indistinguishable from an ordinary flowering vine."
+		}, {
+			name: "Regeneration",
+			description: "The creeper regains 10 hit points at the start of its turn. If the creeper takes fire, necrotic, or radiant damage, this trait doesn't function at the start of its next turn. The creeper dies only if it starts its turn with 0 hit points and doesn't regenerate."
+		}
 		],
 		actions: [{
-				name: "Yellow Musk (3/Day)",
-				description: "The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target must succeed on a DC 11 Wisdom saving throw or be charmed by the creeper for 1 minute. A creature charmed in this way does nothing on its turn except move as close as it can to the creeper. A creature charmed by the creeper can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-			}
+			name: "Yellow Musk (3/Day)",
+			description: "The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target must succeed on a DC 11 Wisdom saving throw or be charmed by the creeper for 1 minute. A creature charmed in this way does nothing on its turn except move as close as it can to the creeper. A creature charmed by the creeper can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+		}
 		]
 	},
 	"Yellow Musk Zombie": {
@@ -1426,17 +1426,17 @@ var ToA = {
 		passive_perception: "8",
 		challenge_rating: "1/4",
 		attacks: [{
-				name: "Slam",
-				ability: 1,
-				damage: [1, 8, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Slam",
+			ability: 1,
+			damage: [1, 8, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Undead Fortitude",
-				description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is fire or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-			}
+			name: "Undead Fortitude",
+			description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 @ the damage taken, unless the damage is fire or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+		}
 		],
 	},
 	"Zindar": {
@@ -1458,26 +1458,26 @@ var ToA = {
 		languages: "Common, Draconic, Dwarvish, Primordial",
 		challenge_rating: "8",
 		attacks: [{
-				name: "Quarterstaff",
-				ability: 1,
-				damage: [1, 6, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
-			},
+			name: "Quarterstaff",
+			ability: 1,
+			damage: [1, 6, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
+		}
 		],
 		traits: [{
-				name: "Dragon Wings",
-				description: "As a bonus action on his turn, Zindar can sprout a pair of dragon wings from his back, gaining a flying speed of 30 feet until he dismisses them as a bonus action."
-			}
+			name: "Dragon Wings",
+			description: "As a bonus action on his turn, Zindar can sprout a pair of dragon wings from his back, gaining a flying speed of 30 feet until he dismisses them as a bonus action."
+		}
 		],
 		actions: [{
-				name: "Breath Weapon (Recharge 5-6)",
-				description: [
-					"Zindar uses one of the following options:",
-					"Fire Breath: Zindar exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.",
-					"Weakening Breath: Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-				]
-			}
+			name: "Breath Weapon (Recharge 5-6)",
+			description: [
+				"Zindar uses one of the following options:",
+				"Fire Breath: Zindar exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.",
+				"Weakening Breath: Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			]
+		}
 		],
 		spells: [
 			"Zindar is a 14th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Zindar knows the following sorcerer spells:",
@@ -1507,20 +1507,20 @@ var ToA = {
 		passive_perception: "11",
 		challenge_rating: "1/2",
 		attacks: [{
-				name: "Destructive Claws",
-				ability: 1,
-				damage: [2, 6, "slashing"],
-				range: "Melee (5 ft)",
-				description: "If the target is a creature wearing armor, carrying a shield, or in possession of a magic item that improves its AC, it must make a DC 11 Dexterity saving throw. On a failed save, one such item worn or carried by the creature (the target's choice) magically deteriorates, taking a permanent and cumulative _1 penalty to the AC it offers, and the zorbo gains a +1 bonus to AC until the start of its next turn. Armor reduced to an AC of 10 or a shield or magic item that drops to a 0 AC increase is destroyed.",
-			},
+			name: "Destructive Claws",
+			ability: 1,
+			damage: [2, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "If the target is a creature wearing armor, carrying a shield, or in possession of a magic item that improves its AC, it must make a DC 11 Dexterity saving throw. On a failed save, one such item worn or carried by the creature (the target's choice) magically deteriorates, taking a permanent and cumulative _1 penalty to the AC it offers, and the zorbo gains a +1 bonus to AC until the start of its next turn. Armor reduced to an AC of 10 or a shield or magic item that drops to a 0 AC increase is destroyed.",
+		}
 		],
 		traits: [{
-				name: "Magic Resistance",
-				description: "The zorbo has advantage on saving throws against spells and other magical effects."
-			}, {
-				name: "Natural Armor",
-				description: "The zorbo magically absorbs the natural strength of its surroundings, adjusting its Armor Class based on the material it is standing or climbing on: AC 15 for wood or bone, AC 17 for earth or stone, or AC 19 for metal. If the zorbo isn't in contact with any of these substances, itsAC is 10."
-			}
+			name: "Magic Resistance",
+			description: "The zorbo has advantage on saving throws against spells and other magical effects."
+		}, {
+			name: "Natural Armor",
+			description: "The zorbo magically absorbs the natural strength of its surroundings, adjusting its Armor Class based on the material it is standing or climbing on: AC 15 for wood or bone, AC 17 for earth or stone, or AC 19 for metal. If the zorbo isn't in contact with any of these substances, itsAC is 10."
+		}
 		],
 	}
 };

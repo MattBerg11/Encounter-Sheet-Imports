@@ -22,23 +22,23 @@ var Tortle = {
 		languages: "",
 		challenge_rating: "4",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [2, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Tentacles",
-				ability: 1,
-				damage: [9, 4, "bludgeoning"],
-				range: "Melee (10 ft)",
-				description: "Or 14 (5d4+2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained.",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [2, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Tentacles",
+			ability: 1,
+			damage: [9, 4, "bludgeoning"],
+			range: "Melee (10 ft)",
+			description: "Or 14 (5d4+2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained.",
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The decapus makes two attacks: one with its bite and one with its tentacles."
-			}
+			name: "Multiattack",
+			description: "The decapus makes two attacks: one with its bite and one with its tentacles."
+		}
 		],
 	},
 	"Geonid": {
@@ -63,25 +63,25 @@ var Tortle = {
 		languages: "Terran",
 		challenge_rating: "1/4",
 		attacks: [{
-				name: "Club",
-				ability: 1,
-				damage: [1, 4, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "",
-			},
+			name: "Club",
+			ability: 1,
+			damage: [1, 4, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Boulder Guise",
-				description: "While fully withdrawn into its shell, the geonid can't see and is indistinguishable from a small boulder."
-			}
+			name: "Boulder Guise",
+			description: "While fully withdrawn into its shell, the geonid can't see and is indistinguishable from a small boulder."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The decapus makes two attacks: one with its bite and one with its tentacles."
-			}, {
-				name: "Stone Tell",
-				description: "The geonid touches a stone object or surface and knows what types of creatures have been within 10 feet of that stone in the past 24 hours. The geonid can also determine the number of creatures of each type, but not their identities"
-			}
+			name: "Multiattack",
+			description: "The decapus makes two attacks: one with its bite and one with its tentacles."
+		}, {
+			name: "Stone Tell",
+			description: "The geonid touches a stone object or surface and knows what types of creatures have been within 10 feet of that stone in the past 24 hours. The geonid can also determine the number of creatures of each type, but not their identities"
+		}
 		],
 	},
 	"Marine Decapus": {
@@ -106,28 +106,28 @@ var Tortle = {
 		languages: "",
 		challenge_rating: "4",
 		attacks: [{
-				name: "Bite",
-				ability: 1,
-				damage: [2, 4, "piercing"],
-				range: "Melee (5 ft)",
-				description: "Creature must be grappled.",
-			}, {
-				name: "Tentacles",
-				ability: 1,
-				damage: [9, 4, "bludgeoning"],
-				range: "Melee (10 ft)",
-				description: "Or 14 (5d4+2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained.",
-			},
+			name: "Bite",
+			ability: 1,
+			damage: [2, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "Creature must be grappled.",
+		}, {
+			name: "Tentacles",
+			ability: 1,
+			damage: [9, 4, "bludgeoning"],
+			range: "Melee (10 ft)",
+			description: "Or 14 (5d4+2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained.",
+		}
 		],
 		traits: [{
-				name: "Water Breathing",
-				description: "The decapus can breathe only underwater."
-			}
+			name: "Water Breathing",
+			description: "The decapus can breathe only underwater."
+		}
 		],
 		actions: [{
-				name: "Multiattack",
-				description: "The decapus makes two attacks: one with its bite and one with its tentacles."
-			}
+			name: "Multiattack",
+			description: "The decapus makes two attacks: one with its bite and one with its tentacles."
+		}
 		],
 	},
 	"Topi": {
@@ -152,20 +152,20 @@ var Tortle = {
 		languages: "understands the languages it knew in life but can't speak",
 		challenge_rating: "1/2",
 		attacks: [{
-				name: "Venomous Claws",
-				ability: 1,
-				damage: [1, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "Plus 2 (1d4) poison damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned until the end of the target's next turn.",
-			},
+			name: "Venomous Claws",
+			ability: 1,
+			damage: [1, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "Plus 2 (1d4) poison damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned until the end of the target's next turn.",
+		}
 		],
 		traits: [{
-				name: "Turn Resistance",
-				description: "The topi has advantage on saving throws against any effect that turns undead."
-			}, {
-				name: "Undead Fortitude",
-				description: "If damage reduces the topi to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the topi drops to 1 hit point instead."
-			}
+			name: "Turn Resistance",
+			description: "The topi has advantage on saving throws against any effect that turns undead."
+		}, {
+			name: "Undead Fortitude",
+			description: "If damage reduces the topi to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the topi drops to 1 hit point instead."
+		}
 		],
 	},
 	"Tortle": {
@@ -190,34 +190,34 @@ var Tortle = {
 		languages: "Aquan, Common",
 		challenge_rating: "1/4",
 		attacks: [{
-				name: "Claws",
-				ability: 1,
-				damage: [1, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Quarterstaff",
-				ability: 1,
-				damage: [1, 6, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
-			}, {
-				name: "Light Crossbow",
-				ability: 2,
-				damage: [1, 8, "piercing"],
-				range: "Ranged (80/320 ft)",
-				description: "",
-			},
+			name: "Claws",
+			ability: 1,
+			damage: [1, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Quarterstaff",
+			ability: 1,
+			damage: [1, 6, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
+		}, {
+			name: "Light Crossbow",
+			ability: 2,
+			damage: [1, 8, "piercing"],
+			range: "Ranged (80/320 ft)",
+			description: "",
+		}
 		],
 		traits: [{
-				name: "Hold Breath",
-				description: "The tortle can hold its breath for 1 hour."
-			}
+			name: "Hold Breath",
+			description: "The tortle can hold its breath for 1 hour."
+		}
 		],
 		actions: [{
-				name: "Shell Defense",
-				description: "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge.",
-			}
+			name: "Shell Defense",
+			description: "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge.",
+		}
 		],
 	},
 	"Tortle Druid": {
@@ -242,28 +242,28 @@ var Tortle = {
 		languages: "Aquan, Common",
 		challenge_rating: "2",
 		attacks: [{
-				name: "Claws",
-				ability: 1,
-				damage: [1, 4, "slashing"],
-				range: "Melee (5 ft)",
-				description: "",
-			}, {
-				name: "Quarterstaff",
-				ability: 1,
-				damage: [1, 8, "bludgeoning"],
-				range: "Melee (5 ft)",
-				description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
-			},
+			name: "Claws",
+			ability: 1,
+			damage: [1, 4, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Quarterstaff",
+			ability: 1,
+			damage: [1, 8, "bludgeoning"],
+			range: "Melee (5 ft)",
+			description: "Two-Handed: 6 (1d8+2) bludgeoning damage.",
+		}
 		],
 		traits: [{
-				name: "Hold Breath",
-				description: "The tortle can hold its breath for 1 hour."
-			}
+			name: "Hold Breath",
+			description: "The tortle can hold its breath for 1 hour."
+		}
 		],
 		actions: [{
-				name: "Shell Defense",
-				description: "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge.",
-			}
+			name: "Shell Defense",
+			description: "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge.",
+		}
 		],
 		spells: [
 			"The tortle is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:",

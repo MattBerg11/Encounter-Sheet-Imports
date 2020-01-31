@@ -1,5 +1,4 @@
 var ToB = {
-	// 408
 	"Abominable Beauty": {
 		name: "Abominable Beauty",
 		source: ["Tome of Beasts", 11],
@@ -874,10 +873,10 @@ var ToB = {
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-			"The drake's innate casting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
-			"At will: friends, vicious mockery",
-			"5/day each: calm emotions, dissonant whispers, ray of sickness, hideous laughter",
-			"3/day each: confusion, invisibility"
+				"The drake's innate casting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+				"At will: friends, vicious mockery",
+				"5/day each: calm emotions, dissonant whispers, ray of sickness, hideous laughter",
+				"3/day each: confusion, invisibility"
 			]
 		}, {
 			name: "Forgetful Spellcasting",
@@ -1545,7 +1544,7 @@ var ToB = {
 			ability: 1,
 			damage: [2, 6, ""],
 			range: "Melee (10 ft)",
-			modifiers: [-1,"",true],
+			modifiers: [-1, "", true],
 			description: "Plus 7 (2d6) cold damage.",
 		}, {
 			name: "Tail",
@@ -3588,9 +3587,9 @@ var ToB = {
 		}, {
 			name: "Innate Spellcasting",
 			description: [
-			"The bone collective's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:", 
-			"At will: chill touch",
-			"3/day: animate dead (up to 5 skeletons or zombies)"
+				"The bone collective's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+				"At will: chill touch",
+				"3/day: animate dead (up to 5 skeletons or zombies)"
 			]
 		}, {
 			name: "Swarm",
@@ -7074,7 +7073,7 @@ var ToB = {
 		hd: [14, 8],
 		speed: "30 ft",
 		scores: [19, 16, 19, 10, 14, 11],
-		saves: ["","","","","",""],
+		saves: ["", "", "", "", "", ""],
 		skills: "Animal Handling +5, Intimidation +6, Perception +5",
 		damage_resistances: "piercing weapons that are nonmagical",
 		senses: "darkvision 60 ft, truesight 60 ft",
@@ -9960,7 +9959,7 @@ var ToB = {
 			ability: 1,
 			damage: [1, 12, "necrotic"],
 			range: "Melee (5 ft)",
-			modifiers: ["","",false],
+			modifiers: ["", "", false],
 			description: "All creatures in reach; Targets are paralyzed until the start of the herald's next turn. Making a DC 17 Constitution saving throw negates the paralysis."
 		},
 		],
@@ -11220,7 +11219,7 @@ var ToB = {
 		hd: [15, 10],
 		speed: "10 ft, fly 60 ft",
 		scores: [19, 18, 14, 2, 10, 7],
-		saves: ["","","","","",""],
+		saves: ["", "", "", "", "", ""],
 		skills: "Perception +3",
 		senses: "",
 		passive_perception: "13",
@@ -20187,7 +20186,7 @@ var ToB = {
 			ability: 1,
 			damage: [3, 10, "piercing"],
 			range: "Melee (5 ft)",
-			modifiers: [1,"",true],
+			modifiers: [1, "", true],
 			description: "",
 		}, {
 			name: "Claw",
