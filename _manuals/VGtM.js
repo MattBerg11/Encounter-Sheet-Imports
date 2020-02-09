@@ -76,7 +76,7 @@ var VGtM = {
 		}, {
 			name: "Innate Spellcasting (Psionics)",
 			description: [
-				"The alhoon’s innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:",
+				"The alhoon's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:",
 				"At will: detect thoughts, levitate",
 				"1/day each: dominate monster, plane shift (self only)"
 			]
@@ -136,13 +136,13 @@ var VGtM = {
 			ability: 1,
 			damage: [9, 6, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag’s turns. The hag can’t make attacks while grappling a creature in this way.",
+			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way.",
 		}
 		],
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
 				"3/day each: disguise self (including the form of a Medium humanoid), fog cloud"
 			]
 		}, {
@@ -210,13 +210,13 @@ var VGtM = {
 			ability: 1,
 			damage: [9, 6, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag’s turns. The hag can’t make attacks while grappling a creature in this way.",
+			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way.",
 		}
 		],
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
 				"3/day each: disguise self (including the form of a Medium humanoid), fog cloud"
 			]
 		}, {
@@ -280,13 +280,13 @@ var VGtM = {
 			ability: 1,
 			damage: [9, 6, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag’s turns. The hag can’t make attacks while grappling a creature in this way.",
+			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way.",
 		}
 		],
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
 				"3/day each: disguise self (including the form of a Medium humanoid), fog cloud"
 			]
 		}, {
@@ -351,13 +351,13 @@ var VGtM = {
 			ability: 1,
 			damage: [9, 6, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag’s turns. The hag can’t make attacks while grappling a creature in this way.",
+			description: "Target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6+5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way.",
 		}
 		],
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
 				"3/day each: disguise self (including the form of a Medium humanoid), fog cloud"
 			]
 		}, {
@@ -450,7 +450,7 @@ var VGtM = {
 			"3rd level (3 slots): conjure animals, meld into stone, water breathing",
 			"4th level (3 slots): dominate beast, locate creature, stoneskin, wall of fire",
 			"5th level (3 slots): commune with nature, mass cure wounds, tree stride",
-			"6th level (1 slot): heal, heroes’ feast, sunbeam",
+			"6th level (1 slot): heal, heroes' feast, sunbeam",
 			"7th level (1 slot): fire storm",
 			"8th level (1 slot): animal shapes",
 			"9th level (1 slot): foresight",
@@ -465,7 +465,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Change Shape (2/Day)",
-			description: ["The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.", "While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.", "The new form’s attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."]
+			description: ["The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.", "While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.", "The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."]
 		}
 		],
 	},
@@ -777,11 +777,11 @@ var VGtM = {
 			description: "The hag carries a graystaff, a length of gray wood that is a focus for her inner power. She can ride the staff as if it were a broom of flying. While holding the staff, she can cast additional spells with her Innate Spellcasting trait (these spells are marked with an asterisk). If the staff is lost or destroyed, the hag must craft another, which takes a year and a day. Only a bheur hag can use a graystaff."
 		}, {
 			name: "Ice Walk",
-			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost her extra moment."
+			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost her extra moment."
 		}, {
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
 				"At will: hold person,* ray of frost",
 				"3/day each: cone of cold,* ice storm*, wall of ice*",
 				"1/day each: control weather"
@@ -812,7 +812,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Maddening Feast",
-			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag's choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature's movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Maddening Feast for the next 24 hours."
 		}
 		],
 	},
@@ -847,11 +847,11 @@ var VGtM = {
 			description: "The hag carries a graystaff, a length of gray wood that is a focus for her inner power. She can ride the staff as if it were a broom of flying. While holding the staff, she can cast additional spells with her Innate Spellcasting trait (these spells are marked with an asterisk). If the staff is lost or destroyed, the hag must craft another, which takes a year and a day. Only a bheur hag can use a graystaff."
 		}, {
 			name: "Ice Walk",
-			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost her extra moment."
+			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost her extra moment."
 		}, {
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
 				"At will: hold person,* ray of frost",
 				"3/day each: cone of cold,* ice storm*, wall of ice*",
 				"1/day each: control weather"
@@ -880,7 +880,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Maddening Feast",
-			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag's choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature's movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Maddening Feast for the next 24 hours."
 		}
 		],
 	},
@@ -915,11 +915,11 @@ var VGtM = {
 			description: "The hag carries a graystaff, a length of gray wood that is a focus for her inner power. She can ride the staff as if it were a broom of flying. While holding the staff, she can cast additional spells with her Innate Spellcasting trait (these spells are marked with an asterisk). If the staff is lost or destroyed, the hag must craft another, which takes a year and a day. Only a bheur hag can use a graystaff."
 		}, {
 			name: "Ice Walk",
-			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost her extra moment."
+			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost her extra moment."
 		}, {
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
 				"At will: hold person,* ray of frost", "", "3/day each: cone of cold,* ice storm*, wall of ice*",
 				"1/day each: control weather"
 			]
@@ -947,7 +947,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Maddening Feast",
-			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag's choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature's movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Maddening Feast for the next 24 hours."
 		}
 		],
 	},
@@ -982,11 +982,11 @@ var VGtM = {
 			description: "The hag carries a graystaff, a length of gray wood that is a focus for her inner power. She can ride the staff as if it were a broom of flying. While holding the staff, she can cast additional spells with her Innate Spellcasting trait (these spells are marked with an asterisk). If the staff is lost or destroyed, the hag must craft another, which takes a year and a day. Only a bheur hag can use a graystaff."
 		}, {
 			name: "Ice Walk",
-			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost her extra moment."
+			description: "The hag can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost her extra moment."
 		}, {
 			name: "Innate Spellcasting",
 			description: [
-				"The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+				"The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
 				"At will: hold person,* ray of frost",
 				"3/day each: cone of cold,* ice storm*, wall of ice*",
 				"1/day each: control weather"
@@ -1015,7 +1015,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Maddening Feast",
-			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag’s choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature’s movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Maddening Feast for the next 24 hours."
+			description: "The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag's choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature's movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Maddening Feast for the next 24 hours."
 		}
 		],
 	},
@@ -1180,7 +1180,7 @@ var VGtM = {
 		}, {
 			name: "Death Gaze",
 			description: [
-				"When a creature that can see the bodak’s eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.",
+				"When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.",
 				"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so. it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw."
 			]
 		}, {
@@ -1307,7 +1307,7 @@ var VGtM = {
 			description: "The catoblepas has advantage on Wisdom (Perception) checks that rely on smell."
 		}, {
 			name: "Stench",
-			description: "Any creature other than a catoblepas that starts its turn within 10 feet of the catoblepas must succeed on a DC 16 Constitution saving throw or be poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of any catoblepas for 1 hour."
+			description: "Any creature other than a catoblepas that starts its turn within 10 feet of the catoblepas must succeed on a DC 16 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of any catoblepas for 1 hour."
 		}
 		],
 		actions: [{
@@ -1357,7 +1357,7 @@ var VGtM = {
 			description: "The cave fisher makes two attacks with its claws."
 		}, {
 			name: "Filament",
-			description: "One creature grappled by the cave fisher’s adhesive filament must make a DC 13 Strength saving throw, provided that the target weighs 200 pounds or less. On a failure, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes a claw attack against it as a bonus action. Reeling up the target releases anyone else who was attached to the filament. Until the grapple ends on the target, the cave fisher can’t extrude another filament."
+			description: "One creature grappled by the cave fisher's adhesive filament must make a DC 13 Strength saving throw, provided that the target weighs 200 pounds or less. On a failure, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes a claw attack against it as a bonus action. Reeling up the target releases anyone else who was attached to the filament. Until the grapple ends on the target, the cave fisher can't extrude another filament."
 		}
 		],
 	},
@@ -1439,7 +1439,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Fey Ancestry",
-			description: "The chitine has advantage on saving throws against being charmed, and magic can’t put the chitine to sleep."
+			description: "The chitine has advantage on saving throws against being charmed, and magic can't put the chitine to sleep."
 		}, {
 			name: "Sunlight Sensitivity",
 			description: "While in sunlight, the chitine has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
@@ -1496,7 +1496,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Fey Ancestry",
-			description: "The choldrith has advantage on saving throws against being charmed, and magic can’t put the choldrith to sleep."
+			description: "The choldrith has advantage on saving throws against being charmed, and magic can't put the choldrith to sleep."
 		}, {
 			name: "Spider Climb",
 			description: "The choldrith can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -1565,7 +1565,7 @@ var VGtM = {
 		spells: [
 			"The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:",
 			"Cantrips (at will): minor illusion, prestidigitation, vicious mockery",
-			"1st level (4 slots): cure wounds, disguise self, silent image, Tasha’s hideous laughter",
+			"1st level (4 slots): cure wounds, disguise self, silent image, Tasha's hideous laughter",
 			"2nd level (3 slots): invisibility, suggestion",
 			"3rd level (2 slots): major image, tongues"
 		],
@@ -1620,7 +1620,7 @@ var VGtM = {
 			"1st level (4 slots): mage armor, magic missile, unseen servant*",
 			"2nd level (3 slots): cloud of daggers*, misty step*, web*",
 			"3rd level (3 slots): fireball, stinking cloud*",
-			"4th level (3 slots): Evard’s black tentacles*, stoneskin",
+			"4th level (3 slots): Evard's black tentacles*, stoneskin",
 			"5th level (2 slots): cloudkill*, conjure elemental*",
 			"*Conjuration spell of 1st level or higher"
 		],
@@ -1721,7 +1721,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Death Flash",
-			description: "When the darkling dies, nonmagical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area and able to see the bright light must succeed on a DC 10 Constitution saving throw or be blinded until the end of the creature’s next turn."
+			description: "When the darkling dies, nonmagical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area and able to see the bright light must succeed on a DC 10 Constitution saving throw or be blinded until the end of the creature's next turn."
 		}, {
 			name: "Light Sensitivity",
 			description: "While in bright light, the darkling has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
@@ -1755,7 +1755,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Death Burn",
-			description: "When the darkling elder dies, magical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must make a DC 11 Constitution saving throw. On a failure, the creature takes 7 (2d6) radiant damage and, if the creature can see the light, is blinded until the end of its next turn. If the saving throw is successful, the creature takes half the damage and isn’t blinded.",
+			description: "When the darkling elder dies, magical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must make a DC 11 Constitution saving throw. On a failure, the creature takes 7 (2d6) radiant damage and, if the creature can see the light, is blinded until the end of its next turn. If the saving throw is successful, the creature takes half the damage and isn't blinded.",
 		}
 		],
 		actions: [{
@@ -1881,7 +1881,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Shapechanger",
-			description: "The deep scion can use its action to polymorph into a humanoid-piscine hybrid form, or back into its true form. Its statistics, other than its speed, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. The deep scion reverts to its true form if it dies."
+			description: "The deep scion can use its action to polymorph into a humanoid-piscine hybrid form, or back into its true form. Its statistics, other than its speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. The deep scion reverts to its true form if it dies."
 		}, {
 			name: "Amphibious (Hybrid Form Only)",
 			description: "The deep scion can breathe air and water."
@@ -1892,7 +1892,7 @@ var VGtM = {
 			description: "In humanoid form, the deep scion makes two melee attacks. In hybrid form, the deep scion makes three attacks: one with its bite and two with its claws."
 		}, {
 			name: "Psychic Screech (Hybrid Form Only; Recharges after a Short or Long Rest)",
-			description: "The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a DC 13 Wisdom saving throw or be stunned until the end of the deep scion’s next turn. In water, the psychic screech also telepathically transmits the deep scion’s memories of the last 24 hours to its master, regardless of distance, so long as it and its master are in the same body of water."
+			description: "The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a DC 13 Wisdom saving throw or be stunned until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are in the same body of water."
 		}
 		],
 	},
@@ -1970,7 +1970,7 @@ var VGtM = {
 			description: "The devourer makes two claw attacks and can use either Imprison Soul or Soul Rend."
 		}, {
 			name: "Imprison Soul",
-			description: "The devourer chooses a living humanoid with 0 hit points that it can see within 30 feet of it. That creature is teleported inside the devourer’s ribcage and imprisoned there. A creature imprisoned in this manner has disadvantage on death saving throws. If it dies while imprisoned, the devourer regains 25 hit points, immediately recharges Soul Rend, and gains an additional action on its next turn. Additionally, at the start of its next turn, the devourer regurgitates the slain creature as a bonus action, and the creature becomes an undead. If the victim had 2 or fewer Hit Dice, it becomes a zombie. if it had 3 to 5 Hit Dice, it becomes a ghoul. Otherwise, it becomes a wight. A devourer can imprison only one creature at a time."
+			description: "The devourer chooses a living humanoid with 0 hit points that it can see within 30 feet of it. That creature is teleported inside the devourer's ribcage and imprisoned there. A creature imprisoned in this manner has disadvantage on death saving throws. If it dies while imprisoned, the devourer regains 25 hit points, immediately recharges Soul Rend, and gains an additional action on its next turn. Additionally, at the start of its next turn, the devourer regurgitates the slain creature as a bonus action, and the creature becomes an undead. If the victim had 2 or fewer Hit Dice, it becomes a zombie. if it had 3 to 5 Hit Dice, it becomes a ghoul. Otherwise, it becomes a wight. A devourer can imprison only one creature at a time."
 		}, {
 			name: "Soul Rend (Recharge 6)",
 			description: "The devourer creates a vortex of life-draining energy in a 20-foot radius centered on itself. Each humanoid in that area must make a DC 18 Constitution saving throw, taking 44 (8d10) necrotic damage on a failed save, or half as much damage on a successful one. Increase the damage by 10 for each living humanoid with 0 hit points in that area.",
@@ -2040,7 +2040,7 @@ var VGtM = {
 			"2nd level (3 slots): detect thoughts*, locate object*, scorching ray",
 			"3rd level (3 slots): clairvoyance*, fly, fireball",
 			"4th level (3 slots): arcane eye*, ice storm, stoneskin",
-			"5th level (2 slots): Rary’s telepathic bond*, seeming*",
+			"5th level (2 slots): Rary's telepathic bond*, seeming*",
 			"6th level (1 slot): mass suggestion, true seeing*",
 			"7th level (1 slot): delayed blast fireball, teleport",
 			"8th level (1 slot): maze",
@@ -2117,11 +2117,11 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Fey Ancestry",
-			description: "The draegloth has advantage on saving throws against being charmed, and magic can’t put it to sleep."
+			description: "The draegloth has advantage on saving throws against being charmed, and magic can't put it to sleep."
 		}, {
 			name: "Innate Spellcasting",
 			description: [
-				"The draegloth’s innate spellcasting ability is Charisma (spell save DC 11). The draegloth can innately cast the following spells, requiring no material components:",
+				"The draegloth's innate spellcasting ability is Charisma (spell save DC 11). The draegloth can innately cast the following spells, requiring no material components:",
 				"At will: darkness",
 				"1/day each: confusion, dancing lights, faerie fire"
 			]
@@ -2164,11 +2164,11 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Creature Sense",
-			description: "The elder brain is aware of the presence of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature. as well as each one's intelligence score, but can’t sense anything else about it. A creature protected by a mind blank spell. a nondetection spell, or similar magic can’t be perceived in this manner. "
+			description: "The elder brain is aware of the presence of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature. as well as each one's intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell. a nondetection spell, or similar magic can't be perceived in this manner. "
 		}, {
 			name: "Innate Spellcasting (Psionics)",
 			description: [
-				"The elder brain’s innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no components:",
+				"The elder brain's innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no components:",
 				"At will: detect thoughts, levitate",
 				"1/day each: dominate monster, plane shift (self only)"
 			]
@@ -2191,24 +2191,24 @@ var VGtM = {
 			description: "The elder brain targets one incapacitated creature it can perceive with its Creature Sense trait and establishes a psychic link with that creature. Until the psychic link ends, the elder brain can perceive everything the target senses. The target becomes aware that something is linked to its mind once it is no longer incapacitated, and the elder brain can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the psychic link, doing so with a successful DC 18 Charisma saving throw. On a successful save, the target takes 10 (3d6) psychic damage. The psychic link also ends if the target and the elder brain are more than 5 miles apart, with no consequences to the target. The elder brain can form psychic links with up to ten creatures at a time."
 		}, {
 			name: "Sense Thoughts",
-			description: "The elder brain targets a creature with which it has a psychic link. The elder brain gains insight into the target’s reasoning, its emotional state, and thoughts that loom large in its mind (including things the target worries about, loves, or hates). The elder brain can also make a Charisma (Deception) check with advantage to deceive the target's mind into thinking it believes one idea or feels a particular emotion. The target contests this attempt with a Wisdom (Insight) check. If the elder brain succeeds, the mind believes the deception for 1 hour or until evidence of the lie is presented to the target."
+			description: "The elder brain targets a creature with which it has a psychic link. The elder brain gains insight into the target's reasoning, its emotional state, and thoughts that loom large in its mind (including things the target worries about, loves, or hates). The elder brain can also make a Charisma (Deception) check with advantage to deceive the target's mind into thinking it believes one idea or feels a particular emotion. The target contests this attempt with a Wisdom (Insight) check. If the elder brain succeeds, the mind believes the deception for 1 hour or until evidence of the lie is presented to the target."
 		}
 		],
 		legendary_actions: [{
 			name: "Legendary Actions (3/Turn)",
-			description: "The elder brain can take 3 legendary actions, choosing from the options below. It can take only one legendary action at a time and only at the end of another creature’s turn. The elder brain regains spent legendary actions at the start of its turn."
+			description: "The elder brain can take 3 legendary actions, choosing from the options below. It can take only one legendary action at a time and only at the end of another creature's turn. The elder brain regains spent legendary actions at the start of its turn."
 		}, {
 			name: "Tentacle",
 			description: "The elder brain makes a tentacle attack."
 		}, {
 			name: "Break Concentration",
-			description: "The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain breaks the creature’s concentration on a spell it has cast. The creature also takes 1d4 psychic damage per level of the spell."
+			description: "The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain breaks the creature's concentration on a spell it has cast. The creature also takes 1d4 psychic damage per level of the spell."
 		}, {
 			name: "Psychic Pulse",
 			description: "The elder brain targets a creature within 120 feet of it with which it has a psychic link. Enemies of the elder brain within 10 feet of that creature take 10 (3d6) psychic damage."
 		}, {
 			name: "Sever Psychic Link",
-			description: "The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature’s next turn."
+			description: "The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn."
 		}
 		],
 		spells: "detect thoughts, levitate, dominate monster, plane shift"
@@ -2284,7 +2284,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Sculpt Spells",
-			description: "When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell’s level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it."
+			description: "When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it."
 		}
 		],
 		spells: ["The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
@@ -2293,7 +2293,7 @@ var VGtM = {
 			"2nd level (3 slots): mirror image, misty step, shatter*",
 			"3rd level (3 slots): counterspell, fireball*, lightning bolt*",
 			"4th level (3 slots): ice storm*, stoneskin",
-			"5th level (2 slots): Bigby’s hand*, cone of cold*",
+			"5th level (2 slots): Bigby's hand*, cone of cold*",
 			"6th level (1 slot): chain lightning*, wall of ice*",
 			"*Evocation spell"
 		],
@@ -2332,7 +2332,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Dual Shields",
-			description: "The giant carries two shields, each of which is accounted for in the giant’s AC. The giant must stow or drop one of its shields to hurl rocks."
+			description: "The giant carries two shields, each of which is accounted for in the giant's AC. The giant must stow or drop one of its shields to hurl rocks."
 		}
 		],
 		actions: [{
@@ -2374,7 +2374,7 @@ var VGtM = {
 			description: "The firenewt can breathe air and water."
 		}, {
 			name: "Innate Spellcasting",
-			description: "The firenewt’s innate spellcasting ability is Charisma. It can innately cast mage armor (self only) at will, requiring no material components."
+			description: "The firenewt's innate spellcasting ability is Charisma. It can innately cast mage armor (self only) at will, requiring no material components."
 		}, {
 			name: "Imix's Blessing",
 			description: "When the firenewt reduces an enemy to 0 hit points, the firenewt gains 5 temporary hit points."
@@ -2453,7 +2453,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Antimagic Shell",
-			description: ["The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a d6:", "", "1-2: If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, it has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting ability of the caster.", "", "3-4: No additional effect.", "", "5-6: The snail’s shell converts some of the spell's energy into a burst of destructive force. Each creature within 30 feet of the snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one."]
+			description: ["The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a d6:", "", "1-2: If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, it has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting ability of the caster.", "", "3-4: No additional effect.", "", "5-6: The snail's shell converts some of the spell's energy into a burst of destructive force. Each creature within 30 feet of the snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one."]
 		}, {
 			name: "Flail Tentacles",
 			description: "The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies 5d6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process."
@@ -2464,7 +2464,7 @@ var VGtM = {
 			description: "The flail snail makes as many flail tentacle attacks as it has flail tentacles, all against the same target."
 		}, {
 			name: "Scintillating Shell (Recharges after a Short or Long Rest)",
-			description: "The snail's shell emits dazzling, colored light until the end of the snail’s next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends."
+			description: "The snail's shell emits dazzling, colored light until the end of the snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends."
 		}, {
 			name: "Shell Defense",
 			description: "The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn."
@@ -2518,7 +2518,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Aura of Blood Thirst",
-			description: "If the flind isn’t incapacitated, any creature with the Rampage trait can make a bite attack as a bonus action while within 10 feet of the flind."
+			description: "If the flind isn't incapacitated, any creature with the Rampage trait can make a bite attack as a bonus action while within 10 feet of the flind."
 		}
 		],
 		actions: [{
@@ -2551,13 +2551,13 @@ var VGtM = {
 			damage: [3, 8, "bludgeoning"],
 			range: "Melee (20 ft)",
 			dc: [16, "Escape"],
-			description: "Target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can’t use this tentacle on another target. The froghemoth has four tentacles.",
+			description: "Target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles.",
 		}, {
 			name: "Bite",
 			ability: 1,
 			damage: [3, 10, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth’s turns. The froghemoth’s gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone."
+			description: "Target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns. The froghemoth's gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone."
 		}
 		],
 		traits: [{
@@ -2565,7 +2565,7 @@ var VGtM = {
 			description: "The froghemoth can breathe air and water."
 		}, {
 			name: "Shock Suscptibility",
-			description: "If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can’t use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both."
+			description: "If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can't use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both."
 		}
 		],
 		actions: [{
@@ -2614,7 +2614,7 @@ var VGtM = {
 			description: "The giant has a 25 percent chance of having more than one head. If it has more than one, it has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, Frightened, stunned, or knocked unconscious."
 		}, {
 			name: "Regeneration",
-			description: "The giant regains 10 hit points at the start of its turn. If the giant takes acid or fire damage, this trait doesn’t function at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+			description: "The giant regains 10 hit points at the start of its turn. If the giant takes acid or fire damage, this trait doesn't function at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and doesn't regenerate."
 		}, {
 			name: "Vaprak's Rage (Recharges on a Short or Long Rest)",
 			description: [
@@ -2758,7 +2758,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "fire Burst (Recharges 5-6)",
-			description: "The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren’t being worn or carried.",
+			description: "The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren't being worn or carried.",
 		}
 		],
 	},
@@ -2844,7 +2844,7 @@ var VGtM = {
 			description: "The gnoll makes three attacks: one with its bite and two with its shortsword."
 		}, {
 			name: "Sudden Rush",
-			description: "Until the end of the turn, the gnoll's speed increases by 60 feet and it doesn’t provoke opportunity attacks."
+			description: "Until the end of the turn, the gnoll's speed increases by 60 feet and it doesn't provoke opportunity attacks."
 		}
 		],
 	},
@@ -2888,7 +2888,7 @@ var VGtM = {
 			ability: 2,
 			damage: [1, 8, "piercing"],
 			range: "Ranged (150/600 ft)",
-			description: "Target’s speed is reduced by 10 feet until the end of its next turn.",
+			description: "Target's speed is reduced by 10 feet until the end of its next turn.",
 		}
 		],
 		traits: [{
@@ -3033,7 +3033,7 @@ var VGtM = {
 			description: "The grung can breathe air and water."
 		}, {
 			name: "Poisonous Skin",
-			description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 		}, {
 			name: "Standing Leap",
 			description: "The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
@@ -3041,10 +3041,10 @@ var VGtM = {
 			name: "Variant: Grung Poison",
 			description: [
 				"Grung Poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.",
-				"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer poisoned by the grung.",
-				"Green: The poisoned creature can’t move except to climb or make standing jumps. If the creature is flying, it can’t take any actions or reactions unless it lands.",
+				"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung's skin color. This effect lasts until the creature is no longer poisoned by the grung.",
+				"Green: The poisoned creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands.",
 				"Blue: The poisoned creature must shout loudly or otherwise make a loud noise at the start and end of its turn.",
-				"Purple: The poisoned creature feels a desperate need to soak itself in liquid or mud. It can’t take actions or move except to do so or to reach a body of liquid or mud."
+				"Purple: The poisoned creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 			]
 		}
 		],
@@ -3096,7 +3096,7 @@ var VGtM = {
 			description: "The grung can breathe air and water."
 		}, {
 			name: "Poisonous Skin",
-			description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 		}, {
 			name: "Standing Leap",
 			description: "The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
@@ -3104,7 +3104,7 @@ var VGtM = {
 			name: "Variant: Grung Poison",
 			description: [
 				"Grung Poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.",
-				"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer poisoned by the grung.",
+				"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung's skin color. This effect lasts until the creature is no longer poisoned by the grung.",
 				"Orange: The poisoned creature is frightened of its allies.",
 				"Gold: The poisoned creature is charmed and can speak Grung."
 			]
@@ -3112,7 +3112,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Mesmerizing Chirr (Recharge 6)",
-			description: "The grung makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of the grung and able to hear it must succeed on a DC 12 Wisdom saving throw or be stunned until the end of the grung’s next turn."
+			description: "The grung makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of the grung and able to hear it must succeed on a DC 12 Wisdom saving throw or be stunned until the end of the grung's next turn."
 		}
 		],
 	},
@@ -3163,7 +3163,7 @@ var VGtM = {
 			description: "The grung can breathe air and water."
 		}, {
 			name: "Poisonous Skin",
-			description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			description: "Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 		}, {
 			name: "Standing Leap",
 			description: "The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
@@ -3171,7 +3171,7 @@ var VGtM = {
 			name: "Variant: Grung Poison",
 			description: [
 				"Grung Poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.",
-				"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer poisoned by the grung.",
+				"A creature poisoned by a grung can suffer an additional effect that varies depending on the grung's skin color. This effect lasts until the creature is no longer poisoned by the grung.",
 				"Red: The poisoned creature must use its action to eat if food is within reach. "
 			]
 		}
@@ -3273,7 +3273,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Arcane Advantage",
-			description: "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a damaging spell attack if that target is within 5 feet of an ally of the hobgoblin and that ally isn’t incapacitated."
+			description: "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a damaging spell attack if that target is within 5 feet of an ally of the hobgoblin and that ally isn't incapacitated."
 		}, {
 			name: "Army Arcane",
 			description: "When the hobgoblin casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw."
@@ -3283,7 +3283,7 @@ var VGtM = {
 			"The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:",
 			"Cantrips (at will): acid splash, fire bolt, ray of frost, shocking grasp",
 			"1st level (4 slots): fog cloud, magic missile, Thunderwave",
-			"2nd level (3 slots): gust of wind, Melf’s acid arrow, scorching ray",
+			"2nd level (3 slots): gust of wind, Melf's acid arrow, scorching ray",
 			"3rd level (3 slots): fireball, fly, lightning bolt",
 			"4th level (1 slot): ice storm"
 		],
@@ -3394,7 +3394,7 @@ var VGtM = {
 		}, {
 			name: "Innate Spellcasting (Psionics)",
 			description: [
-				"The illithilich’s innate spellcasting ability is Intelligence (spell save DC 20). It can innately cast the following spells, requiring no components.",
+				"The illithilich's innate spellcasting ability is Intelligence (spell save DC 20). It can innately cast the following spells, requiring no components.",
 				"At will: detect thoughts, levitate",
 				"1/day each: dominate monster, plane shift (self only)"
 			]
@@ -3524,7 +3524,7 @@ var VGtM = {
 			description: "The ki-rin has advantage on saving throws against spells and other magical effects."
 		}, {
 			name: "Magic Weapons",
-			description: "The ki-rin’s weapon attacks are magical."
+			description: "The ki-rin's weapon attacks are magical."
 		}
 		],
 		actions: [{
@@ -3554,7 +3554,7 @@ var VGtM = {
 			"3rd level (3 slots): dispel magic, remove curse, sending",
 			"4th level (3 slots): banishment, freedom of movement, guardian of faith",
 			"5th level (3 slots): greater restoration, mass cure wounds, scrying",
-			"6th level (1 slot): heroes’ feast, true seeing",
+			"6th level (1 slot): heroes' feast, true seeing",
 			"7th level (1 slot): etherealness, plane shift",
 			"8th level (1 slot): control weather",
 			"9th level (1 slot): true resurrection"
@@ -3599,7 +3599,7 @@ var VGtM = {
 			description: "If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll."
 		}, {
 			name: "Pack Tactics",
-			description: "The kobold has advantage on an attack roll against a creature if at least one of the kobold’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+			description: "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
 		}, {
 			name: "Sunlight Sensitivity",
 			description: "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
@@ -3653,13 +3653,13 @@ var VGtM = {
 			description: [// fix
 				"The kobold uses one of the following options (roll a d8 or choose one); the kobold can use each one no more than once per day:",
 				"1. Acid: The kobold hurls a flask of acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 7 (2d6) acid damage.",
-				"2. Alchemist’s fire: The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 2 (1d4) fire damage at the start of each of the target’s turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
-				"3. Basket of Centipedes: The kobold throws a small basket into a S-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm’s turns, there's a 50 percent chance that the swarm disperses.",
-				"4. Green Slime Pot: The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master’s Guide). Miss: A patch of green slime covers a randomly determined S-foot-square section of wall or floor within 5 feet of the target.",
+				"2. Alchemist's fire: The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: 2 (1d4) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+				"3. Basket of Centipedes: The kobold throws a small basket into a S-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm's turns, there's a 50 percent chance that the swarm disperses.",
+				"4. Green Slime Pot: The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft, one target. Hit: The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master's Guide). Miss: A patch of green slime covers a randomly determined S-foot-square section of wall or floor within 5 feet of the target.",
 				"5. Rot Grub Pot: The kobold throws a clay pot into a 5-foot-square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.",
 				"6. Scorpion on a Stick. The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.",
-				"7. Skunk in a Cage: The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can’t take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn’t need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can’t do so again until it finishes a short or long rest.",
-				"8. Wasp Nest in a Bag: The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there’s a 50 percent chance that the swarm disperses."
+				"7. Skunk in a Cage: The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest.",
+				"8. Wasp Nest in a Bag: The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there's a 50 percent chance that the swarm disperses."
 			],
 		}
 		],
@@ -3699,12 +3699,12 @@ var VGtM = {
 			name: "Sorcery Points",
 			description: [
 				"Sorcery Points. The kobold has 3 sorcery points. It can spend 1 or more sorcery points as a bonus action to gain one of the following benefits:",
-				"Heightened Spell: When it casts a spell that forces a creature to a saving throw to resist the spell’s effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.",
+				"Heightened Spell: When it casts a spell that forces a creature to a saving throw to resist the spell's effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.",
 				"Subtle Spell: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components."
 			]
 		}, {
 			name: "Pack Tactics",
-			description: "The kobold has advantage on an attack roll against a creature it at least one of the kobold's allies is within 5 feet of the creature and the ally isn’t incapacitated."
+			description: "The kobold has advantage on an attack roll against a creature it at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
 		}, {
 			name: "Sunlight Sensitivity",
 			description: "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
@@ -3753,14 +3753,14 @@ var VGtM = {
 			name: "Command Hair",
 			description: [
 				"The korred has at least one 50-foot-long rope woven out of its hair. As a bonus action, the korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target must succeed on a DC 13 Dexterity saving throw or become grappled by the rope (escape DC 13). Until this grapple ends. the target is restrained. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes incapacitated.",
-				"A rope of korred hair has AC 20 and 20 hit points. It regains 1 hit point at the start of each of the korred’s turns while it has at least 1 hit point and the korred is alive. If the rope drops to 0 hit points, it is destroyed."
+				"A rope of korred hair has AC 20 and 20 hit points. It regains 1 hit point at the start of each of the korred's turns while it has at least 1 hit point and the korred is alive. If the rope drops to 0 hit points, it is destroyed."
 			]
 		}, {
 			name: "Innate Spellcasting",
 			description: [
 				"The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:",
 				"At will: commune with nature, meld into stone, stone shape",
-				"1/day each: conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto’s irresistible dance"
+				"1/day each: conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto's irresistible dance"
 			]
 		}, {
 			name: "Stone Camouflage",
@@ -3808,16 +3808,16 @@ var VGtM = {
 		}, {
 			name: "Innate Spellcasting",
 			description: [
-				"The priest’s spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+				"The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
 				"At will: command, create or destroy water",
 				"3/day each: control water, darkness, water breathing, water walk",
-				"1/day each: call lightning, Evard’s black tentacles"
+				"1/day each: call lightning, Evard's black tentacles"
 			]
 		}
 		],
 		actions: [{
 			name: "Voice of the Kraken (Recharges after a Short or Long Rest)",
-			description: "A kraken speaks through the priest with a Thunderous voice audible within 300 feet. Creatures of the priest’s choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			description: "A kraken speaks through the priest with a Thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 		}
 		],
 	},
@@ -3894,7 +3894,7 @@ var VGtM = {
 			ability: 1,
 			damage: [1, 8, "bludgeoning"],
 			range: "Melee (5 ft)",
-			description: "If the target is a creature, the adept can choose one of the following additional effects: Target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept’s choice); Target must succeed on a DC 13 Dexterity saving throw or be knocked prone; Target must succeed on a DC 13 Constitution saving throw or be stunned until the end ot'the adept’s next turn.",
+			description: "If the target is a creature, the adept can choose one of the following additional effects: Target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept's choice); Target must succeed on a DC 13 Dexterity saving throw or be knocked prone; Target must succeed on a DC 13 Constitution saving throw or be stunned until the end ot'the adept's next turn.",
 		}, {
 			name: "Dart",
 			ability: 2,
@@ -3915,7 +3915,7 @@ var VGtM = {
 		],
 		reactions: [{
 			name: "Deflect Missile",
-			description: "In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it’s small enough to hold in one hand and the adept has a hand free."
+			description: "In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it's small enough to hold in one hand and the adept has a hand free."
 		}
 		],
 	},
@@ -3958,7 +3958,7 @@ var VGtM = {
 			description: "If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
 		}, {
 			name: "Sneak Attack (1/Turn)",
-			description: "The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn’t incapacitated and the thief doesn’t have disadvantage on the attack roll.",
+			description: "The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.",
 		}
 		],
 		actions: [{
@@ -4034,13 +4034,13 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Fear Aura",
-			description: "Any beast or humanoid that starts its turn within 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be frightened until the start of the creature’s next turn."
+			description: "Any beast or humanoid that starts its turn within 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be frightened until the start of the creature's next turn."
 		}, {
 			name: "Light Sensitivity",
 			description: "While in bright light, the meenlock has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
 		}, {
 			name: "Shadow Teleport (Recharge 5-6)",
-			description: "As a bonus action, the meenlock can teleport to an unoccupied space within 30 feet of it, provided that both the space it’s teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight."
+			description: "As a bonus action, the meenlock can teleport to an unoccupied space within 30 feet of it, provided that both the space it's teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight."
 		}
 		],
 	},
@@ -4144,9 +4144,9 @@ var VGtM = {
 				"Aversion Ray: The targeted creature must make a DC 13 Charisma saving throw. On a failed save, the target has disadvantage on attack rolls for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 				"Fear Ray: The targeted creature must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 				"Psychic Ray: The target must succeed on a DC 13 Intelligence saving throw or take 27 (6d8) psychic damage.",
-				"Slowing Ray: The targeted creature must make a DC 13 Dexterity saving throw. On a failed save, the target’s speed is halved for 1 minute. In addition, the creature can’t take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				"Slowing Ray: The targeted creature must make a DC 13 Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 				"Stunning Ray: The targeted creature must succeed on a DC 13 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success.",
-				"Telekinetic Ray: If the target is a creature, it must make a DC 13 Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is restrained by the ray’s telekinetic grip until the start of the mindwitness’s next turn or until the mindwitness is incapacitated.",
+				"Telekinetic Ray: If the target is a creature, it must make a DC 13 Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is restrained by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is incapacitated.",
 				"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 			],
 		}
@@ -4208,7 +4208,7 @@ var VGtM = {
 			"1st level (4 slots): detect magic, identify, shield, witch bolt",
 			"2nd level (3 slots): darkness, detect thoughts, shatter",
 			"3rd level (3 slots): dispel magic, lightning bolt, sending",
-			"4th level (3 slots): dimension door, Evard’s black tentacles",
+			"4th level (3 slots): dimension door, Evard's black tentacles",
 			"5th level (3 slots): geas, scrying",
 			"6th level (1 slot): chain lightning"
 		],
@@ -4248,7 +4248,7 @@ var VGtM = {
 		traits: [{
 			name: "Mouth of Madness",
 			description: [
-				"The giant is immune to confusion spells and similar magic. On each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a d10 at the start of each of the giant’s turns to determine its action for that turn:",
+				"The giant is immune to confusion spells and similar magic. On each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a d10 at the start of each of the giant's turns to determine its action for that turn:",
 				"1-3. The giant makes three attacks with its fists against one random target within its reach. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.",
 				"4-5. The giant makes one attack with its fist against every creature within its reach. If no other creatures are within its reach, the giant makes one fist attack against itself.",
 				"6-7. The giant makes one attack with its bite against one random target within its reach. If no other creatures are within its reach, its eyes glaze over and it becomes stunned until the start of its next turn.",
@@ -4294,7 +4294,7 @@ var VGtM = {
 			"2nd level (3 slots): blindness/deafness*, ray of enfeeblement*, web",
 			"3rd level (3 slots): animate dead*, bestow curse*, vampiric touch*",
 			"4th level (3 slots): blight*, dimension door, stoneskin",
-			"5th level (2 slots): Bigby’s hand, cloudkill",
+			"5th level (2 slots): Bigby's hand, cloudkill",
 			"6th level (1 slot): circle of death*",
 			"*Necromancy spell of 1st level or higher"
 		],
@@ -4375,7 +4375,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Mental Fortitude",
-			description: "The hatchling has advantage on saving throws against being charmed or frightened, and magic can’t put the hatchling to sleep."
+			description: "The hatchling has advantage on saving throws against being charmed or frightened, and magic can't put the hatchling to sleep."
 		}, {
 			name: "Spider Climb",
 			description: "The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -4416,7 +4416,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Mental Fortitude",
-			description: "The neogi has advantage on saving throws against being charmed or frightened, and magic can’t put the neogi to sleep."
+			description: "The neogi has advantage on saving throws against being charmed or frightened, and magic can't put the neogi to sleep."
 		}, {
 			name: "Spider Climb",
 			description: "The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -4458,16 +4458,16 @@ var VGtM = {
 			damage: [3, 8, "bludgeoning"],
 			range: "Melee (15 ft)",
 			dc: [18, "Str"],
-			description: "Plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid’s turns. If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
+			description: "Plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid's turns. If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
 		}
 		],
 		traits: [{
 			name: "Creature Sense",
-			description: "The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature’s Intelligence score, but can’t sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
+			description: "The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
 		}, {
 			name: "Innate Spellcasting (Psionics)",
 			description: [
-				"The neothelid’s innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:",
+				"The neothelid's innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:",
 				"At will: levitate",
 				"1/day each: confusion, feeblemind, telekinesis"
 			]
@@ -4517,12 +4517,12 @@ var VGtM = {
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The nilbog’s innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
-				"At will: mage hand, Tasha’s hideous laughter, vicious mockery 1/day: confusion"
+				"The nilbog's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+				"At will: mage hand, Tasha's hideous laughter, vicious mockery 1/day: confusion"
 			]
 		}, {
 			name: "Nilbogism",
-			description: "Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature’s next turn. A creature charmed in this way must use its action praising the nilbog. The nilbog can’t regain hit points, including through magical healing, except through its Reversal of Fortune reaction."
+			description: "Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature's next turn. A creature charmed in this way must use its action praising the nilbog. The nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction."
 		}, {
 			name: "Nimble Escape",
 			description: "The nilbog can take the Disengage or Hide action as a bonus action on each of its turns."
@@ -4581,7 +4581,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Multiattack",
-			description: "The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval’s Command is available to use, the orc can use it after these attacks."
+			description: "The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval's Command is available to use, the orc can use it after these attacks."
 		}, {
 			name: "Ilneval's Command (Recharges 4-6)",
 			description: "Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack."
@@ -4698,7 +4698,7 @@ var VGtM = {
 			description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
 		}, {
 			name: "Corrupted Carrier",
-			description: "When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn‘t poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can’t regain hit points.",
+			description: "When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn‘t poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can't regain hit points.",
 		}, {
 			name: "Nurtured One of Yurtrus",
 			description: "The orc has advantage on saving throws against poison and disease."
@@ -4749,10 +4749,10 @@ var VGtM = {
 			description: "The orc deals an 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks)."
 		}, {
 			name: "Shargaas's Sight",
-			description: "Magical darkness doesn’t impede the orc’s darkvision."
+			description: "Magical darkness doesn't impede the orc's darkvision."
 		}, {
 			name: "Slayer",
-			description: "In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn’t taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit."
+			description: "In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn't taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit."
 		}
 		],
 		actions: [{
@@ -4827,7 +4827,7 @@ var VGtM = {
 			description: "If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target.",
 		}, {
 			name: "Flyby",
-			description: "The quetzalcoatlus doesn’t provoke an opportunity attack when it flies out of an enemy’s reach."
+			description: "The quetzalcoatlus doesn't provoke an opportunity attack when it flies out of an enemy's reach."
 		}
 		],
 	},
@@ -4944,7 +4944,7 @@ var VGtM = {
 			description: "While moving, the redcap has disadvantage on Dexterity (Stealth) checks."
 		}, {
 			name: "Outsize Strength",
-			description: "While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls."
+			description: "While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn't impose disadvantage on its attack rolls."
 		}
 		],
 		actions: [{
@@ -5173,7 +5173,7 @@ var VGtM = {
 			description: "The slithering tracker has advantage on Wisdom checks to track prey."
 		}, {
 			name: "Liquid Form",
-			description: "The slithering tracker can enter an enemy’s space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing."
+			description: "The slithering tracker can enter an enemy's space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing."
 		}, {
 			name: "Spider Climb",
 			description: "The slithering tracker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
@@ -5216,7 +5216,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Regeneration",
-			description: "The spawn of Kyuss regains 10 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or a body of running water. If the spawn takes acid, fire, or radiant damage, this trait doesn’t function at the start of the spawn's next turn. The spawn is destroyed only if it starts its turn with 0 hit points and doesn’t regenerate."
+			description: "The spawn of Kyuss regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or a body of running water. If the spawn takes acid, fire, or radiant damage, this trait doesn't function at the start of the spawn's next turn. The spawn is destroyed only if it starts its turn with 0 hit points and doesn't regenerate."
 		}, {
 			name: "Worms",
 			description: "If the spawn of Kyuss is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away, and it loses its Burrowing Worm action."
@@ -5227,7 +5227,7 @@ var VGtM = {
 			description: "The spawn of Kyuss makes two attacks with its claws and uses Burrowing Worm."
 		}, {
 			name: "Burrowing Worm",
-			description: "A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target’s skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target’s skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target’s skin at the end of the target's next turn, dealing l piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away."
+			description: "A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target's skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target's skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target's skin at the end of the target's next turn, dealing l piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away."
 		}
 		],
 	},
@@ -5286,7 +5286,7 @@ var VGtM = {
 			description: "If the kow moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.",
 		}, {
 			name: "Stench",
-			description: "Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a DC 26 Constitution saving throw or be poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of all stench kows for 1 hour."
+			description: "Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a DC 26 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all stench kows for 1 hour."
 		}
 		],
 	},
@@ -5325,7 +5325,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Dreamwalker's Charm",
-			description: "An enemy that starts its turn within 30 feet of the giant must make a DC 13 Charisma saving throw, provided that the giant isn’t incapacitated. On a failed save, the creature is charmed by the giant. A creature charmed in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, the creature is immune to this giant’s Dreamwalker's Charm for 24 hours."
+			description: "An enemy that starts its turn within 30 feet of the giant must make a DC 13 Charisma saving throw, provided that the giant isn't incapacitated. On a failed save, the creature is charmed by the giant. A creature charmed in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, the creature is immune to this giant's Dreamwalker's Charm for 24 hours."
 		}
 		],
 		actions: [{
@@ -5379,7 +5379,7 @@ var VGtM = {
 		],
 		legendary_actions: [{
 			name: "Legendary Actions (3/Turn)",
-			description: "The giant can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The giant regains spent legendary actions at the start of its turn."
+			description: "The giant can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The giant regains spent legendary actions at the start of its turn."
 		}, {
 			name: "Gust",
 			description: "The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around it. The target must succeed on a DC 18 Strength saving throw or be pushed up to 20 feet in any horizontal direction the giant chooses."
@@ -5388,7 +5388,7 @@ var VGtM = {
 			description: "The giant hurls a Thunderbolt at a creature it can see within 600 feet of it. The target must make a DC 18 Dexterity saving throw, taking 22 (4d10) Thunder damage on a failed save, or half as much damage on a successful one.",
 		}, {
 			name: "One with the Storm (3 Actions)",
-			description: "The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can’t be targeted by attacks, spells, or other effects. The giant can’t use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm."
+			description: "The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm."
 		}
 		],
 	},
@@ -5431,7 +5431,7 @@ var VGtM = {
 			]
 		}, {
 			name: "Swarm",
-			description: "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain hit points or gain temporary hit points."
+			description: "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
 		}, {
 			name: "Telepathic Shroud",
 			description: "The swarm is immune to any effect that would sense its emotions or read its thoughts. as well as to all divination spells."
@@ -5462,12 +5462,12 @@ var VGtM = {
 			damage: [1, 4, "rot grubs"],
 			range: "Melee (0 ft)",
 			modifiers: [-2, "", false],
-			description: "At the start of each of the target’s turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target.",
+			description: "At the start of each of the target's turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target.",
 		}
 		],
 		traits: [{
 			name: "Swarm",
-			description: "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny maggot. The swarm can’t regain hit points or gain temporary hit points."
+			description: "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny maggot. The swarm can't regain hit points or gain temporary hit points."
 		}
 		],
 	},
@@ -5604,7 +5604,7 @@ var VGtM = {
 			description: "The thorny has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
 		}, {
 			name: "Regeneration",
-			description: "The thorny regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the thorny’s next turn. The thorny dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+			description: "The thorny regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the thorny's next turn. The thorny dies only if it starts its turn with 0 hit points and doesn't regenerate."
 		}
 		],
 	},
@@ -5637,7 +5637,7 @@ var VGtM = {
 			damage: [1, 6, "piercing"],
 			range: "Melee (10 ft)",
 			dc: [11, "Escape"],
-			description: "Target is grappled (escape DC 11) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the tlincalli can’t use the spiked chain against another target.",
+			description: "Target is grappled (escape DC 11) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the tlincalli can't use the spiked chain against another target.",
 		}, {
 			name: "Sting",
 			ability: 1,
@@ -5685,7 +5685,7 @@ var VGtM = {
 				"Darkvision out to a range of 60 feet",
 				"An extra 10 feet of speed while the bearer is unencumbered",
 				"Proficiency with Constitution saving throws",
-				"Resistance to acid, cold, fire, lightning, or Thunder damage (transmuter’s choice whenever the transmuter chooses this benefit)",
+				"Resistance to acid, cold, fire, lightning, or Thunder damage (transmuter's choice whenever the transmuter chooses this benefit)",
 				"If the transmuter has the stone and casts a transmutation spell of 1st level or higher, it can change the effect of the stone."
 			]
 		}
@@ -5773,7 +5773,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Creature Sense",
-			description: "The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature’s intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can’t be perceived in this manner."
+			description: "The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
 		}, {
 			name: "Magic Resistance",
 			description: "The ulitharid has advantage on saving throws against spells and other magical effects."
@@ -5783,7 +5783,7 @@ var VGtM = {
 		}, {
 			name: "Innate Spellcasting (Psionics)",
 			description: [
-				"The ulitharid’s innate spellcasting ability is Intelligence (spell save DC 17). It can innately cast the following spells, requiring no components:",
+				"The ulitharid's innate spellcasting ability is Intelligence (spell save DC 17). It can innately cast the following spells, requiring no components:",
 				"At will: detect thoughts, levitate",
 				"1/day each: confusion, dominate monster, eyebite, feeblemind, mass suggestion, plane shift (self only), project image, scrying, telekinesis"
 			]
@@ -5824,10 +5824,10 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Kiss ",
-			description: "The vargouille kisses one incapacitated humanoid within 5 feet of it. The target must succeed on a DC 12 Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn’t advance while the target is in sunlight or the area of a daylight spell; don’t count that time. When the cursed target’s Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting remove curse, greater restoration, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse."
+			description: "The vargouille kisses one incapacitated humanoid within 5 feet of it. The target must succeed on a DC 12 Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn't advance while the target is in sunlight or the area of a daylight spell; don't count that time. When the cursed target's Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting remove curse, greater restoration, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse."
 		}, {
 			name: "Stunning Shriek",
-			description: "The vargouille shrieks. Each humanoid and beast within 30 feet of the vargouille and able to hear it must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the vargouille’s next turn. While frightened in this way, a target is stunned. If a target’s saving throw is successful or the effect ends for ft, the target is immune to the Stunning Shriek of all vargouilles for 1 hour."
+			description: "The vargouille shrieks. Each humanoid and beast within 30 feet of the vargouille and able to hear it must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the vargouille's next turn. While frightened in this way, a target is stunned. If a target's saving throw is successful or the effect ends for ft, the target is immune to the Stunning Shriek of all vargouilles for 1 hour."
 		}
 		],
 	},
@@ -5868,7 +5868,7 @@ var VGtM = {
 			description: "The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
 		}, {
 			name: "Regeneration",
-			description: "The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the vegepygmy’s next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+			description: "The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the vegepygmy's next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate."
 		}
 		],
 	},
@@ -5915,7 +5915,7 @@ var VGtM = {
 			description: "The vegepygmy makes two attacks with its claws or two melee attacks with its spear."
 		}, {
 			name: "Spores (1/Day)",
-			description: "A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn’t a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+			description: "A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn't a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 		}
 		],
 	},
@@ -5952,7 +5952,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Pack Tactics",
-			description: "The velociraptor has advantage on an attack roll against a creature if at least one of the velociraptor’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+			description: "The velociraptor has advantage on an attack roll against a creature if at least one of the velociraptor's allies is within 5 feet of the creature and the ally isn't incapacitated."
 		}
 		],
 		actions: [{
@@ -6001,7 +6001,7 @@ var VGtM = {
 			"Cantrips (at will): light, mending, sacred flame, spare the dying",
 			"1st level (4 slots): divine favor, guiding bolt, healing word, shield of faith",
 			"2nd level (3 slots): lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon",
-			"3rd level (3 slots): beacon of hope, crusader’s mantle, dispel magic, revivify, spirit guardians, water wall",
+			"3rd level (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water wall",
 			"4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin ",
 			"5th level (1 slot): flame strike, mass cure wounds, hold monster"
 		],
@@ -6041,7 +6041,7 @@ var VGtM = {
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+				"The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
 				"At will: disguise self, mage armor (self only), silent image, speak with animals",
 				"1/day: conjure fey"
 			]
@@ -6087,13 +6087,13 @@ var VGtM = {
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+				"The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
 				"At will: alter self, false life, levitate (self only), mage armor (self only), silent image",
 				"1/day each: feeblemind, finger of death, plane shift"
 			]
 		}, {
 			name: "Dark One's Own Luck (Recharges after a Short or Long Rest)",
-			description: "When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll’s effects occur."
+			description: "When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur."
 		}
 		],
 		spells: [
@@ -6137,13 +6137,13 @@ var VGtM = {
 		traits: [{
 			name: "Innate Spellcasting",
 			description: [
-				"The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+				"The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
 				"At will: detect magic, jump, levitate, mage armor (self only), speak with dead",
 				"1/day each: arcane gate, true seeing"
 			]
 		}, {
 			name: "Whispering Aura",
-			description: "At the start of each of the warlock’s turns, each creature of its choice within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage, provided that the warlock isn’t incapacitated."
+			description: "At the start of each of the warlock's turns, each creature of its choice within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage, provided that the warlock isn't incapacitated."
 		}
 		],
 		spells: [
@@ -6198,7 +6198,7 @@ var VGtM = {
 		],
 		legendary_actions: [{
 			name: "Legendary Actions (3/Turn)",
-			description: "The warlord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The warlord regains spent legendary actions at the start of its turn."
+			description: "The warlord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The warlord regains spent legendary actions at the start of its turn."
 		}, {
 			name: "Weapon Attack",
 			description: "The warlord makes a weapon attack."
@@ -6207,7 +6207,7 @@ var VGtM = {
 			description: "The warlord targets one ally it can see within 30 feet of it. if the target can see and hear the warlord, the target can make one weapon attack as a reaction and gains advantage on the attack roll."
 		}, {
 			name: "Frighten Foe (Costs 2 Actions)",
-			description: "The warlord targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a DC 16 Wisdom saving throw or be frightened until the end of warlord’s next turn."
+			description: "The warlord targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a DC 16 Wisdom saving throw or be frightened until the end of warlord's next turn."
 		}
 		],
 	},
@@ -6279,13 +6279,13 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Magic Club",
-			description: "In the wood woad’s hand, its club is magical and deals 7 (3d4) extra damage (included in its attacks)."
+			description: "In the wood woad's hand, its club is magical and deals 7 (3d4) extra damage (included in its attacks)."
 		}, {
 			name: "Plant Camouflage",
 			description: "The wood woad has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
 		}, {
 			name: "Regeneration",
-			description: "The wood woad regains 10 hit points at the start of its turn if it is in contact with the ground. If the wood woad takes fire damage, this trait doesn’t function at the start of the wood woad’s next turn. The wood woad dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+			description: "The wood woad regains 10 hit points at the start of its turn if it is in contact with the ground. If the wood woad takes fire damage, this trait doesn't function at the start of the wood woad's next turn. The wood woad dies only if it starts its turn with 0 hit points and doesn't regenerate."
 		}, {
 			name: "Tree Stride",
 			description: "Once on each of its turns, the wood woad can use 10 feet of its movement to step magically into one living tree within 5 feet of it and emerge from a second living tree within 60 feet of it that it can see, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
@@ -6333,7 +6333,7 @@ var VGtM = {
 			description: "The xvart can take the Disengage action as a bonus action on each of its turns."
 		}, {
 			name: "Overbearing Pack",
-			description: "The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart’s allies is within 5 feet of the target and the ally isn’t incapacitated."
+			description: "The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't incapacitated."
 		}, {
 			name: "Raxivort's Tongue",
 			description: "The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
@@ -6402,7 +6402,7 @@ var VGtM = {
 			description: "The xvart can take the Disengage action as a bonus action on each of its turns."
 		}, {
 			name: "Overbearing Pack",
-			description: "The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart’s allies is within 5 feet of the target and the ally isn’t incapacitated."
+			description: "The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't incapacitated."
 		}, {
 			name: "Raxivort's Tongue",
 			description: "The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
@@ -6445,7 +6445,7 @@ var VGtM = {
 			description: "The yeth hound has advantage on Wisdom (Perception) checks that rely on hearing or smell."
 		}, {
 			name: "Sunlight Banishment",
-			description: "If the yeth hound starts its turn in sunlight, it is transported to the Ethereal Plane. While sunlight shines on the spot from which it vanished, the hound must remain in the Deep Ethereal. After sunset, it returns to the Border Ethereal at the same spot, whereupon it typically sets out to find its pack or its master. The hound is visible on the Material Plane while it is in the Border Ethereal, and vice versa, but it can’t affect or be affected by anything on the other plane. Once it is adjacent to its master or a pack mate that is on the Material Plane, a yeth hound in the Border Ethereal can return to the Material Plane as an action."
+			description: "If the yeth hound starts its turn in sunlight, it is transported to the Ethereal Plane. While sunlight shines on the spot from which it vanished, the hound must remain in the Deep Ethereal. After sunset, it returns to the Border Ethereal at the same spot, whereupon it typically sets out to find its pack or its master. The hound is visible on the Material Plane while it is in the Border Ethereal, and vice versa, but it can't affect or be affected by anything on the other plane. Once it is adjacent to its master or a pack mate that is on the Material Plane, a yeth hound in the Border Ethereal can return to the Material Plane as an action."
 		}, {
 			name: "Telepathic Bond",
 			description: "While the yeth hound is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically with each other."
@@ -6453,7 +6453,7 @@ var VGtM = {
 		],
 		actions: [{
 			name: "Baleful Baying",
-			description: "The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened until the end of the hound’s next turn or until the hound is incapacitated. A frightened target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours."
+			description: "The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened until the end of the hound's next turn or until the hound is incapacitated. A frightened target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours."
 		}
 		],
 	},
@@ -6489,7 +6489,7 @@ var VGtM = {
 			damage: [3, 6, "bludgeoning"],
 			range: "Melee (15 ft)",
 			dc: [16, "Escape"],
-			description: "Plus 7 (2d6) acid damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained and takes 16 (3d6+6) bludgeoning damage plus 7 (2d6) acid damage at the start of each of its turns, and the anathema can’t constrict another target.",
+			description: "Plus 7 (2d6) acid damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained and takes 16 (3d6+6) bludgeoning damage plus 7 (2d6) acid damage at the start of each of its turns, and the anathema can't constrict another target.",
 		}, {
 			name: "Flurry of Bites",
 			ability: 1,
@@ -6501,7 +6501,7 @@ var VGtM = {
 		traits: [{
 			name: "Innate Spellcasting (Anathema Form Only)",
 			description: [
-				"The anathema’s innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:",
+				"The anathema's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:",
 				"At will: animal friendship (snakes only)",
 				"3/day each: darkness, entangle, fear, haste, suggestion, polymorph",
 				"1/day: divine word"
@@ -6511,10 +6511,10 @@ var VGtM = {
 			description: "The anathema has advantage on saving throws against spells and other magical effects."
 		}, {
 			name: "Ophidiophobia Aura",
-			description: "Any creature of the anathema’s choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema and can see or hear it must succeed on a DC 17 Wisdom saving throw or become frightened of snakes and yuan-ti. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target’s saving throw is successful or the effect ends for it, the target is immune to this aura for the next 24 hours."
+			description: "Any creature of the anathema's choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema and can see or hear it must succeed on a DC 17 Wisdom saving throw or become frightened of snakes and yuan-ti. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this aura for the next 24 hours."
 		}, {
 			name: "Shapechanger",
-			description: "The anathema can use its action to polymorph into a Huge giant constrictor snake, or back into its true form. its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed."
+			description: "The anathema can use its action to polymorph into a Huge giant constrictor snake, or back into its true form. its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed."
 		}, {
 			name: "Six Heads",
 			description: "The anathema has advantage on Wisdom (Perception) checks and on saving throws against being blinded. charmed, deafened, frightened, stunned, or knocked unconscious."
@@ -6570,7 +6570,7 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Mental Resistance",
-			description: "The broodguard has advantage on saving throws against being charmed, and magic can’t paralyze it."
+			description: "The broodguard has advantage on saving throws against being charmed, and magic can't paralyze it."
 		}, {
 			name: "Reckless",
 			description: "At the start of its turn, the broodguard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
@@ -6623,11 +6623,11 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Shapechanger",
-			description: "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. If it dies, it stays in its current form."
+			description: "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form."
 		}, {
 			name: "Innate Spellcasting (Yuan-ti Form Only)",
 			description: [
-				"The yuan-ti’s innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
+				"The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
 				"At will: animal friendship (snakes only)",
 				"3/day: suggestion"
 			]
@@ -6645,7 +6645,7 @@ var VGtM = {
 				"1st-3rd level (2 3rd-level slots): charm person, crown of madness, detect thoughts, expeditious retreat, fly, hypnotic pattern, illusory script"
 			]
 		}, {
-			name: "Sseth’s Blessing",
+			name: "Sseth's Blessing",
 			description: "When the yuan-ti reduces an enemy to 0 hit points, the yuan-ti gains 9 temporary hit points."
 		}, {
 			name: "Variant: Chameleon Skin",
@@ -6686,7 +6686,7 @@ var VGtM = {
 			damage: [2, 6, "bludgeoning"],
 			range: "Melee (10 ft)",
 			dc: [14, "Escape"],
-			description: "On hit Target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the yuan-ti can’t constrict another target.",
+			description: "On hit Target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target.",
 		}, {
 			name: "Scimitar (Yuan-ti Form Only)",
 			ability: 1,
@@ -6697,14 +6697,14 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Shapechanger",
-			description: "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. If it dies, it stays in its current form."
+			description: "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form."
 		}, {
 			name: "Death Fangs (2/Day)",
 			description: "The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) necrotic damage to the target.",
 		}, {
 			name: "Innate Spellcasting (Yuan-ti Form Only)",
 			description: [
-				"The yuan-ti’s innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
+				"The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
 				"At will: animal friendship (snakes only) 3/day: suggestion"
 			]
 		}, {
@@ -6730,7 +6730,7 @@ var VGtM = {
 			description: "The yuan-ti makes one constrict attack and one scimitar attack."
 		}, {
 			name: "Invoke Nightmare (Recharges after a Short or Long Rest)",
-			description: "The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature’s deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can’t be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure.",
+			description: "The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature's deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure.",
 		}
 		],
 	},
@@ -6763,11 +6763,11 @@ var VGtM = {
 		],
 		traits: [{
 			name: "Shapechanger",
-			description: "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It doesn't change form if it dies."
+			description: "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
 		}, {
 			name: "Innate Spellcasting (Yuan-ti Form Only)",
 			description: [
-				"The yuan-ti’s innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
+				"The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
 				"At will: animal friendship (snakes only)",
 				"3/day: suggestion"
 			]
@@ -6775,7 +6775,7 @@ var VGtM = {
 			name: "Magic Resistance",
 			description: "The yuan-ti has advantage on saving throws against spells and other magical effects."
 		}, {
-			name: "Poison’s Disciple (2/Day)",
+			name: "Poison's Disciple (2/Day)",
 			description: "The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) poison damage to the target.",
 		}, {
 			name: "Spellcasting (Yuan-ti Farm Only)",

@@ -1,4 +1,5 @@
 var LLoK = {
+	// 6
 	"Brain in a Jar": {
 		name: "Brain in a Jar",
 		source: ["Lost Laboratory of Kwalish", 38],
@@ -142,6 +143,62 @@ var LLoK = {
 		],
 		slots: "3",
 	},
+	"Gloine Nathair-Nathair": {
+		name: "Gloine Nathair-Nathair",
+		source: ["Infernal Machine Rebuild", 23],
+		size: "Medium",
+		type: "monstrosity",
+		alignment: "Lawful Evil",
+		ac: [15, "Natural Armor", false],
+		hp: 127,
+		hd: [17, 8],
+		scores: [10, 15, 16, 12, 13, 15],
+		saves: ["", "", "", "", "", ""],
+		skills: "Deception +5, Insight +4, Perception +4, Stealth +5",
+		passive_perception: "14",
+		languages: "Common",
+		challenge_rating: "6",
+		damage_resistances: "",
+		damage_immunities: "",
+		damage_vulnerabilities: "",
+		condition_immunities: "",
+		senses: "darkvision 60 ft",
+		attacks: [{
+			name: "Snake Hair",
+			ability: 2,
+			damage: [1, 4, "piercing"],
+			range: "Melee (5 ft)",
+			description: "Plus 14 (4d6) poison damage.",
+		}, {
+			name: "Shortsword",
+			ability: 2,
+			damage: [1, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
+		}, {
+			name: "Longbow",
+			ability: 2,
+			damage: [1, 6, "piercing"],
+			range: "Ranged (150/600 ft)",
+			description: "Plus 7 (2d6) poison damage.",
+		},
+		],
+		traits: [{
+			name: "Petrifying Gaze",
+			description: [
+				"When a creature that can see Gloine's eyes starts its turn within 30 feet of Gloine, Gloine can force it to make a DC 14 Constitution saving throw if Gloine isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.",
+				"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Gloine until the start of its next turn, when it can avert its eyes again. If the creature looks at Gloine in the meantime, it must immediately make the save.",
+				"If Gloine sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Gloine is, due to its curse, affected by its own gaze."
+			]
+		}
+		],
+		action: [{
+			name: "Multiattack",
+			description: "Gloine makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow."
+		}
+		],
+		environment: "desert"
+	},
 	"Mary Greymalkin": {
 		name: "Mary Greymalkin",
 		source: ["Lost Laboratory of Kwalish", 41],
@@ -235,68 +292,5 @@ var LLoK = {
 			description: "The ooze folk makes one glass longsword attack and one pseudopod attack."
 		}
 		],
-	},
-	"Gloine Nathair-Nathair": {
-		name: "Gloine Nathair-Nathair",
-		source: ["Infernal Machine Rebuild", 23],
-		size: "Medium",
-		type: "monstrosity",
-		alignment: "Lawful Evil",
-		ac: [15, "Natural Armor", false],
-		hp: 127,
-		hd: [17, 8],
-		scores: [10, 15, 16, 12, 13, 15],
-		saves: ["", "", "", "", "", ""],
-		skills: "Deception +5, Insight +4, Perception +4, Stealth +5",
-		passive_perception: "14",
-		languages: "Common",
-		challenge_rating: "6",
-		damage_resistances: "",
-		damage_immunities: "",
-		damage_vulnerabilities: "",
-		condition_immunities: "",
-		senses: "darkvision 60 ft",
-		attacks: [{
-			name: "Snake Hair",
-			ability: 2,
-			damage: [1, 4, "piercing"],
-			range: "Melee (5 ft)",
-			description: "Plus 14 (4d6) poison damage.",
-		}, {
-			name: "Shortsword",
-			ability: 2,
-			damage: [1, 6, "piercing"],
-			range: "Melee (5 ft)",
-			description: "",
-		}, {
-			name: "Longbow",
-			ability: 2,
-			damage: [1, 6, "piercing"],
-			range: "Ranged (150/600 ft)",
-			description: "Plus 7 (2d6) poison damage.",
-		},
-		],
-		traits: [{
-			name: "Petrifying Gaze",
-			description: [
-				"When a creature that can see Gloine's eyes starts its turn within 30 feet of Gloine, Gloine can force it to make a DC 14 Constitution saving throw if Gloine isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  greater restoration spell or other magic.",
-				"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Gloine until the start of its next turn, when it can avert its eyes again. If the creature looks at Gloine in the meantime, it must immediately make the save.",
-				"If Gloine sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Gloine is, due to its curse, affected by its own gaze."
-			]
-		}
-		],
-		action: [{
-			name: "Multiattack",
-			description: "Gloine makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow."
-		}
-		],
-		environment: "desert"
 	}
 }
-
-function doAThing() {
-	for (key in LLoK) {
-		console.log("\"" + LLoK[key].name + "\": -1,");
-	}
-}
-doAThing();

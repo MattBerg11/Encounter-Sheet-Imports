@@ -488,7 +488,7 @@ var ToA = {
 		saves: ["", "", "", "", "6", "7"],
 		skills: "Athletics +5, Medicine +6",
 		passive_perception: "13",
-		languages: "understands Common but can’t speak",
+		languages: "understands Common but can't speak",
 		challenge_rating: "5",
 		attacks: [{
 			name: "Holy Avenger (+3 Longsword)",

@@ -18,7 +18,7 @@ var MToF = {
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
 		passive_perception: "9",
-		languages: "understands Abyssal but can’t speak",
+		languages: "understands Abyssal but can't speak",
 		challenge_rating: "1/4",
 		attacks: [{
 			name: "Bite",
@@ -203,7 +203,7 @@ var MToF = {
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
 		passive_perception: "10",
-		languages: "understands Abyssal but can’t speak",
+		languages: "understands Abyssal but can't speak",
 		challenge_rating: "11",
 		attacks: [{
 			name: "Tentacle",
@@ -448,7 +448,7 @@ var MToF = {
 		],
 		traits: [{
 			name: "Titanic Nature",
-			description: "Although it eats and sleeps if it so desires, an astral dreadnought doesn’t require air, food, drink, or sleep."
+			description: "Although it eats and sleeps if it so desires, an astral dreadnought doesn't require air, food, drink, or sleep."
 		}, {
 			name: "Antimagic Cone",
 			description: "The astral dreadnought's opened eye creates an area of antimagic, as in the antimagic field spell, in a 150-foot cone. At the start of each of its turns, the dreadnought decides which way the cone faces. The cone doesn't function while the dreadnought's eye is closed or while the dreadnought is blinded."
@@ -565,7 +565,7 @@ var MToF = {
 		scores: [24, 17, 20, 21, 24, 24],
 		saves: ["", "9", "11", "11", "", "13"],
 		skills: "Intimidation +13, Perception +13, Persuasion +13",
-		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
@@ -1008,7 +1008,7 @@ var MToF = {
 		],
 		traits: [{
 			name: "Undead Nature",
-			description: "A boneclaw doesn’t require air, food, drink, or sleep."
+			description: "A boneclaw doesn't require air, food, drink, or sleep."
 		}, {
 			name: "Rejuvenation",
 			description: "While its master lives, a destroyed boneclaw gains a new body in 1d10 hours, with all its hit points. The new body appears within 1 mile of the boneclaw's master."
@@ -1049,11 +1049,11 @@ var MToF = {
 		skills: "Perception +6, Stealth +7",
 		damage_resistances: "",
 		damage_vulnerabilities: "",
-		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
+		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "16",
-		languages: "understands one language of its creator but can’t speak",
+		languages: "understands one language of its creator but can't speak",
 		challenge_rating: "1",
 		attacks: [{
 			name: "Bite",
@@ -1367,7 +1367,7 @@ var MToF = {
 		scores: [11, 15, 10, 14, 12, 16],
 		saves: ["", "", "", "4", "", "5"],
 		skills: "Arcana +4, History +4",
-		damage_resistances: "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
@@ -1425,7 +1425,7 @@ var MToF = {
 		scores: [11, 16, 12, 15, 12, 17],
 		saves: ["", "", "", "5", "", "6"],
 		skills: "Arcana +5, History +5, Perception +4",
-		damage_resistances: "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "poison",
 		condition_immunities: "exhaustion, poisoned",
@@ -1604,9 +1604,9 @@ var MToF = {
 		}, {
 			name: "Lair Actions",
 			description: [
-				"On initiative count 20 (losing initiative ties), Demogorgon can take a lair action to cause one of the following effects; he can’t use the same effect two rounds in a row:",
+				"On initiative count 20 (losing initiative ties), Demogorgon can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
 				"Demogorgon creates an illusory duplicate of himself, which appears in his own space and lasts until initiative count 20 of the next round. On his turn, Demogorgon can move the illusory duplicate a distance equal to his walking speed (no action required). The first time a creature or object interacts physically with Demogorgon (for example, by hitting him with an attack), there is a 50 percent chance that the illusory duplicate is being affected, not Demogorgon himself, in which case the illusion disappears.",
-				"Demogorgon casts the darkness spell four times at its lowest level, targeting different areas with the spell. Demogorgon doesn’t need to concentrate on the spells, which end on initiative count 20 of the next round."
+				"Demogorgon casts the darkness spell four times at its lowest level, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round."
 			]
 		}
 		],
@@ -2350,7 +2350,7 @@ var MToF = {
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "7",
-		languages: "understands Dwarvish but can’t speak",
+		languages: "understands Dwarvish but can't speak",
 		challenge_rating: "2",
 		attacks: [{
 			name: "Claw",
@@ -2520,7 +2520,7 @@ var MToF = {
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "7",
-		languages: "understands Dwarvish but can’t speak",
+		languages: "understands Dwarvish but can't speak",
 		challenge_rating: "3",
 		attacks: [{
 			name: "Drill",
@@ -3175,10 +3175,10 @@ var MToF = {
 		}, {
 			name: "Lair Actions",
 			description: [
-				"On initiative count 20 (losing initiative ties), Fraz-Urb’luu can take a lair action to cause one of the following effects; he can’t use the same effect two rounds in a row:",
-				"Fraz-Urb’luu causes up to five doors within the lair to become walls, and an equal number of doors to appear on walls where there previously were none.",
-				"Fraz-Urb’luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the simulacrum spell). This simulacrum obeys Fraz-Urb’luu’s commands and is destroyed on the next initiative count 20.",
-				"Fraz-Urb’luu creates a wave of anguish. Each creature he can see within the lair must succeed on a DC 23 Wisdom saving throw or take 33 (6d10) psychic damage."
+				"On initiative count 20 (losing initiative ties), Fraz-Urb'luu can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
+				"Fraz-Urb'luu causes up to five doors within the lair to become walls, and an equal number of doors to appear on walls where there previously were none.",
+				"Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the simulacrum spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20.",
+				"Fraz-Urb'luu creates a wave of anguish. Each creature he can see within the lair must succeed on a DC 23 Wisdom saving throw or take 33 (6d10) psychic damage."
 			]
 		}
 		],
@@ -3256,7 +3256,7 @@ var MToF = {
 		scores: [29, 17, 22, 19, 16, 23],
 		saves: ["", "10", "13", "", "10", "13"],
 		skills: "Deception +13, Intimidation +13, Perception +10",
-		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "cold, fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
@@ -3853,8 +3853,8 @@ var MToF = {
 		}, {
 			name: "Lair Actions",
 			description: [
-				"On initiative count 20 (losing initiative ties), Graz’zt can take a lair action to cause one of the following effects; he can’t use the same effect two rounds in a row:",
-				"Graz’zt casts the command spell on every creature of his choice in the lair. He needn’t see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.",
+				"On initiative count 20 (losing initiative ties), Graz'zt can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
+				"Graz'zt casts the command spell on every creature of his choice in the lair. He needn't see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.",
 				"Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity (Stealth) checks made to hide."
 			]
 		}
@@ -4013,7 +4013,7 @@ var MToF = {
 		condition_immunities: "frightened",
 		senses: "darkvision 60 ft",
 		passive_perception: "15",
-		languages: "understands Abyssal but can’t speak",
+		languages: "understands Abyssal but can't speak",
 		challenge_rating: "8",
 		attacks: [{
 			name: "Rending Bite",
@@ -4050,7 +4050,7 @@ var MToF = {
 		scores: [27, 15, 25, 23, 19, 25],
 		saves: ["", "9", "14", "", "11", ""],
 		skills: "Intimidation +14, Perception +11",
-		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
@@ -4223,11 +4223,11 @@ var MToF = {
 		skills: "Stealth +7",
 		damage_resistances: "",
 		damage_vulnerabilities: "",
-		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
+		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "10",
-		languages: "understands one language of its creator but can’t speak",
+		languages: "understands one language of its creator but can't speak",
 		challenge_rating: "4",
 		attacks: [{
 			name: "Bite",
@@ -4349,13 +4349,13 @@ var MToF = {
 		}, {
 			name: "Lair Actions",
 			description: [
-				"On initiative count 20 (losing initiative ties), Juiblex can take a lair action to cause one of the following effects; it can’t use the same effect two rounds in a row:",
+				"On initiative count 20 (losing initiative ties), Juiblex can take a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:",
 				"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 ft on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature in that area must succeed on a DC 21 Strength saving throw or become restrained. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
 				"A restrained creature is stuck as long as it remains in the slimy area or until it breaks free. The restrained creature, or another creature that can reach it, can use its action to try to break free and must succeed on a DC 21 Strength check.",
 				"If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 (4d10) fire damage.",
 				"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 ft on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature on it must succeed on a DC 21 Dexterity saving throw or fall prone and slide 10 ft in a random direction determined by a d8 roll. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
 				"If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 (4d10) fire damage.",
-				"A green slime (see the Dungeon Master’s Guide) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour.",
+				"A green slime (see the Dungeon Master's Guide) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour.",
 			]
 		}
 		],
@@ -4678,13 +4678,13 @@ var MToF = {
 		speed: "30 ft",
 		scores: [18, 14, 17, 6, 12, 8],
 		saves: ["", "", "", "", "", ""],
-		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "frightened, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "11",
-		languages: "understands Infernal but can’t speak, telepathy 120 ft",
+		languages: "understands Infernal but can't speak, telepathy 120 ft",
 		challenge_rating: "4",
 		attacks: [{
 			name: "Halberd",
@@ -4797,7 +4797,7 @@ var MToF = {
 		scores: [26, 19, 22, 21, 18, 23],
 		saves: ["", "11", "13", "", "11", "13"],
 		skills: "Deception +13, Intimidation +13, Perception +11",
-		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
@@ -5076,7 +5076,7 @@ var MToF = {
 		scores: [20, 10, 17, 16, 14, 19],
 		saves: ["", "5", "8", "", "", "9"],
 		skills: "Perception +7",
-		damage_resistances: "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, frightened, poisoned",
@@ -5179,13 +5179,13 @@ var MToF = {
 		scores: [16, 11, 13, 3, 8, 1],
 		saves: ["", "", "", "", "", ""],
 		skills: "Perception +1",
-		damage_resistances: "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "blinded, charmed, frightened, poisoned",
 		senses: "blindsight 10 ft (blind beyond this radius)",
 		passive_perception: "11",
-		languages: "understands Infernal but can’t speak",
+		languages: "understands Infernal but can't speak",
 		challenge_rating: "1/2",
 		attacks: [{
 			name: "Bite",
@@ -5218,11 +5218,11 @@ var MToF = {
 		saves: ["", "", "", "", "", ""],
 		damage_resistances: "",
 		damage_vulnerabilities: "",
-		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
+		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "10",
-		languages: "understands one language of its creator but can’t speak",
+		languages: "understands one language of its creator but can't speak",
 		challenge_rating: "5",
 		attacks: [{
 			name: "Lancing Bolt",
@@ -5615,8 +5615,8 @@ var MToF = {
 		}, {
 			name: "Lair Actions",
 			description: [
-				"On initiative count 20 (losing initiative ties), Orcus can take a lair action to cause one of the following effects; he can’t use the same effect two rounds in a row:",
-				"Orcus’s voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to power word kill (save DC 23). Orcus needn’t see the creature, but he must be aware that the individual is in the lair.",
+				"On initiative count 20 (losing initiative ties), Orcus can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
+				"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to power word kill (save DC 23). Orcus needn't see the creature, but he must be aware that the individual is in the lair.",
 				"Orcus causes up to six corpses within the lair to rise as skeletons, zombies, or ghouls. These undead obey his telepathic commands, which can reach anywhere in the lair.",
 				"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a DC 23 Strength saving throw or be restrained until the arms disappear or until Orcus releases them (no action required).",
 			]
@@ -5650,7 +5650,7 @@ var MToF = {
 		scores: [22, 16, 21, 15, 15, 16],
 		saves: ["", "7", "9", "", "6", ""],
 		skills: "Perception +10, Stealth +11, Survival +10",
-		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, poisoned",
@@ -5961,7 +5961,7 @@ var MToF = {
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
 		passive_perception: "11",
-		languages: "understands Abyssal but can’t speak",
+		languages: "understands Abyssal but can't speak",
 		challenge_rating: "2",
 		attacks: [{
 			name: "Bite",
@@ -5982,7 +5982,7 @@ var MToF = {
 		source: ["Mordenkainen's Tome of Foes", 194],
 		size: "Large",
 		type: "construct",
-		alignment: "as the eidolon’s alignment",
+		alignment: "as the eidolon's alignment",
 		ac: [19, "Natural Armor", false],
 		hp: 95,
 		hd: [10, 10],
@@ -6190,7 +6190,7 @@ var MToF = {
 		condition_immunities: "blinded",
 		senses: "darkvision 120 ft",
 		passive_perception: "8",
-		languages: "understands Common but can’t speak",
+		languages: "understands Common but can't speak",
 		challenge_rating: "1/2",
 		attacks: [{
 			name: "Claws",
@@ -6814,7 +6814,7 @@ var MToF = {
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
 		senses: "blindsight 30 ft, darkvision 60 ft",
 		passive_perception: "17",
-		languages: "understands Modron and the language of its owner but can’t speak",
+		languages: "understands Modron and the language of its owner but can't speak",
 		challenge_rating: "16",
 		attacks: [{
 			name: "Bite",
@@ -6832,7 +6832,7 @@ var MToF = {
 		],
 		traits: [{
 			name: "Constructed Nature",
-			description: "A steel predator doesn’t require air, food, drink, or sleep."
+			description: "A steel predator doesn't require air, food, drink, or sleep."
 		}, {
 			name: "Innate Spellcasting",
 			description: [
@@ -6910,11 +6910,11 @@ var MToF = {
 		saves: ["", "", "", "", "", ""],
 		damage_resistances: "",
 		damage_vulnerabilities: "",
-		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
+		damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "10",
-		languages: "understands one language of its creator but can’t speak",
+		languages: "understands one language of its creator but can't speak",
 		challenge_rating: "4",
 		attacks: [{
 			name: "Slam",
@@ -7354,7 +7354,7 @@ var MToF = {
 		scores: [19, 22, 17, 24, 22, 26],
 		saves: ["", "11", "8", "", "11", "13"],
 		skills: "Deception +13, Insight +11, Intimidation +13, Persuasion +13",
-		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "fire, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
@@ -7751,7 +7751,7 @@ var MToF = {
 		speed: "30 ft, fly 40 ft",
 		scores: [16, 11, 18, 11, 12, 13],
 		saves: ["6", "", "7", "", "", ""],
-		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "cold, fire, poison",
 		condition_immunities: "poisoned",
@@ -7999,7 +7999,7 @@ var MToF = {
 		}, {
 			name: "Lair Actions",
 			description: [
-				"On initiative count 20 (losing initiative ties), Yeenoghu can take a lair action to cause one of the following effects; he can’t use the same effect two rounds in a row:",
+				"On initiative count 20 (losing initiative ties), Yeenoghu can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
 				"Yeenoghu causes an iron spike: 5 ft tall and 1 inch in diameter: to burst from the ground at a point he can see within 100 ft of him. Any creature in the space where the spike emerges must make a DC 24 Dexterity saving throw. On a failed save, the creature takes 27 (6d8) piercing damage and is restrained by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the restrained condition.",
 				"Each gnoll or hyena that Yeenoghu can see can use its reaction to move up to its speed.",
 				"Until the next initiative count 20, all gnolls and hyenas within the lair are enraged, causing them to have advantage on melee weapon attack rolls and causing attack rolls to have advantage against them.",
@@ -8152,7 +8152,7 @@ var MToF = {
 		scores: [27, 24, 28, 26, 27, 30],
 		saves: ["", "", "", "16", "16", "18"],
 		skills: "Intimidation +18, Perception +16",
-		damage_resistances: "cold, fire, radiant; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered",
+		damage_resistances: "cold, fire, radiant; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
 		damage_vulnerabilities: "",
 		damage_immunities: "necrotic, poison",
 		condition_immunities: "charmed, exhaustion, frightened, poisoned",
@@ -8298,7 +8298,7 @@ var MToF = {
 		}, {
 			name: "Lair Actions",
 			description: [
-				"On initiative count 20 (losing initiative ties), Zuggtmoy can take a lair action to cause one of the following effects; she can’t use the same effect two rounds in a row:",
+				"On initiative count 20 (losing initiative ties), Zuggtmoy can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:",
 				"Zuggtmoy causes four gas spores or violet fungi (see the Monster Manual) to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.",
 				"Up to four plant creatures that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.",
 				"Zuggtmoy uses either her Infestation Spores or her Mind Control Spores, centered on a mushroom or other fungus within her lair, instead of on herself."

@@ -17,16 +17,16 @@ var WDotMM = {
 		challenge_rating: "3",
 		attacks: [{
 			name: "Bite",
-			ability: ,
-			damage: [, , ""],
-			range: "",
-			description: "Melee Weapon Attack: +6 to hit, reach 5ft, one target. Hit: 11 (2d6+4) piercing damage",
+			ability: 1,
+			damage: [2, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "",
 		}, {
 			name: "Claws",
-			ability: ,
-			damage: [, , ""],
-			range: "",
-			description: "Melee Weapon Attack: +7 to hit, reach 5ft, one target. Hit: 7 (1d6+4) slashing damage",
+			ability: 1,
+			damage: [1, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
 		},
 		],
 		traits: [{
@@ -34,7 +34,7 @@ var WDotMM = {
 			description: "The lava child can move through metal without hindrance, and it has advantage on attack rolls against any creature wearing metal armor or using a metal shield."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The lava child makes two attacks- one with its bite and one with its claws."
 		}
@@ -61,27 +61,27 @@ var WDotMM = {
 		challenge_rating: "8",
 		attacks: [{
 			name: "Claw",
-			ability: ,
-			damage: [, , ""],
-			range: "",
-			description: "Meee Weapon Attack: +7 to hit, reach 10ft, one target. Hit: 10 (1d12+4) bludgeoning damage, and the target is grappled (escape DC 15). The scaladar has two claws, each of which can grapple one target.",
+			ability: 1,
+			damage: [1, 12, "bludgeoning"],
+			range: "Melee (10 ft)",
+			description: "Target is grappled (escape DC 15). The scaladar has two claws, each of which can grapple one target.",
 		}, {
 			name: "Sting",
-			ability: ,
-			damage: [, , ""],
-			range: "",
-			description: "Melee Weapon Attack: +7 to hit, reach 10ft, one target. Hit: 9 (1d10+4) piercing damage plus 11 (2d10) lightning damage.",
+			ability: 1,
+			damage: [1, 10, "piercing"],
+			range: "Melee (10 ft)",
+			description: "Plus 11 (2d10) lightning damage.",
 		},
 		],
 		traits: [{
 			name: "Lightning Absorption",
-			description: "Whenever the scaladar is  subjected to lightning damage, it takes no damage, and its sting deals an extra 11 (2d10) lightning damage until the end of its next turn"
+			description: "Whenever the scaladar is subjected to lightning damage, it takes no damage, and its sting deals an extra 11 (2d10) lightning damage until the end of its next turn"
 		}, {
 			name: "Sadar Link",
 			description: "The scaladar knows the location of other scaladar within 100 feet of it, and it can sense when any of them take damage"
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The scaladar makes three attacks- two with its claws and one with its sting"
 		}
@@ -110,22 +110,22 @@ var WDotMM = {
 		challenge_rating: "2",
 		attacks: [{
 			name: "Bite (Bat or Hybrid Form Only)",
-			ability: ,
-			damage: [, , ""],
-			range: "",
-			description: "Melee Weapon Attack: +5 to hit, reach 5 ft, one creature. Hit: 6 (1d6+3) piercing damage, and the werebat gains temporary hit points equal to the damage dealt. If the target is humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with werebat lycanthropy",
+			ability: 2,
+			damage: [1, 6, "piercing"],
+			range: "Melee (5 ft)",
+			description: "Werebat gains temporary hit points equal to the damage dealt. If the target is humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with werebat lycanthropy",
 		}, {
 			name: "Scimitar (Humanoid or Hybrid Form Only)",
-			ability: ,
-			damage: [, , ""],
-			range: "",
-			description: "Melee Weapon Attack: +5 to hit, reach 5 ft, one creature. Hit: 6 (1d6+3) slashing damage.",
+			ability: 2,
+			damage: [1, 6, "slashing"],
+			range: "Melee (5 ft)",
+			description: "",
 		}, {
 			name: "Shortbow (Humanoid or Hybrid Form Only)",
-			ability: ,
-			damage: [, , ""],
-			range: "",
-			description: "Ranged Weapon Attack: +5 to hit, range 80/320 ft, one target. Hit: 6 (1d6+3) piercing damage.",
+			ability: 2,
+			damage: [1, 6, "piercing"],
+			range: "Ranged (80/320 ft)",
+			description: "",
 		},
 		],
 		traits: [{
@@ -133,7 +133,7 @@ var WDotMM = {
 			description: "The werebat can use its action to polymorph into a Medium bat-humanoid hybrid or into a Large giant bat, or back into its true form, which is humanoid. Its statistics, other than size, are the same in each form. Any equipment it. is wearing or carrying isn't transformed. It reverts to its true form if it dies."
 		}, {
 			name: "Echolocation (Bat or Hybrid Form Only)",
-			description: "The werebat has blindsight out to a range of 60 feet as long as it’s not deafened."
+			description: "The werebat has blindsight out to a range of 60 feet as long as it's not deafened."
 		}, {
 			name: "Keen Hearing",
 			description: "The werebat has advantage on Wisdom (Perception) checks that rely on hearing."
@@ -145,7 +145,7 @@ var WDotMM = {
 			description: "While in sunlight, the werebat has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack (Humanoid or Hybrid Form Only)",
 			description: "In humanoid form, the werebat makes two scimitar attacks or two shortbow attacks. In hybrid form, it can make one bite attack and one scimitar attack"
 		}

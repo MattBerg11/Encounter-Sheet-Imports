@@ -1,7 +1,7 @@
 var BGDIA = {
-	"Devil’s Ride": {
-		name: "Devil’s Ride",
-		source: ["Baldur’s Gate Descent into Avernus", 218],
+	"Devil's Ride": {
+		name: "Devil's Ride",
+		source: ["Baldur's Gate Descent into Avernus", 218],
 		size: "Large",
 		type: "infernal vehicle",
 		speed: "120",
@@ -13,8 +13,6 @@ var BGDIA = {
 		damage_immunities: "fire, poison, psychic",
 		condition_immunities: "blinded, charmed, deafened, frightened, paralysed, petrified, poisoned, stunned, unconcious",
 		traits: [{
-			description: "Source: Baldur’s Gate Descent into Avernus, p. "
-		}, {
 			name: "Jump",
 			description: "If the Devil's Ride moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement."
 		}, {
@@ -25,14 +23,14 @@ var BGDIA = {
 			description: "On its turn, the driver ofthe Devil's Ride can expend 10 feet of movement to perform one free infernal vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least l0 feet in a straight line. If the driver succeeds on DC 10 Dexterity check using the bike's Dexterity, the stunt is successful. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt until the start of its next turn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall prone as the bike wipes out and comes to a dead stop."
 		}, {
 			name: "Helm (Requires 1 Crew and Grants Half Cover)",
-			description: "Drive and steer the Devil’s Ride."
+			description: "Drive and steer the Devil's Ride."
 		}
 		],
 		environment: "underdark"
 	},
 	"Tormenter": {
 		name: "Tormenter",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Huge",
 		type: "infernal vehicle",
 		speed: "100",
@@ -41,13 +39,11 @@ var BGDIA = {
 		damage_immunities: "fire, poison, psychic",
 		condition_immunities: "blinded, charmed, deafened, frightened, paralysed, petrified, poisoned, stunned, unconcious",
 		traits: [{
-			description: "Source: Baldur’s Gate Descent into Avernus, p. 218"
-		}, {
 			name: "Prone Deficiency",
 			description: "If the Tormentor rolls over and falls prone, it can't right itself and is incapacitated until flipped upright."
 		}, {
 			name: "Magic Weapons",
-			description: "The Tormenter’s weapon attacks are magical."
+			description: "The Tormenter's weapon attacks are magical."
 		}, {
 			name: "Helm (Requires 1 Crew and Grants Three Quarters Cover)",
 			description: "Drive and steer the Tormentor."
@@ -59,7 +55,7 @@ var BGDIA = {
 			attack: "2d10"
 		}, {
 			name: "Raking Scythes",
-			description: "When the Tormentor moves within 5 feet of a creature that isn't prone or another		vehicle for the first time on a turn, it can rake the creature or		vehicle with its protruding blades for 13 (2d10+2) slashing damage. A creature moves out of the way and takes no damage if it succeeds on a DC 13 Dexterity saving throw. A vehicle moves out of the way and takes no damage if its driver succeeds on the saving throw.",
+			description: "When the Tormentor moves within 5 feet of a creature that isn't prone or another vehicle for the first time on a turn, it can rake the creature or vehicle with its protruding blades for 13 (2d10+2) slashing damage. A creature moves out of the way and takes no damage if it succeeds on a DC 13 Dexterity saving throw. A vehicle moves out of the way and takes no damage if its driver succeeds on the saving throw.",
 			attack: "Raking Scythes|0|2d10+2"
 		}, {
 			name: "Harpoon Flinger (Requires 1 Crew and Grants Half Cover)",
@@ -75,7 +71,7 @@ var BGDIA = {
 	},
 	"Demon Grinder": {
 		name: "Demon Grinder",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Gargantuan",
 		type: "infernal vehicle",
 		speed: "100",
@@ -86,10 +82,10 @@ var BGDIA = {
 		damage_immunities: "fire, poison, psychic",
 		condition_immunities: "blinded, charmed, deafened, frightened, paralysed, petrified, poisoned, stunned, unconcious",
 		traits: [{
-			description: "Source: Baldur’s Gate Descent into Avernus, p. 218"
+			description: "Source: Baldur's Gate Descent into Avernus, p. 218"
 		}, {
 			name: "Magic Weapon",
-			description: "The Demon Grinder’s weapon attacks are magical."
+			description: "The Demon Grinder's weapon attacks are magical."
 		}, {
 			name: "Prone Deficiency",
 			description: "If the Demon Grinder rolls over and falls prone, it can't right itself and is incapacitated until flipped upright."
@@ -120,7 +116,7 @@ var BGDIA = {
 	},
 	"Scavenger": {
 		name: "Scavenger",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Huge",
 		type: "infernal vehicle",
 		speed: "100",
@@ -131,10 +127,10 @@ var BGDIA = {
 		damage_immunities: "fire, poison, psychic",
 		condition_immunities: "blinded, charmed, deafened, frightened, paralysed, petrified, poisoned, stunned, unconcious",
 		traits: [{
-			description: "Source: Baldur’s Gate Descent into Avernus, p. 219"
+			description: "Source: Baldur's Gate Descent into Avernus, p. 219"
 		}, {
 			name: "Magic Weapons",
-			description: "The Scavenger’s weapon attacks are magical."
+			description: "The Scavenger's weapon attacks are magical."
 		}, {
 			name: "Prone Deficiency",
 			description: "If the Scavenger rolls over and falls prone, it can't right itself and is incapacitated until flipped upright."
@@ -154,9 +150,9 @@ var BGDIA = {
 		],
 		environment: "underdark"
 	},
-	"Crokek’toeck (chaotic evil)": {
-		name: "Crokek’toeck (chaotic evil)",
-		source: ["Baldur’s Gate Descent into Avernus",],
+	"Crokek'toeck (chaotic evil)": {
+		name: "Crokek'toeck (chaotic evil)",
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Gargantuan",
 		type: "fiend",
 		speed: "60 ft, swim 60 ft",
@@ -169,7 +165,7 @@ var BGDIA = {
 		damage_immunities: "poison",
 		condition_immunities: "charmed, frightened, poisoned",
 		senses: "darkvision 120 ft",
-		languages: "understands Abyssal but can’t speak",
+		languages: "understands Abyssal but can't speak",
 		saves: ["", "", "12", "", "5", ""],
 		traits: [{
 			name: "Source",
@@ -201,7 +197,7 @@ var BGDIA = {
 	},
 	"Fist of Bane": {
 		name: "Fist of Bane",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (lawful evil)",
 		speed: "30 ft",
@@ -214,7 +210,7 @@ var BGDIA = {
 		languages: "common",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 232"
+			description: "Baldur's Gate Descent Into Avernus, p. 232"
 		}, {
 			name: "Tactical Discipline",
 			description: "The fist of Bane has advantage on all ability checks and saving throws made during combat."
@@ -234,7 +230,7 @@ var BGDIA = {
 	},
 	"Iron Consul": {
 		name: "Iron Consul",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (lawful evil)",
 		speed: "30 ft",
@@ -249,7 +245,7 @@ var BGDIA = {
 		skills: "Intimidation +5,Perception +5",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 232"
+			description: "Baldur's Gate Descent Into Avernus, p. 232"
 		}, {
 			name: "Tactical Discipline",
 			description: "The iron consul has advantage on all ability checks and saving throws made during combat."
@@ -274,7 +270,7 @@ var BGDIA = {
 	},
 	"Black Gauntlet of Bane": {
 		name: "Black Gauntlet of Bane",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (lawful evil)",
 		speed: "30 ft",
@@ -289,7 +285,7 @@ var BGDIA = {
 		skills: "Intimidation +7,Perception +5",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 232"
+			description: "Baldur's Gate Descent Into Avernus, p. 232"
 		}, {
 			name: "Aura of Terror",
 			description: "When a hostile creature within 5 feet of the black gauntlet makes an attack roll or a saving throw, it has disadvantage on the roll. Creatures that are immune to the frightened condition are immune to this trait."
@@ -310,7 +306,7 @@ var BGDIA = {
 			attack: "Mace|7|1d6+4+3d8"
 		}, {
 			name: "Guiding Bolt (1st-Level Spell; Requires a Spell Slot)",
-			description: "Ranged Spell Attack: +7 to hit, range 120 ft, one creature. Hit: 14 (4d6) radiant damage, and the next attack roll made against the target before the end of the black gauntlet’s next turn has advantage. If the black gauntlet casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each level above 1st."
+			description: "Ranged Spell Attack: +7 to hit, range 120 ft, one creature. Hit: 14 (4d6) radiant damage, and the next attack roll made against the target before the end of the black gauntlet's next turn has advantage. If the black gauntlet casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each level above 1st."
 		}
 		],
 		spells: "guidance,sacred flame,thaumaturgy,bane,bless,cure wounds,guiding bolt,blindness/deafness,hold person,silence,sending,spirit guardians",
@@ -319,7 +315,7 @@ var BGDIA = {
 	},
 	"Night Blade": {
 		name: "Night Blade",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (chaotic evil)",
 		speed: "40 ft",
@@ -332,7 +328,7 @@ var BGDIA = {
 		skills: "Intimidation +4,Stealth +6",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 233"
+			description: "Baldur's Gate Descent Into Avernus, p. 233"
 		}, {
 			name: "Aura of Murder",
 			description: "As long as the night blade is not incapacitated, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
@@ -346,7 +342,7 @@ var BGDIA = {
 	},
 	"Reaper of Bhaal": {
 		name: "Reaper of Bhaal",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (human, chaotic evil)",
 		speed: "40 ft",
@@ -360,13 +356,13 @@ var BGDIA = {
 		skills: "Intimidation +5,Perception +3,Persuasion +5,Stealth +9",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 233"
+			description: "Baldur's Gate Descent Into Avernus, p. 233"
 		}, {
 			name: "Aura of Murder",
 			description: "As long as the reaper is not incapacitated, hostile creatures within 5 feet of it gains vulnerability to piercing damage unless they have resistance or immunity to such damage."
 		}, {
 			name: "Innate Spellcasting",
-			description: "The reaper’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\n \n1/day each: charm person, disguise self, sanctuary"
+			description: "The reaper's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\n \n1/day each: charm person, disguise self, sanctuary"
 		}
 		],
 		action: [{
@@ -383,9 +379,9 @@ var BGDIA = {
 		],
 		environment: "underdark"
 	},
-	"Death’s Head of Bhaal": {
-		name: "Death’s Head of Bhaal",
-		source: ["Baldur’s Gate Descent into Avernus",],
+	"Death's Head of Bhaal": {
+		name: "Death's Head of Bhaal",
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (human, chaotic evil)",
 		speed: "50 ft,",
@@ -399,7 +395,7 @@ var BGDIA = {
 		skills: "Intimidation +6,Perception +6,Stealth +11",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 233"
+			description: "Baldur's Gate Descent Into Avernus, p. 233"
 		}, {
 			name: "Aura of Murder",
 			description: "As long as the death's head is not incapacitated, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
@@ -428,7 +424,7 @@ var BGDIA = {
 	},
 	"Necromite of Myrkul": {
 		name: "Necromite of Myrkul",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (neutral evil)",
 		speed: "30 ft",
@@ -441,7 +437,7 @@ var BGDIA = {
 		skills: "Arcana +5,Religion +5",
 		traits: {
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 234"
+			description: "Baldur's Gate Descent Into Avernus, p. 234"
 		},
 		action: [{
 			name: "Skull Flail",
@@ -457,7 +453,7 @@ var BGDIA = {
 	},
 	"Skull Lasher of Myrkul": {
 		name: "Skull Lasher of Myrkul",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (neutral evil)",
 		speed: "30 ft",
@@ -471,7 +467,7 @@ var BGDIA = {
 		skills: "Arcana +5,Religion +5",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 234"
+			description: "Baldur's Gate Descent Into Avernus, p. 234"
 		}, {
 			name: "Spellcasting",
 			description: "The skull lasher is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:\n \nCantrips (at will): mage hand, message, prestidigitation\n1st level (4 slots): detect magic, protection from evil and good,\nray of sickness, shield\n2nd level (2 slots): darkness, misty step"
@@ -496,7 +492,7 @@ var BGDIA = {
 	},
 	"Master of Souls": {
 		name: "Master of Souls",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Medium",
 		type: "humanoid (neutral evil)",
 		speed: "30 ft",
@@ -510,7 +506,7 @@ var BGDIA = {
 		skills: "Arcana +6,Religion +6",
 		traits: [{
 			name: "Source",
-			description: "Baldur’s Gate Descent Into Avernus, p. 234"
+			description: "Baldur's Gate Descent Into Avernus, p. 234"
 		}, {
 			name: "Grave Magic",
 			description: "When the master of souls cast a spell that deals damage, it can change the spell's damage type to necrotic."
@@ -546,7 +542,7 @@ var BGDIA = {
 	},
 	"Fiendish Flesh Golem": {
 		name: "Fiendish Flesh Golem",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Large",
 		type: "construct (unaligned)",
 		speed: "30 ft, fly 30 ft (Hover)",
@@ -593,7 +589,7 @@ var BGDIA = {
 	},
 	"Hellwasp": {
 		name: "Hellwasp",
-		source: ["Baldur’s Gate Descent into Avernus",],
+		source: ["Baldur's Gate Descent into Avernus",],
 		size: "Large",
 		type: "fiend (lawful evil)",
 		speed: "10 ft, fly 60 ft (Hover)",
@@ -631,5 +627,3 @@ var BGDIA = {
 		environment: "underdark"
 	}
 }
-
-

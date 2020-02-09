@@ -1,4 +1,5 @@
 var GoS = {
+	// 22
 	"Amphisbaena": {
 		name: "Amphisbaena",
 		source: ["Ghosts of Saltmarsh", 230],
@@ -33,7 +34,7 @@ var GoS = {
 			description: "The amphisbaena has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The amphisbaena makes two bite attacks"
 		},
@@ -95,7 +96,7 @@ var GoS = {
 			description: "The croaker's long jump is up to 20 ft and its high jump is up to 10 ft, with or without a running start."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Glaar-pat (3/Day)",
 			description: "The croaker sings a song of marshy doom. Each chosen creature within 30 feet of the croaker that can hear the song must make a DC 12 Wisdom saving throw. taking 9 (2d8) psychic damage on a fai1ed save, or half as much damage on a successful one. A creature that fails this saving throw also has disadvantage on Constitution saving throws until the end of its next turn."
 		}, {
@@ -166,7 +167,7 @@ var GoS = {
 			description: "The royal's long jump is up to 20 ft and its high jump is up to 10 ft, with or without a running start."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The royal makes two attacks: one with its royal spear and one with its bite."
 		}, {
@@ -195,7 +196,7 @@ var GoS = {
 		condition_immunities: "poisoned",
 		senses: "darkvision 60ft",
 		passive_perception: "9",
-		languages: "understands the languages it knew in life but can’t speak",
+		languages: "understands the languages it knew in life but can't speak",
 		challenge_rating: "3",
 		attacks: [{
 			name: "Unarmed Strike",
@@ -207,7 +208,7 @@ var GoS = {
 		],
 		traits: [{
 			name: "Bluerot",
-			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back.  The disease is carried by undead (including the drowned ones in Tammeraut’s Fate), and victims most often acquire it through wounds caused by infected creatures.\n\t\tThe disease’s boils manifests in 1d4 hours, causing the victim’s Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities.  An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.\n\t\tAt the end of each long rest, an infected creature makes a DC12 Constitution saving throw.  On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease.  If the infected creature regains all the points lost to the disease, it is cured.  Other effects that raise the victim’s ability scores do not cure the disease.  On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
+			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. The disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifests in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater. At the end of each long rest, an infected creature makes a DC12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
 		}, {
 			name: "Bottom Treader",
 			description: "The drowned ascetic cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet."
@@ -219,15 +220,16 @@ var GoS = {
 			description: "If damage reduces the drowned ascetic to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success. the drowned ascetic drops to 1 hit point instead."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The drowned ascetic makes three unarmed strikes."
 		}
 		],
-		reactions: {
+		reactions: [{
 			name: "Dexterous Target",
 			description: "The drowned ascetic adds 3 to its AC against one ranged attack that would hit it. To do so, the drowned ascetic must see the attacker."
-		},
+		}
+		],
 		environment: "underwater, swamp"
 	},
 	"Drowned Assassin": {
@@ -249,7 +251,7 @@ var GoS = {
 		condition_immunities: "poisoned",
 		senses: "darkvision 60ft",
 		passive_perception: "9",
-		languages: "understands the languages it knew in life but can’t speak",
+		languages: "understands the languages it knew in life but can't speak",
 		challenge_rating: "4",
 		attacks: [{
 			name: "Dagger (Melee)",
@@ -267,7 +269,7 @@ var GoS = {
 		],
 		traits: [{
 			name: "Bluerot",
-			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back.  The disease is carried by undead (including the drowned ones in Tammeraut’s Fate), and victims most often acquire it through wounds caused by infected creatures.\n\t\tThe disease’s boils manifests in 1d4 hours, causing the victim’s Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities.  An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.\n\t\tAt the end of each long rest, an infected creature makes a DC12 Constitution saving throw.  On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease.  If the infected creature regains all the points lost to the disease, it is cured.  Other effects that raise the victim’s ability scores do not cure the disease.  On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
+			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. The disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifests in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater. At the end of each long rest, an infected creature makes a DC12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
 		}, {
 			name: "Bottom Treader",
 			description: "The drowned assassin cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet."
@@ -279,18 +281,19 @@ var GoS = {
 			description: "If damage reduces the drowned assassin to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned assassin drops to 1 hit point instead."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
-			description: "The drowned assassin makes two hand crossbow attacks or two dagger attacks.  It can then take the Dash, Disengage, or Hide action"
+			description: "The drowned assassin makes two hand crossbow attacks or two dagger attacks. It can then take the Dash, Disengage, or Hide action"
 		}, {
 			name: "Reveal (1/Day)",
-			description: "The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin’s choice within 30 feet of it that can see the assassin must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn."
+			description: "The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin's choice within 30 feet of it that can see the assassin must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn."
 		}
 		],
-		reactions: {
+		reactions: [{
 			name: "Dexterous Target",
 			description: "The drowned ascetic adds 3 to its AC against one ranged attack that would hit it. To do so, the drowned ascetic must see the attacker."
-		},
+		}
+		],
 		environment: "underwater, swamp"
 	},
 	"Drowned Blade": {
@@ -312,7 +315,7 @@ var GoS = {
 		condition_immunities: "poisoned",
 		senses: "darkvision 60ft",
 		passive_perception: "9",
-		languages: "understands the languages it knew in life but can’t speak",
+		languages: "understands the languages it knew in life but can't speak",
 		challenge_rating: "2",
 		attacks: [{
 			name: "Rusted Longsword",
@@ -324,7 +327,7 @@ var GoS = {
 		],
 		traits: [{
 			name: "Bluerot",
-			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back.  The disease is carried by undead (including the drowned ones in Tammeraut’s Fate), and victims most often acquire it through wounds caused by infected creatures.\n\t\tThe disease’s boils manifests in 1d4 hours, causing the victim’s Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities.  An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.\n\t\tAt the end of each long rest, an infected creature makes a DC12 Constitution saving throw.  On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease.  If the infected creature regains all the points lost to the disease, it is cured.  Other effects that raise the victim’s ability scores do not cure the disease.  On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
+			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. The disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifests in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater. At the end of each long rest, an infected creature makes a DC12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
 		}, {
 			name: "Bottom Treader",
 			description: "The drowned blade cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet."
@@ -336,7 +339,7 @@ var GoS = {
 			description: "If damage reduces the drowned blade to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success. the drowned blade drops to 1 hit point instead."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The drowned blade makes two rusted longsword attacks."
 		}
@@ -362,7 +365,7 @@ var GoS = {
 		condition_immunities: "poisoned",
 		senses: "darkvision 60ft",
 		passive_perception: "20",
-		languages: "understands the languages it knew in life but can’t speak",
+		languages: "understands the languages it knew in life but can't speak",
 		challenge_rating: "9",
 		attacks: [{
 			name: "Greatsword",
@@ -375,31 +378,31 @@ var GoS = {
 			ability: 1,
 			damage: [2, 6, "necrotic"],
 			range: "Melee (15 ft)",
-			description: "Target must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken.  The target dies if this effect reduces its hit point maximum to a 0.  This reduction lasts until the target finishes a long rest.  On a failed saved, the target also contracts bluerot.",
+			description: "Target must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to a 0. This reduction lasts until the target finishes a long rest. On a failed saved, the target also contracts bluerot.",
 		},
 		],
 		traits: [{
 			name: "Bluerot",
-			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back.  The disease is carried by undead (including the drowned ones in Tammeraut’s Fate), and victims most often acquire it through wounds caused by infected creatures.\n\t\tThe disease’s boils manifests in 1d4 hours, causing the victim’s Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities.  An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.\n\t\tAt the end of each long rest, an infected creature makes a DC12 Constitution saving throw.  On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease.  If the infected creature regains all the points lost to the disease, it is cured.  Other effects that raise the victim’s ability scores do not cure the disease.  On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
+			description: "This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. The disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifests in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater. At the end of each long rest, an infected creature makes a DC12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
 		}, {
 			name: "Bound Together",
 			description: "The drowned master shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation."
 		}, {
 			name: "Cold Aura",
-			description: "At the start of each of the drowned master’s turns, each creature within 5 feet of it takes 5 (1d10) cold damage.  A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 (1d10) cold damage"
+			description: "At the start of each of the drowned master's turns, each creature within 5 feet of it takes 5 (1d10) cold damage. A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 (1d10) cold damage"
 		}, {
 			name: "Undead Fortitude",
 			description: "If damage reduces the drowned master to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success. the drowned master drops to 1 hit point instead."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The drowned master makes two attacks: one with its greatsword and one with its Life-Draining tentacles"
 		}, {
 			name: "Necrotic Ink (Recharge 5-6)",
 			description: [
 				"The drowned master discharges foul ink in front of itself in a 3O-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw is blinded until the end of its next turn and contracts bluerot (see the \"Bluerot\" sidebar).",
-				"Bluerot: This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back.  The disease is carried by undead (including the drowned ones in Tammeraut’s Fate), and victims most often acquire it through wounds caused by infected creatures.\n\t\tThe disease’s boils manifests in 1d4 hours, causing the victim’s Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities.  An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.\n\t\tAt the end of each long rest, an infected creature makes a DC12 Constitution saving throw.  On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease.  If the infected creature regains all the points lost to the disease, it is cured.  Other effects that raise the victim’s ability scores do not cure the disease.  On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
+				"Bluerot: This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. The disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifests in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater. At the end of each long rest, an infected creature makes a DC12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
 			]
 		}
 		],
@@ -503,18 +506,18 @@ var GoS = {
 		],
 		traits: [{
 			name: "Luring Maestro",
-			description: "While within 60 feet of matriach, creatures have disadvantage on saving throws against the matriach’s Luring Song"
+			description: "While within 60 feet of matriach, creatures have disadvantage on saving throws against the matriach's Luring Song"
 		}, {
 			name: "Magic Resistance",
 			description: "The matriarch has advantage on saving throws against spells and other magical effects."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The harpy makes two claw attacks."
 		}, {
 			name: "Fleeting Form",
-			description: "The matriarch can magically disguise itself to resemble a humanoid of roughly similar size and shape for up to 1 hour.  It can revert to its true form as a bonus action.  This illusion does not hold up to close scrutiny."
+			description: "The matriarch can magically disguise itself to resemble a humanoid of roughly similar size and shape for up to 1 hour. It can revert to its true form as a bonus action. This illusion does not hold up to close scrutiny."
 		}, {
 			name: "Luring Song",
 			description: [
@@ -529,7 +532,7 @@ var GoS = {
 			]
 		}, {
 			name: "Visage of Desire (1/Day)",
-			description: "The matriarch projects a vision into the minds of creatures within 30 ft of it that aren’t constructs or undead, showing each creature achieving whatever it most desires.  An affected creature must succeed on a DC 14 Wisdom saving throw or drop whatever it is holding and become paralyzed until the end of its next turn."
+			description: "The matriarch projects a vision into the minds of creatures within 30 ft of it that aren't constructs or undead, showing each creature achieving whatever it most desires. An affected creature must succeed on a DC 14 Wisdom saving throw or drop whatever it is holding and become paralyzed until the end of its next turn."
 		}
 		],
 		environment: "coastal, forest, hill, mountain"
@@ -553,20 +556,20 @@ var GoS = {
 		condition_immunities: "frightened, paralyzed",
 		senses: "truesight 120ft",
 		passive_perception: "12",
-		languages: "understands Abyssal, Celestial, Infernal and Primordial but can’t speak; telepathy 60ft",
+		languages: "understands Abyssal, Celestial, Infernal and Primordial but can't speak; telepathy 60ft",
 		challenge_rating: "14",
 		attacks: [{
 			name: "Bite",
 			ability: 1,
 			damage: [3, 8, "piercing"],
 			range: "Melee (5 ft)",
-			description: "If the target is a Medium of smaller creature grappled by the kraken, that creature is swallowed and the grapple ends.  While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken’s turns.  One Medium or two smaller creatures can be swallowed at the same time. If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 23 Constitution saving throw at the end of the turn or regurgitate all swallowed creatures, which fall prone in spaces within 10ft of the kraken.  If the kraken dies, a swallowed creature is no longer restrained by it and can escape the corpse using 10ft of movement, exiting prine."
+			description: "If the target is a Medium of smaller creature grappled by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time. If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 23 Constitution saving throw at the end of the turn or regurgitate all swallowed creatures, which fall prone in spaces within 10ft of the kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape the corpse using 10ft of movement, exiting prine."
 		}, {
 			name: "Tentacle",
 			ability: 1,
 			damage: [3, 6, "bludgeoning"],
 			range: "Melee (20 ft)",
-			description: "Target is grappled (escape DC 20).  Until the grapple ends, the target is restrained.  The kraken has ten tentacles, each of which can grapple one target.",
+			description: "Target is grappled (escape DC 20). Until the grapple ends, the target is restrained. The kraken has ten tentacles, each of which can grapple one target.",
 		},
 		],
 		traits: [{
@@ -574,23 +577,23 @@ var GoS = {
 			description: "The kraken can breathe air and water."
 		}, {
 			name: "Freedom of Movement",
-			description: "The kraken ignores difficult terrain, and magical effects can’t reduce its speed or cause it to be restrained.  It can sped 5ft of movement to escape from nonmagical restraints of being grappled."
+			description: "The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be restrained. It can sped 5ft of movement to escape from nonmagical restraints of being grappled."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The kraken makes two tentacle attacks, each of which it can replace with a use of Fling."
 		}, {
 			name: "Fling",
-			description: "One Medium or smaller object held of creature grappled by the kraken is thrown up to 40 ft in a random direction and knocked prone.  If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning damage for every 10 ft it was thrown.  If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone."
+			description: "One Medium or smaller object held of creature grappled by the kraken is thrown up to 40 ft in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning damage for every 10 ft it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone."
 		}, {
 			name: "Lightning",
-			description: "The kraken magically creates a bolt of lightning, which can strike a target the kraken can see within 90 ft of it.  The target must make a DC 18 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
+			description: "The kraken magically creates a bolt of lightning, which can strike a target the kraken can see within 90 ft of it. The target must make a DC 18 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
 		}
 		],
 		legendary_actions: [{
 			name: "Legendary Actions (3/Turn)",
-			description: "The kraken can take 3 legendary actions, choosing from the operations below.  Only one legendary action option can be used at a time and only a the end of another creature’s turn.  The kraken regains spent legendary actions at the start of its turn."
+			description: "The kraken can take 3 legendary actions, choosing from the operations below. Only one legendary action option can be used at a time and only a the end of another creature's turn. The kraken regains spent legendary actions at the start of its turn."
 		}, {
 			name: "Tentacle Attacks (Costs 2 Actions)",
 			description: "The kraken makes one tentacle attack"
@@ -599,7 +602,7 @@ var GoS = {
 			description: "The kraken uses Fling"
 		}, {
 			name: "Ink Cloud (Costs 3 Actions",
-			description: "While underwater, the karekn expels an ink cloud in a 40-foot radius.  The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken.  Each creature other than the kraken that ends its turn there must succeed on a DC 18 Constitution saving throw, taking 11 (2d10) poison damage on a failed save of half as much damage on a successful one.  A strong current disperses the cloud, which otherwise disappears at the end of the kraken’s next turn."
+			description: "While underwater, the karekn expels an ink cloud in a 40-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there must succeed on a DC 18 Constitution saving throw, taking 11 (2d10) poison damage on a failed save of half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn."
 		}
 		],
 		environment: "underwater"
@@ -644,7 +647,7 @@ var GoS = {
 			description: "The koalinth can breathe air and water."
 		}, {
 			name: "Martial Advantage",
-			description: "Once per turn, the koalinth can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5ft of an ally of the koalinth that isn’t incapacitated."
+			description: "Once per turn, the koalinth can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5ft of an ally of the koalinth that isn't incapacitated."
 		}
 		],
 		environment: "underwater"
@@ -687,7 +690,7 @@ var GoS = {
 			ability: 1,
 			damage: [1, 4, "piercing"],
 			range: "Ranged (10/30 ft)",
-			description: "Target is restrained.  A creature can use its action to make a DC 12 Strength check to free iteself or another creature in a hooked net, ending the effect on a success.  Dealing 5 damage (AC 12) frees the target without harming it and destroys the net."
+			description: "Target is restrained. A creature can use its action to make a DC 12 Strength check to free iteself or another creature in a hooked net, ending the effect on a success. Dealing 5 damage (AC 12) frees the target without harming it and destroys the net."
 		},
 		],
 		traits: [{
@@ -695,13 +698,14 @@ var GoS = {
 			description: "The koalinth can breathe air and water."
 		}, {
 			name: "Martial Advantage",
-			description: "Once per turn, the sergeant can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5ft of an ally of the sergeant that isn’t incapacitated."
+			description: "Once per turn, the sergeant can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5ft of an ally of the sergeant that isn't incapacitated."
 		}
 		],
-		reactions: {
+		reactions: [{
 			name: "Spear the Helpless (2/Day)",
-			description: "Whenever a creature within 30 ft of the sergeant becomes restrained, the sergeant can move its speed toward the restrained creature.  If the sergeant ends its move within reach of the restrained creature it can make a melee attack against it."
-		},
+			description: "Whenever a creature within 30 ft of the sergeant becomes restrained, the sergeant can move its speed toward the restrained creature. If the sergeant ends its move within reach of the restrained creature it can make a melee attack against it."
+		}
+		],
 		environment: "underwater"
 	},
 	"Kysh": {
@@ -744,13 +748,13 @@ var GoS = {
 			description: "Kysh can breathe air and water"
 		}, {
 			name: "Emmisary of the Sea",
-			description: "Kysh can communicate simple ideas with ambphibious and water-breathing beasts.  They understand the meaning of his words, but he cannot understand them in return."
+			description: "Kysh can communicate simple ideas with ambphibious and water-breathing beasts. They understand the meaning of his words, but he cannot understand them in return."
 		}, {
 			name: "Innate Spellcasting",
-			description: "Kysh’s spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks).  He can cast the following spell, requiring only verbal components:\n\t\t\t1/Day: Fog Cloud"
+			description: "Kysh's spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). He can cast the following spell, requiring only verbal components: \t1/Day: Fog Cloud"
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "Kysh makes two melee attacks with his spear."
 		},
@@ -776,7 +780,7 @@ var GoS = {
 		condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
 		senses: "darkvision 60 ft",
 		passive_perception: "10",
-		languages: "understands the languages of its creator but can’t speak",
+		languages: "understands the languages of its creator but can't speak",
 		challenge_rating: "5",
 		attacks: [{
 			name: "Blade",
@@ -797,7 +801,7 @@ var GoS = {
 			description: "The status is immune to any spell or effect that would alter its form"
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The statue makes two attacks: one with its blade and one with its hammer"
 		}, {
@@ -832,7 +836,7 @@ var GoS = {
 			ability: 1,
 			damage: [1, 6, "piercing"],
 			range: "Melee (5 ft)",
-			description: "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6+2)  damage.",
+			description: "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6+2) damage.",
 		},
 		],
 		traits: [{
@@ -879,18 +883,18 @@ var GoS = {
 		],
 		traits: [{
 			name: "Blood Frenzy",
-			description: "The render has advantage on melee attack rolls against any creatire that doesn’t have all its hit points."
+			description: "The render has advantage on melee attack rolls against any creatire that doesn't have all its hit points."
 		}, {
 			name: "Hold Breath",
 			description: "The render can hold its breath for 15 minutes."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The render makes two melee attacks, one with a claws and one with its bite."
 		}, {
 			name: "Rend the Field (Recharge 5-6)",
-			description: "The render makes a claw attack against each creature of its choice within 10 feet of it.  A creature hit by this attack must succeed on a DC 13 strength saving throw or be knocked prone."
+			description: "The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack must succeed on a DC 13 strength saving throw or be knocked prone."
 		}
 		],
 		environment: "forest, swamp"
@@ -941,7 +945,7 @@ var GoS = {
 			description: "The lizardfolk can hold its breath for 15 minutes."
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The scaleshield makes two melee attacks: eacg one with a different weapon"
 		}
@@ -989,7 +993,7 @@ var GoS = {
 			"2nd Level (3 slots): hold person, lesser restoration, silence",
 			"3rd Level (2 slots): bestow curse, dispel magic"
 		],
-		action: [{
+		actions: [{
 			name: "Jaws of Semuanya (Recharge 5-6)",
 			description: "The subchiefinvokes the primal magic of Semuanya, summoning a spectral maw around a target it can see within 60 feet of it. The target must make a DC 13 Dexterity saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also frightened until the end of its next turn."
 		}
@@ -1040,7 +1044,7 @@ var GoS = {
 			description: "The locathah can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating"
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The locathah makes two melee attacks with its spear."
 		},
@@ -1090,7 +1094,7 @@ var GoS = {
 			description: "The hunter can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating"
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The hutner makes two attacks with its envenonmed crossbow."
 		}
@@ -1140,13 +1144,13 @@ var GoS = {
 			description: "The maw of Sekolah can breathe only underwater"
 		}
 		],
-		action: [{
+		actions: [{
 			name: "Multiattack",
 			description: "The maw of Sekolah makes one attack with its bite and one attack with its tail smash."
 		},
 		],
 		legendary_actions: [{
-			description: "The maw of Sekolah can take 3. legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The maw regains spent legendary actions at the start of its turn."
+			description: "The maw of Sekolah can take 3. legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The maw regains spent legendary actions at the start of its turn."
 		}, {
 			name: "Detect",
 			description: "The maw of Sekolah makes a Wisdom (Perception) check."
@@ -1161,4 +1165,3 @@ var GoS = {
 		environment: "underdark"
 	}
 }
-
