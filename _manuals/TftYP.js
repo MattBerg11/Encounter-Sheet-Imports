@@ -902,7 +902,7 @@ var TftYP = {
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 9 (1dl0+4) slashing damage.",
+			description: "Two-Handed: 9 (1d10+4) slashing damage.",
 		}
 		],
 		reactions: [{
@@ -1061,7 +1061,7 @@ var TftYP = {
 			ability: 1,
 			damage: [1, 8, "slashing"],
 			range: "Melee (5 ft)",
-			description: "Two-Handed: 8 (1dl0+3) slashing damage.",
+			description: "Two-Handed: 8 (1d10+3) slashing damage.",
 		}, {
 			name: "Javelin (Melee)",
 			ability: 1,

@@ -986,7 +986,7 @@ var ToD = {
 			description: "Severin makes one attack.",
 		}, {
 			name: "Fiery Teleport (Costs 2 Actions)",
-			description: "Severin, along with any objects he is wearing or carrying, teleports up to 60 feet to an unoccupied space he can see. Each creature within 5 feet of Severin before he teleports takes 5 (1dl0) fire damage.",
+			description: "Severin, along with any objects he is wearing or carrying, teleports up to 60 feet to an unoccupied space he can see. Each creature within 5 feet of Severin before he teleports takes 5 (1d10) fire damage.",
 		}, {
 			name: "Hellish Chains (Costs 3 Actions)",
 			description: "Severin targets one creature he can see within 30 feet of him. The target is wrapped in magical chains of fire and restrained. The restrained target takes 21 (6d6) fire damage at the start of each of its turns. At the end of its turns, the target can make a DC 17 Strength saving throw, ending the effect on itself on a success.",
