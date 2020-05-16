@@ -96,7 +96,7 @@ var BGDIA = {
 		],
 		action: [{
 			name: "Crushing Wheels",
-			description: "The Demon Grinder can move through the space ofany Large or smaller creature. When it does, the creature must succeed on a DC 11 Dexterity saving throw or take 22 (4d10) bludgeoning damage and be knocked prone. If the creature was already prone, it takes an extra 22 (4dl0) bludgeoning damage. This trait can't be used against a particular creature more than once each turn.",
+			description: "The Demon Grinder can move through the space ofany Large or smaller creature. When it does, the creature must succeed on a DC 11 Dexterity saving throw or take 22 (4d10) bludgeoning damage and be knocked prone. If the creature was already prone, it takes an extra 22 (4d10) bludgeoning damage. This trait can't be used against a particular creature more than once each turn.",
 			attack: "Crushing Wheels|0|4d10"
 		}, {
 			name: "Chomper (Requires 1 Crew and Grants Half Cover)",
