@@ -664,7 +664,7 @@ var ToA = {
 	},
 	"Girallon Zombie": {
 		name: "Girallon Zombie",
-		source: ["Tomb of Annihilation",],
+		source: ["Tomb of Annihilation", 240],
 		size: "Large",
 		type: "undead",
 		alignment: "chaotic evil",
